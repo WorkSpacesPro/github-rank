@@ -1,6 +1,4 @@
 [
-  { "name": "开源总排行", "link": "index.html" },
-  { "name": "关于我们", "link": "about.html" },
-  { "name": "CF 建站指南", "link": "cloudflare.html" },
-  { "name": "留言本", "link": "https://gb.ooo" }
+  { "zh": "开源总排行", "en": "Home", "link": "index.html" },
+  { "zh": "关于我们", "en": "About", "link": "about.html" }
 ]
