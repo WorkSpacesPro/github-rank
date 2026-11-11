@@ -1,65 +1,115 @@
-// 初始化主题
+// ======= 初始化主题 (防止闪烁) =======
 (function(){
   var t = localStorage.getItem("theme");
   if(t === "dark" || t === "light") { document.documentElement.setAttribute("data-theme", t); }
   else { document.documentElement.setAttribute("data-theme", window.matchMedia("(prefers-color-scheme:dark)").matches ? "dark" : "light"); }
 })();
 
-// 水波纹主题切换
-(function(){
-  var btn = document.querySelector('.theme-toggle');
-  if (!btn) return;
-  btn.addEventListener('click', function(e){
-    var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-    var next = isDark ? 'light' : 'dark';
-    var rect = btn.getBoundingClientRect();
-    var x = rect.left + rect.width / 2;
-    var y = rect.top + rect.height / 2;
-    
-    document.documentElement.style.setProperty('--toggle-x', x + 'px');
-    document.documentElement.style.setProperty('--toggle-y', y + 'px');
-    
-    function apply(){
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('theme', next);
-    }
-    if (document.startViewTransition) {
-      document.startViewTransition(apply);
-    } else {
-      apply();
-    }
-  });
-})();
+// ======= 公共组件渲染 (导航、按钮、页脚) =======
+function renderLayout() {
+  // 判断当前页面，用来高亮导航
+  const path = window.location.pathname;
+  const isAbout = path.includes("about.html");
+  const activeHome = isAbout ? "" : "active";
+  const activeAbout = isAbout ? "active" : "";
 
-// 移动端侧边栏菜单逻辑
-(function(){
+  // 1. 注入顶部悬浮按钮
+  document.getElementById('app-header').innerHTML = `
+    <button class='nav-toggle' type='button' aria-label='Toggle navigation' aria-expanded='false'>
+      <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M4 12h16'/><path d='M4 6h16'/><path d='M4 18h16'/></svg>
+    </button>
+    <div class='nav-backdrop'></div>
+    <button class="theme-toggle" type="button" aria-label="Toggle theme">
+      <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+      <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+    </button>
+  `;
+
+  // 2. 注入左侧导航栏
+  document.getElementById('app-sidebar').innerHTML = `
+    <nav class="nav" aria-label="Site navigation">
+      <div class="nav-inner">
+        <div class="nav-header">
+          <img src="assets/logo.png" alt="Logo" class="nav-logo">
+          <span class="nav-title">开源排行榜</span>
+        </div>
+        <div class="nav-section-title">目录导航</div>
+        <ul class="nav-list">
+          <li><a href="index.html" class="${activeHome}">开源总排行</a></li>
+          <li><a href="#">CF 生态排行</a></li>
+          <li><a href="about.html" class="${activeAbout}">关于我们</a></li>
+        </ul>
+      </div>
+    </nav>
+  `;
+
+  // 3. 注入底部页脚
+  document.getElementById('app-footer').innerHTML = `
+    <footer class="footer">
+      <p>© 2026 GitHub 开源排行榜 | 数据来源于 GitHub Actions 自动抓取</p>
+      <p>Powered by <a href="https://github.com" target="_blank">GitHub</a> & <a href="https://pages.cloudflare.com" target="_blank">Cloudflare Pages</a></p>
+    </footer>
+  `;
+
+  // 绑定事件
+  bindEvents();
+}
+
+// ======= 事件绑定（水波纹、侧边栏开合） =======
+function bindEvents() {
+  // 主题切换
+  var btn = document.querySelector('.theme-toggle');
+  if (btn) {
+    btn.addEventListener('click', function(e){
+      var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      var next = isDark ? 'light' : 'dark';
+      var rect = btn.getBoundingClientRect();
+      var x = rect.left + rect.width / 2;
+      var y = rect.top + rect.height / 2;
+      
+      document.documentElement.style.setProperty('--toggle-x', x + 'px');
+      document.documentElement.style.setProperty('--toggle-y', y + 'px');
+      
+      function apply(){
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+      }
+      if (document.startViewTransition) document.startViewTransition(apply);
+      else apply();
+    });
+  }
+
+  // 移动端菜单
   var toggle = document.querySelector('.nav-toggle');
   var nav = document.querySelector('.nav');
   var backdrop = document.querySelector('.nav-backdrop');
-  if (!toggle || !nav) return;
-  function open() {
-    nav.classList.add('nav--open');
-    if (backdrop) backdrop.classList.add('nav-backdrop--visible');
-    toggle.setAttribute('aria-expanded', 'true');
+  if (toggle && nav && backdrop) {
+    function open() {
+      nav.classList.add('nav--open');
+      backdrop.classList.add('nav-backdrop--visible');
+    }
+    function close() {
+      nav.classList.remove('nav--open');
+      backdrop.classList.remove('nav-backdrop--visible');
+    }
+    toggle.addEventListener('click', function() {
+      nav.classList.contains('nav--open') ? close() : open();
+    });
+    backdrop.addEventListener('click', close);
+    nav.addEventListener('click', function(e) {
+      if (e.target.closest('a')) close();
+    });
   }
-  function close() {
-    nav.classList.remove('nav--open');
-    if (backdrop) backdrop.classList.remove('nav-backdrop--visible');
-    toggle.setAttribute('aria-expanded', 'false');
-  }
-  toggle.addEventListener('click', function() {
-    nav.classList.contains('nav--open') ? close() : open();
-  });
-  if (backdrop) backdrop.addEventListener('click', close);
-  nav.addEventListener('click', function(e) {
-    if (e.target && e.target.closest && e.target.closest('a')) close();
-  });
-})();
+}
 
-// 排行榜数据加载与渲染
+// ======= 首页专属：数据加载 =======
 const formatNum = (num) => num ? num.toLocaleString() : '0';
 
 async function loadRankData() {
+  const tableBody = document.getElementById('table-body');
+  // 如果不是首页（没有表格容器），直接退出
+  if (!tableBody) return;
+
   try {
     const res = await fetch(`data/rank.json?t=${Date.now()}`);
     if (!res.ok) throw new Error('找不到 data/rank.json');
@@ -87,8 +137,7 @@ async function loadRankData() {
 
     renderTable(data[categories[0]]);
   } catch (err) {
-    document.getElementById('table-body').innerHTML = 
-      `<tr><td colspan="6" class="loading" style="color:#cf222e;">⚠️ ${err.message}</td></tr>`;
+    tableBody.innerHTML = `<tr><td colspan="6" class="loading" style="color:#cf222e;">⚠️ ${err.message}</td></tr>`;
     document.getElementById('update-time').textContent = '加载失败';
   }
 }
@@ -120,4 +169,8 @@ function renderTable(items) {
   });
 }
 
-document.addEventListener('DOMContentLoaded', loadRankData);
+// ======= 页面加载完成后执行 =======
+document.addEventListener('DOMContentLoaded', () => {
+  renderLayout(); // 先渲染导航和页脚
+  loadRankData(); // 再尝试加载数据（非首页会自动跳过）
+});
