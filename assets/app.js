@@ -1,24 +1,65 @@
-// ======= 初始化主题 (防止闪烁) =======
+// ======= 1. 初始化主题 (防止刷新闪烁) =======
 (function(){
   var t = localStorage.getItem("theme");
   if(t === "dark" || t === "light") { document.documentElement.setAttribute("data-theme", t); }
   else { document.documentElement.setAttribute("data-theme", window.matchMedia("(prefers-color-scheme:dark)").matches ? "dark" : "light"); }
 })();
 
-// ======= 全局状态 =======
-let currentCategory = ""; // 当前选中的分类
-let currentData = [];     // 当前分类下的数据
-let filteredData = [];    // 过滤和排序后的数据
-let sortKey = "stars";    // 默认按 star 排序
+// ======= 2. 多语言字典 =======
+const I18N = {
+  zh: {
+    pageTitle: "GitHub 开源排行榜",
+    searchPlaceholder: "搜索项目名、语言或简介...",
+    thProject: "项目",
+    thGrowth: "涨星",
+    thLang: "语言",
+    thDesc: "简介",
+    navTitle: "开源排行榜",
+    navCategory: "目录导航",
+    footerText: "© 2026 GitHub 开源排行榜 | 数据来源于 GitHub Actions 自动抓取",
+    loading: "加载中...",
+    noData: "没有找到匹配的数据",
+    langBtn: "English"
+  },
+  en: {
+    pageTitle: "GitHub Open Source Rankings",
+    searchPlaceholder: "Search projects, languages...",
+    thProject: "Project",
+    thGrowth: "Growth",
+    thLang: "Language",
+    thDesc: "Description",
+    navTitle: "Open Source Rank",
+    navCategory: "Navigation",
+    footerText: "© 2026 GitHub Rankings | Data by GitHub Actions",
+    loading: "Loading...",
+    noData: "No matching data found",
+    langBtn: "中文"
+  }
+};
+
+// ======= 3. 全局状态 =======
+let currentLang = localStorage.getItem('lang') || 'zh';
+let currentCategory = ""; // 当前高亮的分类 (存英文 file 名)
+let currentData = [];     // 当前分类的数据
+let filteredData = [];    // 搜索过滤后的数据
+let sortKey = "stars";    // 默认排序字段
 let sortOrder = "desc";   // 默认降序
+let categoriesData = [];  // 缓存分类列表
 
-// ======= 公共组件渲染 =======
-function renderLayout() {
+// ======= 4. 公共组件渲染 =======
+async function renderLayout() {
   const path = window.location.pathname;
-  const isAbout = path.includes("about.html");
-  const activeHome = isAbout ? "" : "active";
-  const activeAbout = isAbout ? "active" : "";
+  const dict = I18N[currentLang];
+  
+  // 替换 HTML 里的静态文本 (index.html 里带 data-i18n 的标签)
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    el.textContent = dict[el.dataset.i18n];
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    el.placeholder = dict[el.dataset.i18nPlaceholder];
+  });
 
+  // 注入顶部的按钮
   document.getElementById('app-header').innerHTML = `
     <button class='nav-toggle' type='button' aria-label='Toggle navigation'>
       <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M4 12h16'/><path d='M4 6h16'/><path d='M4 18h16'/></svg>
@@ -28,41 +69,70 @@ function renderLayout() {
       <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
       <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
     </button>
-    <button class="back-to-top" id="back-to-top" aria-label="返回顶部">
+    <button class="back-to-top" id="back-to-top" aria-label="Return to top">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
     </button>
   `;
 
-  document.getElementById('app-sidebar').innerHTML = `
-    <nav class="nav" aria-label="Site navigation">
-      <div class="nav-inner">
-        <div class="nav-header">
-          <img src="assets/logo.png" alt="Logo" class="nav-logo">
-          <span class="nav-title">开源排行榜</span>
-        </div>
-        <div class="nav-section-title">目录导航</div>
-        <ul class="nav-list">
-          <li><a href="index.html" class="${activeHome}">开源总排行</a></li>
-          
-          <li><a href="about.html" class="${activeAbout}">关于我们</a></li>
-        </ul>
-      </div>
-    </nav>
-  `;
-
+  // 注入页脚
   document.getElementById('app-footer').innerHTML = `
     <footer class="footer">
-      <p>© 2026 GitHub 开源排行榜 | 数据来源于 GitHub Actions 自动抓取</p>
+      <p>${dict.footerText}</p>
       <p>Powered by <a href="https://github.com" target="_blank">GitHub</a> & <a href="https://pages.cloudflare.com" target="_blank">Cloudflare Pages</a></p>
     </footer>
   `;
 
-  bindEvents();
+  // 动态加载导航配置
+  try {
+    const res = await fetch('data/nav.json?t=' + Date.now());
+    const navItems = await res.json();
+    let navHtml = '';
+    navItems.forEach(item => {
+      const isActive = path.includes(item.link) || (path.endsWith('/') && item.link === 'index.html');
+      const activeClass = isActive ? 'active' : '';
+      const target = item.link.startsWith('http') ? 'target="_blank"' : '';
+      const name = currentLang === 'zh' ? item.zh : item.en;
+      navHtml += `<li><a href="${item.link}" class="${activeClass}" ${target}>${name}</a></li>`;
+    });
+
+    // 注入侧边栏 (底部的语言切换按钮)
+    document.getElementById('app-sidebar').innerHTML = `
+      <nav class="nav" style="display:flex; flex-direction:column;">
+        <div class="nav-inner" style="flex:1;">
+          <div class="nav-header">
+            <img src="assets/logo.png" alt="Logo" class="nav-logo">
+            <span class="nav-title">${dict.navTitle}</span>
+          </div>
+          <div class="nav-section-title">${dict.navCategory}</div>
+          <ul class="nav-list">${navHtml}</ul>
+        </div>
+        <div style="padding: 1rem; border-top: 1px solid var(--border);">
+          <button id="lang-toggle" style="width:100%; padding:0.6rem; background:var(--bg-alt); border:1px solid var(--border); border-radius:6px; cursor:pointer; color:var(--text-muted); font-family:var(--font); font-size:0.85rem; transition:all 0.2s;">
+            🌐 ${dict.langBtn}
+          </button>
+        </div>
+      </nav>
+    `;
+    bindEvents();
+  } catch (err) {
+    console.error('导航加载失败', err);
+  }
 }
 
-// ======= 事件绑定 =======
+// ======= 5. 事件绑定 =======
 function bindEvents() {
-  // 主题切换
+  // 语言切换
+  const langBtn = document.getElementById('lang-toggle');
+  if (langBtn) {
+    langBtn.addEventListener('click', () => {
+      currentLang = currentLang === 'zh' ? 'en' : 'zh';
+      localStorage.setItem('lang', currentLang);
+      renderLayout(); // 重新渲染导航和静态文本
+      if (categoriesData.length > 0) renderTabs(); // 重新渲染标签，无需重新请求数据
+    });
+  }
+
+  // 主题切换 (水波纹)
   var btn = document.querySelector('.theme-toggle');
   if (btn) {
     btn.addEventListener('click', function(){
@@ -71,7 +141,6 @@ function bindEvents() {
       var rect = btn.getBoundingClientRect();
       document.documentElement.style.setProperty('--toggle-x', (rect.left + rect.width / 2) + 'px');
       document.documentElement.style.setProperty('--toggle-y', (rect.top + rect.height / 2) + 'px');
-      
       function apply(){
         document.documentElement.setAttribute('data-theme', next);
         localStorage.setItem('theme', next);
@@ -81,19 +150,13 @@ function bindEvents() {
     });
   }
 
-  // 移动端侧边栏
+  // 移动端菜单开关
   var toggle = document.querySelector('.nav-toggle');
   var nav = document.querySelector('.nav');
   var backdrop = document.querySelector('.nav-backdrop');
   if (toggle && nav && backdrop) {
-    toggle.addEventListener('click', () => {
-      nav.classList.toggle('nav--open');
-      backdrop.classList.toggle('nav-backdrop--visible');
-    });
-    backdrop.addEventListener('click', () => {
-      nav.classList.remove('nav--open');
-      backdrop.classList.remove('nav-backdrop--visible');
-    });
+    toggle.addEventListener('click', () => { nav.classList.toggle('nav--open'); backdrop.classList.toggle('nav-backdrop--visible'); });
+    backdrop.addEventListener('click', () => { nav.classList.remove('nav--open'); backdrop.classList.remove('nav-backdrop--visible'); });
   }
 
   // 返回顶部
@@ -106,25 +169,17 @@ function bindEvents() {
     backToTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   }
 
-  // 绑定搜索框
+  // 搜索框
   const searchInput = document.getElementById('search-input');
-  if (searchInput) {
-    searchInput.addEventListener('input', () => {
-      applySearchAndSort();
-    });
-  }
+  if (searchInput) searchInput.addEventListener('input', () => applySearchAndSort());
 
-  // 绑定表头点击排序
+  // 表头排序
   document.querySelectorAll('th.sortable').forEach(th => {
     if(th.dataset.key === sortKey) th.classList.add(sortOrder);
     th.addEventListener('click', () => {
       const key = th.dataset.key;
-      if (sortKey === key) {
-        sortOrder = sortOrder === 'asc' ? 'desc' : 'asc';
-      } else {
-        sortKey = key;
-        sortOrder = 'desc'; 
-      }
+      if (sortKey === key) sortOrder = sortOrder === 'asc' ? 'desc' : 'asc';
+      else { sortKey = key; sortOrder = 'desc'; }
       document.querySelectorAll('th.sortable').forEach(t => t.classList.remove('asc', 'desc'));
       th.classList.add(sortOrder);
       applySearchAndSort();
@@ -132,56 +187,70 @@ function bindEvents() {
   });
 }
 
-// ======= 首页专属：按需加载数据 =======
+// ======= 6. 首页数据初始化 =======
 const formatNum = (num) => num ? num.toLocaleString() : '0';
 
 async function initApp() {
   const tableBody = document.getElementById('table-body');
-  if (!tableBody) return; // 不是首页直接退出
+  if (!tableBody) return; // 防止在 about.html 报错
 
   try {
-    // 1. 极速拉取极小的分类列表
+    // 拉取分类列表
     const res = await fetch(`data/categories.json?t=${Date.now()}`);
-    if (!res.ok) throw new Error("找不到 categories.json，请检查 Actions");
+    if (!res.ok) throw new Error("找不到 categories.json");
     
-    const categories = await res.json();
-    document.getElementById('update-time').textContent = `共 ${categories.length} 个分类 | 点击标签秒级加载`;
-
-    // 2. 渲染标签
-    const tabsContainer = document.getElementById('tabs');
-    tabsContainer.innerHTML = '';
-    
-    categories.forEach((cat, index) => {
-      const btn = document.createElement('button');
-      btn.className = `tab-btn ${index === 0 ? 'active' : ''}`;
-      btn.textContent = cat;
-      btn.onclick = () => {
-        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        document.title = `${cat} - GitHub 开源排行榜`;
-        
-        // 切换分类时，清空搜索框
-        const searchInput = document.getElementById('search-input');
-        if (searchInput) searchInput.value = '';
-        
-        // 加载对应数据
-        loadCategoryData(cat); 
-      };
-      tabsContainer.appendChild(btn);
-    });
-
-    // 默认加载第一个分类
-    loadCategoryData(categories[0]);
+    categoriesData = await res.json();
+    renderTabs();
 
   } catch (err) {
     tableBody.innerHTML = `<tr><td colspan="6" class="loading" style="color:#cf222e;">⚠️ ${err.message}</td></tr>`;
   }
 }
 
-async function loadCategoryData(cat) {
+// 渲染标签栏 (独立拆分，方便语言切换时重绘)
+function renderTabs() {
+  const tabsContainer = document.getElementById('tabs');
+  if (!tabsContainer) return;
+  tabsContainer.innerHTML = '';
+  
+  categoriesData.forEach((item, index) => {
+    const btn = document.createElement('button');
+    // 判断当前高亮
+    const isActive = item.file === currentCategory || (index === 0 && !currentCategory);
+    btn.className = `tab-btn ${isActive ? 'active' : ''}`;
+    
+    // 中英文显示标签
+    btn.textContent = currentLang === 'zh' ? item.zh : item.en;
+    
+    btn.onclick = () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      
+      // 动态替换页面标题
+      const displayName = currentLang === 'zh' ? item.zh : item.en;
+      document.title = `${displayName} - GitHub Rankings`;
+      
+      // 清空搜索框
+      const searchInput = document.getElementById('search-input');
+      if (searchInput) searchInput.value = '';
+      
+      // 加载数据
+      loadCategoryData(item.file);
+    };
+    tabsContainer.appendChild(btn);
+  });
+
+  // 首次加载，默认加载第一个分类
+  if (!currentCategory && categoriesData.length > 0) {
+    loadCategoryData(categoriesData[0].file);
+  }
+}
+
+// 加载具体分类数据 (按需加载)
+async function loadCategoryData(catFile) {
   const tableBody = document.getElementById('table-body');
   
-  // 显示骨架屏
+  // 骨架屏
   tableBody.innerHTML = `
     <tr class="skeleton-row"><td colspan="6"><div class="skeleton"></div></td></tr>
     <tr class="skeleton-row"><td colspan="6"><div class="skeleton"></div></td></tr>
@@ -189,15 +258,14 @@ async function loadCategoryData(cat) {
   `;
 
   try {
-    // 注意：这里的替换规则必须和 Python 脚本里的一模一样
-    const safeName = cat.replace(/ /g, "_").replace(/\//g, "_").replace(/\+/g, "");
-    const res = await fetch(`data/${safeName}.json?t=${Date.now()}`);
-    if (!res.ok) throw new Error("找不到该分类的数据文件");
+    // 直接请求英文文件名
+    const res = await fetch(`data/${catFile}.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error(`找不到 ${catFile}.json`);
     
     currentData = await res.json();
-    currentCategory = cat;
+    currentCategory = catFile; // 保存当前分类名
     
-    // 重置排序为默认（按 Stars 降序）
+    // 重置排序状态
     sortKey = "stars";
     sortOrder = "desc";
     document.querySelectorAll('th.sortable').forEach(t => t.classList.remove('asc', 'desc'));
@@ -210,23 +278,22 @@ async function loadCategoryData(cat) {
   }
 }
 
-// ======= 核心逻辑：搜索 + 排序 =======
+// ======= 7. 核心逻辑：搜索 + 排序 =======
 function applySearchAndSort() {
   const searchInput = document.getElementById('search-input');
   const query = searchInput ? searchInput.value.toLowerCase() : '';
   
-  // 1. 过滤
+  // 过滤
   filteredData = currentData.filter(item => {
     const text = (item.full_name + (item.description || '') + (item.language || '')).toLowerCase();
     return text.includes(query);
   });
 
-  // 2. 排序
+  // 排序
   filteredData.sort((a, b) => {
     let valA = a[sortKey];
     let valB = b[sortKey];
     
-    // 处理 null/undefined
     if (valA === null || valA === undefined) valA = -1;
     if (valB === null || valB === undefined) valB = -1;
 
@@ -240,13 +307,14 @@ function applySearchAndSort() {
   renderTable(filteredData);
 }
 
-// ======= 渲染表格 =======
+// ======= 8. 渲染表格 =======
 function renderTable(items) {
   const tbody = document.getElementById('table-body');
+  const dict = I18N[currentLang];
   tbody.innerHTML = '';
   
   if (!items || items.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="6" class="loading">没有找到匹配的数据</td></tr>';
+    tbody.innerHTML = `<tr><td colspan="6" class="loading">${dict.noData}</td></tr>`;
     return;
   }
 
@@ -276,8 +344,37 @@ function renderTable(items) {
   });
 }
 
-// ======= 启动 =======
+// ======= 9. 获取 GitHub 仓库实时数据 (About 页面用) =======
+async function fetchRepoStats() {
+  const starsEl = document.getElementById('gh-stars');
+  const forksEl = document.getElementById('gh-forks');
+  if (!starsEl || !forksEl) return;
+
+  try {
+    const res = await fetch('https://api.github.com/repos/Ameretool/github-rank');
+    if (!res.ok) throw new Error('获取失败');
+    const data = await res.json();
+    const format = (num) => num >= 1000 ? (num / 1000).toFixed(1) + 'k' : num;
+    starsEl.textContent = format(data.stargazers_count);
+    forksEl.textContent = format(data.forks_count);
+  } catch (error) {
+    starsEl.textContent = '0';
+    forksEl.textContent = '0';
+  }
+}
+
+// ======= 10. 启动 =======
 document.addEventListener('DOMContentLoaded', () => {
-  renderLayout(); // 注入导航和页脚
-  initApp();      // 启动按需加载逻辑
+  // 先替换当前语言的静态文本
+  const dict = I18N[currentLang];
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    el.textContent = dict[el.dataset.i18n];
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    el.placeholder = dict[el.dataset.i18nPlaceholder];
+  });
+
+  renderLayout();
+  initApp();
+  fetchRepoStats();
 });
