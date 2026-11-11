@@ -1,7 +1,6 @@
 :root {
   --font: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
   
-  /* 浅色模式：极简黑白灰 */
   --accent: #1a1a1a;
   --text: #1a1a1a;
   --text-muted: #525252;
@@ -12,13 +11,11 @@
   --nav-w: 260px;
   --content-max: 1000px;
   
-  /* 水波纹动画起点 */
   --toggle-x: calc(100% - 30px);
   --toggle-y: 30px;
 }
 
 [data-theme="dark"] {
-  /* 深色模式 */
   --accent: #d4d4d4;
   --text: #e4e4e7;
   --text-muted: #a1a1aa;
@@ -39,8 +36,6 @@
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
-
-/* 🎯 平滑滚动 */
 html { scroll-behavior: smooth; }
 
 body {
@@ -106,7 +101,7 @@ body {
 .page-title { font-size: 2.2rem; font-weight: 800; margin-bottom: 0.5em; }
 .page-meta { color: var(--text-muted); font-size: 0.875rem; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); }
 
-/* 🎯 搜索框 */
+/* 搜索框 */
 .search-box {
   display: flex; align-items: center; gap: 8px;
   background: var(--bg-alt); border: 1px solid var(--border);
@@ -130,35 +125,31 @@ body {
 .tab-btn:hover { color: var(--text); border-color: var(--text-muted); }
 .tab-btn.active { background: var(--accent); color: var(--bg); border-color: var(--accent); font-weight: 700; }
 
-/* ====== 表格区 ====== */
+/* 表格 */
 .table-wrapper {
   overflow-x: auto; margin: 0 0 2rem 0;
   border: 1px solid var(--border); border-radius: 8px;
-  box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.05); /* 轻微悬浮阴影 */
+  box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.05);
   scrollbar-width: thin;
 }
 table { width: 100%; min-width: 850px; border-collapse: collapse; font-size: 0.875rem; text-align: left; }
 th, td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--border); }
 th { font-weight: 600; background: var(--bg-alt); color: var(--text-muted); text-transform: uppercase; font-size: 0.8rem; }
 
-/* 🎯 表头点击排序 */
 th.sortable { cursor: pointer; user-select: none; position: relative; }
 th.sortable:hover { color: var(--text); }
 th.sortable::after { content: ' ↕'; opacity: 0.3; font-size: 1.1em; }
 th.sortable.asc::after { content: ' ↑'; opacity: 1; color: var(--text); }
 th.sortable.desc::after { content: ' ↓'; opacity: 1; color: var(--text); }
 
-/* 斑马纹 */
 tbody tr:nth-child(even) { background-color: var(--bg-alt); }
 tbody tr:hover { background-color: var(--border); }
 
-/* 🎯 链接无下划线，悬浮才出下划线 */
+/* 链接无下划线 */
 table a, .footer a { color: var(--text) !important; font-weight: 600; text-decoration: none !important; border-bottom: 1px solid transparent; }
 table a:hover, .footer a:hover { border-bottom-color: var(--text); }
 
-/* 单元格样式 */
 .col-rank { color: var(--text-muted); width: 50px; }
-/* 🎯 4-10名加粗提亮 */
 .col-rank.top-10 { font-weight: 700; color: var(--text); font-size: 1.05rem; }
 .col-stars { text-align: right; color: var(--text); font-weight: 600; }
 .col-growth { text-align: right; color: var(--text); font-size: 0.85rem; }
@@ -167,7 +158,7 @@ table a:hover, .footer a:hover { border-bottom-color: var(--text); }
 
 .loading { text-align: center; padding: 50px; color: var(--text-muted); }
 
-/* 🎯 骨架屏动画 */
+/* 骨架屏 */
 @keyframes shimmer {
   0% { background-position: -1000px 0; }
   100% { background-position: 1000px 0; }
@@ -179,44 +170,53 @@ table a:hover, .footer a:hover { border-bottom-color: var(--text); }
   animation: shimmer 2s infinite linear;
 }
 
-/* ====== 页脚 ====== */
+/* 页脚 */
 .footer {
   width: 100%; text-align: center; padding: 2rem 1rem;
   border-top: 1px solid var(--border); background: var(--bg-alt);
   font-size: 0.8rem; color: var(--text-muted);
 }
 
-/* ====== 悬浮按钮 ====== */
-.theme-toggle, .back-to-top {
-  position: fixed; right: 1.5rem; z-index: 1000;
-  width: 40px; height: 40px;
+/* ====== 悬浮按钮 (重点修改区) ====== */
+/* 右上角按钮组容器 */
+.header-actions {
+  position: fixed; top: 0.75rem; right: 0.75rem; z-index: 1000;
+  display: flex; gap: 8px;
+}
+
+/* 按钮通用样式 */
+.action-btn {
   display: flex; align-items: center; justify-content: center;
-  background: var(--bg-alt); border: 1px solid var(--border);
-  border-radius: 50%; cursor: pointer; color: var(--text-muted);
-  transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  min-width: 36px; height: 36px; padding: 0 10px;
+  background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px;
+  cursor: pointer; color: var(--text-muted); font-family: var(--font); font-size: 0.85rem; font-weight: 600;
+  transition: all 0.2s; box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
-.theme-toggle { top: 0.75rem; border-radius: 8px; }
+.action-btn:hover { color: var(--text); background: var(--border); }
 
-/* 🎯 返回顶部按钮默认隐藏 */
-.back-to-top { 
-  bottom: 2rem; 
-  opacity: 0; 
-  pointer-events: none; 
-  transform: translateY(10px); 
+/* 主题切换按钮特殊处理 */
+.theme-toggle {
+  position: relative; /* 让内部 SVG 可以绝对定位 */
+  width: 36px; padding: 0;
 }
-.back-to-top.show { 
-  opacity: 1; 
-  pointer-events: auto; 
-  transform: translateY(0); 
-}
-
-.theme-toggle:hover, .back-to-top:hover { color: var(--text); background: var(--border); }
-
 .theme-toggle svg { position: absolute; transition: all 0.3s; }
 .theme-toggle .icon-sun { opacity: 1; transform: scale(1); }
 .theme-toggle .icon-moon { opacity: 0; transform: scale(0.5); }
 [data-theme="dark"] .theme-toggle .icon-sun { opacity: 0; transform: scale(0.5); }
 [data-theme="dark"] .theme-toggle .icon-moon { opacity: 1; transform: scale(1); }
+
+/* 返回顶部按钮 (保持在右下角) */
+.back-to-top {
+  position: fixed; bottom: 2rem; right: 1.5rem; z-index: 1000;
+  width: 40px; height: 40px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--bg-alt); border: 1px solid var(--border);
+  border-radius: 50%; cursor: pointer; color: var(--text-muted);
+  transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  opacity: 0; pointer-events: none; transform: translateY(10px); 
+}
+.back-to-top.show { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.back-to-top:hover { color: var(--text); background: var(--border); }
 
 .nav-toggle { display: none; }
 .nav-backdrop { display: none; }
@@ -234,15 +234,16 @@ table a:hover, .footer a:hover { border-bottom-color: var(--text); }
   .nav-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 899; display: none; }
   .nav-backdrop--visible { display: block; }
   
+  /* 左上角汉堡菜单按钮 */
   .nav-toggle {
     display: flex; position: fixed; top: 0.75rem; left: 0.75rem; z-index: 1000;
     width: 36px; height: 36px; align-items: center; justify-content: center;
     background: var(--bg-alt); border: 1px solid var(--border);
     border-radius: 8px; cursor: pointer; color: var(--text-muted);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   }
   
   .main { padding: 4rem 1rem 1.5rem; width: 100%; }
   .page-title { font-size: 1.75rem; }
-  
   .back-to-top { bottom: 1.5rem; right: 1rem; width: 36px; height: 36px; }
-}
+       }
