@@ -6,54 +6,42 @@
     document.documentElement.setAttribute("data-theme", "dark");
 })();
 
-// 🌟 核心：带有波纹扩散效果的切换逻辑
-document.getElementById('theme-btn').addEventListener('click', (e) => {
-  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-  const next = isDark ? 'light' : 'dark';
-  
-  // 如果不支持 View Transitions，直接切换
-  if (!document.startViewTransition) {
-    document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('theme', next);
-    return;
-  }
+// 完美复刻 mkdnsite 的圆形扩散动画
+const themeBtn = document.getElementById('theme-btn');
+if (themeBtn) {
+  themeBtn.addEventListener('click', function(e) {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    const next = isDark ? 'light' : 'dark';
+    
+    // 获取按钮的真实坐标
+    const rect = themeBtn.getBoundingClientRect();
+    const x = rect.left + rect.width / 2;
+    const y = rect.top + rect.height / 2;
+    
+    // 存入 CSS 变量供 Keyframes 使用
+    document.documentElement.style.setProperty('--mkdn-toggle-x', x + 'px');
+    document.documentElement.style.setProperty('--mkdn-toggle-y', y + 'px');
 
-  // 获取点击坐标
-  const x = e.clientX;
-  const y = e.clientY;
-  const endRadius = Math.hypot(
-    Math.max(x, innerWidth - x),
-    Math.max(y, innerHeight - y)
-  );
+    function apply() {
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    }
 
-  // 执行过渡
-  const transition = document.startViewTransition(() => {
-    document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('theme', next);
+    // 触发过渡动画
+    if (document.startViewTransition) {
+      document.startViewTransition(apply);
+    } else {
+      apply(); // 不支持该 API 的旧浏览器直接切换
+    }
   });
-
-  transition.ready.then(() => {
-    const clipPath = [
-      `circle(0px at ${x}px ${y}px)`,
-      `circle(${endRadius}px at ${x}px ${y}px)`,
-    ];
-    document.documentElement.animate(
-      { clipPath: isDark ? clipPath.reverse() : clipPath },
-      {
-        duration: 500,
-        easing: "ease-in-out",
-        pseudoElement: isDark ? "::view-transition-old(root)" : "::view-transition-new(root)",
-      }
-    );
-  });
-});
+}
 
 const formatNum = (num) => num ? num.toLocaleString() : '0';
 
 async function loadRankData() {
   try {
     const res = await fetch(`data/rank.json?t=${Date.now()}`);
-    if (!res.ok) throw new Error('找不到 data/rank.json，请确认 Actions 是否成功运行');
+    if (!res.ok) throw new Error('找不到 data/rank.json');
     
     const data = await res.json();
     const categories = Object.keys(data);
