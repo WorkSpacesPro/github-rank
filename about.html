@@ -15,22 +15,28 @@
   <div class="layout">
     <div id="app-sidebar"></div>
 
-    <!-- 右侧主内容区：这里变成了关于页面的内容 -->
+    <!-- 右侧主内容区 -->
     <main class="main">
       <h1 class="page-title">关于本项目</h1>
       <div class="page-meta">最后更新：2026-11-11</div>
       
-      <div class="about-content" style="line-height: 1.8; color: var(--text);">
-        <p>这是一个基于 <strong>GitHub Actions</strong> 和 <strong>Cloudflare Pages</strong> 搭建的自动开源排行榜。</p>
-        <br>
-        <h3>为什么做这个？</h3>
-        <p>为了快速追踪开源社区的流行趋势，所有数据每日自动抓取并更新。</p>
-        <br>
+      <!-- 这里使用了我们在 CSS 中定义的专属排版类 -->
+      <div class="about-content">
+        <p>这是一个基于 <strong>GitHub Actions</strong> 和 <strong>Cloudflare Pages</strong> 搭建的自动化开源排行榜。旨在帮助开发者快速追踪开源社区的流行趋势，所有数据每日自动抓取并更新。</p>
+        
+        <h3>核心特性</h3>
+        <ul>
+          <li><strong>多维度分类</strong>：涵盖全站总榜、各主流语言（Python, JS, TS, Rust, Go 等）以及热门领域（AI, Cloudflare 生态等）。</li>
+          <li><strong>涨星追踪</strong>：与历史快照自动对比，精准计算项目每日的 Star 增长量。</li>
+          <li><strong>极速体验</strong>：原生 HTML + CSS + JS 构建，无庞大框架依赖。极简黑白灰设计，自带深色模式与前端秒级搜索排序。</li>
+        </ul>
+
         <h3>技术栈</h3>
-        <ul style="padding-left: 20px; color: var(--text-muted);">
-          <li>Python (数据抓取与快照对比)</li>
-          <li>GitHub Actions (自动化定时任务)</li>
-          <li>原生 HTML + CSS + JS (极简前端)</li>
+        <ul>
+          <li><strong>数据采集</strong>：Python 3.11 (Requests)</li>
+          <li><strong>自动化部署</strong>：GitHub Actions (Cron 定时任务)</li>
+          <li><strong>前端展示</strong>：原生 HTML + CSS + JS</li>
+          <li><strong>静态托管</strong>：Cloudflare Pages / GitHub Pages</li>
         </ul>
       </div>
     </main>
