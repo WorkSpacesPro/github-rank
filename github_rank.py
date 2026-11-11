@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
 GitHub 开源排行榜生成器
-- 按分类（总榜 / 语言 / topic / 新秀）拉取 star 排行
-- 与上次快照对比，算出每个项目的"涨星量"
-- 自动排序，输出 Markdown / JSON（按需拆包，加速前端加载）
+- 按分类拉取 star 排行，并计算涨星量
+- 按分类拆分 JSON 文件（供前端按需秒级加载）
+- 自动输出 Markdown 排行榜
 
 用法：
     export GITHUB_TOKEN=ghp_xxxx
@@ -34,18 +34,31 @@ if os.getenv("GITHUB_TOKEN"):
 def default_categories():
     last_year = datetime.now().year - 1
     return {
-        "总榜 Top":     {"query": "stars:>50000",                        "limit": 50},
-        f"新秀(>{last_year})": {"query": f"created:>{last_year}-01-01 stars:>2000", "limit": 30},
-        "AI / LLM":     {"query": "topic:llm stars:>3000",               "limit": 30},
-        "机器学习":      {"query": "topic:machine-learning stars:>5000",  "limit": 30},
+        # === 🌟 第一梯队：综合与数据维度 ===
+        "总榜 Top":          {"query": "stars:>50000",                        "limit": 50},
+        f"明日之星(>{last_year})": {"query": f"created:>{last_year}-01-01 stars:>2000", "limit": 30},
+        "Fork 最多(脚手架)":  {"query": "stars:>10000 forks:>5000",             "limit": 30},
+        
+        # === 🤖 第二梯队：AI 细分风口 ===
+        "AI 智能体(Agent)":   {"query": "topic:ai-agent stars:>1000",          "limit": 30},
+        "本地大模型(Ollama)": {"query": "topic:local-llm stars:>1000",         "limit": 30},
+        "AIGC (生图/视频)":   {"query": "topic:stable-diffusion stars:>3000",  "limit": 30},
+
+        # === 🛠️ 第三梯队：场景化痛点 (差异化优势) ===
+        "自托管/隐私":        {"query": "topic:self-hosted stars:>10000",      "limit": 30},
+        "开发者工具/CLI":     {"query": "topic:cli-tool stars:>5000",           "limit": 30},
+        "Awesome/学习资源":   {"query": "topic:awesome stars:>30000",           "limit": 30},
+        "独立开发/SaaS":      {"query": "topic:saas-boilerplate stars:>2000",   "limit": 30},
+        "Cloudflare 建站":   {"query": "topic:cloudflare-pages stars:>500",   "limit": 30},
+
+        # === 💻 第四梯队：主流语言 (受众面广) ===
         "Python":       {"query": "language:Python stars:>20000",        "limit": 30},
         "JavaScript":   {"query": "language:JavaScript stars:>20000",    "limit": 30},
         "TypeScript":   {"query": "language:TypeScript stars:>15000",    "limit": 30},
         "Rust":         {"query": "language:Rust stars:>10000",          "limit": 30},
         "Go":           {"query": "language:Go stars:>10000",            "limit": 30},
+        "Java":         {"query": "language:Java stars:>15000",          "limit": 30},
         "前端":         {"query": "topic:frontend stars:>10000",         "limit": 30},
-        "Cloudflare 生态":  {"query": "topic:cloudflare-workers stars:>1000", "limit": 30},
-        "CF+GitHub 建站":   {"query": "topic:cloudflare-pages stars:>1000",  "limit": 30},
     }
 
 
@@ -213,7 +226,7 @@ def main():
     md = render_markdown(all_data, args.sort)
     Path(args.out_md).write_text(md + "\n", encoding="utf-8")
 
-    # 2. 拆分输出 JSON (加速前端加载)
+    # 2. 拆分输出 JSON (加速前端按需加载)
     data_dir = Path("data")
     data_dir.mkdir(parents=True, exist_ok=True)
     
@@ -225,7 +238,7 @@ def main():
 
     # 按分类生成单独的 JSON 文件
     for cat, items in all_data.items():
-        # 清理文件名中的特殊字符，保证 Web 端拼写不出错
+        # 清理文件名中的特殊字符，保证与前端 JS 逻辑一致
         safe_name = cat.replace(" ", "_").replace("/", "_").replace("+", "")
         (data_dir / f"{safe_name}.json").write_text(
             json.dumps(items, ensure_ascii=False, indent=2), encoding="utf-8"
