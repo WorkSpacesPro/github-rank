@@ -4,7 +4,7 @@
 
 一个基于 **GitHub Actions** + **原生三剑客 (HTML/CSS/JS)** + **Cloudflare Pages** 搭建的高性能排行榜。每天自动抓取 GitHub 最新数据，支持按需加载、中英双语切换、无极暗黑模式与前端实时搜索。
 
-🔗 **在线演示**: [https://rank.gb.ooo](https://rank.gb.ooo) *(请替换为你的真实域名)*
+🔗 **在线演示**: [在线演示](https://org.ooo/github-rank/)  *(请替换为你的真实域名)*
 
 ---
 
