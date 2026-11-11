@@ -17,7 +17,6 @@
     <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M4 12h16'/><path d='M4 6h16'/><path d='M4 18h16'/></svg>
   </button>
   
-  <!-- 移动端遮罩层 -->
   <div class='nav-backdrop'></div>
 
   <!-- 右上角主题按钮 -->
@@ -26,11 +25,11 @@
     <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
   </button>
 
+  <!-- 布局区 -->
   <div class="layout">
     <!-- 侧边栏导航 -->
     <nav class="nav" aria-label="Site navigation">
       <div class="nav-inner">
-        
         <div class="nav-header">
           <img src="assets/logo.png" alt="Logo" class="nav-logo">
           <span class="nav-title">开源排行榜</span>
@@ -72,13 +71,14 @@
           </tbody>
         </table>
       </div>
-
-      <footer class="footer">
-        <p>© 2026 GitHub 开源排行榜 | 数据来源于 GitHub Actions 自动抓取</p>
-        <p>Powered by <a href="https://github.com" target="_blank">GitHub</a> & <a href="https://pages.cloudflare.com" target="_blank">Cloudflare Pages</a></p>
-      </footer>
     </main>
   </div>
+
+  <!-- 👇 页脚移到了最外层，100% 宽度横跨整个底部 -->
+  <footer class="footer">
+    <p>© 2026 GitHub 开源排行榜 | 数据来源于 GitHub Actions 自动抓取</p>
+    <p>Powered by <a href="https://github.com" target="_blank">GitHub</a> & <a href="https://pages.cloudflare.com" target="_blank">Cloudflare Pages</a></p>
+  </footer>
 
   <script src="assets/app.js"></script>
 </body>
