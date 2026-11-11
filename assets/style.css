@@ -1,12 +1,12 @@
 :root {
   --font: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
   
-  /* 浅色模式：左右背景极简融合 */
+  /* 浅色模式 */
   --accent: #1a1a1a;
   --text: #1a1a1a;
   --text-muted: #525252;
   --bg: #fafafa;
-  --bg-alt: #f4f4f5; 
+  --bg-alt: #f4f4f5;
   --border: #e4e4e7;
   
   --nav-w: 260px;
@@ -48,7 +48,7 @@ body {
   min-height: 100vh;
 }
 
-/* 水波纹过渡动画 */
+/* 动画 */
 ::view-transition-old(root) { animation: none; z-index: -1; }
 ::view-transition-new(root) { animation: theme-reveal 0.5s ease-out; }
 @keyframes theme-reveal {
@@ -56,14 +56,14 @@ body {
   to { clip-path: circle(150% at var(--toggle-x) var(--toggle-y)); }
 }
 
-/* ====== 整体布局 ====== */
+/* 布局 */
 .layout { 
   display: flex; 
-  flex: 1; 
+  flex: 1; /* 撑开中间区域，把 footer 挤到底部 */
   width: 100%; 
 }
 
-/* ====== 左侧导航 ====== */
+/* 导航栏 */
 .nav {
   position: sticky; top: 0;
   width: var(--nav-w); height: 100vh;
@@ -71,114 +71,94 @@ body {
   border-right: 1px solid var(--border);
   background: var(--bg-alt);
   padding: 1.5rem 0; font-size: 0.875rem;
-  transition: transform 0.3s ease;
   z-index: 900;
 }
 .nav-inner { padding: 0 1rem; }
 
-/* 彻底干掉列表的小圆点和内边距 */
-.nav-list, .nav-list ul { 
-  list-style-type: none; 
-  padding-left: 0; 
-  margin: 0; 
-}
+/* 清除所有默认圆点和边距 */
+.nav-list, .nav-list ul { list-style: none !important; padding: 0; margin: 0; }
 
 .nav-header {
   display: flex; align-items: center; gap: 0.6rem;
   padding: 0 1rem 1rem; margin-bottom: 0.5rem;
   border-bottom: 1px solid var(--border);
-  text-decoration: none; color: var(--text); font-weight: 700;
 }
-.nav-logo { width: 32px; height: 32px; object-fit: contain; border-radius: 6px; }
+.nav-logo { width: 32px; height: 32px; object-fit: contain; }
 .nav-title { font-size: 1.05rem; font-weight: 700; }
-
 .nav-section-title {
-  display: block; padding: 0.5rem 0.75rem 0.2rem;
-  font-weight: 600; font-size: 0.75rem;
-  text-transform: uppercase; letter-spacing: 0.05em;
-  color: var(--text-muted);
+  padding: 0.5rem 0.75rem 0.2rem; font-weight: 600; font-size: 0.75rem;
+  text-transform: uppercase; color: var(--text-muted);
 }
 .nav-list a {
   display: block; padding: 0.4rem 0.75rem;
   color: var(--text-muted); text-decoration: none;
-  border-radius: 6px; transition: background 0.15s, color 0.15s;
+  border-radius: 6px; transition: all 0.15s;
 }
 .nav-list a:hover { color: var(--text); background: var(--border); }
 .nav-list a.active {
   color: var(--text); background: var(--border); font-weight: 600;
   border-left: 2px solid var(--accent);
-  padding-left: calc(0.75rem - 2px);
 }
 
-/* ====== 右侧主内容 ====== */
+/* 主内容区 */
 .main {
   flex: 1; min-width: 0;
   max-width: var(--content-max);
   margin: 0 auto; padding: 2rem 2.5rem;
 }
 
-.page-title {
-  font-size: 2.2rem; font-weight: 800;
-  letter-spacing: -0.03em; line-height: 1.1;
-  margin-top: 0; margin-bottom: 0.5em;
-}
-.page-meta {
-  color: var(--text-muted); font-size: 0.875rem;
-  margin-bottom: 2rem; padding-bottom: 1rem;
-  border-bottom: 1px solid var(--border);
-}
+.page-title { font-size: 2.2rem; font-weight: 800; margin-bottom: 0.5em; }
+.page-meta { color: var(--text-muted); font-size: 0.875rem; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); }
 
-/* ====== 标签栏（分类滑动） ====== */
+/* 🎯 标签栏滑动（禁止换行） */
 .tabs { 
-  display: flex; gap: 8px; margin-bottom: 2rem; 
-  /* 手机端横向滑动，隐藏滚动条 */
+  display: flex; 
+  flex-wrap: nowrap !important; /* 绝对不换行 */
+  gap: 8px; 
+  margin-bottom: 2rem; 
   overflow-x: auto; 
-  white-space: nowrap;
   padding-bottom: 5px;
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none; 
 }
-.tabs::-webkit-scrollbar { display: none; } /* Chrome/Safari */
+.tabs::-webkit-scrollbar { display: none; } /* 隐藏滚动条 */
 
 .tab-btn {
-  flex-shrink: 0; /* 禁止按钮被挤压 */
+  flex-shrink: 0; /* 防止被压缩 */
   background: var(--bg-alt); border: 1px solid var(--border); color: var(--text-muted);
   padding: 6px 14px; border-radius: 6px; cursor: pointer; font-family: var(--font); font-size: 0.85rem;
   transition: all 0.15s;
 }
 .tab-btn:hover { color: var(--text); border-color: var(--text-muted); }
-.tab-btn.active { 
-  background: var(--accent); color: var(--bg); 
-  border-color: var(--accent); font-weight: 700; 
-}
+.tab-btn.active { background: var(--accent); color: var(--bg); border-color: var(--accent); font-weight: 700; }
 
-/* ====== 表格 ====== */
+/* 🎯 表格容器与滑动 */
 .table-wrapper {
-  overflow-x: auto; margin: 0 0 2rem 0;
+  overflow-x: auto; 
+  margin: 0 0 2rem 0;
   border: 1px solid var(--border); border-radius: 8px;
+  scrollbar-width: thin;
 }
 table { 
   width: 100%; 
-  min-width: 800px; /* 手机端强制宽度，触发左右滑动 */
+  min-width: 850px; /* 手机端强制撑开，可左右滑动 */
   border-collapse: collapse; font-size: 0.875rem; text-align: left; 
 }
 th, td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--border); }
-th { font-weight: 600; background: var(--bg-alt); color: var(--text-muted); text-transform: uppercase; font-size: 0.8rem;}
-tr:last-child td { border-bottom: none; }
+th { font-weight: 600; background: var(--bg-alt); color: var(--text-muted); text-transform: uppercase; font-size: 0.8rem; }
 
-/* 🎯 斑马纹背景 */
+/* 斑马纹 */
 tbody tr:nth-child(even) { background-color: var(--bg-alt); }
 tbody tr:hover { background-color: var(--border); }
 
-/* 🎯 去掉链接下划线，改为粗体深色 */
-table a {
-  color: var(--text);
-  font-weight: 600;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.2s;
+/* 🎯 链接无下划线，悬浮才出下划线 */
+table a, .footer a { 
+  color: var(--text) !important; 
+  font-weight: 600; 
+  text-decoration: none !important; 
+  border-bottom: 1px solid transparent; 
 }
-table a:hover {
-  border-bottom-color: var(--text);
+table a:hover, .footer a:hover { 
+  border-bottom-color: var(--text); 
 }
 
 .col-rank { color: var(--text-muted); width: 40px; }
@@ -189,54 +169,41 @@ table a:hover {
 
 .loading { text-align: center; padding: 50px; color: var(--text-muted); }
 
-/* ====== 底部页脚（100%全宽） ====== */
+/* 🎯 页脚（100% 宽度锁死在底部） */
 .footer {
   width: 100%;
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 1rem;
   border-top: 1px solid var(--border);
   background: var(--bg-alt);
   font-size: 0.8rem; 
   color: var(--text-muted);
 }
-.footer a {
-  color: var(--text);
-  text-decoration: none;
-  font-weight: 600;
-  border-bottom: 1px solid transparent;
-}
-.footer a:hover { border-bottom-color: var(--text); }
 
-/* ====== 悬浮按钮 ====== */
+/* 按钮及手机端 */
 .theme-toggle {
   position: fixed; top: 0.75rem; right: 0.75rem; z-index: 1000;
   width: 36px; height: 36px;
   display: flex; align-items: center; justify-content: center;
   background: var(--bg-alt); border: 1px solid var(--border);
   border-radius: 8px; cursor: pointer; color: var(--text-muted);
-  transition: color 0.2s, background 0.2s, border-color 0.2s;
 }
-.theme-toggle:hover { color: var(--text); background: var(--border); }
-.theme-toggle .icon-sun,
-.theme-toggle .icon-moon {
-  position: absolute; transition: opacity 0.4s ease, transform 0.5s ease;
-}
-.theme-toggle .icon-sun { opacity: 1; transform: rotate(0deg) scale(1); }
-.theme-toggle .icon-moon { opacity: 0; transform: rotate(-90deg) scale(0.5); }
-[data-theme="dark"] .theme-toggle .icon-sun { opacity: 0; transform: rotate(90deg) scale(0.5); }
-[data-theme="dark"] .theme-toggle .icon-moon { opacity: 1; transform: rotate(0deg) scale(1); }
+.theme-toggle svg { position: absolute; transition: all 0.3s; }
+.theme-toggle .icon-sun { opacity: 1; transform: scale(1); }
+.theme-toggle .icon-moon { opacity: 0; transform: scale(0.5); }
+[data-theme="dark"] .theme-toggle .icon-sun { opacity: 0; transform: scale(0.5); }
+[data-theme="dark"] .theme-toggle .icon-moon { opacity: 1; transform: scale(1); }
 
 .nav-toggle { display: none; }
 .nav-backdrop { display: none; }
 
-/* ====== 手机端适配 ====== */
 @media (max-width: 768px) {
   .layout { flex-direction: column; }
   .nav {
     position: fixed; top: 0; left: 0;
     width: 280px; height: 100vh;
     transform: translateX(-100%);
-    border-right: 1px solid var(--border);
+    transition: transform 0.3s;
   }
   .nav.nav--open { transform: translateX(0); }
   .nav-backdrop {
@@ -252,6 +219,6 @@ table a:hover {
     border-radius: 8px; cursor: pointer; color: var(--text-muted);
   }
   
-  .main { padding: 4rem 1rem 1.5rem; }
+  .main { padding: 4rem 1rem 1.5rem; width: 100%; }
   .page-title { font-size: 1.75rem; }
-  }
+}
