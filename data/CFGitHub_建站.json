@@ -1,0 +1,207 @@
+[
+  {
+    "full_name": "supermemoryai/supermemory",
+    "html_url": "https://github.com/supermemoryai/supermemory",
+    "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
+    "stars": 31593,
+    "forks": 2771,
+    "language": "TypeScript",
+    "topics": [
+      "agent-memory",
+      "ai-memory",
+      "cloudflare-kv",
+      "cloudflare-pages",
+      "cloudflare-workers",
+      "drizzle-orm",
+      "memory",
+      "postgres",
+      "remix",
+      "tailwindcss",
+      "typescript",
+      "vite"
+    ],
+    "created_at": "2024-02-27T20:10:04Z",
+    "pushed_at": "2026-11-11T06:38:25Z",
+    "growth": -1
+  },
+  {
+    "full_name": "yonggekkk/Cloudflare-vless-trojan",
+    "html_url": "https://github.com/yonggekkk/Cloudflare-vless-trojan",
+    "description": "CF-workers/pages代理脚本：支持Vless-ws(tls)、Trojan-ws(tls)；Socks5/http本地代理脚本：可选ECH-TLS、普通TLS、无TLS三种代理模式",
+    "stars": 16749,
+    "forks": 9863,
+    "language": "JavaScript",
+    "topics": [
+      "argo",
+      "cdn",
+      "clash-meta",
+      "cloudflare",
+      "cloudflare-pages",
+      "cloudflare-workers",
+      "ech",
+      "http",
+      "nat64",
+      "reality",
+      "sing-box",
+      "socks5",
+      "trojan",
+      "vless",
+      "xray",
+      "ygkkk"
+    ],
+    "created_at": "2023-07-22T05:43:42Z",
+    "pushed_at": "2026-09-20T01:59:29Z",
+    "growth": 3
+  },
+  {
+    "full_name": "dreamhunter2333/cloudflare_temp_email",
+    "html_url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
+    "description": "CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot",
+    "stars": 12090,
+    "forks": 8054,
+    "language": "TypeScript",
+    "topics": [
+      "cloudflare-email",
+      "cloudflare-pages",
+      "cloudflare-workers",
+      "email",
+      "free"
+    ],
+    "created_at": "2023-08-15T16:35:52Z",
+    "pushed_at": "2026-11-09T16:09:43Z",
+    "growth": -1
+  },
+  {
+    "full_name": "cmliu/CF-Workers-docker.io",
+    "html_url": "https://github.com/cmliu/CF-Workers-docker.io",
+    "description": "这个项目是一个基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。",
+    "stars": 9178,
+    "forks": 10476,
+    "language": "JavaScript",
+    "topics": [
+      "cloudflare-pages",
+      "cloudflare-workers",
+      "docker",
+      "dockerhub"
+    ],
+    "created_at": "2024-06-10T19:13:56Z",
+    "pushed_at": "2025-06-26T09:30:17Z",
+    "growth": 0
+  },
+  {
+    "full_name": "anhao/ai-pose-gallery-zh",
+    "html_url": "https://github.com/anhao/ai-pose-gallery-zh",
+    "description": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
+    "stars": 6738,
+    "forks": 1707,
+    "language": "TypeScript",
+    "topics": [
+      "ai-art",
+      "chinese",
+      "cloudflare-pages",
+      "gallery",
+      "i18n",
+      "pose",
+      "reference-images",
+      "static-site"
+    ],
+    "created_at": "2026-10-27T12:24:37Z",
+    "pushed_at": "2026-11-04T08:09:10Z",
+    "growth": 7
+  },
+  {
+    "full_name": "cf-pages/Telegraph-Image",
+    "html_url": "https://github.com/cf-pages/Telegraph-Image",
+    "description": "Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.",
+    "stars": 4707,
+    "forks": 8853,
+    "language": "HTML",
+    "topics": [
+      "cloudflare",
+      "cloudflare-pages",
+      "flickr",
+      "image",
+      "image-host",
+      "image-hosting",
+      "image-sharing",
+      "imgur",
+      "serverless",
+      "telegraph",
+      "upload-images"
+    ],
+    "created_at": "2022-10-31T18:33:24Z",
+    "pushed_at": "2026-07-27T03:57:46Z",
+    "growth": 0
+  },
+  {
+    "full_name": "6Kmfi6HP/EDtunnel",
+    "html_url": "https://github.com/6Kmfi6HP/EDtunnel",
+    "description": "EDtunnel 是一个基于 Cloudflare Workers 和 Pages 的代理工具，支持多种协议和配置选项。  EDtunnel is a proxy tool based on Cloudflare Workers and Pages, supporting multiple protocols and configuration options.",
+    "stars": 3063,
+    "forks": 5334,
+    "language": "JavaScript",
+    "topics": [
+      "cloudflare",
+      "cloudflare-pages",
+      "cloudflare-workers",
+      "edtunnel",
+      "nodejs",
+      "v2ray",
+      "vless",
+      "xray"
+    ],
+    "created_at": "2024-09-11T09:15:25Z",
+    "pushed_at": "2026-04-25T19:21:52Z",
+    "growth": 0
+  },
+  {
+    "full_name": "x-dr/chatgptProxyAPI",
+    "html_url": "https://github.com/x-dr/chatgptProxyAPI",
+    "description": "🔥 使用cloudflare 搭建免费的 OpenAI api代理 ，解决网络无法访问问题。支持流式输出",
+    "stars": 3028,
+    "forks": 656,
+    "language": "HTML",
+    "topics": [
+      "chatgpt",
+      "cloudflare-pages",
+      "cloudflare-workers",
+      "free",
+      "openai-api"
+    ],
+    "created_at": "2023-03-02T16:22:58Z",
+    "pushed_at": "2025-06-24T11:58:01Z",
+    "growth": 0
+  },
+  {
+    "full_name": "cloudflare/next-on-pages",
+    "html_url": "https://github.com/cloudflare/next-on-pages",
+    "description": "CLI to build and develop Next.js apps for Cloudflare Pages",
+    "stars": 1492,
+    "forks": 166,
+    "language": "TypeScript",
+    "topics": [
+      "cloudflare-pages",
+      "nextjs"
+    ],
+    "created_at": "2022-10-19T15:39:07Z",
+    "pushed_at": "2026-10-01T06:16:31Z",
+    "growth": 0
+  },
+  {
+    "full_name": "AkashRajpurohit/howtoprofessionallysay",
+    "html_url": "https://github.com/AkashRajpurohit/howtoprofessionallysay",
+    "description": "📖 A guide for your daily \"professional\" interactions",
+    "stars": 1280,
+    "forks": 50,
+    "language": "TypeScript",
+    "topics": [
+      "cloudflare-pages",
+      "howtoprofessionallysay",
+      "nextjs",
+      "tailwindcss"
+    ],
+    "created_at": "2022-04-30T07:52:40Z",
+    "pushed_at": "2026-04-05T07:37:48Z",
+    "growth": 0
+  }
+]
