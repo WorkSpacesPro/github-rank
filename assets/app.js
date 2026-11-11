@@ -43,7 +43,7 @@ function renderLayout() {
         <div class="nav-section-title">目录导航</div>
         <ul class="nav-list">
           <li><a href="index.html" class="${activeHome}">开源总排行</a></li>
-          <li><a href="#">CF 生态排行</a></li>
+          
           <li><a href="about.html" class="${activeAbout}">关于我们</a></li>
         </ul>
       </div>
