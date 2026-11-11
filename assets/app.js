@@ -1,41 +1,62 @@
 // 初始化主题
-(function() {
-  const t = localStorage.getItem("theme");
-  if (t) document.documentElement.setAttribute("data-theme", t);
-  else if (window.matchMedia("(prefers-color-scheme: dark)").matches) 
-    document.documentElement.setAttribute("data-theme", "dark");
+(function(){
+  var t = localStorage.getItem("theme");
+  if(t === "dark" || t === "light") { document.documentElement.setAttribute("data-theme", t); }
+  else { document.documentElement.setAttribute("data-theme", window.matchMedia("(prefers-color-scheme:dark)").matches ? "dark" : "light"); }
 })();
 
-// 完美复刻 mkdnsite 的圆形扩散动画
-const themeBtn = document.getElementById('theme-btn');
-if (themeBtn) {
-  themeBtn.addEventListener('click', function(e) {
-    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-    const next = isDark ? 'light' : 'dark';
+// 水波纹主题切换
+(function(){
+  var btn = document.querySelector('.theme-toggle');
+  if (!btn) return;
+  btn.addEventListener('click', function(e){
+    var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    var next = isDark ? 'light' : 'dark';
+    var rect = btn.getBoundingClientRect();
+    var x = rect.left + rect.width / 2;
+    var y = rect.top + rect.height / 2;
     
-    // 获取按钮的真实坐标
-    const rect = themeBtn.getBoundingClientRect();
-    const x = rect.left + rect.width / 2;
-    const y = rect.top + rect.height / 2;
+    document.documentElement.style.setProperty('--toggle-x', x + 'px');
+    document.documentElement.style.setProperty('--toggle-y', y + 'px');
     
-    // 存入 CSS 变量供 Keyframes 使用
-    document.documentElement.style.setProperty('--mkdn-toggle-x', x + 'px');
-    document.documentElement.style.setProperty('--mkdn-toggle-y', y + 'px');
-
-    function apply() {
+    function apply(){
       document.documentElement.setAttribute('data-theme', next);
       localStorage.setItem('theme', next);
     }
-
-    // 触发过渡动画
     if (document.startViewTransition) {
       document.startViewTransition(apply);
     } else {
-      apply(); // 不支持该 API 的旧浏览器直接切换
+      apply();
     }
   });
-}
+})();
 
+// 移动端侧边栏菜单逻辑
+(function(){
+  var toggle = document.querySelector('.nav-toggle');
+  var nav = document.querySelector('.nav');
+  var backdrop = document.querySelector('.nav-backdrop');
+  if (!toggle || !nav) return;
+  function open() {
+    nav.classList.add('nav--open');
+    if (backdrop) backdrop.classList.add('nav-backdrop--visible');
+    toggle.setAttribute('aria-expanded', 'true');
+  }
+  function close() {
+    nav.classList.remove('nav--open');
+    if (backdrop) backdrop.classList.remove('nav-backdrop--visible');
+    toggle.setAttribute('aria-expanded', 'false');
+  }
+  toggle.addEventListener('click', function() {
+    nav.classList.contains('nav--open') ? close() : open();
+  });
+  if (backdrop) backdrop.addEventListener('click', close);
+  nav.addEventListener('click', function(e) {
+    if (e.target && e.target.closest && e.target.closest('a')) close();
+  });
+})();
+
+// 排行榜数据加载与渲染
 const formatNum = (num) => num ? num.toLocaleString() : '0';
 
 async function loadRankData() {
@@ -67,7 +88,7 @@ async function loadRankData() {
     renderTable(data[categories[0]]);
   } catch (err) {
     document.getElementById('table-body').innerHTML = 
-      `<tr><td colspan="6" class="loading" style="color:#ef4444;">⚠️ ${err.message}</td></tr>`;
+      `<tr><td colspan="6" class="loading" style="color:#cf222e;">⚠️ ${err.message}</td></tr>`;
     document.getElementById('update-time').textContent = '加载失败';
   }
 }
