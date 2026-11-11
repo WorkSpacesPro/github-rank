@@ -7,13 +7,12 @@
 
 // ======= 公共组件渲染 (导航、按钮、页脚) =======
 function renderLayout() {
-  // 判断当前页面，用来高亮导航
   const path = window.location.pathname;
   const isAbout = path.includes("about.html");
   const activeHome = isAbout ? "" : "active";
   const activeAbout = isAbout ? "active" : "";
 
-  // 1. 注入顶部悬浮按钮
+  // 1. 注入顶部悬浮按钮 + 返回顶部按钮
   document.getElementById('app-header').innerHTML = `
     <button class='nav-toggle' type='button' aria-label='Toggle navigation' aria-expanded='false'>
       <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M4 12h16'/><path d='M4 6h16'/><path d='M4 18h16'/></svg>
@@ -22,6 +21,10 @@ function renderLayout() {
     <button class="theme-toggle" type="button" aria-label="Toggle theme">
       <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
       <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+    </button>
+    <!-- 👇 新增的返回顶部按钮 -->
+    <button class="back-to-top" id="back-to-top" aria-label="返回顶部">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
     </button>
   `;
 
@@ -55,9 +58,9 @@ function renderLayout() {
   bindEvents();
 }
 
-// ======= 事件绑定（水波纹、侧边栏开合） =======
+// ======= 事件绑定 =======
 function bindEvents() {
-  // 主题切换
+  // 1. 主题切换
   var btn = document.querySelector('.theme-toggle');
   if (btn) {
     btn.addEventListener('click', function(e){
@@ -79,7 +82,7 @@ function bindEvents() {
     });
   }
 
-  // 移动端菜单
+  // 2. 移动端菜单
   var toggle = document.querySelector('.nav-toggle');
   var nav = document.querySelector('.nav');
   var backdrop = document.querySelector('.nav-backdrop');
@@ -100,6 +103,28 @@ function bindEvents() {
       if (e.target.closest('a')) close();
     });
   }
+
+  // 3. 🎯 返回顶部监听逻辑
+  const backToTopBtn = document.getElementById('back-to-top');
+  if (backToTopBtn) {
+    // 监听滚动
+    window.addEventListener('scroll', () => {
+      // 当滚动超过 300 像素时显示，否则隐藏
+      if (window.scrollY > 300) {
+        backToTopBtn.classList.add('show');
+      } else {
+        backToTopBtn.classList.remove('show');
+      }
+    });
+
+    // 点击平滑回到顶部
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
 }
 
 // ======= 首页专属：数据加载 =======
@@ -107,8 +132,7 @@ const formatNum = (num) => num ? num.toLocaleString() : '0';
 
 async function loadRankData() {
   const tableBody = document.getElementById('table-body');
-  // 如果不是首页（没有表格容器），直接退出
-  if (!tableBody) return;
+  if (!tableBody) return; // 不是首页则直接退出
 
   try {
     const res = await fetch(`data/rank.json?t=${Date.now()}`);
@@ -171,6 +195,6 @@ function renderTable(items) {
 
 // ======= 页面加载完成后执行 =======
 document.addEventListener('DOMContentLoaded', () => {
-  renderLayout(); // 先渲染导航和页脚
-  loadRankData(); // 再尝试加载数据（非首页会自动跳过）
+  renderLayout();
+  loadRankData();
 });
