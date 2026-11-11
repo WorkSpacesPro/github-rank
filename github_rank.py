@@ -44,11 +44,11 @@ def default_categories():
         "Rust":         {"query": "language:Rust stars:>10000",          "limit": 30},
         "Go":           {"query": "language:Go stars:>10000",            "limit": 30},
         "前端":         {"query": "topic:frontend stars:>10000",         "limit": 30},
+        # 👇 新增的 Cloudflare 分类
+        "Cloudflare 生态":  {"query": "topic:cloudflare-workers stars:>1000", "limit": 30},
+        "CF+GitHub 建站":   {"query": "topic:cloudflare-pages stars:>1000",  "limit": 30},
     }
-"前端":         {"query": "topic:frontend stars:>10000",         "limit": 30},
-# 👇 加上这两行，抓取 Cloudflare 相关的
-"Cloudflare 生态":  {"query": "topic:cloudflare-workers stars:>1000", "limit": 30},
-"CF+GitHub 建站":   {"query": "topic:cloudflare-pages stars:>1000",  "limit": 30},
+
 
 # ---------------------------------------------------------------- 请求层
 
