@@ -3,8 +3,8 @@
     "full_name": "react/react",
     "html_url": "https://github.com/react/react",
     "description": "The library for web and native user interfaces.",
-    "stars": 252526,
-    "forks": 52301,
+    "stars": 252495,
+    "forks": 52311,
     "language": "JavaScript",
     "topics": [
       "declarative",
@@ -16,14 +16,14 @@
     ],
     "created_at": "2013-05-24T16:15:54Z",
     "pushed_at": "2026-11-11T13:06:55Z",
-    "growth": -35
+    "growth": -31
   },
   {
     "full_name": "vuejs/vue",
     "html_url": "https://github.com/vuejs/vue",
     "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
-    "stars": 212584,
-    "forks": 34173,
+    "stars": 212557,
+    "forks": 34168,
     "language": "TypeScript",
     "topics": [
       "framework",
@@ -33,13 +33,13 @@
     ],
     "created_at": "2013-07-29T03:24:51Z",
     "pushed_at": "2024-10-10T07:24:15Z",
-    "growth": -40
+    "growth": -27
   },
   {
     "full_name": "Leonxlnx/taste-skill",
     "html_url": "https://github.com/Leonxlnx/taste-skill",
     "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-    "stars": 113298,
+    "stars": 113323,
     "forks": 7628,
     "language": "JavaScript",
     "topics": [
@@ -57,14 +57,14 @@
     ],
     "created_at": "2026-02-19T21:44:05Z",
     "pushed_at": "2026-11-08T21:51:50Z",
-    "growth": 43
+    "growth": 25
   },
   {
     "full_name": "vitejs/vite",
     "html_url": "https://github.com/vitejs/vite",
     "description": "Next generation frontend tooling. It's fast!",
-    "stars": 83898,
-    "forks": 9768,
+    "stars": 83874,
+    "forks": 9772,
     "language": "TypeScript",
     "topics": [
       "build-tool",
@@ -75,7 +75,7 @@
     ],
     "created_at": "2020-04-21T05:03:57Z",
     "pushed_at": "2026-11-11T10:04:54Z",
-    "growth": -39
+    "growth": -24
   },
   {
     "full_name": "typicode/json-server",
@@ -95,7 +95,7 @@
     ],
     "created_at": "2013-11-27T13:21:13Z",
     "pushed_at": "2026-03-23T19:40:00Z",
-    "growth": -1
+    "growth": 0
   },
   {
     "full_name": "thedaviddias/Front-End-Checklist",
@@ -129,7 +129,7 @@
     "full_name": "expo/expo",
     "html_url": "https://github.com/expo/expo",
     "description": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
-    "stars": 53468,
+    "stars": 53470,
     "forks": 15050,
     "language": "TypeScript",
     "topics": [
@@ -151,8 +151,8 @@
       "web-framework"
     ],
     "created_at": "2016-08-15T17:14:25Z",
-    "pushed_at": "2026-11-11T14:12:51Z",
-    "growth": 0
+    "pushed_at": "2026-11-11T14:53:13Z",
+    "growth": 2
   },
   {
     "full_name": "ionic-team/ionic-framework",
@@ -212,7 +212,7 @@
     ],
     "created_at": "2018-12-30T13:56:58Z",
     "pushed_at": "2025-12-31T18:59:20Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "dypsilon/frontend-dev-bookmarks",
@@ -229,7 +229,7 @@
     ],
     "created_at": "2013-06-22T13:23:55Z",
     "pushed_at": "2024-05-21T10:56:58Z",
-    "growth": -1
+    "growth": 0
   },
   {
     "full_name": "LeCoupa/awesome-cheatsheets",
@@ -295,7 +295,7 @@
     ],
     "created_at": "2020-07-18T02:41:27Z",
     "pushed_at": "2026-11-07T13:35:29Z",
-    "growth": -1
+    "growth": 0
   },
   {
     "full_name": "CorentinTh/it-tools",
@@ -358,7 +358,7 @@
     "full_name": "Dokploy/dokploy",
     "html_url": "https://github.com/Dokploy/dokploy",
     "description": "Open Source Alternative to Vercel, Netlify and Heroku.",
-    "stars": 38410,
+    "stars": 38411,
     "forks": 3166,
     "language": "TypeScript",
     "topics": [
@@ -409,7 +409,7 @@
     ],
     "created_at": "2022-08-03T17:14:53Z",
     "pushed_at": "2025-08-11T12:00:01Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "xitu/gold-miner",
@@ -472,14 +472,14 @@
     ],
     "created_at": "2015-08-29T12:29:03Z",
     "pushed_at": "2026-09-23T01:27:44Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "onlook-dev/onlook",
     "html_url": "https://github.com/onlook-dev/onlook",
     "description": "The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.",
     "stars": 27169,
-    "forks": 2143,
+    "forks": 2144,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -533,7 +533,7 @@
     ],
     "created_at": "2019-04-17T03:05:58Z",
     "pushed_at": "2025-10-26T20:49:10Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "iview/iview",
@@ -584,7 +584,7 @@
     ],
     "created_at": "2017-09-20T06:04:01Z",
     "pushed_at": "2026-11-11T08:12:01Z",
-    "growth": -1
+    "growth": 0
   },
   {
     "full_name": "baidu/amis",
