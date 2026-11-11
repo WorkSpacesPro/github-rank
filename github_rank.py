@@ -3,7 +3,7 @@
 GitHub 开源排行榜生成器
 - 按分类（总榜 / 语言 / topic / 新秀）拉取 star 排行
 - 与上次快照对比，算出每个项目的"涨星量"
-- 自动排序，输出 Markdown / JSON
+- 自动排序，输出 Markdown / JSON（按需拆包，加速前端加载）
 
 用法：
     export GITHUB_TOKEN=ghp_xxxx
@@ -44,7 +44,6 @@ def default_categories():
         "Rust":         {"query": "language:Rust stars:>10000",          "limit": 30},
         "Go":           {"query": "language:Go stars:>10000",            "limit": 30},
         "前端":         {"query": "topic:frontend stars:>10000",         "limit": 30},
-        # 👇 新增的 Cloudflare 分类
         "Cloudflare 生态":  {"query": "topic:cloudflare-workers stars:>1000", "limit": 30},
         "CF+GitHub 建站":   {"query": "topic:cloudflare-pages stars:>1000",  "limit": 30},
     }
@@ -210,23 +209,41 @@ def main():
             rows.append(r)
         all_data[cat] = sort_rows(rows, args.sort)
 
-    # 输出
+    # 1. 输出 Markdown
     md = render_markdown(all_data, args.sort)
     Path(args.out_md).write_text(md + "\n", encoding="utf-8")
 
-    Path(args.out_json).parent.mkdir(parents=True, exist_ok=True)
-    Path(args.out_json).write_text(
+    # 2. 拆分输出 JSON (加速前端加载)
+    data_dir = Path("data")
+    data_dir.mkdir(parents=True, exist_ok=True)
+    
+    # 生成极小的分类列表，供首页秒开加载
+    categories_list = list(all_data.keys())
+    (data_dir / "categories.json").write_text(
+        json.dumps(categories_list, ensure_ascii=False), encoding="utf-8"
+    )
+
+    # 按分类生成单独的 JSON 文件
+    for cat, items in all_data.items():
+        # 清理文件名中的特殊字符，保证 Web 端拼写不出错
+        safe_name = cat.replace(" ", "_").replace("/", "_").replace("+", "")
+        (data_dir / f"{safe_name}.json").write_text(
+            json.dumps(items, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        
+    # 仍然保留一份全量数据（方便排查问题或做兼容）
+    (data_dir / "rank.json").write_text(
         json.dumps(all_data, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-    # 更新快照（合并旧数据，避免丢掉本次没抓到的项目）
+    # 3. 更新快照
     merged = {**old, **new_stars}
     save_snapshot(args.snapshot, {
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "stars": merged,
     })
 
-    print(f"✅ 已生成 {args.out_md} / {args.out_json}", file=sys.stderr)
+    print(f"✅ 已生成 {args.out_md} / data/ 下的独立 JSON 数据", file=sys.stderr)
 
 
 if __name__ == "__main__":
