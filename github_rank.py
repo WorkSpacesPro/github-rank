@@ -36,11 +36,31 @@ def default_categories():
         "Awesome/学习资源":   {"query": "topic:awesome stars:>30000", "limit": 30, "file": "awesome", "en": "Awesome Lists"},
         "独立开发/SaaS":      {"query": "topic:saas-boilerplate stars:>2000", "limit": 30, "file": "saas", "en": "SaaS Boilerplate"},
         
-        # === ☁️ Cloudflare 建站生态 (已去重、去掉Typecho) ===
-        "CF 图床/相册":       {"query": "cloudflare image hosting OR cloudflare imagebed stars:>200", "limit": 30, "file": "cf_image", "en": "CF Image Host"},
-        "CF 博客建站 (Jekyll/Hexo)": {"query": "cloudflare pages blog OR jekyll cloudflare OR hexo cloudflare OR hugo cloudflare stars:>100", "limit": 30, "file": "cf_blog", "en": "CF Blog Builders"},
-        "CF 全能工具 (Workers)":  {"query": "topic:cloudflare-workers stars:>1000", "limit": 30, "file": "cf_workers", "en": "CF Workers"},
-        "CF 网络/代理工具":   {"query": "cloudflare vless OR cloudflare trojan OR cloudflare proxy stars:>500", "limit": 30, "file": "cf_proxy", "en": "CF Proxy Tools"},
+        # === ☁️ Cloudflare 建站生态 (全面扩充版) ===
+        "CF 图床/相册 (URL/直链)": {
+            "query": "cloudflare image hosting OR cloudflare imagebed OR cloudflare image share OR cloudflare gallery OR cloudflare album OR \"cloudflare imgbed\" stars:>100",
+            "limit": 30, "file": "cf_image", "en": "CF Image & Gallery"
+        },
+        "CF 博客建站 (Hugo/Astro/Jekyll)": {
+            "query": "cloudflare pages blog OR jekyll cloudflare OR hexo cloudflare OR hugo cloudflare OR astro cloudflare OR vuepress cloudflare OR docusaurus cloudflare OR gatsby cloudflare OR eleventy cloudflare OR nextjs cloudflare OR nuxt cloudflare stars:>100",
+            "limit": 30, "file": "cf_blog", "en": "CF Blog Builders"
+        },
+        "CF 短链接/短网址": {
+            "query": "cloudflare url shortener OR cloudflare short url OR cloudflare 短网址 OR topic:url-shortener cloudflare stars:>50",
+            "limit": 30, "file": "cf_shorturl", "en": "CF URL Shortener"
+        },
+        "CF 建站周边 (评论/统计)": {
+            "query": "cloudflare pages comment OR cloudflare waline OR cloudflare analytics OR cloudflare web analytics OR cloudflare counter stars:>50",
+            "limit": 30, "file": "cf_tools", "en": "CF Site Tools"
+        },
+        "CF 全能工具 (Workers)": {
+            "query": "topic:cloudflare-workers stars:>1000",
+            "limit": 30, "file": "cf_workers", "en": "CF Workers"
+        },
+        "CF 网络/代理工具": {
+            "query": "cloudflare vless OR cloudflare trojan OR cloudflare proxy stars:>500",
+            "limit": 30, "file": "cf_proxy", "en": "CF Proxy Tools"
+        },
 
         # === 💻 主流语言 ===
         "Python":       {"query": "language:Python stars:>20000", "limit": 30, "file": "python", "en": "Python"},
