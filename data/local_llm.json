@@ -3,8 +3,8 @@
     "full_name": "HKUDS/nanobot",
     "html_url": "https://github.com/HKUDS/nanobot",
     "description": "Your lightweight open-source personal agent.",
-    "stars": 50011,
-    "forks": 8728,
+    "stars": 50022,
+    "forks": 8731,
     "language": "Python",
     "topics": [
       "agent-framework",
@@ -29,15 +29,15 @@
       "workflow-automation"
     ],
     "created_at": "2026-02-01T07:16:15Z",
-    "pushed_at": "2026-11-11T14:08:31Z",
-    "growth": 0
+    "pushed_at": "2026-11-12T01:56:02Z",
+    "growth": 11
   },
   {
     "full_name": "mozilla-ai/llamafile",
     "html_url": "https://github.com/mozilla-ai/llamafile",
     "description": "Distribute and run LLMs with a single file.",
-    "stars": 26613,
-    "forks": 1676,
+    "stars": 26616,
+    "forks": 1678,
     "language": "C++",
     "topics": [
       "cross-platform",
@@ -52,14 +52,14 @@
     ],
     "created_at": "2023-09-10T21:12:32Z",
     "pushed_at": "2026-11-09T00:15:20Z",
-    "growth": 0
+    "growth": 3
   },
   {
     "full_name": "MakazhanAlpamys/Soup",
     "html_url": "https://github.com/MakazhanAlpamys/Soup",
     "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
-    "stars": 10466,
-    "forks": 1725,
+    "stars": 10479,
+    "forks": 1730,
     "language": "Python",
     "topics": [
       "cli",
@@ -85,14 +85,14 @@
     ],
     "created_at": "2026-02-20T11:05:01Z",
     "pushed_at": "2026-11-11T14:09:44Z",
-    "growth": 1
+    "growth": 13
   },
   {
     "full_name": "LearningCircuit/local-deep-research",
     "html_url": "https://github.com/LearningCircuit/local-deep-research",
     "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
-    "stars": 9566,
-    "forks": 911,
+    "stars": 9564,
+    "forks": 913,
     "language": "Python",
     "topics": [
       "academia",
@@ -117,8 +117,8 @@
       "self-hosted"
     ],
     "created_at": "2025-02-09T15:41:32Z",
-    "pushed_at": "2026-11-11T08:05:01Z",
-    "growth": 0
+    "pushed_at": "2026-11-12T02:16:57Z",
+    "growth": -2
   },
   {
     "full_name": "open-multi-agent/open-multi-agent",
@@ -156,8 +156,8 @@
     "full_name": "dograh-hq/dograh",
     "html_url": "https://github.com/dograh-hq/dograh",
     "description": "Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across  Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.",
-    "stars": 6062,
-    "forks": 1555,
+    "stars": 6065,
+    "forks": 1556,
     "language": "Python",
     "topics": [
       "ai-calling",
@@ -183,13 +183,13 @@
     ],
     "created_at": "2025-09-09T08:48:29Z",
     "pushed_at": "2026-11-10T05:38:33Z",
-    "growth": 0
+    "growth": 3
   },
   {
     "full_name": "maziyarpanahi/openmed",
     "html_url": "https://github.com/maziyarpanahi/openmed",
     "description": "Local-first healthcare AI: clinical NER and HIPAA PII de-identification on hardware you control. 2,200+ medical models, 35 model-backed PII languages, and Python, MLX, Android and browser runtimes. Apache-2.0 SDK.",
-    "stars": 5799,
+    "stars": 5800,
     "forks": 761,
     "language": "Python",
     "topics": [
@@ -215,15 +215,15 @@
       "swiftui"
     ],
     "created_at": "2025-10-04T15:13:34Z",
-    "pushed_at": "2026-11-09T09:21:47Z",
-    "growth": 0
+    "pushed_at": "2026-11-11T19:51:49Z",
+    "growth": 1
   },
   {
     "full_name": "AienTech/dossier",
     "html_url": "https://github.com/AienTech/dossier",
     "description": "A self-hosted job search and resume builder app that writes tailored resumes and cover letters from your profile.",
-    "stars": 5005,
-    "forks": 1037,
+    "stars": 5042,
+    "forks": 1042,
     "language": "TypeScript",
     "topics": [
       "caprover",
@@ -242,7 +242,7 @@
     ],
     "created_at": "2026-10-03T21:26:15Z",
     "pushed_at": "2026-11-08T13:29:38Z",
-    "growth": 1
+    "growth": 37
   },
   {
     "full_name": "vinta/pangu.js",
@@ -273,7 +273,7 @@
     "full_name": "langroid/langroid",
     "html_url": "https://github.com/langroid/langroid",
     "description": "Harness LLMs with Multi-Agent Programming",
-    "stars": 4145,
+    "stars": 4146,
     "forks": 435,
     "language": "Python",
     "topics": [
@@ -298,13 +298,13 @@
     ],
     "created_at": "2023-04-16T20:47:28Z",
     "pushed_at": "2026-11-09T14:36:44Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "raullenchai/Rapid-MLX",
     "html_url": "https://github.com/raullenchai/Rapid-MLX",
     "description": "Rapid-MLX is an open-source (Apache 2.0) OpenAI- and Anthropic-compatible LLM inference server for Apple Silicon, built on MLX, focused on reliable tool calling for coding agents. Up to 4× faster than Apple's MLX (mlx-lm) on the same weights.",
-    "stars": 4131,
+    "stars": 4134,
     "forks": 441,
     "language": "Python",
     "topics": [
@@ -330,15 +330,15 @@
       "tool-calling"
     ],
     "created_at": "2026-02-25T00:41:44Z",
-    "pushed_at": "2026-11-11T15:25:31Z",
-    "growth": 0
+    "pushed_at": "2026-11-12T01:50:56Z",
+    "growth": 3
   },
   {
     "full_name": "PurpleDoubleD/locally-uncensored",
     "html_url": "https://github.com/PurpleDoubleD/locally-uncensored",
     "description": "The all-in-one local AI studio for your desktop: chat, image and video generation and a coding agent in one free, open source app. Windows and Linux. No Docker, no terminal, no cloud required.",
-    "stars": 3805,
-    "forks": 610,
+    "stars": 3865,
+    "forks": 619,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -364,13 +364,13 @@
     ],
     "created_at": "2026-03-24T21:52:47Z",
     "pushed_at": "2026-11-09T15:41:41Z",
-    "growth": 10
+    "growth": 60
   },
   {
     "full_name": "deta/surf",
     "html_url": "https://github.com/deta/surf",
     "description": "Personal AI Notebooks. Organize files & webpages and generate notes from them. Open source, local & open data, open model choice (incl. local).",
-    "stars": 3641,
+    "stars": 3643,
     "forks": 252,
     "language": "TypeScript",
     "topics": [
@@ -391,13 +391,13 @@
     ],
     "created_at": "2025-10-20T15:09:57Z",
     "pushed_at": "2026-08-24T17:05:49Z",
-    "growth": 0
+    "growth": 2
   },
   {
     "full_name": "AtomicBot-ai/atomic-agent",
     "html_url": "https://github.com/AtomicBot-ai/atomic-agent",
     "description": "Atomic Agent is a local-first AI agent. Runs open-weight models on your own machine via llama.cpp.",
-    "stars": 3585,
+    "stars": 3607,
     "forks": 292,
     "language": "TypeScript",
     "topics": [
@@ -422,15 +422,15 @@
       "typescript"
     ],
     "created_at": "2026-04-21T21:34:51Z",
-    "pushed_at": "2026-11-11T10:39:36Z",
-    "growth": 1
+    "pushed_at": "2026-11-12T01:24:13Z",
+    "growth": 22
   },
   {
     "full_name": "nicedreamzapp/claude-code-local",
     "html_url": "https://github.com/nicedreamzapp/claude-code-local",
     "description": "Hit your Claude Code usage limit? Keep going free and offline on a local model: Qwen 3.8, Gemma 4, and Qwen 4 the day it ships. Runs on Apple Silicon Macs (MLX), Linux and Windows (llama.cpp) with no API key. Your code stays home.",
     "stars": 3492,
-    "forks": 648,
+    "forks": 647,
     "language": "Python",
     "topics": [
       "ai-privacy",
@@ -455,15 +455,15 @@
       "qwen4"
     ],
     "created_at": "2026-03-26T06:43:30Z",
-    "pushed_at": "2026-11-11T11:13:27Z",
-    "growth": 1
+    "pushed_at": "2026-11-11T23:15:27Z",
+    "growth": 0
   },
   {
     "full_name": "rafska/awesome-local-llm",
     "html_url": "https://github.com/rafska/awesome-local-llm",
     "description": "A curated list of awesome platforms, tools, practices and resources that helps run LLMs locally",
-    "stars": 3053,
-    "forks": 529,
+    "stars": 3058,
+    "forks": 531,
     "language": "-",
     "topics": [
       "ai",
@@ -478,8 +478,8 @@
       "selfhosted"
     ],
     "created_at": "2025-06-03T10:01:04Z",
-    "pushed_at": "2026-11-05T10:26:48Z",
-    "growth": 0
+    "pushed_at": "2026-11-11T16:43:11Z",
+    "growth": 5
   },
   {
     "full_name": "xyproto/algernon",
@@ -511,15 +511,15 @@
       "tls13"
     ],
     "created_at": "2015-03-10T11:25:30Z",
-    "pushed_at": "2026-11-09T13:07:29Z",
+    "pushed_at": "2026-11-11T18:45:45Z",
     "growth": 0
   },
   {
     "full_name": "mw00/project-maya",
     "html_url": "https://github.com/mw00/project-maya",
     "description": "Run GLM-5.3 (744B), GLM-5.3-Flash (321B), DeepSeek-V4.1-Flash (748B) and MiniMax-M3.1-Flash (428B) on your own GPUs - one engine, one dashboard, OpenAI- and Anthropic-compatible API.",
-    "stars": 2792,
-    "forks": 390,
+    "stars": 2806,
+    "forks": 394,
     "language": "C++",
     "topics": [
       "anthropic-api",
@@ -544,8 +544,8 @@
       "windows"
     ],
     "created_at": "2026-10-06T22:55:13Z",
-    "pushed_at": "2026-11-11T14:17:41Z",
-    "growth": 0
+    "pushed_at": "2026-11-11T23:30:44Z",
+    "growth": 14
   },
   {
     "full_name": "itayinbarr/little-coder",
@@ -576,7 +576,7 @@
     "full_name": "papersgpt/papersgpt-for-zotero",
     "html_url": "https://github.com/papersgpt/papersgpt-for-zotero",
     "description": "Professional AI research tool for Zotero: chat with PDFs, whole-library search, Literature Radar, AutoPilot. 30+ LLMs or local models; built-in MCP server.",
-    "stars": 2702,
+    "stars": 2703,
     "forks": 96,
     "language": "JavaScript",
     "topics": [
@@ -603,7 +603,7 @@
     ],
     "created_at": "2024-11-22T03:03:59Z",
     "pushed_at": "2026-11-03T11:15:55Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "youssofal/MTPLX",
@@ -642,7 +642,7 @@
     "full_name": "syv-ai/HyperQwen",
     "html_url": "https://github.com/syv-ai/HyperQwen",
     "description": "Serve large Qwen models fast on the GPUs you actually own. Qwen3.8-27B on a single 24 GB card with vLLM: 127 tok/s single-user (381 when the answer quotes the prompt), ~1,035 tok/s at 64 concurrent, 150k-262k context. vLLM patches, requant pipeline, benchmarks.",
-    "stars": 2678,
+    "stars": 2687,
     "forks": 339,
     "language": "Python",
     "topics": [
@@ -661,14 +661,14 @@
     ],
     "created_at": "2026-08-15T09:10:56Z",
     "pushed_at": "2026-11-10T04:28:06Z",
-    "growth": 1
+    "growth": 9
   },
   {
     "full_name": "ddalcu/mlx-serve",
     "html_url": "https://github.com/ddalcu/mlx-serve",
     "description": "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Zig backend, Swift frontend macOS app with chat, music, voice, video generation.",
-    "stars": 2426,
-    "forks": 260,
+    "stars": 2429,
+    "forks": 261,
     "language": "Zig",
     "topics": [
       "agent",
@@ -694,7 +694,7 @@
     ],
     "created_at": "2026-02-17T01:55:20Z",
     "pushed_at": "2026-11-11T04:03:11Z",
-    "growth": 0
+    "growth": 3
   },
   {
     "full_name": "travisvn/openai-edge-tts",
@@ -726,7 +726,7 @@
     ],
     "created_at": "2024-10-09T23:31:11Z",
     "pushed_at": "2025-07-01T23:56:27Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "fikrikarim/parlor",
@@ -752,7 +752,7 @@
     ],
     "created_at": "2026-04-05T17:33:55Z",
     "pushed_at": "2026-08-03T18:06:56Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "inferstep/ATLAS",
@@ -789,13 +789,13 @@
     ],
     "created_at": "2026-04-14T07:43:10Z",
     "pushed_at": "2026-07-04T12:26:56Z",
-    "growth": -1
+    "growth": 0
   },
   {
     "full_name": "axoviq-ai/synthadoc",
     "html_url": "https://github.com/axoviq-ai/synthadoc",
     "description": "Synthadoc: An open-source LLM knowledge compilation engine that turns raw documents into structured, local-first wikis. A transparent, human-readable alternative to traditional RAG, which can be self-managed and self-improved without the use of any tools.",
-    "stars": 2012,
+    "stars": 2021,
     "forks": 188,
     "language": "Python",
     "topics": [
@@ -816,14 +816,14 @@
       "synthetic-data"
     ],
     "created_at": "2026-04-11T03:50:12Z",
-    "pushed_at": "2026-11-10T21:48:17Z",
-    "growth": 1
+    "pushed_at": "2026-11-11T23:31:39Z",
+    "growth": 9
   },
   {
     "full_name": "AtomicBot-ai/Atomic-Chat",
     "html_url": "https://github.com/AtomicBot-ai/Atomic-Chat",
     "description": "Local AI app and inference engine for agents. Run open-weight LLMs locally — private, 100% offline on your computer. Join our Discord: https://discord.com/invite/8wGSsvmg4V",
-    "stars": 1983,
+    "stars": 1986,
     "forks": 232,
     "language": "TypeScript",
     "topics": [
@@ -849,15 +849,15 @@
       "self-hosted"
     ],
     "created_at": "2026-03-31T08:03:09Z",
-    "pushed_at": "2026-11-11T14:42:53Z",
-    "growth": 0
+    "pushed_at": "2026-11-11T22:04:47Z",
+    "growth": 3
   },
   {
     "full_name": "Roy3838/Observer",
     "html_url": "https://github.com/Roy3838/Observer",
     "description": "The agent that monitors anything for you. Open-source, running completely locally.",
-    "stars": 1793,
-    "forks": 153,
+    "stars": 1795,
+    "forks": 155,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -874,7 +874,7 @@
       "transformers-js"
     ],
     "created_at": "2025-02-05T16:35:16Z",
-    "pushed_at": "2026-11-10T18:19:01Z",
-    "growth": 0
+    "pushed_at": "2026-11-12T02:17:09Z",
+    "growth": 2
   }
 ]

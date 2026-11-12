@@ -1,0 +1,295 @@
+[
+  {
+    "full_name": "miantiao-me/Sink",
+    "html_url": "https://github.com/miantiao-me/Sink",
+    "description": "⚡ A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.",
+    "stars": 7267,
+    "forks": 5388,
+    "language": "TypeScript",
+    "topics": [
+      "analytics",
+      "bitly-alternative",
+      "cloudflare",
+      "link-shortener",
+      "nuxt",
+      "shadcn-ui",
+      "tailwindcss",
+      "url-shortener",
+      "web-analytics"
+    ],
+    "created_at": "2024-05-05T13:53:54Z",
+    "pushed_at": "2026-10-27T06:01:00Z",
+    "growth": null
+  },
+  {
+    "full_name": "benvinegar/counterscale",
+    "html_url": "https://github.com/benvinegar/counterscale",
+    "description": "Scalable web analytics you run yourself on Cloudflare",
+    "stars": 2190,
+    "forks": 140,
+    "language": "TypeScript",
+    "topics": [
+      "analytics",
+      "cloudflare-analytics",
+      "cloudflare-workers",
+      "google-analytics",
+      "website-stats"
+    ],
+    "created_at": "2023-12-22T01:25:05Z",
+    "pushed_at": "2026-10-04T20:18:02Z",
+    "growth": null
+  },
+  {
+    "full_name": "RavelloH/InsightFlare",
+    "html_url": "https://github.com/RavelloH/InsightFlare",
+    "description": "A powerful, privacy-friendly open source web analytics tool that runs entirely on Cloudflare.",
+    "stars": 712,
+    "forks": 17,
+    "language": "TypeScript",
+    "topics": [
+      "analytics",
+      "cloudflare",
+      "cloudflare-workers",
+      "cookieless",
+      "durable-objects",
+      "edge-computing",
+      "gdpr-compliant",
+      "nextjs",
+      "privacy-first",
+      "react",
+      "serverless",
+      "typescript",
+      "web-analytics"
+    ],
+    "created_at": "2026-02-28T17:21:17Z",
+    "pushed_at": "2026-11-09T01:11:46Z",
+    "growth": null
+  },
+  {
+    "full_name": "TangSY/edge-next-starter",
+    "html_url": "https://github.com/TangSY/edge-next-starter",
+    "description": "An out‑of‑the‑box Next.js + Cloudflare full‑stack starter integrating Edge Runtime, D1 database, R2 storage, KV cache, Analytics Engine hooks, and a complete CI/CD pipeline.一个开箱即用的 Next.js + Cloudflare 全栈项目模板，集成 Edge Runtime、D1 数据库、R2 存储和完整的 CI/CD 流程。",
+    "stars": 476,
+    "forks": 101,
+    "language": "TypeScript",
+    "topics": [],
+    "created_at": "2025-10-26T03:09:36Z",
+    "pushed_at": "2026-02-27T05:58:32Z",
+    "growth": null
+  },
+  {
+    "full_name": "shivamanupadi/traks",
+    "html_url": "https://github.com/shivamanupadi/traks",
+    "description": "Self-hosted, privacy-friendly web analytics that deploys into your own Cloudflare account in two minutes. Free forever, MIT.",
+    "stars": 346,
+    "forks": 28,
+    "language": "TypeScript",
+    "topics": [
+      "analytics",
+      "cloudflare",
+      "cloudflare-workers",
+      "iceberg",
+      "mcp",
+      "plausible-alternative",
+      "privacy",
+      "self-hosted",
+      "web-analytics"
+    ],
+    "created_at": "2026-02-18T16:04:30Z",
+    "pushed_at": "2026-11-04T04:22:56Z",
+    "growth": null
+  },
+  {
+    "full_name": "uxiaohan/HanAnalytics",
+    "html_url": "https://github.com/uxiaohan/HanAnalytics",
+    "description": "一个简单的网络分析跟踪器和仪表板，在 Cloudflare Pages 上即可快速部署的网站分析仪表板,无成本稳定运行",
+    "stars": 279,
+    "forks": 170,
+    "language": "Less",
+    "topics": [],
+    "created_at": "2024-09-22T08:12:50Z",
+    "pushed_at": "2025-03-19T09:34:34Z",
+    "growth": null
+  },
+  {
+    "full_name": "SukkaW/cloudflare-workers-async-google-analytics",
+    "html_url": "https://github.com/SukkaW/cloudflare-workers-async-google-analytics",
+    "description": ":cloud: The Cloudflare Workers implementation of an async Google Analytics",
+    "stars": 219,
+    "forks": 30,
+    "language": "JavaScript",
+    "topics": [
+      "cloudflare",
+      "cloudflare-workers",
+      "google-analytics"
+    ],
+    "created_at": "2019-08-05T11:16:08Z",
+    "pushed_at": "2022-01-26T10:08:46Z",
+    "growth": null
+  },
+  {
+    "full_name": "jorgelbg/dashflare",
+    "html_url": "https://github.com/jorgelbg/dashflare",
+    "description": "🕵🏼‍♀️ Open Source and privacy-focused analytics solution. 📊 Advanced monitoring for your website behind Cloudflare",
+    "stars": 162,
+    "forks": 30,
+    "language": "TypeScript",
+    "topics": [
+      "analytics",
+      "cloudflare",
+      "edge-worker",
+      "google-analytics",
+      "grafana",
+      "grafana-loki",
+      "hacktoberfest",
+      "metrics",
+      "privacy",
+      "web-analytics",
+      "wrangler"
+    ],
+    "created_at": "2020-03-09T22:52:41Z",
+    "pushed_at": "2023-01-27T04:42:34Z",
+    "growth": null
+  },
+  {
+    "full_name": "yestool/analytics_with_cloudflare",
+    "html_url": "https://github.com/yestool/analytics_with_cloudflare",
+    "description": "a simple web analytics use Cloudflare workers + D1 + Huno. 👉 https://webviso.yestool.org",
+    "stars": 147,
+    "forks": 38,
+    "language": "TypeScript",
+    "topics": [
+      "analytics",
+      "cloudflare-d1",
+      "cloudflare-workers",
+      "huno"
+    ],
+    "created_at": "2023-12-03T12:23:10Z",
+    "pushed_at": "2024-10-23T14:27:52Z",
+    "growth": null
+  },
+  {
+    "full_name": "rohanprasadofficial/cloudflare-analytics-explorer",
+    "html_url": "https://github.com/rohanprasadofficial/cloudflare-analytics-explorer",
+    "description": "cute little cloudflare analytics engine dashboards",
+    "stars": 112,
+    "forks": 7,
+    "language": "TypeScript",
+    "topics": [
+      "cloudflare",
+      "cloudflare-analytics",
+      "cloudflare-workers"
+    ],
+    "created_at": "2025-12-25T12:18:37Z",
+    "pushed_at": "2026-02-08T13:17:35Z",
+    "growth": null
+  },
+  {
+    "full_name": "Shudesu/x-harness-oss",
+    "html_url": "https://github.com/Shudesu/x-harness-oss",
+    "description": "X Harness — self-hosted X (Twitter) scheduling, DM and analytics on Cloudflare Workers, with MCP and TypeScript SDK. By Shudesu (野田修一).",
+    "stars": 103,
+    "forks": 46,
+    "language": "TypeScript",
+    "topics": [
+      "cloudflare-workers",
+      "crm",
+      "marketing-automation",
+      "mcp",
+      "self-hosted",
+      "social-media-scheduling",
+      "twitter",
+      "x-harness"
+    ],
+    "created_at": "2026-04-02T11:13:47Z",
+    "pushed_at": "2026-10-28T09:30:09Z",
+    "growth": null
+  },
+  {
+    "full_name": "hayaran/Edgemetry",
+    "html_url": "https://github.com/hayaran/Edgemetry",
+    "description": "Lightweight, privacy-friendly web analytics built for the Cloudflare edge.",
+    "stars": 71,
+    "forks": 9,
+    "language": "TypeScript",
+    "topics": [],
+    "created_at": "2026-07-28T08:54:30Z",
+    "pushed_at": "2026-08-18T13:03:22Z",
+    "growth": null
+  },
+  {
+    "full_name": "YuriCrystal/relay",
+    "html_url": "https://github.com/YuriCrystal/relay",
+    "description": "Self-hosted link shortener with privacy-first click analytics & cookieless conversion tracking, on Cloudflare Workers + D1. A/B split, device & geo routing, /suffix source tracking, FB/GA4/GTM retargeting, unique visitors, CSV export, QR. Zero-build single-file admin. MIT.",
+    "stars": 71,
+    "forks": 26,
+    "language": "HTML",
+    "topics": [
+      "ab-testing",
+      "analytics",
+      "cloudflare-d1",
+      "cloudflare-workers",
+      "conversion-tracking",
+      "edge",
+      "link-management",
+      "link-shortener",
+      "marketing-attribution",
+      "privacy",
+      "qr-code",
+      "self-hosted",
+      "serverless",
+      "url-shortener",
+      "utm"
+    ],
+    "created_at": "2026-06-09T17:20:06Z",
+    "pushed_at": "2026-06-24T07:03:32Z",
+    "growth": null
+  },
+  {
+    "full_name": "qiayue/pvuv.ai",
+    "html_url": "https://github.com/qiayue/pvuv.ai",
+    "description": "PVUV.ai : Privacy-friendly, self-hosted web analytics with built-in invalid-traffic detection and AdSense protection. Runs on Cloudflare Workers + D1.",
+    "stars": 66,
+    "forks": 22,
+    "language": "TypeScript",
+    "topics": [],
+    "created_at": "2026-07-07T09:45:28Z",
+    "pushed_at": "2026-11-03T06:05:16Z",
+    "growth": null
+  },
+  {
+    "full_name": "cloudflare/cloudflare-grafana-app",
+    "html_url": "https://github.com/cloudflare/cloudflare-grafana-app",
+    "description": "(DEPRECATED.) Cloudflare Grafana App allows for the collection and graphing of Cloudflare analytics data over time.",
+    "stars": 60,
+    "forks": 14,
+    "language": "JavaScript",
+    "topics": [
+      "deprecated"
+    ],
+    "created_at": "2017-02-10T00:19:06Z",
+    "pushed_at": "2023-06-29T15:19:51Z",
+    "growth": null
+  },
+  {
+    "full_name": "NekroAI/one-tracker",
+    "html_url": "https://github.com/NekroAI/one-tracker",
+    "description": "One Tracker · AI 模型价格比较/追踪 \\| Aggregates OneHub/NewAPI/OneAPI, token normalization, auto best vendor; filters/sort/analytics · Cloudflare/Hono/React/D1/Drizzle",
+    "stars": 54,
+    "forks": 6,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "cloudflare",
+      "llm",
+      "new-api",
+      "oneapi",
+      "onehub",
+      "openai-api",
+      "price-comparison"
+    ],
+    "created_at": "2025-08-27T05:56:23Z",
+    "pushed_at": "2025-08-27T12:14:37Z",
+    "growth": null
+  }
+]
