@@ -20,24 +20,36 @@ if os.getenv("GITHUB_TOKEN"):
 def default_categories():
     last_year = datetime.now().year - 1
     return {
-        "总榜 Top": {"query": "stars:>50000", "limit": 50, "file": "top", "en": "Top Overall"},
+        # === 🌟 综合维度 ===
+        "总榜 Top":          {"query": "stars:>50000", "limit": 50, "file": "top", "en": "Top Overall"},
         f"明日之星(>{last_year})": {"query": f"created:>{last_year}-01-01 stars:>2000", "limit": 30, "file": "rising", "en": "Rising Stars"},
-        "Fork 最多(脚手架)": {"query": "stars:>10000 forks:>5000", "limit": 30, "file": "forks", "en": "Most Forked"},
-        "AI 智能体(Agent)": {"query": "topic:ai-agent stars:>1000", "limit": 30, "file": "agent", "en": "AI Agent"},
+        "Fork 最多(脚手架)":  {"query": "stars:>10000 forks:>5000", "limit": 30, "file": "forks", "en": "Most Forked"},
+        
+        # === 🤖 AI 风口 ===
+        "AI 智能体(Agent)":   {"query": "topic:ai-agent stars:>1000", "limit": 30, "file": "agent", "en": "AI Agent"},
         "本地大模型(Ollama)": {"query": "topic:local-llm stars:>1000", "limit": 30, "file": "local_llm", "en": "Local LLM"},
-        "AIGC (生图/视频)": {"query": "topic:stable-diffusion stars:>3000", "limit": 30, "file": "aigc", "en": "AIGC Tools"},
-        "自托管/隐私": {"query": "topic:self-hosted stars:>10000", "limit": 30, "file": "self_hosted", "en": "Self-Hosted"},
-        "开发者工具/CLI": {"query": "topic:cli-tool stars:>5000", "limit": 30, "file": "dev_tools", "en": "Dev Tools"},
-        "Awesome/学习资源": {"query": "topic:awesome stars:>30000", "limit": 30, "file": "awesome", "en": "Awesome Lists"},
-        "独立开发/SaaS": {"query": "topic:saas-boilerplate stars:>2000", "limit": 30, "file": "saas", "en": "SaaS Boilerplate"},
-        "Cloudflare 建站": {"query": "topic:cloudflare-pages stars:>500", "limit": 30, "file": "cloudflare", "en": "Cloudflare Pages"},
-        "Python": {"query": "language:Python stars:>20000", "limit": 30, "file": "python", "en": "Python"},
-        "JavaScript": {"query": "language:JavaScript stars:>20000", "limit": 30, "file": "javascript", "en": "JavaScript"},
-        "TypeScript": {"query": "language:TypeScript stars:>15000", "limit": 30, "file": "typescript", "en": "TypeScript"},
-        "Rust": {"query": "language:Rust stars:>10000", "limit": 30, "file": "rust", "en": "Rust"},
-        "Go": {"query": "language:Go stars:>10000", "limit": 30, "file": "go", "en": "Go"},
-        "Java": {"query": "language:Java stars:>15000", "limit": 30, "file": "java", "en": "Java"},
-        "前端": {"query": "topic:frontend stars:>10000", "limit": 30, "file": "frontend", "en": "Frontend"},
+        "AIGC (生图/视频)":   {"query": "topic:stable-diffusion stars:>3000", "limit": 30, "file": "aigc", "en": "AIGC Tools"},
+
+        # === 🛠️ 开发者场景 ===
+        "自托管/隐私":        {"query": "topic:self-hosted stars:>10000", "limit": 30, "file": "self_hosted", "en": "Self-Hosted"},
+        "开发者工具/CLI":     {"query": "topic:cli-tool stars:>5000", "limit": 30, "file": "dev_tools", "en": "Dev Tools"},
+        "Awesome/学习资源":   {"query": "topic:awesome stars:>30000", "limit": 30, "file": "awesome", "en": "Awesome Lists"},
+        "独立开发/SaaS":      {"query": "topic:saas-boilerplate stars:>2000", "limit": 30, "file": "saas", "en": "SaaS Boilerplate"},
+        
+        # === ☁️ Cloudflare 建站生态 (已去重、去掉Typecho) ===
+        "CF 图床/相册":       {"query": "cloudflare image hosting OR cloudflare imagebed stars:>200", "limit": 30, "file": "cf_image", "en": "CF Image Host"},
+        "CF 博客建站 (Jekyll/Hexo)": {"query": "cloudflare pages blog OR jekyll cloudflare OR hexo cloudflare OR hugo cloudflare stars:>100", "limit": 30, "file": "cf_blog", "en": "CF Blog Builders"},
+        "CF 全能工具 (Workers)":  {"query": "topic:cloudflare-workers stars:>1000", "limit": 30, "file": "cf_workers", "en": "CF Workers"},
+        "CF 网络/代理工具":   {"query": "cloudflare vless OR cloudflare trojan OR cloudflare proxy stars:>500", "limit": 30, "file": "cf_proxy", "en": "CF Proxy Tools"},
+
+        # === 💻 主流语言 ===
+        "Python":       {"query": "language:Python stars:>20000", "limit": 30, "file": "python", "en": "Python"},
+        "JavaScript":   {"query": "language:JavaScript stars:>20000", "limit": 30, "file": "javascript", "en": "JavaScript"},
+        "TypeScript":   {"query": "language:TypeScript stars:>15000", "limit": 30, "file": "typescript", "en": "TypeScript"},
+        "Rust":         {"query": "language:Rust stars:>10000", "limit": 30, "file": "rust", "en": "Rust"},
+        "Go":           {"query": "language:Go stars:>10000", "limit": 30, "file": "go", "en": "Go"},
+        "Java":         {"query": "language:Java stars:>15000", "limit": 30, "file": "java", "en": "Java"},
+        "前端":         {"query": "topic:frontend stars:>10000", "limit": 30, "file": "frontend", "en": "Frontend"},
     }
 
 def sleep_for_rate_limit(resp):
@@ -150,10 +162,8 @@ def main():
             rows.append(r)
         all_data[cat] = sort_rows(rows, args.sort)
 
-    # 1. 输出 Markdown
     Path(args.out_md).write_text(render_markdown(all_data, args.sort) + "\n", encoding="utf-8")
 
-    # 2. 拆分输出 JSON (纯英文名)
     data_dir = Path("data")
     data_dir.mkdir(parents=True, exist_ok=True)
     
@@ -166,15 +176,10 @@ def main():
         safe_name = categories[cat]["file"]
         (data_dir / f"{safe_name}.json").write_text(json.dumps(items, ensure_ascii=False, indent=2), encoding="utf-8")
         
-    # 保留一份全量数据
     (data_dir / "rank.json").write_text(json.dumps(all_data, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    # 3. 更新快照
     merged = {**old, **new_stars}
-    save_snapshot(args.snapshot, {
-        "fetched_at": datetime.now(timezone.utc).isoformat(),
-        "stars": merged
-    })
+    save_snapshot(args.snapshot, {"fetched_at": datetime.now(timezone.utc).isoformat(), "stars": merged})
     print(f"✅ 生成完毕", file=sys.stderr)
 
 if __name__ == "__main__":
