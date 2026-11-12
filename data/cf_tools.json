@@ -3,8 +3,8 @@
     "full_name": "miantiao-me/Sink",
     "html_url": "https://github.com/miantiao-me/Sink",
     "description": "⚡ A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.",
-    "stars": 7267,
-    "forks": 5388,
+    "stars": 7268,
+    "forks": 5390,
     "language": "TypeScript",
     "topics": [
       "analytics",
@@ -19,13 +19,13 @@
     ],
     "created_at": "2024-05-05T13:53:54Z",
     "pushed_at": "2026-10-27T06:01:00Z",
-    "growth": null
+    "growth": 1
   },
   {
     "full_name": "benvinegar/counterscale",
     "html_url": "https://github.com/benvinegar/counterscale",
     "description": "Scalable web analytics you run yourself on Cloudflare",
-    "stars": 2190,
+    "stars": 2191,
     "forks": 140,
     "language": "TypeScript",
     "topics": [
@@ -37,7 +37,7 @@
     ],
     "created_at": "2023-12-22T01:25:05Z",
     "pushed_at": "2026-10-04T20:18:02Z",
-    "growth": null
+    "growth": 1
   },
   {
     "full_name": "RavelloH/InsightFlare",
@@ -63,7 +63,7 @@
     ],
     "created_at": "2026-02-28T17:21:17Z",
     "pushed_at": "2026-11-09T01:11:46Z",
-    "growth": null
+    "growth": 0
   },
   {
     "full_name": "TangSY/edge-next-starter",
@@ -75,7 +75,7 @@
     "topics": [],
     "created_at": "2025-10-26T03:09:36Z",
     "pushed_at": "2026-02-27T05:58:32Z",
-    "growth": null
+    "growth": 0
   },
   {
     "full_name": "shivamanupadi/traks",
@@ -97,7 +97,7 @@
     ],
     "created_at": "2026-02-18T16:04:30Z",
     "pushed_at": "2026-11-04T04:22:56Z",
-    "growth": null
+    "growth": 0
   },
   {
     "full_name": "uxiaohan/HanAnalytics",
@@ -109,7 +109,7 @@
     "topics": [],
     "created_at": "2024-09-22T08:12:50Z",
     "pushed_at": "2025-03-19T09:34:34Z",
-    "growth": null
+    "growth": 0
   },
   {
     "full_name": "SukkaW/cloudflare-workers-async-google-analytics",
@@ -125,7 +125,7 @@
     ],
     "created_at": "2019-08-05T11:16:08Z",
     "pushed_at": "2022-01-26T10:08:46Z",
-    "growth": null
+    "growth": 0
   },
   {
     "full_name": "jorgelbg/dashflare",
@@ -149,7 +149,7 @@
     ],
     "created_at": "2020-03-09T22:52:41Z",
     "pushed_at": "2023-01-27T04:42:34Z",
-    "growth": null
+    "growth": 0
   },
   {
     "full_name": "yestool/analytics_with_cloudflare",
@@ -166,7 +166,7 @@
     ],
     "created_at": "2023-12-03T12:23:10Z",
     "pushed_at": "2024-10-23T14:27:52Z",
-    "growth": null
+    "growth": 0
   },
   {
     "full_name": "rohanprasadofficial/cloudflare-analytics-explorer",
@@ -182,7 +182,7 @@
     ],
     "created_at": "2025-12-25T12:18:37Z",
     "pushed_at": "2026-02-08T13:17:35Z",
-    "growth": null
+    "growth": 0
   },
   {
     "full_name": "Shudesu/x-harness-oss",
@@ -202,8 +202,8 @@
       "x-harness"
     ],
     "created_at": "2026-04-02T11:13:47Z",
-    "pushed_at": "2026-10-28T09:30:09Z",
-    "growth": null
+    "pushed_at": "2026-11-12T07:03:22Z",
+    "growth": 0
   },
   {
     "full_name": "hayaran/Edgemetry",
@@ -215,7 +215,7 @@
     "topics": [],
     "created_at": "2026-07-28T08:54:30Z",
     "pushed_at": "2026-08-18T13:03:22Z",
-    "growth": null
+    "growth": 0
   },
   {
     "full_name": "YuriCrystal/relay",
@@ -243,19 +243,19 @@
     ],
     "created_at": "2026-06-09T17:20:06Z",
     "pushed_at": "2026-06-24T07:03:32Z",
-    "growth": null
+    "growth": 0
   },
   {
     "full_name": "qiayue/pvuv.ai",
     "html_url": "https://github.com/qiayue/pvuv.ai",
     "description": "PVUV.ai : Privacy-friendly, self-hosted web analytics with built-in invalid-traffic detection and AdSense protection. Runs on Cloudflare Workers + D1.",
-    "stars": 66,
-    "forks": 22,
+    "stars": 68,
+    "forks": 24,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2026-07-07T09:45:28Z",
     "pushed_at": "2026-11-03T06:05:16Z",
-    "growth": null
+    "growth": 2
   },
   {
     "full_name": "cloudflare/cloudflare-grafana-app",
@@ -269,7 +269,7 @@
     ],
     "created_at": "2017-02-10T00:19:06Z",
     "pushed_at": "2023-06-29T15:19:51Z",
-    "growth": null
+    "growth": 0
   },
   {
     "full_name": "NekroAI/one-tracker",
@@ -290,6 +290,6 @@
     ],
     "created_at": "2025-08-27T05:56:23Z",
     "pushed_at": "2025-08-27T12:14:37Z",
-    "growth": null
+    "growth": 0
   }
 ]

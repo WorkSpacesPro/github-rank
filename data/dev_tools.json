@@ -3,8 +3,8 @@
     "full_name": "HKUDS/DeepTutor",
     "html_url": "https://github.com/HKUDS/DeepTutor",
     "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-    "stars": 58359,
-    "forks": 7097,
+    "stars": 58486,
+    "forks": 7108,
     "language": "Python",
     "topics": [
       "ai-agents",
@@ -19,7 +19,7 @@
     ],
     "created_at": "2025-12-28T15:35:54Z",
     "pushed_at": "2026-11-07T15:18:10Z",
-    "growth": 123
+    "growth": 127
   },
   {
     "full_name": "darknessomi/musicbox",
@@ -43,7 +43,7 @@
     "full_name": "voidcosmos/npkill",
     "html_url": "https://github.com/voidcosmos/npkill",
     "description": "Easily find and remove old and heavy node_modules 📦, artifacts, caches and dev leftovers 🧹",
-    "stars": 9505,
+    "stars": 9506,
     "forks": 263,
     "language": "TypeScript",
     "topics": [
@@ -64,14 +64,14 @@
     ],
     "created_at": "2019-06-30T12:26:26Z",
     "pushed_at": "2026-11-11T23:49:14Z",
-    "growth": 2
+    "growth": 1
   },
   {
     "full_name": "FlorianBruniaux/claude-code-ultimate-guide",
     "html_url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
     "description": "The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.",
     "stars": 6417,
-    "forks": 828,
+    "forks": 829,
     "language": "Python",
     "topics": [
       "agentic-coding",
@@ -96,8 +96,8 @@
       "vibe-coding"
     ],
     "created_at": "2026-01-09T13:42:10Z",
-    "pushed_at": "2026-11-11T12:01:23Z",
-    "growth": 3
+    "pushed_at": "2026-11-12T07:21:10Z",
+    "growth": 0
   },
   {
     "full_name": "mixn/carbon-now-cli",
@@ -153,6 +153,6 @@
     ],
     "created_at": "2025-11-08T21:22:33Z",
     "pushed_at": "2026-11-11T13:12:40Z",
-    "growth": 1
+    "growth": 0
   }
 ]

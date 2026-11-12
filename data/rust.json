@@ -3,20 +3,20 @@
     "full_name": "ultraworkers/claw-code",
     "html_url": "https://github.com/ultraworkers/claw-code",
     "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
-    "stars": 194795,
-    "forks": 107355,
+    "stars": 194788,
+    "forks": 107345,
     "language": "Rust",
     "topics": [],
     "created_at": "2026-03-31T08:58:08Z",
     "pushed_at": "2026-11-10T05:59:18Z",
-    "growth": 1
+    "growth": -7
   },
   {
     "full_name": "clash-verge-rev/clash-verge-rev",
     "html_url": "https://github.com/clash-verge-rev/clash-verge-rev",
     "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
-    "stars": 157847,
-    "forks": 11355,
+    "stars": 157934,
+    "forks": 11359,
     "language": "Rust",
     "topics": [
       "clash",
@@ -29,15 +29,15 @@
       "windows"
     ],
     "created_at": "2023-11-21T18:24:03Z",
-    "pushed_at": "2026-11-12T00:56:33Z",
-    "growth": 57
+    "pushed_at": "2026-11-12T02:48:31Z",
+    "growth": 87
   },
   {
     "full_name": "farion1231/cc-switch",
     "html_url": "https://github.com/farion1231/cc-switch",
     "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
-    "stars": 153702,
-    "forks": 10088,
+    "stars": 153815,
+    "forks": 10099,
     "language": "Rust",
     "topics": [
       "ai-tools",
@@ -61,27 +61,27 @@
       "wsl-support"
     ],
     "created_at": "2025-08-04T14:16:16Z",
-    "pushed_at": "2026-11-12T01:13:58Z",
-    "growth": 79
+    "pushed_at": "2026-11-12T08:08:39Z",
+    "growth": 113
   },
   {
     "full_name": "openai/codex",
     "html_url": "https://github.com/openai/codex",
     "description": "Lightweight coding agent that runs in your terminal",
-    "stars": 134932,
-    "forks": 21376,
+    "stars": 134977,
+    "forks": 21383,
     "language": "Rust",
     "topics": [],
     "created_at": "2025-04-13T05:37:54Z",
-    "pushed_at": "2026-11-12T02:15:59Z",
-    "growth": 39
+    "pushed_at": "2026-11-12T05:22:01Z",
+    "growth": 45
   },
   {
     "full_name": "rustdesk/rustdesk",
     "html_url": "https://github.com/rustdesk/rustdesk",
     "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-    "stars": 129076,
-    "forks": 20582,
+    "stars": 129132,
+    "forks": 20588,
     "language": "Rust",
     "topics": [
       "android",
@@ -105,15 +105,15 @@
       "windows"
     ],
     "created_at": "2020-09-28T15:36:08Z",
-    "pushed_at": "2026-11-12T02:27:18Z",
-    "growth": 48
+    "pushed_at": "2026-11-12T08:03:37Z",
+    "growth": 56
   },
   {
     "full_name": "rust-lang/rust",
     "html_url": "https://github.com/rust-lang/rust",
     "description": "Empowering everyone to build reliable and efficient software.",
-    "stars": 121795,
-    "forks": 16653,
+    "stars": 121809,
+    "forks": 16658,
     "language": "Rust",
     "topics": [
       "compiler",
@@ -121,15 +121,15 @@
       "rust"
     ],
     "created_at": "2010-06-16T20:39:03Z",
-    "pushed_at": "2026-11-12T01:45:43Z",
-    "growth": 45
+    "pushed_at": "2026-11-12T08:50:50Z",
+    "growth": 14
   },
   {
     "full_name": "tauri-apps/tauri",
     "html_url": "https://github.com/tauri-apps/tauri",
     "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
-    "stars": 112817,
-    "forks": 4209,
+    "stars": 112822,
+    "forks": 4210,
     "language": "Rust",
     "topics": [
       "desktop-app",
@@ -141,15 +141,15 @@
       "webview"
     ],
     "created_at": "2019-07-13T09:09:37Z",
-    "pushed_at": "2026-11-12T01:19:51Z",
-    "growth": 64
+    "pushed_at": "2026-11-12T09:03:52Z",
+    "growth": 5
   },
   {
     "full_name": "denoland/deno",
     "html_url": "https://github.com/denoland/deno",
     "description": "A modern runtime for JavaScript and TypeScript.",
-    "stars": 108866,
-    "forks": 7107,
+    "stars": 108869,
+    "forks": 7128,
     "language": "Rust",
     "topics": [
       "deno",
@@ -159,14 +159,14 @@
     ],
     "created_at": "2018-05-15T01:34:26Z",
     "pushed_at": "2026-10-29T08:03:10Z",
-    "growth": -15
+    "growth": 3
   },
   {
     "full_name": "pbakaus/impeccable",
     "html_url": "https://github.com/pbakaus/impeccable",
     "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-    "stars": 108358,
-    "forks": 6444,
+    "stars": 108581,
+    "forks": 6454,
     "language": "Rust",
     "topics": [
       "agent-skills",
@@ -176,15 +176,15 @@
       "slop"
     ],
     "created_at": "2025-11-16T01:52:04Z",
-    "pushed_at": "2026-11-12T02:30:07Z",
-    "growth": 305
+    "pushed_at": "2026-11-12T08:39:08Z",
+    "growth": 223
   },
   {
     "full_name": "ruvnet/RuView",
     "html_url": "https://github.com/ruvnet/RuView",
     "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-    "stars": 104070,
-    "forks": 13543,
+    "stars": 104098,
+    "forks": 13552,
     "language": "Rust",
     "topics": [
       "claude",
@@ -208,14 +208,14 @@
       "wifi-security"
     ],
     "created_at": "2025-06-07T04:32:30Z",
-    "pushed_at": "2026-11-12T01:30:58Z",
-    "growth": 61
+    "pushed_at": "2026-11-12T09:00:33Z",
+    "growth": 28
   },
   {
     "full_name": "oven-sh/bun",
     "html_url": "https://github.com/oven-sh/bun",
     "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
-    "stars": 96662,
+    "stars": 96670,
     "forks": 5275,
     "language": "Rust",
     "topics": [
@@ -233,15 +233,15 @@
       "typescript"
     ],
     "created_at": "2021-04-14T00:48:17Z",
-    "pushed_at": "2026-11-12T02:27:58Z",
-    "growth": -18
+    "pushed_at": "2026-11-12T09:01:56Z",
+    "growth": 8
   },
   {
     "full_name": "zed-industries/zed",
     "html_url": "https://github.com/zed-industries/zed",
     "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-    "stars": 94727,
-    "forks": 11631,
+    "stars": 94758,
+    "forks": 11640,
     "language": "Rust",
     "topics": [
       "gpui",
@@ -250,14 +250,14 @@
       "zed"
     ],
     "created_at": "2021-02-20T03:01:06Z",
-    "pushed_at": "2026-11-12T01:45:20Z",
-    "growth": 41
+    "pushed_at": "2026-11-12T08:54:06Z",
+    "growth": 31
   },
   {
     "full_name": "astral-sh/uv",
     "html_url": "https://github.com/astral-sh/uv",
     "description": "An extremely fast Python package and project manager, written in Rust.",
-    "stars": 91924,
+    "stars": 91934,
     "forks": 3810,
     "language": "Rust",
     "topics": [
@@ -268,13 +268,13 @@
     ],
     "created_at": "2023-10-02T20:24:11Z",
     "pushed_at": "2026-11-11T15:49:58Z",
-    "growth": 46
+    "growth": 10
   },
   {
     "full_name": "rtk-ai/rtk",
     "html_url": "https://github.com/rtk-ai/rtk",
     "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-    "stars": 86260,
+    "stars": 86289,
     "forks": 5525,
     "language": "Rust",
     "topics": [
@@ -293,15 +293,15 @@
       "token-optimization"
     ],
     "created_at": "2026-01-22T16:54:16Z",
-    "pushed_at": "2026-11-12T02:30:09Z",
-    "growth": 46
+    "pushed_at": "2026-11-12T03:13:33Z",
+    "growth": 29
   },
   {
     "full_name": "storytold/photocraft",
     "html_url": "https://github.com/storytold/photocraft",
     "description": "PhotoCraft: An open-source photo editor written from scratch in pure Rust",
-    "stars": 78775,
-    "forks": 13924,
+    "stars": 78839,
+    "forks": 13934,
     "language": "Rust",
     "topics": [
       "art",
@@ -313,14 +313,14 @@
       "rust"
     ],
     "created_at": "2026-09-30T13:37:48Z",
-    "pushed_at": "2026-11-12T02:29:36Z",
-    "growth": 112
+    "pushed_at": "2026-11-12T07:55:25Z",
+    "growth": 64
   },
   {
     "full_name": "unionlabs/union",
     "html_url": "https://github.com/unionlabs/union",
     "description": "The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.",
-    "stars": 73715,
+    "stars": 73713,
     "forks": 3911,
     "language": "Rust",
     "topics": [
@@ -346,14 +346,14 @@
     ],
     "created_at": "2023-05-16T22:33:39Z",
     "pushed_at": "2026-07-25T18:20:02Z",
-    "growth": -1
+    "growth": -2
   },
   {
     "full_name": "dani-garcia/vaultwarden",
     "html_url": "https://github.com/dani-garcia/vaultwarden",
     "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
-    "stars": 70606,
-    "forks": 3441,
+    "stars": 70621,
+    "forks": 3442,
     "language": "Rust",
     "topics": [
       "bitwarden",
@@ -365,14 +365,14 @@
     ],
     "created_at": "2018-02-17T22:40:20Z",
     "pushed_at": "2026-11-11T23:41:37Z",
-    "growth": 23
+    "growth": 15
   },
   {
     "full_name": "BurntSushi/ripgrep",
     "html_url": "https://github.com/BurntSushi/ripgrep",
     "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
-    "stars": 69902,
-    "forks": 3462,
+    "stars": 69906,
+    "forks": 3464,
     "language": "Rust",
     "topics": [
       "cli",
@@ -388,14 +388,14 @@
     ],
     "created_at": "2016-03-11T02:02:33Z",
     "pushed_at": "2026-11-09T20:53:12Z",
-    "growth": -16
+    "growth": 4
   },
   {
     "full_name": "openinterpreter/openinterpreter",
     "html_url": "https://github.com/openinterpreter/openinterpreter",
     "description": "A coding agent for open models like Kimi K3 and GLM 5.3",
     "stars": 68868,
-    "forks": 5943,
+    "forks": 5941,
     "language": "Rust",
     "topics": [
       "acp",
@@ -407,14 +407,14 @@
       "rust"
     ],
     "created_at": "2023-07-14T07:10:44Z",
-    "pushed_at": "2026-11-11T03:03:03Z",
-    "growth": 6
+    "pushed_at": "2026-11-12T08:56:12Z",
+    "growth": 0
   },
   {
     "full_name": "LadybirdBrowser/ladybird",
     "html_url": "https://github.com/LadybirdBrowser/ladybird",
     "description": "Truly independent web browser",
-    "stars": 67068,
+    "stars": 67075,
     "forks": 3207,
     "language": "Rust",
     "topics": [
@@ -422,15 +422,15 @@
       "browser-engine"
     ],
     "created_at": "2024-05-30T09:18:10Z",
-    "pushed_at": "2026-11-12T02:04:02Z",
-    "growth": 14
+    "pushed_at": "2026-11-12T09:03:16Z",
+    "growth": 7
   },
   {
     "full_name": "alacritty/alacritty",
     "html_url": "https://github.com/alacritty/alacritty",
     "description": "A cross-platform, OpenGL terminal emulator.",
-    "stars": 66172,
-    "forks": 3715,
+    "stars": 66174,
+    "forks": 3714,
     "language": "Rust",
     "topics": [
       "bsd",
@@ -446,13 +446,13 @@
     ],
     "created_at": "2016-02-18T05:02:30Z",
     "pushed_at": "2026-11-06T21:34:26Z",
-    "growth": 5
+    "growth": 2
   },
   {
     "full_name": "warpdotdev/warp",
     "html_url": "https://github.com/warpdotdev/warp",
     "description": "Warp is an agentic development environment, born out of the terminal.",
-    "stars": 65986,
+    "stars": 65988,
     "forks": 5775,
     "language": "Rust",
     "topics": [
@@ -466,15 +466,15 @@
       "zsh"
     ],
     "created_at": "2021-07-08T18:48:08Z",
-    "pushed_at": "2026-11-12T02:23:00Z",
-    "growth": 5
+    "pushed_at": "2026-11-12T08:09:38Z",
+    "growth": 2
   },
   {
     "full_name": "rust-lang/rustlings",
     "html_url": "https://github.com/rust-lang/rustlings",
     "description": ":crab: Small exercises to get you used to reading and writing Rust code!",
-    "stars": 64643,
-    "forks": 11293,
+    "stars": 64644,
+    "forks": 11292,
     "language": "Rust",
     "topics": [
       "beginner-friendly",
@@ -484,14 +484,14 @@
     ],
     "created_at": "2015-09-15T02:25:18Z",
     "pushed_at": "2026-11-10T21:29:44Z",
-    "growth": 8
+    "growth": 1
   },
   {
     "full_name": "tw93/Pake",
     "html_url": "https://github.com/tw93/Pake",
     "description": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux.",
-    "stars": 63347,
-    "forks": 12978,
+    "stars": 63392,
+    "forks": 12985,
     "language": "Rust",
     "topics": [
       "chatgpt",
@@ -515,7 +515,7 @@
     ],
     "created_at": "2022-10-14T09:32:57Z",
     "pushed_at": "2026-11-11T09:31:15Z",
-    "growth": 94
+    "growth": 45
   },
   {
     "full_name": "FuelLabs/sway",
@@ -532,13 +532,13 @@
     ],
     "created_at": "2021-01-19T20:54:33Z",
     "pushed_at": "2026-11-10T22:29:46Z",
-    "growth": -1
+    "growth": 0
   },
   {
     "full_name": "sharkdp/bat",
     "html_url": "https://github.com/sharkdp/bat",
     "description": "A cat(1) clone with wings.",
-    "stars": 61230,
+    "stars": 61234,
     "forks": 2310,
     "language": "Rust",
     "topics": [
@@ -553,14 +553,14 @@
     ],
     "created_at": "2018-04-21T10:52:23Z",
     "pushed_at": "2026-11-10T05:54:40Z",
-    "growth": -16
+    "growth": 4
   },
   {
     "full_name": "starship/starship",
     "html_url": "https://github.com/starship/starship",
     "description": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
-    "stars": 60704,
-    "forks": 2844,
+    "stars": 60707,
+    "forks": 2843,
     "language": "Rust",
     "topics": [
       "bash",
@@ -578,22 +578,22 @@
     ],
     "created_at": "2019-04-02T03:23:12Z",
     "pushed_at": "2026-11-12T01:33:06Z",
-    "growth": 7
+    "growth": 3
   },
   {
     "full_name": "rust-unofficial/awesome-rust",
     "html_url": "https://github.com/rust-unofficial/awesome-rust",
     "description": "A curated list of Rust code and resources.",
-    "stars": 60467,
-    "forks": 3799,
+    "stars": 60472,
+    "forks": 3800,
     "language": "Rust",
     "topics": [
       "awesome",
       "rust"
     ],
     "created_at": "2014-07-17T10:45:10Z",
-    "pushed_at": "2026-11-11T11:56:14Z",
-    "growth": 9
+    "pushed_at": "2026-11-12T08:34:28Z",
+    "growth": 5
   },
   {
     "full_name": "meilisearch/meilisearch",
@@ -625,14 +625,14 @@
       "vectors"
     ],
     "created_at": "2018-04-23T11:45:28Z",
-    "pushed_at": "2026-11-11T16:00:14Z",
+    "pushed_at": "2026-11-12T08:38:56Z",
     "growth": 0
   },
   {
     "full_name": "typst/typst",
     "html_url": "https://github.com/typst/typst",
     "description": "A markup-based typesetting system that is powerful and easy to learn.",
-    "stars": 57141,
+    "stars": 57148,
     "forks": 1793,
     "language": "Rust",
     "topics": [
@@ -643,6 +643,6 @@
     ],
     "created_at": "2019-09-24T21:41:56Z",
     "pushed_at": "2026-11-06T10:38:42Z",
-    "growth": 10
+    "growth": 7
   }
 ]
