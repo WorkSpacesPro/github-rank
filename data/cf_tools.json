@@ -4,7 +4,7 @@
     "html_url": "https://github.com/miantiao-me/Sink",
     "description": "⚡ A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.",
     "stars": 7274,
-    "forks": 5393,
+    "forks": 5394,
     "language": "TypeScript",
     "topics": [
       "analytics",
@@ -19,7 +19,7 @@
     ],
     "created_at": "2024-05-05T13:53:54Z",
     "pushed_at": "2026-10-27T06:01:00Z",
-    "growth": 6
+    "growth": 0
   },
   {
     "full_name": "benvinegar/counterscale",
@@ -37,7 +37,7 @@
     ],
     "created_at": "2023-12-22T01:25:05Z",
     "pushed_at": "2026-10-04T20:18:02Z",
-    "growth": 7
+    "growth": 0
   },
   {
     "full_name": "RavelloH/InsightFlare",
@@ -81,7 +81,7 @@
     "full_name": "shivamanupadi/traks",
     "html_url": "https://github.com/shivamanupadi/traks",
     "description": "Self-hosted, privacy-friendly web analytics that deploys into your own Cloudflare account in two minutes. Free forever, MIT.",
-    "stars": 346,
+    "stars": 347,
     "forks": 28,
     "language": "TypeScript",
     "topics": [
@@ -97,14 +97,14 @@
     ],
     "created_at": "2026-02-18T16:04:30Z",
     "pushed_at": "2026-11-04T04:22:56Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "uxiaohan/HanAnalytics",
     "html_url": "https://github.com/uxiaohan/HanAnalytics",
     "description": "一个简单的网络分析跟踪器和仪表板，在 Cloudflare Pages 上即可快速部署的网站分析仪表板,无成本稳定运行",
     "stars": 279,
-    "forks": 171,
+    "forks": 170,
     "language": "Less",
     "topics": [],
     "created_at": "2024-09-22T08:12:50Z",
@@ -203,19 +203,19 @@
     ],
     "created_at": "2026-04-02T11:13:47Z",
     "pushed_at": "2026-11-12T16:19:54Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "qiayue/pvuv.ai",
     "html_url": "https://github.com/qiayue/pvuv.ai",
     "description": "PVUV.ai : Privacy-friendly, self-hosted web analytics with built-in invalid-traffic detection and AdSense protection. Runs on Cloudflare Workers + D1.",
-    "stars": 79,
+    "stars": 80,
     "forks": 28,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2026-07-07T09:45:28Z",
     "pushed_at": "2026-11-03T06:05:16Z",
-    "growth": 11
+    "growth": 1
   },
   {
     "full_name": "hayaran/Edgemetry",
@@ -290,6 +290,6 @@
     ],
     "created_at": "2025-08-27T05:56:23Z",
     "pushed_at": "2025-08-27T12:14:37Z",
-    "growth": 1
+    "growth": 0
   }
 ]

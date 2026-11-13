@@ -3,7 +3,7 @@
     "full_name": "HKUDS/nanobot",
     "html_url": "https://github.com/HKUDS/nanobot",
     "description": "Your lightweight open-source personal agent.",
-    "stars": 50054,
+    "stars": 50061,
     "forks": 8734,
     "language": "Python",
     "topics": [
@@ -29,14 +29,14 @@
       "workflow-automation"
     ],
     "created_at": "2026-02-01T07:16:15Z",
-    "pushed_at": "2026-11-13T08:53:07Z",
-    "growth": 21
+    "pushed_at": "2026-11-13T11:10:53Z",
+    "growth": 7
   },
   {
     "full_name": "codewhale-hq/Codewhale",
     "html_url": "https://github.com/codewhale-hq/Codewhale",
     "description": "An open-source coding agent for your terminal, written in Rust. It works with any model, can split one task across several agents, and every line of it is yours to read.",
-    "stars": 41176,
+    "stars": 41175,
     "forks": 3571,
     "language": "Rust",
     "topics": [
@@ -67,7 +67,7 @@
     "full_name": "mozilla-ai/llamafile",
     "html_url": "https://github.com/mozilla-ai/llamafile",
     "description": "Distribute and run LLMs with a single file.",
-    "stars": 26628,
+    "stars": 26631,
     "forks": 1678,
     "language": "C++",
     "topics": [
@@ -83,13 +83,13 @@
     ],
     "created_at": "2023-09-10T21:12:32Z",
     "pushed_at": "2026-11-09T00:15:20Z",
-    "growth": 10
+    "growth": 3
   },
   {
     "full_name": "tonhowtf/omniget",
     "html_url": "https://github.com/tonhowtf/omniget",
     "description": "Free, open source video downloader for Windows, macOS and Linux that AI agents can drive. Downloads from YouTube, Instagram, TikTok, X, Reddit, torrents and the sites yt-dlp supports. Its MCP server lets Claude Code, Cursor and Codex queue downloads, and it runs Claude Code, Codex, Gemini CLI and Ollama as agents.",
-    "stars": 14389,
+    "stars": 14393,
     "forks": 1245,
     "language": "Rust",
     "topics": [
@@ -116,14 +116,14 @@
     ],
     "created_at": "2026-02-11T22:44:56Z",
     "pushed_at": "2026-09-27T03:44:29Z",
-    "growth": null
+    "growth": 4
   },
   {
     "full_name": "MakazhanAlpamys/Soup",
     "html_url": "https://github.com/MakazhanAlpamys/Soup",
     "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
-    "stars": 10513,
-    "forks": 1736,
+    "stars": 10516,
+    "forks": 1738,
     "language": "Python",
     "topics": [
       "cli",
@@ -148,14 +148,14 @@
       "transformers"
     ],
     "created_at": "2026-02-20T11:05:01Z",
-    "pushed_at": "2026-11-13T08:31:43Z",
-    "growth": 28
+    "pushed_at": "2026-11-13T09:53:33Z",
+    "growth": 3
   },
   {
     "full_name": "LearningCircuit/local-deep-research",
     "html_url": "https://github.com/LearningCircuit/local-deep-research",
     "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
-    "stars": 9568,
+    "stars": 9569,
     "forks": 918,
     "language": "Python",
     "topics": [
@@ -181,14 +181,14 @@
       "self-hosted"
     ],
     "created_at": "2025-02-09T15:41:32Z",
-    "pushed_at": "2026-11-13T08:54:59Z",
-    "growth": 3
+    "pushed_at": "2026-11-13T11:31:32Z",
+    "growth": 1
   },
   {
     "full_name": "open-multi-agent/open-multi-agent",
     "html_url": "https://github.com/open-multi-agent/open-multi-agent",
     "description": "Self-hosted TypeScript agent runtime with durable approvals and verifiable run records. Own it, approve it, audit it.",
-    "stars": 7058,
+    "stars": 7059,
     "forks": 2439,
     "language": "TypeScript",
     "topics": [
@@ -220,8 +220,8 @@
     "full_name": "dograh-hq/dograh",
     "html_url": "https://github.com/dograh-hq/dograh",
     "description": "Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across  Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.",
-    "stars": 6080,
-    "forks": 1566,
+    "stars": 6082,
+    "forks": 1569,
     "language": "Python",
     "topics": [
       "ai-calling",
@@ -247,7 +247,7 @@
     ],
     "created_at": "2025-09-09T08:48:29Z",
     "pushed_at": "2026-11-13T06:26:51Z",
-    "growth": 9
+    "growth": 2
   },
   {
     "full_name": "maziyarpanahi/openmed",
@@ -280,14 +280,14 @@
     ],
     "created_at": "2025-10-04T15:13:34Z",
     "pushed_at": "2026-11-11T19:51:49Z",
-    "growth": 4
+    "growth": 0
   },
   {
     "full_name": "AienTech/dossier",
     "html_url": "https://github.com/AienTech/dossier",
     "description": "A self-hosted job search and resume builder app that writes tailored resumes and cover letters from your profile.",
-    "stars": 5084,
-    "forks": 1052,
+    "stars": 5085,
+    "forks": 1053,
     "language": "TypeScript",
     "topics": [
       "caprover",
@@ -305,8 +305,8 @@
       "typescript"
     ],
     "created_at": "2026-10-03T21:26:15Z",
-    "pushed_at": "2026-11-08T13:29:38Z",
-    "growth": 29
+    "pushed_at": "2026-11-13T11:30:34Z",
+    "growth": 1
   },
   {
     "full_name": "vinta/pangu.js",
@@ -361,7 +361,7 @@
       "retrieval-augmented-generation"
     ],
     "created_at": "2023-04-16T20:47:28Z",
-    "pushed_at": "2026-11-09T14:36:44Z",
+    "pushed_at": "2026-11-13T09:38:09Z",
     "growth": 0
   },
   {
@@ -395,14 +395,14 @@
     ],
     "created_at": "2026-02-25T00:41:44Z",
     "pushed_at": "2026-11-13T05:56:21Z",
-    "growth": 4
+    "growth": 0
   },
   {
     "full_name": "PurpleDoubleD/locally-uncensored",
     "html_url": "https://github.com/PurpleDoubleD/locally-uncensored",
     "description": "The all-in-one local AI studio for your desktop: chat, image and video generation and a coding agent in one free, open source app. Windows and Linux. No Docker, no terminal, no cloud required.",
-    "stars": 4123,
-    "forks": 656,
+    "stars": 4139,
+    "forks": 659,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -428,7 +428,39 @@
     ],
     "created_at": "2026-03-24T21:52:47Z",
     "pushed_at": "2026-11-09T15:41:41Z",
-    "growth": 190
+    "growth": 16
+  },
+  {
+    "full_name": "AtomicBot-ai/atomic-agent",
+    "html_url": "https://github.com/AtomicBot-ai/atomic-agent",
+    "description": "Atomic Agent is a local-first AI agent. Runs open-weight models on your own machine via llama.cpp.",
+    "stars": 3645,
+    "forks": 295,
+    "language": "TypeScript",
+    "topics": [
+      "agents",
+      "ai-agent",
+      "browser-automation",
+      "cli",
+      "gbnf",
+      "gguf",
+      "hermes-agent",
+      "llama-cpp",
+      "llm",
+      "local-ai-agent",
+      "local-first",
+      "local-llm",
+      "mcp",
+      "nodejs",
+      "openai",
+      "openclaw",
+      "playwright",
+      "tui",
+      "typescript"
+    ],
+    "created_at": "2026-04-21T21:34:51Z",
+    "pushed_at": "2026-11-12T18:01:28Z",
+    "growth": 1
   },
   {
     "full_name": "deta/surf",
@@ -455,45 +487,13 @@
     ],
     "created_at": "2025-10-20T15:09:57Z",
     "pushed_at": "2026-08-24T17:05:49Z",
-    "growth": 1
-  },
-  {
-    "full_name": "AtomicBot-ai/atomic-agent",
-    "html_url": "https://github.com/AtomicBot-ai/atomic-agent",
-    "description": "Atomic Agent is a local-first AI agent. Runs open-weight models on your own machine via llama.cpp.",
-    "stars": 3644,
-    "forks": 295,
-    "language": "TypeScript",
-    "topics": [
-      "agents",
-      "ai-agent",
-      "browser-automation",
-      "cli",
-      "gbnf",
-      "gguf",
-      "hermes-agent",
-      "llama-cpp",
-      "llm",
-      "local-ai-agent",
-      "local-first",
-      "local-llm",
-      "mcp",
-      "nodejs",
-      "openai",
-      "openclaw",
-      "playwright",
-      "tui",
-      "typescript"
-    ],
-    "created_at": "2026-04-21T21:34:51Z",
-    "pushed_at": "2026-11-12T18:01:28Z",
-    "growth": 27
+    "growth": 0
   },
   {
     "full_name": "nicedreamzapp/claude-code-local",
     "html_url": "https://github.com/nicedreamzapp/claude-code-local",
     "description": "Hit your Claude Code usage limit? Keep going free and offline on a local model: Qwen 3.8, Gemma 4, and Qwen 4 the day it ships. Runs on Apple Silicon Macs (MLX), Linux and Windows (llama.cpp) with no API key. Your code stays home.",
-    "stars": 3496,
+    "stars": 3497,
     "forks": 647,
     "language": "Python",
     "topics": [
@@ -520,7 +520,7 @@
     ],
     "created_at": "2026-03-26T06:43:30Z",
     "pushed_at": "2026-11-13T06:32:02Z",
-    "growth": 3
+    "growth": 1
   },
   {
     "full_name": "rafska/awesome-local-llm",
@@ -543,7 +543,7 @@
     ],
     "created_at": "2025-06-03T10:01:04Z",
     "pushed_at": "2026-11-11T16:43:11Z",
-    "growth": 5
+    "growth": 0
   },
   {
     "full_name": "xyproto/algernon",
@@ -576,13 +576,13 @@
     ],
     "created_at": "2015-03-10T11:25:30Z",
     "pushed_at": "2026-11-11T18:45:45Z",
-    "growth": -1
+    "growth": 0
   },
   {
     "full_name": "Pinvou/pinvou-agent",
     "html_url": "https://github.com/Pinvou/pinvou-agent",
     "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
-    "stars": 3004,
+    "stars": 3006,
     "forks": 434,
     "language": "Rust",
     "topics": [
@@ -608,15 +608,15 @@
       "workflow-automation"
     ],
     "created_at": "2026-07-24T07:28:41Z",
-    "pushed_at": "2026-11-13T08:29:07Z",
-    "growth": null
+    "pushed_at": "2026-11-13T11:31:37Z",
+    "growth": 2
   },
   {
     "full_name": "mw00/project-maya",
     "html_url": "https://github.com/mw00/project-maya",
     "description": "Run GLM-5.3 (744B), GLM-5.3-Flash (321B), DeepSeek-V4.1-Flash (748B) and MiniMax-M3.1-Flash (428B) on your own GPUs - one engine, one dashboard, OpenAI- and Anthropic-compatible API.",
-    "stars": 2853,
-    "forks": 395,
+    "stars": 2856,
+    "forks": 396,
     "language": "C++",
     "topics": [
       "anthropic-api",
@@ -641,8 +641,8 @@
       "windows"
     ],
     "created_at": "2026-10-06T22:55:13Z",
-    "pushed_at": "2026-11-12T11:48:35Z",
-    "growth": 38
+    "pushed_at": "2026-11-13T10:56:21Z",
+    "growth": 3
   },
   {
     "full_name": "itayinbarr/little-coder",
@@ -667,13 +667,13 @@
     ],
     "created_at": "2026-04-11T10:37:11Z",
     "pushed_at": "2026-09-18T22:17:59Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "papersgpt/papersgpt-for-zotero",
     "html_url": "https://github.com/papersgpt/papersgpt-for-zotero",
     "description": "Professional AI research tool for Zotero: chat with PDFs, whole-library search, Literature Radar, AutoPilot. 30+ LLMs or local models; built-in MCP server.",
-    "stars": 2703,
+    "stars": 2704,
     "forks": 96,
     "language": "JavaScript",
     "topics": [
@@ -700,14 +700,14 @@
     ],
     "created_at": "2024-11-22T03:03:59Z",
     "pushed_at": "2026-11-03T11:15:55Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "youssofal/MTPLX",
     "html_url": "https://github.com/youssofal/MTPLX",
     "description": "The fastest way to run Qwen 3.8 Flash Next, Qwen 3.8 27B and Ternary Bonsai 2 27B on a Mac: 125 tok/s in OpenCode on an M5 Max, and a 27B model on 16 GB Macs. Native MTP speculative decoding on Apple Silicon, exact at any temperature. OpenAI and Anthropic compatible local server.",
     "stars": 2701,
-    "forks": 212,
+    "forks": 213,
     "language": "Python",
     "topics": [
       "anthropic-compatible",
@@ -733,14 +733,14 @@
     ],
     "created_at": "2026-05-02T00:59:09Z",
     "pushed_at": "2026-11-07T10:32:58Z",
-    "growth": 3
+    "growth": 0
   },
   {
     "full_name": "syv-ai/HyperQwen",
     "html_url": "https://github.com/syv-ai/HyperQwen",
     "description": "Serve large Qwen models fast on the GPUs you actually own. Qwen3.8-27B on a single 24 GB card with vLLM: 127 tok/s single-user (381 when the answer quotes the prompt), ~1,035 tok/s at 64 concurrent, 150k-262k context. vLLM patches, requant pipeline, benchmarks.",
-    "stars": 2694,
-    "forks": 339,
+    "stars": 2695,
+    "forks": 340,
     "language": "Python",
     "topics": [
       "consumer-gpu",
@@ -758,13 +758,13 @@
     ],
     "created_at": "2026-08-15T09:10:56Z",
     "pushed_at": "2026-11-10T04:28:06Z",
-    "growth": 6
+    "growth": 1
   },
   {
     "full_name": "ddalcu/mlx-serve",
     "html_url": "https://github.com/ddalcu/mlx-serve",
     "description": "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Zig backend, Swift frontend macOS app with chat, music, voice, video generation.",
-    "stars": 2443,
+    "stars": 2444,
     "forks": 263,
     "language": "Zig",
     "topics": [
@@ -791,7 +791,7 @@
     ],
     "created_at": "2026-02-17T01:55:20Z",
     "pushed_at": "2026-11-13T00:31:48Z",
-    "growth": 8
+    "growth": 1
   },
   {
     "full_name": "travisvn/openai-edge-tts",
@@ -823,7 +823,7 @@
     ],
     "created_at": "2024-10-09T23:31:11Z",
     "pushed_at": "2025-07-01T23:56:27Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "fikrikarim/parlor",
@@ -886,6 +886,6 @@
     ],
     "created_at": "2026-04-14T07:43:10Z",
     "pushed_at": "2026-07-04T12:26:56Z",
-    "growth": 4
+    "growth": 0
   }
 ]
