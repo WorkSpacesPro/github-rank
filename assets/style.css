@@ -247,3 +247,120 @@ table a:hover, .footer a:hover { border-bottom-color: var(--text); }
   .page-title { font-size: 1.75rem; }
   .back-to-top { bottom: 1.5rem; right: 1rem; width: 36px; height: 36px; }
        }
+
+/* ==================== 全新：分类抽屉与折叠样式 ==================== */
+
+/* 标签包装区 */
+.tabs-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+/* 覆盖原有的 tabs 样式，使其在左侧滑动 */
+.tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  margin-bottom: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+  flex: 1;
+}
+.tabs::-webkit-scrollbar { display: none; }
+
+/* 全部分类按钮 */
+.all-cats-btn {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: var(--font);
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.all-cats-btn:hover { background: var(--border); }
+
+/* 遮罩层 */
+.drawer-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(4px); z-index: 1000;
+  opacity: 0; pointer-events: none; transition: opacity 0.3s;
+}
+.drawer-overlay.open { opacity: 1; pointer-events: auto; }
+
+/* 底部抽屉 */
+.drawer {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  background: var(--bg); z-index: 1001;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -10px 40px rgba(0,0,0,0.1);
+  transform: translateY(100%); transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+  max-height: 85vh; display: flex; flex-direction: column;
+}
+.drawer.open { transform: translateY(0); }
+
+.drawer-header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 1.2rem 1.5rem; border-bottom: 1px solid var(--border);
+}
+.drawer-header h3 { font-size: 1.1rem; font-weight: 700; }
+.drawer-close {
+  background: transparent; border: none; color: var(--text-muted);
+  font-size: 1.2rem; cursor: pointer; padding: 5px;
+}
+
+.drawer-content {
+  padding: 1rem 1.5rem 2rem; overflow-y: auto; flex: 1;
+  display: flex; flex-direction: column; gap: 12px;
+}
+
+/* 彩色折叠菜单 */
+.color-details {
+  background: var(--bg-alt); border-radius: 8px; overflow: hidden;
+  border: 1px solid var(--border);
+}
+.color-details summary {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 1rem 1.2rem; cursor: pointer; font-weight: 600; font-size: 0.95rem;
+  list-style: none; position: relative;
+}
+.color-details summary::-webkit-details-marker { display: none; }
+.color-details summary::after {
+  content: '▼'; font-size: 0.7rem; color: var(--text-muted); transition: transform 0.3s;
+}
+.color-details[open] summary::after { transform: rotate(180deg); }
+
+/* 左侧彩色边条 */
+.color-details[data-color="red"] { border-left: 4px solid #ef4444; }
+.color-details[data-color="purple"] { border-left: 4px solid #8b5cf6; }
+.color-details[data-color="orange"] { border-left: 4px solid #f97316; }
+.color-details[data-color="blue"] { border-left: 4px solid #3b82f6; }
+.color-details[data-color="green"] { border-left: 4px solid #10b981; }
+
+.cat-list {
+  display: flex; flex-direction: column; padding: 0 1.2rem 1rem;
+  border-top: 1px solid var(--border); padding-top: 10px;
+}
+.cat-item {
+  padding: 10px 12px; color: var(--text-muted); text-decoration: none;
+  border-radius: 6px; font-size: 0.9rem; cursor: pointer; transition: background 0.2s;
+  display: flex; justify-content: space-between;
+}
+.cat-item:hover { background: var(--border); color: var(--text); }
+.cat-item.active { background: var(--border); color: var(--text); font-weight: 600; }
+
+@media (min-width: 768px) {
+  .drawer { left: 50%; transform: translate(-50%, 100%); width: 500px; border-radius: 20px 20px 0 0; }
+  .drawer.open { transform: translate(-50%, 0); }
+}
