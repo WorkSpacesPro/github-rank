@@ -3,8 +3,8 @@
     "full_name": "miantiao-me/Sink",
     "html_url": "https://github.com/miantiao-me/Sink",
     "description": "⚡ A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.",
-    "stars": 7268,
-    "forks": 5390,
+    "stars": 7274,
+    "forks": 5393,
     "language": "TypeScript",
     "topics": [
       "analytics",
@@ -19,13 +19,13 @@
     ],
     "created_at": "2024-05-05T13:53:54Z",
     "pushed_at": "2026-10-27T06:01:00Z",
-    "growth": 1
+    "growth": 6
   },
   {
     "full_name": "benvinegar/counterscale",
     "html_url": "https://github.com/benvinegar/counterscale",
     "description": "Scalable web analytics you run yourself on Cloudflare",
-    "stars": 2191,
+    "stars": 2198,
     "forks": 140,
     "language": "TypeScript",
     "topics": [
@@ -37,7 +37,7 @@
     ],
     "created_at": "2023-12-22T01:25:05Z",
     "pushed_at": "2026-10-04T20:18:02Z",
-    "growth": 1
+    "growth": 7
   },
   {
     "full_name": "RavelloH/InsightFlare",
@@ -104,7 +104,7 @@
     "html_url": "https://github.com/uxiaohan/HanAnalytics",
     "description": "一个简单的网络分析跟踪器和仪表板，在 Cloudflare Pages 上即可快速部署的网站分析仪表板,无成本稳定运行",
     "stars": 279,
-    "forks": 170,
+    "forks": 171,
     "language": "Less",
     "topics": [],
     "created_at": "2024-09-22T08:12:50Z",
@@ -188,7 +188,7 @@
     "full_name": "Shudesu/x-harness-oss",
     "html_url": "https://github.com/Shudesu/x-harness-oss",
     "description": "X Harness — self-hosted X (Twitter) scheduling, DM and analytics on Cloudflare Workers, with MCP and TypeScript SDK. By Shudesu (野田修一).",
-    "stars": 103,
+    "stars": 104,
     "forks": 46,
     "language": "TypeScript",
     "topics": [
@@ -202,8 +202,20 @@
       "x-harness"
     ],
     "created_at": "2026-04-02T11:13:47Z",
-    "pushed_at": "2026-11-12T07:03:22Z",
-    "growth": 0
+    "pushed_at": "2026-11-12T16:19:54Z",
+    "growth": 1
+  },
+  {
+    "full_name": "qiayue/pvuv.ai",
+    "html_url": "https://github.com/qiayue/pvuv.ai",
+    "description": "PVUV.ai : Privacy-friendly, self-hosted web analytics with built-in invalid-traffic detection and AdSense protection. Runs on Cloudflare Workers + D1.",
+    "stars": 79,
+    "forks": 28,
+    "language": "TypeScript",
+    "topics": [],
+    "created_at": "2026-07-07T09:45:28Z",
+    "pushed_at": "2026-11-03T06:05:16Z",
+    "growth": 11
   },
   {
     "full_name": "hayaran/Edgemetry",
@@ -246,18 +258,6 @@
     "growth": 0
   },
   {
-    "full_name": "qiayue/pvuv.ai",
-    "html_url": "https://github.com/qiayue/pvuv.ai",
-    "description": "PVUV.ai : Privacy-friendly, self-hosted web analytics with built-in invalid-traffic detection and AdSense protection. Runs on Cloudflare Workers + D1.",
-    "stars": 68,
-    "forks": 24,
-    "language": "TypeScript",
-    "topics": [],
-    "created_at": "2026-07-07T09:45:28Z",
-    "pushed_at": "2026-11-03T06:05:16Z",
-    "growth": 2
-  },
-  {
     "full_name": "cloudflare/cloudflare-grafana-app",
     "html_url": "https://github.com/cloudflare/cloudflare-grafana-app",
     "description": "(DEPRECATED.) Cloudflare Grafana App allows for the collection and graphing of Cloudflare analytics data over time.",
@@ -275,7 +275,7 @@
     "full_name": "NekroAI/one-tracker",
     "html_url": "https://github.com/NekroAI/one-tracker",
     "description": "One Tracker · AI 模型价格比较/追踪 \\| Aggregates OneHub/NewAPI/OneAPI, token normalization, auto best vendor; filters/sort/analytics · Cloudflare/Hono/React/D1/Drizzle",
-    "stars": 54,
+    "stars": 55,
     "forks": 6,
     "language": "TypeScript",
     "topics": [
@@ -290,6 +290,6 @@
     ],
     "created_at": "2025-08-27T05:56:23Z",
     "pushed_at": "2025-08-27T12:14:37Z",
-    "growth": 0
+    "growth": 1
   }
 ]

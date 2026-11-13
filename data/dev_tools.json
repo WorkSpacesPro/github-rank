@@ -3,8 +3,8 @@
     "full_name": "HKUDS/DeepTutor",
     "html_url": "https://github.com/HKUDS/DeepTutor",
     "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-    "stars": 58486,
-    "forks": 7108,
+    "stars": 58773,
+    "forks": 7137,
     "language": "Python",
     "topics": [
       "ai-agents",
@@ -19,14 +19,14 @@
     ],
     "created_at": "2025-12-28T15:35:54Z",
     "pushed_at": "2026-11-07T15:18:10Z",
-    "growth": 127
+    "growth": 287
   },
   {
     "full_name": "darknessomi/musicbox",
     "html_url": "https://github.com/darknessomi/musicbox",
     "description": "网易云音乐命令行版本",
-    "stars": 9872,
-    "forks": 1567,
+    "stars": 9873,
+    "forks": 1566,
     "language": "Python",
     "topics": [
       "cli-tool",
@@ -37,13 +37,13 @@
     ],
     "created_at": "2014-08-05T03:28:24Z",
     "pushed_at": "2026-11-02T00:37:09Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "voidcosmos/npkill",
     "html_url": "https://github.com/voidcosmos/npkill",
     "description": "Easily find and remove old and heavy node_modules 📦, artifacts, caches and dev leftovers 🧹",
-    "stars": 9506,
+    "stars": 9510,
     "forks": 263,
     "language": "TypeScript",
     "topics": [
@@ -63,15 +63,15 @@
       "typescrip"
     ],
     "created_at": "2019-06-30T12:26:26Z",
-    "pushed_at": "2026-11-11T23:49:14Z",
-    "growth": 1
+    "pushed_at": "2026-11-12T12:23:41Z",
+    "growth": 4
   },
   {
     "full_name": "FlorianBruniaux/claude-code-ultimate-guide",
     "html_url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
     "description": "The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.",
-    "stars": 6417,
-    "forks": 829,
+    "stars": 6429,
+    "forks": 830,
     "language": "Python",
     "topics": [
       "agentic-coding",
@@ -96,8 +96,8 @@
       "vibe-coding"
     ],
     "created_at": "2026-01-09T13:42:10Z",
-    "pushed_at": "2026-11-12T07:21:10Z",
-    "growth": 0
+    "pushed_at": "2026-11-12T14:38:11Z",
+    "growth": 12
   },
   {
     "full_name": "mixn/carbon-now-cli",
@@ -126,7 +126,7 @@
     "full_name": "unhappychoice/gitlogue",
     "html_url": "https://github.com/unhappychoice/gitlogue",
     "description": "A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story.",
-    "stars": 5269,
+    "stars": 5271,
     "forks": 123,
     "language": "Rust",
     "topics": [
@@ -153,6 +153,6 @@
     ],
     "created_at": "2025-11-08T21:22:33Z",
     "pushed_at": "2026-11-11T13:12:40Z",
-    "growth": 0
+    "growth": 2
   }
 ]

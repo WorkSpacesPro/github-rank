@@ -3,8 +3,8 @@
     "full_name": "awesome-selfhosted/awesome-selfhosted",
     "html_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
     "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-    "stars": 336266,
-    "forks": 15816,
+    "stars": 336571,
+    "forks": 15822,
     "language": "-",
     "topics": [
       "awesome",
@@ -18,14 +18,14 @@
     ],
     "created_at": "2015-06-01T02:33:17Z",
     "pushed_at": "2026-11-07T11:49:42Z",
-    "growth": 73
+    "growth": 305
   },
   {
     "full_name": "n8n-io/n8n",
     "html_url": "https://github.com/n8n-io/n8n",
     "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-    "stars": 210255,
-    "forks": 61482,
+    "stars": 210357,
+    "forks": 61494,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -50,15 +50,15 @@
       "workflow-automation"
     ],
     "created_at": "2019-06-22T09:24:21Z",
-    "pushed_at": "2026-11-12T09:02:46Z",
-    "growth": 31
+    "pushed_at": "2026-11-13T08:56:49Z",
+    "growth": 102
   },
   {
     "full_name": "open-webui/open-webui",
     "html_url": "https://github.com/open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-    "stars": 158449,
-    "forks": 23039,
+    "stars": 158534,
+    "forks": 23049,
     "language": "Svelte",
     "topics": [
       "ai",
@@ -78,15 +78,15 @@
       "webui"
     ],
     "created_at": "2023-10-06T22:08:27Z",
-    "pushed_at": "2026-11-12T04:39:37Z",
-    "growth": 28
+    "pushed_at": "2026-11-13T08:52:18Z",
+    "growth": 85
   },
   {
     "full_name": "immich-app/immich",
     "html_url": "https://github.com/immich-app/immich",
     "description": "High performance self-hosted photo and video management solution.",
-    "stars": 118933,
-    "forks": 7568,
+    "stars": 119061,
+    "forks": 7580,
     "language": "TypeScript",
     "topics": [
       "backup-tool",
@@ -107,15 +107,15 @@
       "videos"
     ],
     "created_at": "2022-02-03T15:56:27Z",
-    "pushed_at": "2026-11-12T09:02:41Z",
-    "growth": 28
+    "pushed_at": "2026-11-13T08:51:39Z",
+    "growth": 128
   },
   {
     "full_name": "Stirling-Tools/Stirling-PDF",
     "html_url": "https://github.com/Stirling-Tools/Stirling-PDF",
     "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
-    "stars": 96366,
-    "forks": 9338,
+    "stars": 96487,
+    "forks": 9349,
     "language": "TypeScript",
     "topics": [
       "docker",
@@ -133,15 +133,15 @@
       "self-hosted"
     ],
     "created_at": "2023-01-27T18:22:42Z",
-    "pushed_at": "2026-11-12T09:00:33Z",
-    "growth": 41
+    "pushed_at": "2026-11-13T05:58:43Z",
+    "growth": 121
   },
   {
     "full_name": "louislam/uptime-kuma",
     "html_url": "https://github.com/louislam/uptime-kuma",
     "description": "A fancy self-hosted monitoring tool",
-    "stars": 93541,
-    "forks": 8699,
+    "stars": 93599,
+    "forks": 8706,
     "language": "JavaScript",
     "topics": [
       "docker",
@@ -158,15 +158,15 @@
       "websocket"
     ],
     "created_at": "2021-07-03T01:02:42Z",
-    "pushed_at": "2026-11-12T06:49:41Z",
-    "growth": 10
+    "pushed_at": "2026-11-13T00:05:02Z",
+    "growth": 58
   },
   {
     "full_name": "unslothai/unsloth",
     "html_url": "https://github.com/unslothai/unsloth",
     "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
-    "stars": 79360,
-    "forks": 7393,
+    "stars": 79414,
+    "forks": 7404,
     "language": "Python",
     "topics": [
       "agent",
@@ -191,15 +191,15 @@
       "unsloth"
     ],
     "created_at": "2023-11-29T16:50:09Z",
-    "pushed_at": "2026-11-12T09:01:28Z",
-    "growth": 20
+    "pushed_at": "2026-11-13T08:44:27Z",
+    "growth": 54
   },
   {
     "full_name": "coollabsio/coolify",
     "html_url": "https://github.com/coollabsio/coolify",
     "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
-    "stars": 65978,
-    "forks": 5972,
+    "stars": 66021,
+    "forks": 5984,
     "language": "PHP",
     "topics": [
       "coolify",
@@ -224,15 +224,15 @@
       "svelte5"
     ],
     "created_at": "2021-01-25T20:54:01Z",
-    "pushed_at": "2026-11-11T11:15:10Z",
-    "growth": 15
+    "pushed_at": "2026-11-13T08:15:46Z",
+    "growth": 43
   },
   {
     "full_name": "usememos/memos",
     "html_url": "https://github.com/usememos/memos",
     "description": "Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline. Your data stays yours, and you choose what to keep private or share.",
-    "stars": 64415,
-    "forks": 4953,
+    "stars": 64434,
+    "forks": 4958,
     "language": "Go",
     "topics": [
       "docker",
@@ -251,15 +251,15 @@
       "timeline"
     ],
     "created_at": "2021-12-08T15:30:18Z",
-    "pushed_at": "2026-11-11T01:10:13Z",
-    "growth": 5
+    "pushed_at": "2026-11-13T01:15:14Z",
+    "growth": 19
   },
   {
     "full_name": "go-gitea/gitea",
     "html_url": "https://github.com/go-gitea/gitea",
     "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
-    "stars": 59039,
-    "forks": 7389,
+    "stars": 59054,
+    "forks": 7391,
     "language": "Go",
     "topics": [
       "bitbucket",
@@ -284,15 +284,15 @@
       "vue"
     ],
     "created_at": "2016-11-01T02:13:26Z",
-    "pushed_at": "2026-11-12T07:27:17Z",
-    "growth": 7
+    "pushed_at": "2026-11-13T08:43:29Z",
+    "growth": 15
   },
   {
     "full_name": "pathwaycom/serviette",
     "html_url": "https://github.com/pathwaycom/serviette",
     "description": "A no-code RAG server that keeps answers in sync with your documents. Works with 8 vector databases. Built on Pathway.",
-    "stars": 58704,
-    "forks": 1550,
+    "stars": 58708,
+    "forks": 1549,
     "language": "Python",
     "topics": [
       "chromadb",
@@ -318,14 +318,14 @@
     ],
     "created_at": "2023-07-19T08:43:37Z",
     "pushed_at": "2026-11-10T17:46:00Z",
-    "growth": -3
+    "growth": 4
   },
   {
     "full_name": "appwrite/appwrite",
     "html_url": "https://github.com/appwrite/appwrite",
     "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
-    "stars": 58056,
-    "forks": 5870,
+    "stars": 58076,
+    "forks": 5871,
     "language": "TypeScript",
     "topics": [
       "android",
@@ -350,15 +350,15 @@
       "web"
     ],
     "created_at": "2019-04-08T16:36:25Z",
-    "pushed_at": "2026-11-12T09:01:59Z",
-    "growth": 3
+    "pushed_at": "2026-11-13T08:55:23Z",
+    "growth": 20
   },
   {
     "full_name": "QuantumNous/new-api",
     "html_url": "https://github.com/QuantumNous/new-api",
     "description": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.",
-    "stars": 51808,
-    "forks": 12624,
+    "stars": 51867,
+    "forks": 12648,
     "language": "Go",
     "topics": [
       "ai-gateway",
@@ -374,15 +374,15 @@
       "self-hosted"
     ],
     "created_at": "2023-11-10T19:33:36Z",
-    "pushed_at": "2026-11-12T09:00:37Z",
-    "growth": 35
+    "pushed_at": "2026-11-13T05:05:00Z",
+    "growth": 59
   },
   {
     "full_name": "ClickHouse/ClickHouse",
     "html_url": "https://github.com/ClickHouse/ClickHouse",
     "description": "ClickHouse® is a real-time analytics database management system",
-    "stars": 50896,
-    "forks": 9253,
+    "stars": 50920,
+    "forks": 9261,
     "language": "C++",
     "topics": [
       "ai",
@@ -404,15 +404,15 @@
       "sql"
     ],
     "created_at": "2016-06-02T08:28:18Z",
-    "pushed_at": "2026-11-12T08:56:11Z",
-    "growth": 5
+    "pushed_at": "2026-11-13T08:52:18Z",
+    "growth": 24
   },
   {
     "full_name": "HKUDS/nanobot",
     "html_url": "https://github.com/HKUDS/nanobot",
     "description": "Your lightweight open-source personal agent.",
-    "stars": 50033,
-    "forks": 8732,
+    "stars": 50054,
+    "forks": 8734,
     "language": "Python",
     "topics": [
       "agent-framework",
@@ -437,14 +437,14 @@
       "workflow-automation"
     ],
     "created_at": "2026-02-01T07:16:15Z",
-    "pushed_at": "2026-11-12T09:03:07Z",
-    "growth": 11
+    "pushed_at": "2026-11-13T08:53:07Z",
+    "growth": 21
   },
   {
     "full_name": "gogs/gogs",
     "html_url": "https://github.com/gogs/gogs",
     "description": "The painless way to host your own Git service",
-    "stars": 47928,
+    "stars": 47931,
     "forks": 5080,
     "language": "Go",
     "topics": [
@@ -461,14 +461,14 @@
       "version-control"
     ],
     "created_at": "2014-02-12T01:57:08Z",
-    "pushed_at": "2026-11-12T04:43:22Z",
-    "growth": -1
+    "pushed_at": "2026-11-13T06:44:29Z",
+    "growth": 3
   },
   {
     "full_name": "siyuan-note/siyuan",
     "html_url": "https://github.com/siyuan-note/siyuan",
     "description": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
-    "stars": 47198,
+    "stars": 47212,
     "forks": 3115,
     "language": "TypeScript",
     "topics": [
@@ -485,15 +485,15 @@
       "workspace"
     ],
     "created_at": "2020-08-30T09:21:35Z",
-    "pushed_at": "2026-11-12T08:29:08Z",
-    "growth": 6
+    "pushed_at": "2026-11-13T08:05:17Z",
+    "growth": 14
   },
   {
     "full_name": "janhq/jan",
     "html_url": "https://github.com/janhq/jan",
     "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
-    "stars": 45681,
-    "forks": 3168,
+    "stars": 45696,
+    "forks": 3171,
     "language": "Rust",
     "topics": [
       "chatgpt",
@@ -506,15 +506,15 @@
       "tauri"
     ],
     "created_at": "2023-08-17T02:17:10Z",
-    "pushed_at": "2026-11-12T08:01:36Z",
-    "growth": 3
+    "pushed_at": "2026-11-13T02:35:03Z",
+    "growth": 15
   },
   {
     "full_name": "reactive-resume/reactive-resume",
     "html_url": "https://github.com/reactive-resume/reactive-resume",
     "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
-    "stars": 45653,
-    "forks": 4949,
+    "stars": 45692,
+    "forks": 4953,
     "language": "TypeScript",
     "topics": [
       "agent-skills",
@@ -529,15 +529,15 @@
       "typescript"
     ],
     "created_at": "2020-03-25T14:08:22Z",
-    "pushed_at": "2026-11-11T20:51:59Z",
-    "growth": 13
+    "pushed_at": "2026-11-13T04:49:04Z",
+    "growth": 39
   },
   {
     "full_name": "appsmithorg/appsmith",
     "html_url": "https://github.com/appsmithorg/appsmith",
     "description": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.",
-    "stars": 41237,
-    "forks": 4836,
+    "stars": 41249,
+    "forks": 4839,
     "language": "TypeScript",
     "topics": [
       "admin-dashboard",
@@ -562,15 +562,15 @@
       "workflows"
     ],
     "created_at": "2020-06-30T04:07:36Z",
-    "pushed_at": "2026-11-12T08:44:06Z",
-    "growth": 6
+    "pushed_at": "2026-11-13T07:09:09Z",
+    "growth": 12
   },
   {
     "full_name": "ToolJet/ToolJet",
     "html_url": "https://github.com/ToolJet/ToolJet",
     "description": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀",
-    "stars": 41224,
-    "forks": 5505,
+    "stars": 41228,
+    "forks": 5506,
     "language": "HTML",
     "topics": [
       "ai-app-builder",
@@ -593,15 +593,15 @@
       "workflow-automation"
     ],
     "created_at": "2021-03-30T08:51:34Z",
-    "pushed_at": "2026-11-12T08:52:34Z",
-    "growth": 2
+    "pushed_at": "2026-11-13T08:52:32Z",
+    "growth": 4
   },
   {
     "full_name": "photoprism/photoprism",
     "html_url": "https://github.com/photoprism/photoprism",
     "description": "AI-Powered Photos App 🌈💎✨",
-    "stars": 40438,
-    "forks": 2338,
+    "stars": 40442,
+    "forks": 2339,
     "language": "Go",
     "topics": [
       "ai",
@@ -614,15 +614,15 @@
       "tensorflow"
     ],
     "created_at": "2018-01-27T12:00:15Z",
-    "pushed_at": "2026-11-12T08:26:00Z",
-    "growth": 5
+    "pushed_at": "2026-11-12T09:26:11Z",
+    "growth": 4
   },
   {
     "full_name": "TriliumNext/Trilium",
     "html_url": "https://github.com/TriliumNext/Trilium",
     "description": "Build your personal knowledge base with Trilium Notes",
-    "stars": 38879,
-    "forks": 2630,
+    "stars": 38911,
+    "forks": 2629,
     "language": "TypeScript",
     "topics": [
       "electron",
@@ -646,15 +646,15 @@
       "wiki"
     ],
     "created_at": "2017-05-23T00:30:20Z",
-    "pushed_at": "2026-11-12T07:21:52Z",
-    "growth": 3
+    "pushed_at": "2026-11-13T06:51:44Z",
+    "growth": 32
   },
   {
     "full_name": "Dokploy/dokploy",
     "html_url": "https://github.com/Dokploy/dokploy",
     "description": "Open Source Alternative to Vercel, Netlify and Heroku.",
-    "stars": 38428,
-    "forks": 3168,
+    "stars": 38473,
+    "forks": 3175,
     "language": "TypeScript",
     "topics": [
       "agents",
@@ -676,15 +676,15 @@
       "vps"
     ],
     "created_at": "2024-04-19T07:49:30Z",
-    "pushed_at": "2026-11-12T08:12:46Z",
-    "growth": 6
+    "pushed_at": "2026-11-13T07:49:59Z",
+    "growth": 45
   },
   {
     "full_name": "glanceapp/glance",
     "html_url": "https://github.com/glanceapp/glance",
     "description": "A self-hosted dashboard that puts all your feeds in one place",
-    "stars": 38150,
-    "forks": 1520,
+    "stars": 38164,
+    "forks": 1522,
     "language": "Go",
     "topics": [
       "aggregator",
@@ -704,14 +704,14 @@
     ],
     "created_at": "2024-04-27T18:55:38Z",
     "pushed_at": "2026-11-07T15:59:44Z",
-    "growth": 6
+    "growth": 14
   },
   {
     "full_name": "khoj-ai/khoj",
     "html_url": "https://github.com/khoj-ai/khoj",
     "description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
-    "stars": 38112,
-    "forks": 2544,
+    "stars": 38119,
+    "forks": 2547,
     "language": "Python",
     "topics": [
       "agent",
@@ -737,14 +737,14 @@
     ],
     "created_at": "2021-08-16T01:48:44Z",
     "pushed_at": "2026-08-02T01:55:40Z",
-    "growth": 0
+    "growth": 7
   },
   {
     "full_name": "agentscope-ai/QwenPaw",
     "html_url": "https://github.com/agentscope-ai/QwenPaw",
     "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
-    "stars": 37640,
-    "forks": 3277,
+    "stars": 37676,
+    "forks": 3282,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -765,15 +765,15 @@
       "webui"
     ],
     "created_at": "2026-02-24T03:42:56Z",
-    "pushed_at": "2026-11-12T09:02:12Z",
-    "growth": 17
+    "pushed_at": "2026-11-13T07:25:45Z",
+    "growth": 36
   },
   {
     "full_name": "IceWhaleTech/CasaOS",
     "html_url": "https://github.com/IceWhaleTech/CasaOS",
     "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
-    "stars": 37633,
-    "forks": 2224,
+    "stars": 37640,
+    "forks": 2223,
     "language": "Go",
     "topics": [
       "casaos",
@@ -789,14 +789,14 @@
     ],
     "created_at": "2021-09-26T02:33:09Z",
     "pushed_at": "2026-11-09T09:38:55Z",
-    "growth": 2
+    "growth": 7
   },
   {
     "full_name": "langfuse/langfuse",
     "html_url": "https://github.com/langfuse/langfuse",
     "description": "🪢 Open source AI engineering platform: AI Gateway, agent observability, evals, and prompt/skill management, built on OpenTelemetry. One open platform for every AI call and every agent. Self-host or use Langfuse Cloud.",
-    "stars": 37342,
-    "forks": 4207,
+    "stars": 37380,
+    "forks": 4221,
     "language": "TypeScript",
     "topics": [
       "ai-gateway",
@@ -821,15 +821,15 @@
       "self-hosted"
     ],
     "created_at": "2023-05-18T17:47:09Z",
-    "pushed_at": "2026-11-12T09:01:34Z",
-    "growth": 21
+    "pushed_at": "2026-11-13T08:52:30Z",
+    "growth": 38
   },
   {
     "full_name": "filebrowser/filebrowser",
     "html_url": "https://github.com/filebrowser/filebrowser",
     "description": "File Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview and edit your files.",
-    "stars": 35855,
-    "forks": 4190,
+    "stars": 35853,
+    "forks": 4189,
     "language": "Go",
     "topics": [
       "file-browser",
@@ -842,6 +842,6 @@
     ],
     "created_at": "2015-09-11T21:21:58Z",
     "pushed_at": "2026-07-31T10:06:58Z",
-    "growth": 1
+    "growth": -2
   }
 ]

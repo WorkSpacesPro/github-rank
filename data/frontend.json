@@ -3,8 +3,8 @@
     "full_name": "react/react",
     "html_url": "https://github.com/react/react",
     "description": "The library for web and native user interfaces.",
-    "stars": 252536,
-    "forks": 52353,
+    "stars": 252565,
+    "forks": 52518,
     "language": "JavaScript",
     "topics": [
       "declarative",
@@ -15,15 +15,15 @@
       "ui"
     ],
     "created_at": "2013-05-24T16:15:54Z",
-    "pushed_at": "2026-11-11T17:31:16Z",
-    "growth": 10
+    "pushed_at": "2026-11-13T07:28:15Z",
+    "growth": 29
   },
   {
     "full_name": "vuejs/vue",
     "html_url": "https://github.com/vuejs/vue",
     "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
-    "stars": 212530,
-    "forks": 34185,
+    "stars": 212527,
+    "forks": 34284,
     "language": "TypeScript",
     "topics": [
       "framework",
@@ -33,14 +33,14 @@
     ],
     "created_at": "2013-07-29T03:24:51Z",
     "pushed_at": "2024-10-10T07:24:15Z",
-    "growth": -2
+    "growth": -3
   },
   {
     "full_name": "Leonxlnx/taste-skill",
     "html_url": "https://github.com/Leonxlnx/taste-skill",
     "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-    "stars": 113830,
-    "forks": 7660,
+    "stars": 114586,
+    "forks": 7704,
     "language": "JavaScript",
     "topics": [
       "agent-skills",
@@ -57,14 +57,14 @@
     ],
     "created_at": "2026-02-19T21:44:05Z",
     "pushed_at": "2026-11-08T21:51:50Z",
-    "growth": 205
+    "growth": 756
   },
   {
     "full_name": "vitejs/vite",
     "html_url": "https://github.com/vitejs/vite",
     "description": "Next generation frontend tooling. It's fast!",
-    "stars": 83877,
-    "forks": 9802,
+    "stars": 83899,
+    "forks": 9998,
     "language": "TypeScript",
     "topics": [
       "build-tool",
@@ -74,15 +74,15 @@
       "vite"
     ],
     "created_at": "2020-04-21T05:03:57Z",
-    "pushed_at": "2026-11-12T08:04:19Z",
-    "growth": 5
+    "pushed_at": "2026-11-13T08:17:33Z",
+    "growth": 22
   },
   {
     "full_name": "typicode/json-server",
     "html_url": "https://github.com/typicode/json-server",
     "description": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
-    "stars": 75738,
-    "forks": 7280,
+    "stars": 75742,
+    "forks": 7279,
     "language": "JavaScript",
     "topics": [
       "api",
@@ -95,13 +95,13 @@
     ],
     "created_at": "2013-11-27T13:21:13Z",
     "pushed_at": "2026-03-23T19:40:00Z",
-    "growth": -2
+    "growth": 4
   },
   {
     "full_name": "thedaviddias/Front-End-Checklist",
     "html_url": "https://github.com/thedaviddias/Front-End-Checklist",
     "description": "🗂 The essential checklist for modern web development, for humans and AI agents",
-    "stars": 74709,
+    "stars": 74716,
     "forks": 6782,
     "language": "MDX",
     "topics": [
@@ -123,14 +123,14 @@
     ],
     "created_at": "2017-10-16T10:12:36Z",
     "pushed_at": "2026-10-31T05:44:22Z",
-    "growth": -1
+    "growth": 7
   },
   {
     "full_name": "expo/expo",
     "html_url": "https://github.com/expo/expo",
     "description": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
-    "stars": 53472,
-    "forks": 15055,
+    "stars": 53506,
+    "forks": 15074,
     "language": "TypeScript",
     "topics": [
       "android",
@@ -151,8 +151,8 @@
       "web-framework"
     ],
     "created_at": "2016-08-15T17:14:25Z",
-    "pushed_at": "2026-11-12T09:00:35Z",
-    "growth": 1
+    "pushed_at": "2026-11-13T08:55:05Z",
+    "growth": 34
   },
   {
     "full_name": "ionic-team/ionic-framework",
@@ -182,15 +182,15 @@
       "webcomponents"
     ],
     "created_at": "2013-08-20T23:06:02Z",
-    "pushed_at": "2026-11-12T03:52:59Z",
+    "pushed_at": "2026-11-13T00:04:45Z",
     "growth": 0
   },
   {
     "full_name": "GitHubDaily/GitHubDaily",
     "html_url": "https://github.com/GitHubDaily/GitHubDaily",
     "description": "坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.",
-    "stars": 48429,
-    "forks": 4724,
+    "stars": 48443,
+    "forks": 4725,
     "language": "-",
     "topics": [
       "ai",
@@ -212,13 +212,13 @@
     ],
     "created_at": "2018-12-30T13:56:58Z",
     "pushed_at": "2025-12-31T18:59:20Z",
-    "growth": 4
+    "growth": 14
   },
   {
     "full_name": "dypsilon/frontend-dev-bookmarks",
     "html_url": "https://github.com/dypsilon/frontend-dev-bookmarks",
     "description": "Manually curated collection of resources for frontend web developers.",
-    "stars": 47747,
+    "stars": 47766,
     "forks": 5141,
     "language": "-",
     "topics": [
@@ -229,14 +229,14 @@
     ],
     "created_at": "2013-06-22T13:23:55Z",
     "pushed_at": "2024-05-21T10:56:58Z",
-    "growth": 1
+    "growth": 19
   },
   {
     "full_name": "LeCoupa/awesome-cheatsheets",
     "html_url": "https://github.com/LeCoupa/awesome-cheatsheets",
     "description": "👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.",
-    "stars": 46662,
-    "forks": 6685,
+    "stars": 46670,
+    "forks": 6684,
     "language": "JavaScript",
     "topics": [
       "backend",
@@ -262,14 +262,14 @@
     ],
     "created_at": "2017-11-09T02:47:15Z",
     "pushed_at": "2026-10-17T14:11:21Z",
-    "growth": 1
+    "growth": 8
   },
   {
     "full_name": "NaiboWang/EasySpider",
     "html_url": "https://github.com/NaiboWang/EasySpider",
     "description": "A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/网页爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。",
-    "stars": 44784,
-    "forks": 5393,
+    "stars": 44790,
+    "forks": 5395,
     "language": "JavaScript",
     "topics": [
       "batch-processing",
@@ -295,14 +295,14 @@
     ],
     "created_at": "2020-07-18T02:41:27Z",
     "pushed_at": "2026-11-07T13:35:29Z",
-    "growth": -1
+    "growth": 6
   },
   {
     "full_name": "CorentinTh/it-tools",
     "html_url": "https://github.com/CorentinTh/it-tools",
     "description": "Collection of handy online tools for developers, with great UX.",
-    "stars": 41213,
-    "forks": 5580,
+    "stars": 41245,
+    "forks": 5583,
     "language": "Vue",
     "topics": [
       "converter",
@@ -319,14 +319,14 @@
     ],
     "created_at": "2020-04-05T11:50:24Z",
     "pushed_at": "2026-11-12T03:33:11Z",
-    "growth": 2
+    "growth": 32
   },
   {
     "full_name": "The-Vibe-Company/quivr",
     "html_url": "https://github.com/The-Vibe-Company/quivr",
     "description": "An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hybrid search, alerts, and plugins for formats, models and business rules.",
-    "stars": 39647,
-    "forks": 3730,
+    "stars": 39646,
+    "forks": 3729,
     "language": "Go",
     "topics": [
       "ai",
@@ -352,14 +352,14 @@
     ],
     "created_at": "2023-05-12T23:53:30Z",
     "pushed_at": "2026-11-09T16:39:02Z",
-    "growth": 1
+    "growth": -1
   },
   {
     "full_name": "Dokploy/dokploy",
     "html_url": "https://github.com/Dokploy/dokploy",
     "description": "Open Source Alternative to Vercel, Netlify and Heroku.",
-    "stars": 38428,
-    "forks": 3168,
+    "stars": 38473,
+    "forks": 3175,
     "language": "TypeScript",
     "topics": [
       "agents",
@@ -381,15 +381,15 @@
       "vps"
     ],
     "created_at": "2024-04-19T07:49:30Z",
-    "pushed_at": "2026-11-12T08:12:46Z",
-    "growth": 6
+    "pushed_at": "2026-11-13T07:49:59Z",
+    "growth": 45
   },
   {
     "full_name": "mouredev/Hello-Python",
     "html_url": "https://github.com/mouredev/Hello-Python",
     "description": "Curso para aprender el lenguaje de programación Python desde cero y para principiantes. 100 clases, 44 horas en vídeo, código, proyectos y grupo de chat. Fundamentos, frontend, backend, testing, IA...",
-    "stars": 38026,
-    "forks": 2353,
+    "stars": 38035,
+    "forks": 2352,
     "language": "Python",
     "topics": [
       "backend",
@@ -409,13 +409,13 @@
     ],
     "created_at": "2022-08-03T17:14:53Z",
     "pushed_at": "2025-08-11T12:00:01Z",
-    "growth": 2
+    "growth": 9
   },
   {
     "full_name": "xitu/gold-miner",
     "html_url": "https://github.com/xitu/gold-miner",
     "description": "🥇掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台：",
-    "stars": 34372,
+    "stars": 34370,
     "forks": 4971,
     "language": "-",
     "topics": [
@@ -432,14 +432,14 @@
     ],
     "created_at": "2015-11-04T03:29:13Z",
     "pushed_at": "2024-04-17T09:44:37Z",
-    "growth": -1
+    "growth": -2
   },
   {
     "full_name": "ascoders/weekly",
     "html_url": "https://github.com/ascoders/weekly",
     "description": "前端精读周刊。帮你理解最前沿、实用的技术。",
-    "stars": 31718,
-    "forks": 3265,
+    "stars": 31719,
+    "forks": 3264,
     "language": "JavaScript",
     "topics": [
       "awesome",
@@ -448,13 +448,13 @@
     ],
     "created_at": "2017-03-20T06:10:04Z",
     "pushed_at": "2024-09-09T01:39:37Z",
-    "growth": -2
+    "growth": 1
   },
   {
     "full_name": "AllThingsSmitty/css-protips",
     "html_url": "https://github.com/AllThingsSmitty/css-protips",
     "description": "A collection of tips to help take your CSS skills pro. 🕹",
-    "stars": 30301,
+    "stars": 30304,
     "forks": 2195,
     "language": "-",
     "topics": [
@@ -472,14 +472,14 @@
     ],
     "created_at": "2015-08-29T12:29:03Z",
     "pushed_at": "2026-09-23T01:27:44Z",
-    "growth": -2
+    "growth": 3
   },
   {
     "full_name": "onlook-dev/onlook",
     "html_url": "https://github.com/onlook-dev/onlook",
     "description": "The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.",
-    "stars": 27169,
-    "forks": 2144,
+    "stars": 27178,
+    "forks": 2145,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -505,14 +505,14 @@
     ],
     "created_at": "2024-06-25T19:16:02Z",
     "pushed_at": "2026-10-21T20:42:29Z",
-    "growth": 0
+    "growth": 9
   },
   {
     "full_name": "haizlin/fe-interview",
     "html_url": "https://github.com/haizlin/fe-interview",
     "description": "前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML/CSS/JavaScript/Vue/React/Nodejs/TypeScript/ECMAScritpt/Webpack/Jquery/小程序/软技能……",
-    "stars": 26251,
-    "forks": 3222,
+    "stars": 26249,
+    "forks": 3220,
     "language": "JavaScript",
     "topics": [
       "css",
@@ -533,13 +533,13 @@
     ],
     "created_at": "2019-04-17T03:05:58Z",
     "pushed_at": "2025-10-26T20:49:10Z",
-    "growth": 0
+    "growth": -2
   },
   {
     "full_name": "iview/iview",
     "html_url": "https://github.com/iview/iview",
     "description": "A high quality UI Toolkit built on Vue.js 2.0",
-    "stars": 23741,
+    "stars": 23742,
     "forks": 4037,
     "language": "Vue",
     "topics": [
@@ -556,13 +556,13 @@
     ],
     "created_at": "2016-07-28T01:52:59Z",
     "pushed_at": "2024-01-15T00:27:21Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "vueComponent/ant-design-vue",
     "html_url": "https://github.com/vueComponent/ant-design-vue",
     "description": "🌈  An enterprise-class UI components based on Ant Design and Vue. 🐜",
-    "stars": 21711,
+    "stars": 21712,
     "forks": 3884,
     "language": "Vue",
     "topics": [
@@ -584,14 +584,14 @@
     ],
     "created_at": "2017-09-20T06:04:01Z",
     "pushed_at": "2026-11-11T08:12:01Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "baidu/amis",
     "html_url": "https://github.com/baidu/amis",
     "description": "前端低代码框架，通过 JSON 配置就能生成各种页面。",
-    "stars": 18892,
-    "forks": 2729,
+    "stars": 18889,
+    "forks": 2728,
     "language": "TypeScript",
     "topics": [
       "admin",
@@ -605,14 +605,14 @@
     ],
     "created_at": "2019-04-28T07:42:14Z",
     "pushed_at": "2026-03-18T14:07:40Z",
-    "growth": -2
+    "growth": -3
   },
   {
     "full_name": "nhn/tui.editor",
     "html_url": "https://github.com/nhn/tui.editor",
     "description": "🍞📝 Markdown WYSIWYG Editor. GFM Standard + Chart & UML Extensible.",
-    "stars": 17984,
-    "forks": 1857,
+    "stars": 17985,
+    "forks": 1856,
     "language": "TypeScript",
     "topics": [
       "chart",
@@ -630,13 +630,13 @@
     ],
     "created_at": "2015-07-27T06:57:23Z",
     "pushed_at": "2024-08-01T15:38:05Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "thedaviddias/Front-End-Performance-Checklist",
     "html_url": "https://github.com/thedaviddias/Front-End-Performance-Checklist",
     "description": "🎮 The only Front-End Performance Checklist that runs faster than the others",
-    "stars": 17390,
+    "stars": 17395,
     "forks": 1249,
     "language": "-",
     "topics": [
@@ -657,13 +657,13 @@
     ],
     "created_at": "2018-07-03T14:33:01Z",
     "pushed_at": "2026-10-13T10:27:13Z",
-    "growth": 1
+    "growth": 5
   },
   {
     "full_name": "The-Cool-Coders/Project-Ideas-And-Resources",
     "html_url": "https://github.com/The-Cool-Coders/Project-Ideas-And-Resources",
     "description": "A Collection of application ideas that can be used to improve your coding skills ❤.",
-    "stars": 17174,
+    "stars": 17183,
     "forks": 1449,
     "language": "-",
     "topics": [
@@ -684,14 +684,14 @@
     ],
     "created_at": "2020-10-24T19:28:51Z",
     "pushed_at": "2026-10-16T19:53:53Z",
-    "growth": 0
+    "growth": 9
   },
   {
     "full_name": "zauberzeug/nicegui",
     "html_url": "https://github.com/zauberzeug/nicegui",
     "description": "Create web-based user interfaces with Python. The nice way.",
-    "stars": 16334,
-    "forks": 977,
+    "stars": 16336,
+    "forks": 978,
     "language": "Python",
     "topics": [
       "frontend",
@@ -707,8 +707,8 @@
       "website"
     ],
     "created_at": "2021-05-07T13:55:05Z",
-    "pushed_at": "2026-11-12T07:47:03Z",
-    "growth": 1
+    "pushed_at": "2026-11-13T07:46:59Z",
+    "growth": 2
   },
   {
     "full_name": "marko-js/marko",
@@ -729,7 +729,7 @@
       "vdom"
     ],
     "created_at": "2014-01-07T23:58:21Z",
-    "pushed_at": "2026-11-12T04:28:59Z",
+    "pushed_at": "2026-11-13T02:50:43Z",
     "growth": 0
   },
   {
