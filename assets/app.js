@@ -8,61 +8,59 @@
 // ======= 2. 多语言字典 =======
 const I18N = {
   zh: {
-    pageTitle: "GitHub 开源排行榜",
-    searchPlaceholder: "搜索项目名、语言或简介...",
-    thProject: "项目",
-    thGrowth: "涨星",
-    thLang: "语言",
-    thDesc: "简介",
-    navTitle: "开源排行榜",
-    navCategory: "目录导航",
+    pageTitle: "GitHub 开源排行榜", searchPlaceholder: "搜索项目名、语言或简介...",
+    thProject: "项目", thGrowth: "涨星", thLang: "语言", thDesc: "简介",
+    navTitle: "开源排行榜", navCategory: "目录导航",
     footerText: "© 2026 GitHub 开源排行榜 | 数据来源于 GitHub Actions 自动抓取",
-    loading: "正在获取数据...",
-    noData: "没有找到匹配的数据",
-    catCount: (n) => `共 ${n} 个分类 | 点击标签秒级加载`
+    loading: "正在获取数据...", noData: "没有找到匹配的数据",
+    catCount: (n) => `共 ${n} 个分类 | 点击标签秒级加载`,
+    allCats: "全部分类", allCatsTitle: "全部分类",
+    groupHot: "综合热榜", groupAI: "AI 前沿", groupCF: "Cloudflare 生态", groupLang: "编程语言", groupDev: "开发者场景"
   },
   en: {
-    pageTitle: "GitHub Open Source Rankings",
-    searchPlaceholder: "Search projects, languages...",
-    thProject: "Project",
-    thGrowth: "Growth",
-    thLang: "Language",
-    thDesc: "Description",
-    navTitle: "Open Source Rank",
-    navCategory: "Navigation",
+    pageTitle: "GitHub Open Source Rankings", searchPlaceholder: "Search projects...",
+    thProject: "Project", thGrowth: "Growth", thLang: "Language", thDesc: "Description",
+    navTitle: "Open Source Rank", navCategory: "Navigation",
     footerText: "© 2026 GitHub Rankings | Data by GitHub Actions",
-    loading: "Fetching data...",
-    noData: "No matching data found",
-    catCount: (n) => `${n} categories | Click tabs to load instantly`
+    loading: "Fetching data...", noData: "No matching data",
+    catCount: (n) => `${n} categories | Click tabs to load instantly`,
+    allCats: "All Categories", allCatsTitle: "All Categories",
+    groupHot: "Hot & Trending", groupAI: "AI Frontier", groupCF: "Cloudflare Eco", groupLang: "Languages", groupDev: "Dev Scenarios"
   }
 };
 
-// ======= 3. 全局状态 =======
+// ======= 3. 核心配置：大类分组映射 =======
+// 我们根据 JSON 里的 file 字段，把标签分到这 5 个组里
+const CATEGORY_GROUPS = {
+  hot: { color: "red", icon: "🔥", files: ["top", "rising", "forks"] },
+  ai: { color: "purple", icon: "🤖", files: ["agent", "local_llm", "aigc"] },
+  cf: { color: "orange", icon: "☁️", files: ["cf_image", "cf_blog", "cf_shorturl", "cf_tools", "cf_workers", "cf_proxy"] },
+  lang: { color: "blue", icon: "💻", files: ["python", "javascript", "typescript", "rust", "go", "java", "frontend"] },
+  dev: { color: "green", icon: "🛠️", files: ["self_hosted", "dev_tools", "awesome", "saas"] }
+};
+
+// 顶部固定的热门标签
+const DEFAULT_TABS = ["top", "rising", "agent", "cf_image"];
+
 let currentLang = localStorage.getItem('lang') || 'zh';
 let currentCategory = ""; 
 let currentData = [];     
 let filteredData = [];    
 let sortKey = "stars";    
 let sortOrder = "desc";   
-let categoriesData = [];  
+let categoriesData = []; // 存放从 json 读出来的所有分类
 
-function getSafeFilename(catName) {
-  return catName.replace(/ /g, "_").replace(/\//g, "_").replace(/\+/g, "");
-}
+function getSafeFilename(catName) { return catName.replace(/ /g, "_").replace(/\//g, "_").replace(/\+/g, ""); }
 
 // ======= 4. 公共组件渲染 =======
 async function renderLayout() {
   const path = window.location.pathname;
   const dict = I18N[currentLang];
   
-  // 替换静态文本和 Placeholder
   document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = dict[el.dataset.i18n]; });
   document.querySelectorAll('[data-i18n-placeholder]').forEach(el => { el.placeholder = dict[el.dataset.i18nPlaceholder]; });
-  
-  // 如果还没有加载分类，网页标题先用默认标题
   if (!currentCategory) document.title = dict.pageTitle;
 
-  // 右上角按钮
   document.getElementById('app-header').innerHTML = `
     <button class='nav-toggle' type='button'>
       <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M4 12h16'/><path d='M4 6h16'/><path d='M4 18h16'/></svg>
@@ -80,32 +78,26 @@ async function renderLayout() {
     </button>
   `;
 
-  // 🌟 修改：页脚代码，植入 Geek Base 生态
   document.getElementById('app-footer').innerHTML = `
-    <footer class="footer" style="text-align: center; padding: 24px 16px; font-size: 13px; color: var(--text-secondary); line-height: 1.6;">
-      <p>&copy; 2024 <a href="https://gb.ooo" target="_blank" style="font-weight: 600; color: inherit; text-decoration: none;">Geek Base (gb.ooo)</a>. All rights reserved.</p>
-      <p style="margin-top: 4px; opacity: 0.8;">
-        <a href="https://nav.gb.ooo" target="_blank" style="color: inherit; text-decoration: none; font-weight: 500;">Geek Nav (极客导航)</a> • 
-        GitHub Rank (极客排行)
-      </p>
+    <footer class="footer">
+      <p>${dict.footerText}</p>
+      <p>Powered by <a href="https://github.com" target="_blank">GitHub</a> & <a href="https://pages.cloudflare.com" target="_blank">Cloudflare Pages</a></p>
     </footer>
   `;
 
-  // 侧边栏
   try {
     const res = await fetch('data/nav.json?t=' + Date.now());
     const navItems = await res.json();
     let navHtml = '';
     navItems.forEach(item => {
+      if (item.link === 'divider') {
+        navHtml += `<hr style="border:none; border-top:1px solid var(--border); margin:10px 0;">`;
+        return;
+      }
       const isActive = path.includes(item.link) || (path.endsWith('/') && item.link === 'index.html');
       const activeClass = isActive ? 'active' : '';
       const target = item.link.startsWith('http') ? 'target="_blank"' : '';
-      
-      // 兼容新老 nav.json 格式
-      let name = "";
-      if (currentLang === 'zh') name = item.zh || item.name || "首页";
-      else name = item.en || item.name || "Home";
-
+      const name = currentLang === 'zh' ? item.zh : item.en;
       navHtml += `<li><a href="${item.link}" class="${activeClass}" ${target}>${name}</a></li>`;
     });
 
@@ -135,19 +127,9 @@ function bindEvents() {
     langBtn.addEventListener('click', () => {
       currentLang = currentLang === 'zh' ? 'en' : 'zh';
       localStorage.setItem('lang', currentLang);
-      
-      renderLayout(); // 重新渲染静态文本
-      
+      renderLayout(); 
       if (categoriesData.length > 0) {
-        renderTabs(); // 重新渲染分类标签
-        const activeItem = categoriesData.find(c => {
-           const file = typeof c === 'string' ? getSafeFilename(c) : c.file;
-           return file === currentCategory;
-        });
-        if(activeItem) {
-           const displayName = typeof activeItem === 'string' ? activeItem : (currentLang === 'zh' ? activeItem.zh : activeItem.en);
-           document.title = `${displayName} - GitHub Rankings`;
-        }
+        renderTabsAndDrawer();
       }
     });
   }
@@ -205,9 +187,24 @@ function bindEvents() {
       applySearchAndSort();
     });
   });
+
+  // 🌟 抽屉逻辑
+  const drawer = document.getElementById('category-drawer');
+  const overlay = document.getElementById('drawer-overlay');
+  const openBtn = document.getElementById('open-drawer-btn');
+  const closeBtn = document.getElementById('close-drawer-btn');
+
+  function toggleDrawer(open) {
+    if (open) { drawer.classList.add('open'); overlay.classList.add('open'); }
+    else { drawer.classList.remove('open'); overlay.classList.remove('open'); }
+  }
+
+  if(openBtn) openBtn.addEventListener('click', () => toggleDrawer(true));
+  if(closeBtn) closeBtn.addEventListener('click', () => toggleDrawer(false));
+  if(overlay) overlay.addEventListener('click', () => toggleDrawer(false));
 }
 
-// ======= 6. 首页数据加载 =======
+// ======= 6. 首页数据初始化 =======
 const formatNum = (num) => num ? num.toLocaleString() : '0';
 
 async function initApp() {
@@ -218,60 +215,108 @@ async function initApp() {
     const res = await fetch(`data/categories.json?t=${Date.now()}`);
     if (!res.ok) throw new Error("找不到 categories.json");
     categoriesData = await res.json();
-    renderTabs(); // 渲染标签，在这里会更新 update-time 文本
+    renderTabsAndDrawer();
   } catch (err) {
     tableBody.innerHTML = `<tr><td colspan="6" class="loading" style="color:#cf222e;">⚠️ ${err.message}</td></tr>`;
   }
 }
 
-function renderTabs() {
+// 🌟 渲染顶部标签和抽屉内容
+function renderTabsAndDrawer() {
   const tabsContainer = document.getElementById('tabs');
-  if (!tabsContainer) return;
+  const drawerContent = document.getElementById('drawer-content');
   const dict = I18N[currentLang];
   tabsContainer.innerHTML = '';
+  drawerContent.innerHTML = '';
   
-  // 🎯 重点修复：在这里强行覆盖文字并移除 data-i18n，防止被覆盖
   const timeEl = document.getElementById('update-time');
   if (timeEl) {
       timeEl.removeAttribute('data-i18n');
       timeEl.textContent = dict.catCount(categoriesData.length);
   }
 
-  categoriesData.forEach((item, index) => {
+  // 1. 生成顶部的默认热门标签
+  const defaultItems = categoriesData.filter(item => DEFAULT_TABS.includes(item.file));
+  defaultItems.forEach(item => {
     const btn = document.createElement('button');
-    
-    // 兼容旧数据
-    let displayName = "";
-    let file = "";
-    if (typeof item === 'string') {
-      displayName = item;
-      file = getSafeFilename(item);
-    } else {
-      displayName = currentLang === 'zh' ? item.zh : item.en;
-      file = item.file;
-    }
-
-    const isActive = file === currentCategory || (index === 0 && !currentCategory);
+    btn.dataset.file = item.file;
+    const isActive = item.file === currentCategory;
     btn.className = `tab-btn ${isActive ? 'active' : ''}`;
-    btn.textContent = displayName;
-    
-    btn.onclick = () => {
-      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      document.title = `${displayName} - GitHub Rankings`;
-      
-      const searchInput = document.getElementById('search-input');
-      if (searchInput) searchInput.value = '';
-      
-      loadCategoryData(file);
-    };
+    btn.textContent = currentLang === 'zh' ? item.zh : item.en;
+    btn.onclick = () => switchCategory(item);
     tabsContainer.appendChild(btn);
   });
 
-  if (!currentCategory && categoriesData.length > 0) {
-    let firstFile = typeof categoriesData[0] === 'string' ? getSafeFilename(categoriesData[0]) : categoriesData[0].file;
-    loadCategoryData(firstFile);
+  // 2. 生成抽屉里的彩色折叠分类
+  const groupNames = {
+    hot: dict.groupHot, ai: dict.groupAI, cf: dict.groupCF, lang: dict.groupLang, dev: dict.groupDev
+  };
+
+  for (const [groupKey, groupConfig] of Object.entries(CATEGORY_GROUPS)) {
+    // 找到当前大类包含的所有子分类
+    const groupItems = categoriesData.filter(item => groupConfig.files.includes(item.file));
+    if (groupItems.length === 0) continue; // 如果这个大类下没数据就跳过
+
+    // 创建 details 折叠框
+    const details = document.createElement('details');
+    details.className = 'color-details';
+    details.dataset.color = groupConfig.color;
+    
+    // 默认展开第一个大类
+    if (groupKey === 'hot') details.open = true;
+
+    const summary = document.createElement('summary');
+    summary.innerHTML = `<span>${groupConfig.icon} ${groupNames[groupKey]}</span> <span style="font-size:0.8rem; color:var(--text-muted)">${groupItems.length}</span>`;
+    details.appendChild(summary);
+
+    // 创建子分类列表
+    const listDiv = document.createElement('div');
+    listDiv.className = 'cat-list';
+    groupItems.forEach(item => {
+      const catDiv = document.createElement('div');
+      catDiv.className = `cat-item ${item.file === currentCategory ? 'active' : ''}`;
+      catDiv.textContent = currentLang === 'zh' ? item.zh : item.en;
+      catDiv.onclick = () => {
+        switchCategory(item);
+        // 点击后自动关闭抽屉
+        document.getElementById('category-drawer').classList.remove('open');
+        document.getElementById('drawer-overlay').classList.remove('open');
+      };
+      listDiv.appendChild(catDiv);
+    });
+    details.appendChild(listDiv);
+    drawerContent.appendChild(details);
   }
+
+  // 如果没有选中任何分类，默认加载第一个热门标签
+  if (!currentCategory && defaultItems.length > 0) {
+    switchCategory(defaultItems[0]);
+  }
+}
+
+// 🌟 切换分类的统一逻辑 (同时联动顶部和抽屉的高亮)
+function switchCategory(item) {
+  currentCategory = item.file;
+  const displayName = currentLang === 'zh' ? item.zh : item.en;
+  document.title = `${displayName} - GitHub Rankings`;
+  
+  // 1. 更新顶部标签高亮
+  document.querySelectorAll('.tab-btn').forEach(b => {
+    if (b.dataset.file === item.file) b.classList.add('active');
+    else b.classList.remove('active');
+  });
+
+  // 2. 更新抽屉列表高亮
+  document.querySelectorAll('.cat-item').forEach(c => c.classList.remove('active'));
+  // 利用索引或文本匹配重新激活
+  document.querySelectorAll('.cat-item').forEach(c => {
+    if (c.textContent === displayName) c.classList.add('active');
+  });
+
+  // 3. 清空搜索并加载数据
+  const searchInput = document.getElementById('search-input');
+  if (searchInput) searchInput.value = '';
+  loadCategoryData(item.file);
 }
 
 async function loadCategoryData(catFile) {
@@ -287,9 +332,7 @@ async function loadCategoryData(catFile) {
     if (!res.ok) throw new Error(`找不到 ${catFile}.json`);
     
     currentData = await res.json();
-    currentCategory = catFile;
     
-    // 重置默认排序
     sortKey = "stars";
     sortOrder = "desc";
     document.querySelectorAll('th.sortable').forEach(t => t.classList.remove('asc', 'desc'));
@@ -363,13 +406,28 @@ async function fetchRepoStats() {
   const forksEl = document.getElementById('gh-forks');
   if (!starsEl || !forksEl) return;
   try {
-    const res = await fetch('https://api.github.com/repos/Ameretool/github-rank');
-    const data = await res.json();
+    const siteRes = await fetch('data/site.json');
+    const siteConfig = await siteRes.json();
+    const repoName = siteConfig.githubRepo;
+
+    const linkReadme = document.getElementById('link-readme');
+    const linkLicense = document.getElementById('link-license');
+    const linkRepo = document.getElementById('link-repo');
+    if (linkReadme && linkLicense && linkRepo) {
+      linkReadme.href = `https://github.com/${repoName}`;
+      linkLicense.href = `https://github.com/${repoName}/blob/main/LICENSE`;
+      linkRepo.href = `https://github.com/${repoName}`;
+    }
+
+    const apiRes = await fetch(`https://api.github.com/repos/${repoName}`);
+    if (!apiRes.ok) throw new Error('获取失败');
+    const data = await apiRes.json();
     const format = (num) => num >= 1000 ? (num / 1000).toFixed(1) + 'k' : num;
     starsEl.textContent = format(data.stargazers_count);
     forksEl.textContent = format(data.forks_count);
   } catch (error) {
-    starsEl.textContent = '0'; forksEl.textContent = '0';
+    if (starsEl) starsEl.textContent = '0';
+    if (forksEl) forksEl.textContent = '0';
   }
 }
 
@@ -379,14 +437,3 @@ document.addEventListener('DOMContentLoaded', () => {
   initApp();
   fetchRepoStats();
 });
-
-// ======= 11. 动态补全微信分享图片路径 (避免写死域名) =======
-(function setDynamicOGImage() {
-    const currentUrl = window.location.origin + window.location.pathname;
-    const absoluteImgUrl = currentUrl.endsWith('/') ? currentUrl + 'assets/logo.png' : currentUrl + '/assets/logo.png';
-    
-    const ogImage = document.getElementById('og-image');
-    const twImage = document.getElementById('twitter-image');
-    if(ogImage) ogImage.setAttribute('content', absoluteImgUrl);
-    if(twImage) twImage.setAttribute('content', absoluteImgUrl);
-})();
