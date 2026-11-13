@@ -137,7 +137,7 @@ body {
 }
 .tabs::-webkit-scrollbar { display: none; }
 
-/* 🌟 核心修复：禁止标签文字换行和挤压 */
+/* 标签按钮：胶囊形、不换行 */
 .tab-btn {
   flex-shrink: 0; 
   white-space: nowrap; 
@@ -145,7 +145,7 @@ body {
   border: 1px solid var(--border); 
   color: var(--text-muted);
   padding: 8px 16px; 
-  border-radius: 20px; /* 改为胶囊形状，更圆润 */
+  border-radius: 20px;
   cursor: pointer; 
   font-family: var(--font); 
   font-size: 0.85rem;
@@ -181,7 +181,7 @@ body {
 }
 .drawer-overlay.open { opacity: 1; pointer-events: auto; }
 
-/* 底部抽屉 */
+/* 底部抽屉基础样式（手机端） */
 .drawer {
   position: fixed; bottom: 0; left: 0; right: 0;
   background: var(--bg); z-index: 1001;
@@ -240,11 +240,6 @@ body {
 }
 .cat-item:hover { background: var(--border); color: var(--text); }
 .cat-item.active { background: var(--border); color: var(--text); font-weight: 600; }
-
-@media (min-width: 768px) {
-  .drawer { left: 50%; transform: translate(-50%, 100%); width: 500px; border-radius: 20px 20px 0 0; }
-  .drawer.open { transform: translate(-50%, 0); }
-}
 
 /* ====== 表格区 ====== */
 .table-wrapper {
@@ -335,16 +330,50 @@ table a:hover, .footer a:hover { border-bottom-color: var(--text); }
 .nav-toggle { display: none; }
 .nav-backdrop { display: none; }
 
+/* ==================== 手机端适配（修复布局乱套问题） ==================== */
+@media (max-width: 768px) {
+  .layout { flex-direction: column; }
+  
+  /* 强制左侧导航隐藏在屏幕外 */
+  .nav {
+    position: fixed; top: 0; left: 0;
+    width: 280px; height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+  }
+  .nav.nav--open { transform: translateX(0); }
+  
+  /* 遮罩层 */
+  .nav-backdrop { 
+    position: fixed; inset: 0; background: rgba(0,0,0,0.4); 
+    z-index: 899; display: none; 
+  }
+  .nav-backdrop--visible { display: block; }
+  
+  /* 左上角汉堡菜单 */
+  .nav-toggle {
+    display: flex; position: fixed; top: 0.75rem; left: 0.75rem; z-index: 1000;
+    width: 36px; height: 36px; align-items: center; justify-content: center;
+    background: var(--bg-alt); border: 1px solid var(--border);
+    border-radius: 8px; cursor: pointer; color: var(--text-muted);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  .main { padding: 4rem 1rem 1.5rem; width: 100%; }
+  .page-title { font-size: 1.75rem; }
+  .back-to-top { bottom: 1.5rem; right: 1rem; width: 36px; height: 36px; }
+}
+
+/* ==================== PC 端适配：抽屉居中偏上弹窗 ==================== */
 @media (min-width: 768px) {
-  /* PC 端：居中偏上的弹窗效果 */
   .drawer {
     left: 50%;
-    top: 10vh; /* 距离顶部 10% 的位置，偏上 */
+    top: 10vh; /* 偏上位置 */
     bottom: auto;
-    width: 520px; /* 稍微加宽一点 */
+    width: 520px;
     max-height: 75vh;
-    border-radius: 16px; /* 四个角都变成圆角 */
-    /* 初始状态：稍微往下偏移且透明 */
+    border-radius: 16px;
     transform: translate(-50%, 20px);
     opacity: 0;
     pointer-events: none;
