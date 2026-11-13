@@ -2,22 +2,46 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GitHub 开源排行榜</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="google" content="notranslate">
+  
+  <!-- 🚫 屏蔽搜索引擎收录与网页快照 -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow, noarchive">
+  <meta name="baiduspider" content="noindex, nofollow, noarchive">
+  <meta name="archive" content="no">
+
+  <!-- 🌟 网页标题与描述 -->
+  <title>GitHub Rank - 极客排行 | gb.ooo</title>
+  <meta name="description" content="Geek Base (gb.ooo) 极客基地旗下产品。GitHub Rank 追踪 GitHub 全网开源项目排行、涨星趋势。姊妹项目为 Geek Nav (nav.gb.ooo)。">
+
+  <!-- 网页图标 (直接使用你上传的 logo.png) -->
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+
+  <!-- 微信/社交分享卡片 (路径会在 app.js 中被替换为绝对路径) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GitHub Rank - 极客排行 | gb.ooo">
+  <meta property="og:description" content="Geek Base (gb.ooo) 极客基地旗下产品。追踪 GitHub 全网开源项目排行。">
+  <meta property="og:image" id="og-image" content="./assets/logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" id="twitter-image" content="./assets/logo.png">
+
+  <!-- 字体与样式 -->
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
-  <link rel="icon" href="assets/logo.png" type="image/png">
 </head>
 <body>
 
+  <!-- 顶部导航 (由 app.js 动态渲染) -->
   <div id="app-header"></div>
 
   <div class="layout">
+    <!-- 侧边栏 (由 app.js 动态渲染) -->
     <div id="app-sidebar"></div>
 
     <main class="main">
       <h1 class="page-title" data-i18n="pageTitle">GitHub 开源排行榜</h1>
-      <!-- 注意这里的 data-i18n="loading" -->
       <div class="page-meta" id="update-time" data-i18n="loading">正在获取数据...</div>
 
       <div class="search-box">
@@ -40,6 +64,7 @@
             </tr>
           </thead>
           <tbody id="table-body">
+            <!-- 骨架屏加载状态 -->
             <tr class="skeleton-row"><td colspan="6"><div class="skeleton"></div></td></tr>
             <tr class="skeleton-row"><td colspan="6"><div class="skeleton"></div></td></tr>
             <tr class="skeleton-row"><td colspan="6"><div class="skeleton"></div></td></tr>
@@ -49,8 +74,27 @@
     </main>
   </div>
 
+  <!-- 页脚 (由 app.js 动态渲染) -->
   <div id="app-footer"></div>
 
+  <!-- 引入你的核心逻辑 -->
   <script src="assets/app.js"></script>
+  
+  <!-- 🌟 动态路径补全脚本 (放在最后，确保前面的 DOM 已加载) -->
+  <script>
+    (function setDynamicOGImage() {
+        // 获取当前的完整 URL (比如 https://grank.gb.ooo/)
+        const currentUrl = window.location.origin + window.location.pathname;
+        
+        // 拼接出绝对路径
+        const absoluteImgUrl = currentUrl.endsWith('/') ? currentUrl + 'assets/logo.png' : currentUrl + '/assets/logo.png';
+        
+        // 替换 head 里的 meta 标签
+        const ogImage = document.getElementById('og-image');
+        const twImage = document.getElementById('twitter-image');
+        if(ogImage) ogImage.setAttribute('content', absoluteImgUrl);
+        if(twImage) twImage.setAttribute('content', absoluteImgUrl);
+    })();
+  </script>
 </body>
 </html>
