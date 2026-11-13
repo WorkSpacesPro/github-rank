@@ -80,11 +80,14 @@ async function renderLayout() {
     </button>
   `;
 
-  // 页脚
+  // 🌟 修改：页脚代码，植入 Geek Base 生态
   document.getElementById('app-footer').innerHTML = `
-    <footer class="footer">
-      <p>${dict.footerText}</p>
-      <p>Powered by <a href="https://github.com" target="_blank">GitHub</a> & <a href="https://pages.cloudflare.com" target="_blank">Cloudflare Pages</a></p>
+    <footer class="footer" style="text-align: center; padding: 24px 16px; font-size: 13px; color: var(--text-secondary); line-height: 1.6;">
+      <p>&copy; 2024 <a href="https://gb.ooo" target="_blank" style="font-weight: 600; color: inherit; text-decoration: none;">Geek Base (gb.ooo)</a>. All rights reserved.</p>
+      <p style="margin-top: 4px; opacity: 0.8;">
+        <a href="https://nav.gb.ooo" target="_blank" style="color: inherit; text-decoration: none; font-weight: 500;">Geek Nav (极客导航)</a> • 
+        GitHub Rank (极客排行)
+      </p>
     </footer>
   `;
 
@@ -376,3 +379,14 @@ document.addEventListener('DOMContentLoaded', () => {
   initApp();
   fetchRepoStats();
 });
+
+// ======= 11. 动态补全微信分享图片路径 (避免写死域名) =======
+(function setDynamicOGImage() {
+    const currentUrl = window.location.origin + window.location.pathname;
+    const absoluteImgUrl = currentUrl.endsWith('/') ? currentUrl + 'assets/logo.png' : currentUrl + '/assets/logo.png';
+    
+    const ogImage = document.getElementById('og-image');
+    const twImage = document.getElementById('twitter-image');
+    if(ogImage) ogImage.setAttribute('content', absoluteImgUrl);
+    if(twImage) twImage.setAttribute('content', absoluteImgUrl);
+})();
