@@ -3,7 +3,7 @@
     "full_name": "Molunerfinn/PicGo",
     "html_url": "https://github.com/Molunerfinn/PicGo",
     "description": ":rocket: The Ultimate Image Uploader for Efficient Creators. Supports Obsidian, Typora, VS Code etc. and 60+ image hosting services  (S3, GitHub, Cloudflare R2, Imgur, Aliyun OSS...). Paste, upload, done.",
-    "stars": 27489,
+    "stars": 27492,
     "forks": 2339,
     "language": "TypeScript",
     "topics": [
@@ -28,14 +28,14 @@
     ],
     "created_at": "2017-12-12T08:39:44Z",
     "pushed_at": "2026-11-13T07:26:22Z",
-    "growth": 0
+    "growth": 3
   },
   {
     "full_name": "MarSeventh/CloudFlare-ImgBed",
     "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
     "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
-    "stars": 6902,
-    "forks": 8811,
+    "stars": 6907,
+    "forks": 8817,
     "language": "JavaScript",
     "topics": [
       "asset-management",
@@ -55,14 +55,14 @@
     ],
     "created_at": "2024-07-19T15:24:19Z",
     "pushed_at": "2026-11-03T02:45:16Z",
-    "growth": 1
+    "growth": 5
   },
   {
     "full_name": "cf-pages/Telegraph-Image",
     "html_url": "https://github.com/cf-pages/Telegraph-Image",
     "description": "Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.",
     "stars": 4705,
-    "forks": 8850,
+    "forks": 8849,
     "language": "HTML",
     "topics": [
       "cloudflare",
@@ -85,8 +85,8 @@
     "full_name": "elliothux/open-compute",
     "html_url": "https://github.com/elliothux/open-compute",
     "description": "Self-hosted Cloudflare Workers-compatible platform with Workers、KV、D1、R2、DO、Queues、Workflows、Cron、Cache、Images、Vectorize、AI Search、Artifacts、Static Assets、Service Bindings、Dynamic Workers、LogTail、Gateway in one Rust binary.",
-    "stars": 3637,
-    "forks": 101,
+    "stars": 3657,
+    "forks": 102,
     "language": "Rust",
     "topics": [
       "cloud",
@@ -112,7 +112,7 @@
     ],
     "created_at": "2026-08-23T04:34:25Z",
     "pushed_at": "2026-11-08T09:45:32Z",
-    "growth": 2
+    "growth": 20
   },
   {
     "full_name": "oznu/docker-cloudflare-ddns",
@@ -161,7 +161,7 @@
     "full_name": "vikiboss/r2-web",
     "html_url": "https://github.com/vikiboss/r2-web",
     "description": "📁 轻盈优雅的 Web 原生 Cloudflare R2 桶文件管理器，一切皆在浏览器中完成。 \\| 📁 A lightweight, elegant, pure-browser Cloudflare R2 file manager. Everything happens right in your browser.",
-    "stars": 501,
+    "stars": 502,
     "forks": 105,
     "language": "JavaScript",
     "topics": [
@@ -181,7 +181,7 @@
     ],
     "created_at": "2026-02-11T10:19:07Z",
     "pushed_at": "2026-11-11T05:11:28Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "RoseKhlifa/Image-Studio",
@@ -192,7 +192,7 @@
     "language": "Go",
     "topics": [],
     "created_at": "2026-05-19T05:06:52Z",
-    "pushed_at": "2026-10-06T09:52:59Z",
+    "pushed_at": "2026-11-14T04:37:59Z",
     "growth": 0
   },
   {
@@ -326,7 +326,7 @@
     "full_name": "saurav-z/free-image-generation-api",
     "html_url": "https://github.com/saurav-z/free-image-generation-api",
     "description": "Free AI Image Generation API using Cloudflare Workers",
-    "stars": 318,
+    "stars": 320,
     "forks": 125,
     "language": "HTML",
     "topics": [
@@ -338,7 +338,7 @@
     ],
     "created_at": "2025-07-02T08:08:01Z",
     "pushed_at": "2026-03-13T11:37:19Z",
-    "growth": 0
+    "growth": 2
   },
   {
     "full_name": "roimdev/roim-picx",
@@ -430,13 +430,13 @@
     "full_name": "standardagents/sip",
     "html_url": "https://github.com/standardagents/sip",
     "description": "Small Image Processor - Ultra memory-efficient image processing for Cloudflare Workers 🟠",
-    "stars": 195,
+    "stars": 197,
     "forks": 4,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2026-04-06T20:01:29Z",
     "pushed_at": "2026-11-11T15:06:15Z",
-    "growth": 0
+    "growth": 2
   },
   {
     "full_name": "Flosciante/nuxt-image-gallery",
@@ -530,7 +530,7 @@
     "html_url": "https://github.com/iiop123/workers-image-hosting",
     "description": "cloudflare worker简易图床",
     "stars": 159,
-    "forks": 63,
+    "forks": 62,
     "language": "Vue",
     "topics": [
       "cloudflare",

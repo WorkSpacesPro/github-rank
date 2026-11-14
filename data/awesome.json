@@ -3,8 +3,8 @@
     "full_name": "sindresorhus/awesome",
     "html_url": "https://github.com/sindresorhus/awesome",
     "description": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
-    "stars": 536200,
-    "forks": 38377,
+    "stars": 536585,
+    "forks": 38396,
     "language": "-",
     "topics": [
       "awesome",
@@ -15,14 +15,14 @@
     ],
     "created_at": "2014-07-11T13:42:37Z",
     "pushed_at": "2026-09-02T02:10:47Z",
-    "growth": 58
+    "growth": 385
   },
   {
     "full_name": "awesome-selfhosted/awesome-selfhosted",
     "html_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
     "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-    "stars": 336603,
-    "forks": 15824,
+    "stars": 336862,
+    "forks": 15830,
     "language": "-",
     "topics": [
       "awesome",
@@ -36,14 +36,14 @@
     ],
     "created_at": "2015-06-01T02:33:17Z",
     "pushed_at": "2026-11-07T11:49:42Z",
-    "growth": 32
+    "growth": 259
   },
   {
     "full_name": "vinta/awesome-python",
     "html_url": "https://github.com/vinta/awesome-python",
     "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
-    "stars": 334439,
-    "forks": 29095,
+    "stars": 334630,
+    "forks": 29099,
     "language": "Python",
     "topics": [
       "awesome",
@@ -55,14 +55,14 @@
     ],
     "created_at": "2014-06-27T21:00:06Z",
     "pushed_at": "2026-11-13T05:14:16Z",
-    "growth": 24
+    "growth": 191
   },
   {
     "full_name": "trimstray/the-book-of-secret-knowledge",
     "html_url": "https://github.com/trimstray/the-book-of-secret-knowledge",
     "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
-    "stars": 258128,
-    "forks": 14860,
+    "stars": 258367,
+    "forks": 14868,
     "language": "-",
     "topics": [
       "awesome",
@@ -87,13 +87,13 @@
     ],
     "created_at": "2018-06-23T10:43:14Z",
     "pushed_at": "2024-11-19T14:00:38Z",
-    "growth": 27
+    "growth": 239
   },
   {
     "full_name": "avelino/awesome-go",
     "html_url": "https://github.com/avelino/awesome-go",
     "description": "A curated list of awesome Go frameworks, libraries and software",
-    "stars": 193649,
+    "stars": 193825,
     "forks": 13739,
     "language": "Go",
     "topics": [
@@ -105,15 +105,15 @@
       "hacktoberfest"
     ],
     "created_at": "2014-07-06T13:42:15Z",
-    "pushed_at": "2026-11-13T11:00:22Z",
-    "growth": 17
+    "pushed_at": "2026-11-13T22:58:32Z",
+    "growth": 176
   },
   {
     "full_name": "521xueweihan/HelloGitHub",
     "html_url": "https://github.com/521xueweihan/HelloGitHub",
     "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
-    "stars": 188576,
-    "forks": 13271,
+    "stars": 188737,
+    "forks": 13281,
     "language": "Python",
     "topics": [
       "awesome",
@@ -123,14 +123,14 @@
     ],
     "created_at": "2016-05-04T06:24:11Z",
     "pushed_at": "2026-10-31T18:08:05Z",
-    "growth": 31
+    "growth": 161
   },
   {
     "full_name": "Hack-with-Github/Awesome-Hacking",
     "html_url": "https://github.com/Hack-with-Github/Awesome-Hacking",
     "description": "A collection of various awesome lists for hackers, pentesters and security researchers",
-    "stars": 125408,
-    "forks": 10994,
+    "stars": 125481,
+    "forks": 10998,
     "language": "-",
     "topics": [
       "android",
@@ -145,14 +145,14 @@
     ],
     "created_at": "2016-03-30T15:47:10Z",
     "pushed_at": "2026-10-27T01:45:58Z",
-    "growth": 6
+    "growth": 73
   },
   {
     "full_name": "jaywcjlove/awesome-mac",
     "html_url": "https://github.com/jaywcjlove/awesome-mac",
     "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
-    "stars": 118426,
-    "forks": 10262,
+    "stars": 118492,
+    "forks": 10293,
     "language": "Swift",
     "topics": [
       "app",
@@ -177,14 +177,14 @@
       "swiftui"
     ],
     "created_at": "2016-07-17T15:33:47Z",
-    "pushed_at": "2026-11-13T11:28:17Z",
-    "growth": 10
+    "pushed_at": "2026-11-14T07:01:14Z",
+    "growth": 66
   },
   {
     "full_name": "papers-we-love/papers-we-love",
     "html_url": "https://github.com/papers-we-love/papers-we-love",
     "description": "Papers from the computer science community to read and discuss.",
-    "stars": 111468,
+    "stars": 111491,
     "forks": 6483,
     "language": "Shell",
     "topics": [
@@ -198,14 +198,14 @@
     ],
     "created_at": "2013-12-15T14:31:41Z",
     "pushed_at": "2026-10-28T23:10:37Z",
-    "growth": 2
+    "growth": 23
   },
   {
     "full_name": "MunGell/awesome-for-beginners",
     "html_url": "https://github.com/MunGell/awesome-for-beginners",
     "description": "A list of awesome beginners-friendly projects.",
-    "stars": 91365,
-    "forks": 8071,
+    "stars": 91397,
+    "forks": 8074,
     "language": "-",
     "topics": [
       "awesome",
@@ -216,14 +216,14 @@
     ],
     "created_at": "2015-10-24T19:53:36Z",
     "pushed_at": "2026-10-01T14:58:51Z",
-    "growth": 4
+    "growth": 32
   },
   {
     "full_name": "DopplerHQ/awesome-interview-questions",
     "html_url": "https://github.com/DopplerHQ/awesome-interview-questions",
     "description": ":octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board:",
-    "stars": 85554,
-    "forks": 9610,
+    "stars": 85572,
+    "forks": 9611,
     "language": "-",
     "topics": [
       "android-interview-questions",
@@ -243,14 +243,14 @@
     ],
     "created_at": "2015-11-28T09:48:17Z",
     "pushed_at": "2024-07-29T14:21:23Z",
-    "growth": 2
+    "growth": 18
   },
   {
     "full_name": "binhnguyennus/awesome-scalability",
     "html_url": "https://github.com/binhnguyennus/awesome-scalability",
     "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
-    "stars": 75686,
-    "forks": 7247,
+    "stars": 75715,
+    "forks": 7249,
     "language": "-",
     "topics": [
       "architecture",
@@ -276,13 +276,13 @@
     ],
     "created_at": "2017-12-27T03:46:40Z",
     "pushed_at": "2026-01-04T03:51:47Z",
-    "growth": 2
+    "growth": 29
   },
   {
     "full_name": "enaqx/awesome-react",
     "html_url": "https://github.com/enaqx/awesome-react",
     "description": "A collection of awesome things regarding React ecosystem",
-    "stars": 75265,
+    "stars": 75276,
     "forks": 7696,
     "language": "-",
     "topics": [
@@ -299,14 +299,14 @@
     ],
     "created_at": "2014-08-06T05:31:44Z",
     "pushed_at": "2026-09-04T01:13:20Z",
-    "growth": 0
+    "growth": 11
   },
   {
     "full_name": "fffaraz/awesome-cpp",
     "html_url": "https://github.com/fffaraz/awesome-cpp",
     "description": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
-    "stars": 74395,
-    "forks": 8377,
+    "stars": 74406,
+    "forks": 8378,
     "language": "-",
     "topics": [
       "awesome",
@@ -324,13 +324,13 @@
     ],
     "created_at": "2014-07-17T08:51:11Z",
     "pushed_at": "2026-11-11T06:27:28Z",
-    "growth": 2
+    "growth": 11
   },
   {
     "full_name": "prakhar1989/awesome-courses",
     "html_url": "https://github.com/prakhar1989/awesome-courses",
     "description": ":books: List of awesome university courses for learning Computer Science!",
-    "stars": 72828,
+    "stars": 72856,
     "forks": 8481,
     "language": "-",
     "topics": [
@@ -341,13 +341,13 @@
     ],
     "created_at": "2014-11-15T18:36:49Z",
     "pushed_at": "2023-05-04T12:49:34Z",
-    "growth": 3
+    "growth": 28
   },
   {
     "full_name": "sindresorhus/awesome-nodejs",
     "html_url": "https://github.com/sindresorhus/awesome-nodejs",
     "description": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED TEMPORARILY]",
-    "stars": 67486,
+    "stars": 67497,
     "forks": 6254,
     "language": "-",
     "topics": [
@@ -360,13 +360,13 @@
     ],
     "created_at": "2014-07-11T13:35:34Z",
     "pushed_at": "2026-09-02T02:11:34Z",
-    "growth": 2
+    "growth": 11
   },
   {
     "full_name": "Solido/awesome-flutter",
     "html_url": "https://github.com/Solido/awesome-flutter",
     "description": "An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.",
-    "stars": 61887,
+    "stars": 61897,
     "forks": 6954,
     "language": "Dart",
     "topics": [
@@ -391,14 +391,14 @@
     ],
     "created_at": "2017-05-07T11:45:27Z",
     "pushed_at": "2026-09-03T04:34:54Z",
-    "growth": 1
+    "growth": 10
   },
   {
     "full_name": "rust-unofficial/awesome-rust",
     "html_url": "https://github.com/rust-unofficial/awesome-rust",
     "description": "A curated list of Rust code and resources.",
-    "stars": 60503,
-    "forks": 3808,
+    "stars": 60525,
+    "forks": 3811,
     "language": "Rust",
     "topics": [
       "awesome",
@@ -406,13 +406,13 @@
     ],
     "created_at": "2014-07-17T10:45:10Z",
     "pushed_at": "2026-11-12T23:29:39Z",
-    "growth": 2
+    "growth": 22
   },
   {
     "full_name": "tiimgreen/github-cheat-sheet",
     "html_url": "https://github.com/tiimgreen/github-cheat-sheet",
     "description": "A list of cool features of Git and GitHub.",
-    "stars": 60343,
+    "stars": 60364,
     "forks": 5506,
     "language": "-",
     "topics": [
@@ -424,13 +424,13 @@
     ],
     "created_at": "2014-04-12T16:38:42Z",
     "pushed_at": "2024-04-15T20:15:56Z",
-    "growth": 2
+    "growth": 21
   },
   {
     "full_name": "wasabeef/awesome-android-ui",
     "html_url": "https://github.com/wasabeef/awesome-android-ui",
     "description": "A curated list of awesome Android UI/UX libraries",
-    "stars": 58441,
+    "stars": 58461,
     "forks": 10239,
     "language": "-",
     "topics": [
@@ -440,14 +440,14 @@
     ],
     "created_at": "2014-12-24T01:45:03Z",
     "pushed_at": "2026-06-05T05:39:52Z",
-    "growth": 0
+    "growth": 20
   },
   {
     "full_name": "hesreallyhim/awesome-claude-code",
     "html_url": "https://github.com/hesreallyhim/awesome-claude-code",
     "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation). A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
-    "stars": 57908,
-    "forks": 4951,
+    "stars": 57968,
+    "forks": 4957,
     "language": "Python",
     "topics": [
       "agent-skills",
@@ -471,15 +471,15 @@
       "llm"
     ],
     "created_at": "2025-04-19T20:55:59Z",
-    "pushed_at": "2026-11-13T09:07:32Z",
-    "growth": 5
+    "pushed_at": "2026-11-14T06:09:36Z",
+    "growth": 60
   },
   {
     "full_name": "vsouza/awesome-ios",
     "html_url": "https://github.com/vsouza/awesome-ios",
     "description": "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects",
-    "stars": 53971,
-    "forks": 7021,
+    "stars": 53981,
+    "forks": 7022,
     "language": "Swift",
     "topics": [
       "apple-swift",
@@ -498,14 +498,14 @@
     ],
     "created_at": "2014-07-10T16:03:45Z",
     "pushed_at": "2026-08-27T19:34:29Z",
-    "growth": 0
+    "growth": 10
   },
   {
     "full_name": "VoltAgent/awesome-openclaw-skills",
     "html_url": "https://github.com/VoltAgent/awesome-openclaw-skills",
     "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
-    "stars": 53738,
-    "forks": 5068,
+    "stars": 53756,
+    "forks": 5069,
     "language": "-",
     "topics": [
       "agent-skills",
@@ -523,13 +523,13 @@
     ],
     "created_at": "2026-01-25T09:22:32Z",
     "pushed_at": "2026-10-30T13:21:07Z",
-    "growth": 2
+    "growth": 18
   },
   {
     "full_name": "dkhamsing/open-source-ios-apps",
     "html_url": "https://github.com/dkhamsing/open-source-ios-apps",
     "description": ":iphone: Collaborative List of Open-Source iOS Apps",
-    "stars": 53232,
+    "stars": 53256,
     "forks": 6183,
     "language": "-",
     "topics": [
@@ -555,15 +555,15 @@
       "watchos"
     ],
     "created_at": "2015-01-26T23:32:34Z",
-    "pushed_at": "2026-11-12T14:42:06Z",
-    "growth": 2
+    "pushed_at": "2026-11-13T15:14:01Z",
+    "growth": 24
   },
   {
     "full_name": "serhii-londar/open-source-mac-os-apps",
     "html_url": "https://github.com/serhii-londar/open-source-mac-os-apps",
     "description": "🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps",
-    "stars": 51359,
-    "forks": 3335,
+    "stars": 51370,
+    "forks": 3349,
     "language": "-",
     "topics": [
       "applications",
@@ -587,14 +587,14 @@
     ],
     "created_at": "2017-11-03T02:35:33Z",
     "pushed_at": "2026-10-31T07:24:05Z",
-    "growth": 2
+    "growth": 11
   },
   {
     "full_name": "lukasz-madon/awesome-remote-job",
     "html_url": "https://github.com/lukasz-madon/awesome-remote-job",
     "description": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
-    "stars": 50583,
-    "forks": 4961,
+    "stars": 50606,
+    "forks": 4962,
     "language": "-",
     "topics": [
       "awesome",
@@ -603,13 +603,13 @@
     ],
     "created_at": "2015-01-02T00:31:34Z",
     "pushed_at": "2026-09-21T15:00:51Z",
-    "growth": 1
+    "growth": 23
   },
   {
     "full_name": "DovAmir/awesome-design-patterns",
     "html_url": "https://github.com/DovAmir/awesome-design-patterns",
     "description": "A curated list of software and architecture related design patterns.",
-    "stars": 49728,
+    "stars": 49739,
     "forks": 3313,
     "language": "-",
     "topics": [
@@ -625,13 +625,13 @@
     ],
     "created_at": "2018-06-04T17:47:48Z",
     "pushed_at": "2024-10-25T19:57:00Z",
-    "growth": 0
+    "growth": 11
   },
   {
     "full_name": "akullpp/awesome-java",
     "html_url": "https://github.com/akullpp/awesome-java",
     "description": "A curated list of awesome frameworks, libraries and software for the Java programming language.",
-    "stars": 49519,
+    "stars": 49532,
     "forks": 7745,
     "language": "-",
     "topics": [
@@ -640,13 +640,13 @@
     ],
     "created_at": "2014-07-09T10:12:43Z",
     "pushed_at": "2026-09-23T10:50:49Z",
-    "growth": 2
+    "growth": 13
   },
   {
     "full_name": "brillout/awesome-react-components",
     "html_url": "https://github.com/brillout/awesome-react-components",
     "description": "Curated List of React Components & Libraries.",
-    "stars": 48860,
+    "stars": 48868,
     "forks": 3873,
     "language": "-",
     "topics": [
@@ -658,13 +658,13 @@
     ],
     "created_at": "2016-06-24T15:19:33Z",
     "pushed_at": "2026-01-26T16:36:45Z",
-    "growth": 0
+    "growth": 8
   },
   {
     "full_name": "dypsilon/frontend-dev-bookmarks",
     "html_url": "https://github.com/dypsilon/frontend-dev-bookmarks",
     "description": "Manually curated collection of resources for frontend web developers.",
-    "stars": 47767,
+    "stars": 47774,
     "forks": 5141,
     "language": "-",
     "topics": [
@@ -675,6 +675,6 @@
     ],
     "created_at": "2013-06-22T13:23:55Z",
     "pushed_at": "2024-05-21T10:56:58Z",
-    "growth": 1
+    "growth": 7
   }
 ]
