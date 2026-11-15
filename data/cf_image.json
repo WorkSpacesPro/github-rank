@@ -28,14 +28,14 @@
     ],
     "created_at": "2017-12-12T08:39:44Z",
     "pushed_at": "2026-11-13T07:26:22Z",
-    "growth": 3
+    "growth": 0
   },
   {
     "full_name": "MarSeventh/CloudFlare-ImgBed",
     "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
     "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
-    "stars": 6907,
-    "forks": 8817,
+    "stars": 6908,
+    "forks": 8819,
     "language": "JavaScript",
     "topics": [
       "asset-management",
@@ -55,14 +55,14 @@
     ],
     "created_at": "2024-07-19T15:24:19Z",
     "pushed_at": "2026-11-03T02:45:16Z",
-    "growth": 5
+    "growth": 1
   },
   {
     "full_name": "cf-pages/Telegraph-Image",
     "html_url": "https://github.com/cf-pages/Telegraph-Image",
     "description": "Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.",
     "stars": 4705,
-    "forks": 8849,
+    "forks": 8848,
     "language": "HTML",
     "topics": [
       "cloudflare",
@@ -85,8 +85,8 @@
     "full_name": "elliothux/open-compute",
     "html_url": "https://github.com/elliothux/open-compute",
     "description": "Self-hosted Cloudflare Workers-compatible platform with Workers、KV、D1、R2、DO、Queues、Workflows、Cron、Cache、Images、Vectorize、AI Search、Artifacts、Static Assets、Service Bindings、Dynamic Workers、LogTail、Gateway in one Rust binary.",
-    "stars": 3657,
-    "forks": 102,
+    "stars": 3671,
+    "forks": 104,
     "language": "Rust",
     "topics": [
       "cloud",
@@ -112,14 +112,14 @@
     ],
     "created_at": "2026-08-23T04:34:25Z",
     "pushed_at": "2026-11-08T09:45:32Z",
-    "growth": 20
+    "growth": 14
   },
   {
     "full_name": "oznu/docker-cloudflare-ddns",
     "html_url": "https://github.com/oznu/docker-cloudflare-ddns",
     "description": "A small amd64/ARM/ARM64 Docker image that allows you to use CloudFlare as a DDNS / DynDNS Provider.",
     "stars": 1146,
-    "forks": 214,
+    "forks": 215,
     "language": "Shell",
     "topics": [
       "aarch64",
@@ -143,7 +143,7 @@
     "html_url": "https://github.com/0-RTT/telegraph",
     "description": "基于 Cloudflare Worker 和 Pages 的图床/视频床/文件床，轻松实现无服务器部署！",
     "stars": 1081,
-    "forks": 368,
+    "forks": 369,
     "language": "JavaScript",
     "topics": [
       "cloudflare",
@@ -161,8 +161,8 @@
     "full_name": "vikiboss/r2-web",
     "html_url": "https://github.com/vikiboss/r2-web",
     "description": "📁 轻盈优雅的 Web 原生 Cloudflare R2 桶文件管理器，一切皆在浏览器中完成。 \\| 📁 A lightweight, elegant, pure-browser Cloudflare R2 file manager. Everything happens right in your browser.",
-    "stars": 502,
-    "forks": 105,
+    "stars": 501,
+    "forks": 104,
     "language": "JavaScript",
     "topics": [
       "cloudflare",
@@ -181,7 +181,7 @@
     ],
     "created_at": "2026-02-11T10:19:07Z",
     "pushed_at": "2026-11-11T05:11:28Z",
-    "growth": 1
+    "growth": -1
   },
   {
     "full_name": "RoseKhlifa/Image-Studio",
@@ -307,7 +307,7 @@
     "html_url": "https://github.com/crazy-max/docker-cloudflared",
     "description": "Cloudflared proxy-dns Docker image",
     "stars": 327,
-    "forks": 37,
+    "forks": 36,
     "language": "Dockerfile",
     "topics": [
       "alpine-linux",
@@ -326,7 +326,7 @@
     "full_name": "saurav-z/free-image-generation-api",
     "html_url": "https://github.com/saurav-z/free-image-generation-api",
     "description": "Free AI Image Generation API using Cloudflare Workers",
-    "stars": 320,
+    "stars": 322,
     "forks": 125,
     "language": "HTML",
     "topics": [
@@ -379,7 +379,7 @@
     "html_url": "https://github.com/WuMingDao/zenith-image-generator",
     "description": "Modern AI image generator with multi-provider support (Gitee AI, HuggingFace, ModelScope), OpenAI-compatible API, token rotation, and one-click deployment to Cloudflare Pages.",
     "stars": 226,
-    "forks": 121,
+    "forks": 122,
     "language": "TypeScript",
     "topics": [
       "biome",
@@ -436,7 +436,7 @@
     "topics": [],
     "created_at": "2026-04-06T20:01:29Z",
     "pushed_at": "2026-11-11T15:06:15Z",
-    "growth": 2
+    "growth": 0
   },
   {
     "full_name": "Flosciante/nuxt-image-gallery",
