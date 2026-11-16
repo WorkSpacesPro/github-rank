@@ -3,8 +3,8 @@
     "full_name": "morluto/rea",
     "html_url": "https://github.com/morluto/rea",
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-    "stars": 460570,
-    "forks": 112862,
+    "stars": 462736,
+    "forks": 113297,
     "language": "TypeScript",
     "topics": [
       "agent-skills",
@@ -29,15 +29,15 @@
       "typescript"
     ],
     "created_at": "2026-04-14T00:51:32Z",
-    "pushed_at": "2026-11-15T08:41:19Z",
-    "growth": 2254
+    "pushed_at": "2026-11-16T08:49:01Z",
+    "growth": 2166
   },
   {
     "full_name": "freeCodeCamp/freeCodeCamp",
     "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
     "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-    "stars": 459152,
-    "forks": 47473,
+    "stars": 459188,
+    "forks": 47469,
     "language": "TypeScript",
     "topics": [
       "careers",
@@ -57,15 +57,15 @@
       "teachers"
     ],
     "created_at": "2014-12-24T17:49:19Z",
-    "pushed_at": "2026-11-14T13:40:45Z",
-    "growth": 42
+    "pushed_at": "2026-11-16T08:10:42Z",
+    "growth": 36
   },
   {
     "full_name": "openclaw/openclaw",
     "html_url": "https://github.com/openclaw/openclaw",
     "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
-    "stars": 394489,
-    "forks": 82898,
+    "stars": 394550,
+    "forks": 82899,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -77,15 +77,15 @@
       "personal"
     ],
     "created_at": "2025-11-24T10:16:47Z",
-    "pushed_at": "2026-11-15T08:40:27Z",
-    "growth": 75
+    "pushed_at": "2026-11-16T08:51:44Z",
+    "growth": 61
   },
   {
     "full_name": "nilbuild/developer-roadmap",
     "html_url": "https://github.com/nilbuild/developer-roadmap",
     "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-    "stars": 372034,
-    "forks": 46398,
+    "stars": 372117,
+    "forks": 46406,
     "language": "TypeScript",
     "topics": [
       "angular-roadmap",
@@ -108,15 +108,15 @@
       "vue-roadmap"
     ],
     "created_at": "2017-03-15T13:45:52Z",
-    "pushed_at": "2026-11-13T09:05:33Z",
-    "growth": 58
+    "pushed_at": "2026-11-15T23:04:22Z",
+    "growth": 83
   },
   {
     "full_name": "deepseek-ai/deepseek-harness",
     "html_url": "https://github.com/deepseek-ai/deepseek-harness",
     "description": "DeepSeek Harness: Everything is a Plugin.",
-    "stars": 281287,
-    "forks": 34754,
+    "stars": 281997,
+    "forks": 34898,
     "language": "TypeScript",
     "topics": [
       "ai-agents",
@@ -126,26 +126,26 @@
     ],
     "created_at": "2026-08-13T11:56:32Z",
     "pushed_at": "2026-11-13T07:56:25Z",
-    "growth": 531
+    "growth": 710
   },
   {
     "full_name": "anomalyco/opencode",
     "html_url": "https://github.com/anomalyco/opencode",
     "description": "The open source coding agent.",
-    "stars": 226935,
-    "forks": 30741,
+    "stars": 227139,
+    "forks": 30768,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2025-04-30T20:08:00Z",
-    "pushed_at": "2026-11-15T07:42:42Z",
-    "growth": 190
+    "pushed_at": "2026-11-16T08:51:01Z",
+    "growth": 204
   },
   {
     "full_name": "vuejs/vue",
     "html_url": "https://github.com/vuejs/vue",
     "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
-    "stars": 212524,
-    "forks": 34394,
+    "stars": 212518,
+    "forks": 34392,
     "language": "TypeScript",
     "topics": [
       "framework",
@@ -155,14 +155,14 @@
     ],
     "created_at": "2013-07-29T03:24:51Z",
     "pushed_at": "2024-10-10T07:24:15Z",
-    "growth": 0
+    "growth": -6
   },
   {
     "full_name": "n8n-io/n8n",
     "html_url": "https://github.com/n8n-io/n8n",
     "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-    "stars": 210551,
-    "forks": 61527,
+    "stars": 210616,
+    "forks": 61536,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -187,15 +187,15 @@
       "workflow-automation"
     ],
     "created_at": "2019-06-22T09:24:21Z",
-    "pushed_at": "2026-11-15T03:47:55Z",
-    "growth": 110
+    "pushed_at": "2026-11-16T08:51:35Z",
+    "growth": 65
   },
   {
     "full_name": "firecrawl/firecrawl",
     "html_url": "https://github.com/firecrawl/firecrawl",
     "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
-    "stars": 201877,
-    "forks": 10586,
+    "stars": 202169,
+    "forks": 10597,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -219,15 +219,15 @@
       "webscraping"
     ],
     "created_at": "2024-04-15T21:02:29Z",
-    "pushed_at": "2026-11-15T01:43:22Z",
-    "growth": 234
+    "pushed_at": "2026-11-16T00:15:37Z",
+    "growth": 292
   },
   {
     "full_name": "microsoft/vscode",
     "html_url": "https://github.com/microsoft/vscode",
     "description": "Visual Studio Code",
-    "stars": 195406,
-    "forks": 43849,
+    "stars": 195448,
+    "forks": 43855,
     "language": "TypeScript",
     "topics": [
       "editor",
@@ -237,27 +237,27 @@
       "visual-studio-code"
     ],
     "created_at": "2015-09-03T20:23:38Z",
-    "pushed_at": "2026-11-15T08:41:20Z",
-    "growth": 48
+    "pushed_at": "2026-11-16T08:46:00Z",
+    "growth": 42
   },
   {
     "full_name": "anthropics/claude-code",
     "html_url": "https://github.com/anthropics/claude-code",
     "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-    "stars": 155720,
-    "forks": 25002,
+    "stars": 155833,
+    "forks": 25017,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2025-02-22T17:41:21Z",
-    "pushed_at": "2026-11-15T06:33:37Z",
+    "pushed_at": "2026-11-15T23:10:55Z",
     "growth": 113
   },
   {
     "full_name": "iptv-org/iptv",
     "html_url": "https://github.com/iptv-org/iptv",
     "description": "Collection of publicly available IPTV channels from all over the world",
-    "stars": 144061,
-    "forks": 8600,
+    "stars": 144144,
+    "forks": 8609,
     "language": "TypeScript",
     "topics": [
       "iptv",
@@ -267,15 +267,15 @@
       "tv"
     ],
     "created_at": "2018-11-14T22:00:57Z",
-    "pushed_at": "2026-11-15T00:12:47Z",
-    "growth": 112
+    "pushed_at": "2026-11-15T19:10:57Z",
+    "growth": 83
   },
   {
     "full_name": "yangshun/tech-interview-handbook",
     "html_url": "https://github.com/yangshun/tech-interview-handbook",
     "description": "Curated coding interview preparation materials for busy software engineers",
-    "stars": 143291,
-    "forks": 16885,
+    "stars": 143298,
+    "forks": 16883,
     "language": "TypeScript",
     "topics": [
       "algorithm",
@@ -291,26 +291,26 @@
     ],
     "created_at": "2016-07-05T05:00:48Z",
     "pushed_at": "2026-08-07T12:06:42Z",
-    "growth": 1
+    "growth": 7
   },
   {
     "full_name": "garrytan/gstack",
     "html_url": "https://github.com/garrytan/gstack",
     "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-    "stars": 141605,
-    "forks": 20918,
+    "stars": 141746,
+    "forks": 20934,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2026-03-11T21:22:45Z",
-    "pushed_at": "2026-11-15T06:54:54Z",
-    "growth": 113
+    "pushed_at": "2026-11-16T08:43:15Z",
+    "growth": 141
   },
   {
     "full_name": "excalidraw/excalidraw",
     "html_url": "https://github.com/excalidraw/excalidraw",
     "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
-    "stars": 135700,
-    "forks": 16174,
+    "stars": 135764,
+    "forks": 16188,
     "language": "TypeScript",
     "topics": [
       "canvas",
@@ -322,15 +322,15 @@
       "whiteboard"
     ],
     "created_at": "2020-01-02T01:04:43Z",
-    "pushed_at": "2026-11-14T17:30:29Z",
-    "growth": 35
+    "pushed_at": "2026-11-15T16:23:22Z",
+    "growth": 64
   },
   {
     "full_name": "shadcn-ui/ui",
     "html_url": "https://github.com/shadcn-ui/ui",
     "description": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
-    "stars": 128211,
-    "forks": 11384,
+    "stars": 128287,
+    "forks": 11394,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -353,14 +353,14 @@
     ],
     "created_at": "2023-01-04T12:43:27Z",
     "pushed_at": "2026-11-13T10:58:16Z",
-    "growth": 60
+    "growth": 76
   },
   {
     "full_name": "stablyai/orca",
     "html_url": "https://github.com/stablyai/orca",
     "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
-    "stars": 125264,
-    "forks": 7945,
+    "stars": 126137,
+    "forks": 7998,
     "language": "TypeScript",
     "topics": [
       "agent-ide",
@@ -385,27 +385,27 @@
       "yc-backed"
     ],
     "created_at": "2026-03-17T03:28:57Z",
-    "pushed_at": "2026-11-15T08:41:29Z",
-    "growth": 713
+    "pushed_at": "2026-11-16T08:49:48Z",
+    "growth": 873
   },
   {
     "full_name": "earendil-works/pi",
     "html_url": "https://github.com/earendil-works/pi",
     "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-    "stars": 122075,
-    "forks": 15737,
+    "stars": 122256,
+    "forks": 15765,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2025-08-09T14:03:50Z",
-    "pushed_at": "2026-11-15T08:03:40Z",
-    "growth": 151
+    "pushed_at": "2026-11-15T23:11:35Z",
+    "growth": 181
   },
   {
     "full_name": "immich-app/immich",
     "html_url": "https://github.com/immich-app/immich",
     "description": "High performance self-hosted photo and video management solution.",
-    "stars": 119233,
-    "forks": 7609,
+    "stars": 119331,
+    "forks": 7623,
     "language": "TypeScript",
     "topics": [
       "backup-tool",
@@ -426,15 +426,15 @@
       "videos"
     ],
     "created_at": "2022-02-03T15:56:27Z",
-    "pushed_at": "2026-11-14T08:36:06Z",
-    "growth": 109
+    "pushed_at": "2026-11-16T03:35:59Z",
+    "growth": 98
   },
   {
     "full_name": "thedotmack/claude-mem",
     "html_url": "https://github.com/thedotmack/claude-mem",
     "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-    "stars": 117193,
-    "forks": 10173,
+    "stars": 117490,
+    "forks": 10208,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -459,15 +459,15 @@
       "supermemory"
     ],
     "created_at": "2025-08-31T20:50:03Z",
-    "pushed_at": "2026-11-15T06:04:45Z",
-    "growth": 275
+    "pushed_at": "2026-11-16T08:47:55Z",
+    "growth": 297
   },
   {
     "full_name": "supabase/supabase",
     "html_url": "https://github.com/supabase/supabase",
     "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-    "stars": 115051,
-    "forks": 15141,
+    "stars": 115075,
+    "forks": 15139,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -491,15 +491,15 @@
       "websockets"
     ],
     "created_at": "2019-10-12T05:56:49Z",
-    "pushed_at": "2026-11-15T00:25:04Z",
-    "growth": 56
+    "pushed_at": "2026-11-16T08:29:19Z",
+    "growth": 24
   },
   {
     "full_name": "paperclipai/paperclip",
     "html_url": "https://github.com/paperclipai/paperclip",
     "description": "The open-source app everyone uses to manage agents at work",
-    "stars": 113991,
-    "forks": 18909,
+    "stars": 114214,
+    "forks": 18940,
     "language": "TypeScript",
     "topics": [
       "acpx",
@@ -524,15 +524,15 @@
       "workflow-automation"
     ],
     "created_at": "2026-03-02T15:01:51Z",
-    "pushed_at": "2026-11-15T08:15:43Z",
-    "growth": 226
+    "pushed_at": "2026-11-16T08:50:36Z",
+    "growth": 223
   },
   {
     "full_name": "google-gemini/gemini-cli",
     "html_url": "https://github.com/google-gemini/gemini-cli",
     "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 108838,
-    "forks": 14955,
+    "stars": 108865,
+    "forks": 14957,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -544,15 +544,15 @@
       "mcp-server"
     ],
     "created_at": "2025-04-17T17:04:31Z",
-    "pushed_at": "2026-11-15T01:12:38Z",
-    "growth": 19
+    "pushed_at": "2026-11-16T01:39:00Z",
+    "growth": 27
   },
   {
     "full_name": "nexu-io/open-design",
     "html_url": "https://github.com/nexu-io/open-design",
     "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
-    "stars": 107692,
-    "forks": 12244,
+    "stars": 107826,
+    "forks": 12252,
     "language": "TypeScript",
     "topics": [
       "agent-skills",
@@ -577,15 +577,15 @@
       "vibe-coding"
     ],
     "created_at": "2026-04-28T04:25:20Z",
-    "pushed_at": "2026-11-15T04:31:27Z",
-    "growth": 129
+    "pushed_at": "2026-11-16T07:12:53Z",
+    "growth": 134
   },
   {
     "full_name": "angular/angular",
     "html_url": "https://github.com/angular/angular",
     "description": "Deliver web apps with confidence 🚀",
-    "stars": 101504,
-    "forks": 28216,
+    "stars": 101480,
+    "forks": 28206,
     "language": "TypeScript",
     "topics": [
       "angular",
@@ -598,34 +598,14 @@
     ],
     "created_at": "2014-09-18T16:12:01Z",
     "pushed_at": "2026-11-14T01:10:27Z",
-    "growth": 23
-  },
-  {
-    "full_name": "ant-design/ant-design",
-    "html_url": "https://github.com/ant-design/ant-design",
-    "description": "An enterprise-class UI design language and React UI library",
-    "stars": 100215,
-    "forks": 54624,
-    "language": "TypeScript",
-    "topics": [
-      "ant-design",
-      "antd",
-      "design-systems",
-      "react",
-      "typescript",
-      "ui-kit",
-      "ui-library"
-    ],
-    "created_at": "2015-04-24T15:37:24Z",
-    "pushed_at": "2026-11-15T02:32:34Z",
-    "growth": 14
+    "growth": -24
   },
   {
     "full_name": "microsoft/playwright",
     "html_url": "https://github.com/microsoft/playwright",
     "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
-    "stars": 100212,
-    "forks": 6882,
+    "stars": 100295,
+    "forks": 6889,
     "language": "TypeScript",
     "topics": [
       "automation",
@@ -645,15 +625,35 @@
       "webkit"
     ],
     "created_at": "2019-11-15T18:32:42Z",
-    "pushed_at": "2026-11-14T12:00:14Z",
-    "growth": 82
+    "pushed_at": "2026-11-15T22:43:30Z",
+    "growth": 83
+  },
+  {
+    "full_name": "ant-design/ant-design",
+    "html_url": "https://github.com/ant-design/ant-design",
+    "description": "An enterprise-class UI design language and React UI library",
+    "stars": 100226,
+    "forks": 54629,
+    "language": "TypeScript",
+    "topics": [
+      "ant-design",
+      "antd",
+      "design-systems",
+      "react",
+      "typescript",
+      "ui-kit",
+      "ui-library"
+    ],
+    "created_at": "2015-04-24T15:37:24Z",
+    "pushed_at": "2026-11-16T08:38:59Z",
+    "growth": 11
   },
   {
     "full_name": "tailwindlabs/tailwindcss",
     "html_url": "https://github.com/tailwindlabs/tailwindcss",
     "description": "A utility-first CSS framework for rapid UI development.",
-    "stars": 98606,
-    "forks": 6397,
+    "stars": 98651,
+    "forks": 6437,
     "language": "TypeScript",
     "topics": [
       "css",
@@ -666,14 +666,14 @@
     ],
     "created_at": "2017-10-06T14:59:14Z",
     "pushed_at": "2026-11-11T20:55:22Z",
-    "growth": 7
+    "growth": 45
   },
   {
     "full_name": "OpenCut-app/OpenCut",
     "html_url": "https://github.com/OpenCut-app/OpenCut",
     "description": "The open-source CapCut alternative",
-    "stars": 98384,
-    "forks": 9830,
+    "stars": 98599,
+    "forks": 9867,
     "language": "TypeScript",
     "topics": [
       "editor",
@@ -682,14 +682,14 @@
     ],
     "created_at": "2025-06-22T08:02:17Z",
     "pushed_at": "2026-09-24T09:24:44Z",
-    "growth": 71
+    "growth": 215
   },
   {
     "full_name": "Stirling-Tools/Stirling-PDF",
     "html_url": "https://github.com/Stirling-Tools/Stirling-PDF",
     "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
-    "stars": 96622,
-    "forks": 9356,
+    "stars": 96724,
+    "forks": 9365,
     "language": "TypeScript",
     "topics": [
       "docker",
@@ -707,7 +707,7 @@
       "self-hosted"
     ],
     "created_at": "2023-01-27T18:22:42Z",
-    "pushed_at": "2026-11-15T03:27:49Z",
-    "growth": 83
+    "pushed_at": "2026-11-16T08:50:53Z",
+    "growth": 102
   }
 ]
