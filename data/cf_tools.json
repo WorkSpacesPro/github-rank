@@ -3,8 +3,8 @@
     "full_name": "miantiao-me/Sink",
     "html_url": "https://github.com/miantiao-me/Sink",
     "description": "⚡ A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.",
-    "stars": 7280,
-    "forks": 5401,
+    "stars": 7284,
+    "forks": 5403,
     "language": "TypeScript",
     "topics": [
       "analytics",
@@ -19,14 +19,14 @@
     ],
     "created_at": "2024-05-05T13:53:54Z",
     "pushed_at": "2026-10-27T06:01:00Z",
-    "growth": 0
+    "growth": 4
   },
   {
     "full_name": "benvinegar/counterscale",
     "html_url": "https://github.com/benvinegar/counterscale",
     "description": "Scalable web analytics you run yourself on Cloudflare",
-    "stars": 2203,
-    "forks": 141,
+    "stars": 2206,
+    "forks": 142,
     "language": "TypeScript",
     "topics": [
       "analytics",
@@ -43,7 +43,7 @@
     "full_name": "RavelloH/InsightFlare",
     "html_url": "https://github.com/RavelloH/InsightFlare",
     "description": "A powerful, privacy-friendly open source web analytics tool that runs entirely on Cloudflare.",
-    "stars": 714,
+    "stars": 726,
     "forks": 17,
     "language": "TypeScript",
     "topics": [
@@ -63,7 +63,7 @@
     ],
     "created_at": "2026-02-28T17:21:17Z",
     "pushed_at": "2026-11-14T11:46:08Z",
-    "growth": 1
+    "growth": 12
   },
   {
     "full_name": "TangSY/edge-next-starter",
@@ -81,7 +81,7 @@
     "full_name": "shivamanupadi/traks",
     "html_url": "https://github.com/shivamanupadi/traks",
     "description": "Self-hosted, privacy-friendly web analytics that deploys into your own Cloudflare account in two minutes. Free forever, MIT.",
-    "stars": 349,
+    "stars": 351,
     "forks": 28,
     "language": "TypeScript",
     "topics": [
@@ -97,14 +97,14 @@
     ],
     "created_at": "2026-02-18T16:04:30Z",
     "pushed_at": "2026-11-04T04:22:56Z",
-    "growth": 0
+    "growth": 2
   },
   {
     "full_name": "uxiaohan/HanAnalytics",
     "html_url": "https://github.com/uxiaohan/HanAnalytics",
     "description": "一个简单的网络分析跟踪器和仪表板，在 Cloudflare Pages 上即可快速部署的网站分析仪表板,无成本稳定运行",
     "stars": 280,
-    "forks": 170,
+    "forks": 169,
     "language": "Less",
     "topics": [],
     "created_at": "2024-09-22T08:12:50Z",
@@ -131,7 +131,7 @@
     "full_name": "jorgelbg/dashflare",
     "html_url": "https://github.com/jorgelbg/dashflare",
     "description": "🕵🏼‍♀️ Open Source and privacy-focused analytics solution. 📊 Advanced monitoring for your website behind Cloudflare",
-    "stars": 162,
+    "stars": 163,
     "forks": 30,
     "language": "TypeScript",
     "topics": [
@@ -149,7 +149,7 @@
     ],
     "created_at": "2020-03-09T22:52:41Z",
     "pushed_at": "2023-01-27T04:42:34Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "yestool/analytics_with_cloudflare",
@@ -188,7 +188,7 @@
     "full_name": "Shudesu/x-harness-oss",
     "html_url": "https://github.com/Shudesu/x-harness-oss",
     "description": "X Harness — self-hosted X (Twitter) scheduling, DM and analytics on Cloudflare Workers, with MCP and TypeScript SDK. By Shudesu (野田修一).",
-    "stars": 104,
+    "stars": 105,
     "forks": 46,
     "language": "TypeScript",
     "topics": [
@@ -203,37 +203,25 @@
     ],
     "created_at": "2026-04-02T11:13:47Z",
     "pushed_at": "2026-11-15T18:40:27Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "qiayue/pvuv.ai",
     "html_url": "https://github.com/qiayue/pvuv.ai",
     "description": "PVUV.ai : Privacy-friendly, self-hosted web analytics with built-in invalid-traffic detection and AdSense protection. Runs on Cloudflare Workers + D1.",
-    "stars": 90,
-    "forks": 35,
+    "stars": 93,
+    "forks": 37,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2026-07-07T09:45:28Z",
     "pushed_at": "2026-11-03T06:05:16Z",
-    "growth": 7
-  },
-  {
-    "full_name": "hayaran/Edgemetry",
-    "html_url": "https://github.com/hayaran/Edgemetry",
-    "description": "Lightweight, privacy-friendly web analytics built for the Cloudflare edge.",
-    "stars": 71,
-    "forks": 9,
-    "language": "TypeScript",
-    "topics": [],
-    "created_at": "2026-07-28T08:54:30Z",
-    "pushed_at": "2026-08-18T13:03:22Z",
-    "growth": 0
+    "growth": 3
   },
   {
     "full_name": "YuriCrystal/relay",
     "html_url": "https://github.com/YuriCrystal/relay",
     "description": "Self-hosted link shortener with privacy-first click analytics & cookieless conversion tracking, on Cloudflare Workers + D1. A/B split, device & geo routing, /suffix source tracking, FB/GA4/GTM retargeting, unique visitors, CSV export, QR. Zero-build single-file admin. MIT.",
-    "stars": 71,
+    "stars": 72,
     "forks": 26,
     "language": "HTML",
     "topics": [
@@ -255,6 +243,18 @@
     ],
     "created_at": "2026-06-09T17:20:06Z",
     "pushed_at": "2026-06-24T07:03:32Z",
+    "growth": 1
+  },
+  {
+    "full_name": "hayaran/Edgemetry",
+    "html_url": "https://github.com/hayaran/Edgemetry",
+    "description": "Lightweight, privacy-friendly web analytics built for the Cloudflare edge.",
+    "stars": 71,
+    "forks": 9,
+    "language": "TypeScript",
+    "topics": [],
+    "created_at": "2026-07-28T08:54:30Z",
+    "pushed_at": "2026-08-18T13:03:22Z",
     "growth": 0
   },
   {

@@ -3,8 +3,8 @@
     "full_name": "morluto/rea",
     "html_url": "https://github.com/morluto/rea",
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-    "stars": 462736,
-    "forks": 113297,
+    "stars": 465053,
+    "forks": 113836,
     "language": "TypeScript",
     "topics": [
       "agent-skills",
@@ -29,15 +29,15 @@
       "typescript"
     ],
     "created_at": "2026-04-14T00:51:32Z",
-    "pushed_at": "2026-11-16T08:49:01Z",
-    "growth": 2166
+    "pushed_at": "2026-11-17T09:27:10Z",
+    "growth": 2317
   },
   {
     "full_name": "openclaw/openclaw",
     "html_url": "https://github.com/openclaw/openclaw",
     "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
-    "stars": 394550,
-    "forks": 82899,
+    "stars": 394618,
+    "forks": 82910,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -49,27 +49,27 @@
       "personal"
     ],
     "created_at": "2025-11-24T10:16:47Z",
-    "pushed_at": "2026-11-16T08:50:27Z",
-    "growth": 61
+    "pushed_at": "2026-11-17T09:57:48Z",
+    "growth": 68
   },
   {
     "full_name": "mattpocock/skills",
     "html_url": "https://github.com/mattpocock/skills",
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "stars": 325461,
-    "forks": 27318,
+    "stars": 326267,
+    "forks": 27402,
     "language": "Shell",
     "topics": [],
     "created_at": "2026-02-03T11:15:53Z",
     "pushed_at": "2026-11-13T12:30:31Z",
-    "growth": 807
+    "growth": 806
   },
   {
     "full_name": "obra/superpowers",
     "html_url": "https://github.com/obra/superpowers",
     "description": "An agentic skills framework & software development methodology that works.",
-    "stars": 318232,
-    "forks": 28365,
+    "stars": 318881,
+    "forks": 28420,
     "language": "Shell",
     "topics": [
       "ai",
@@ -83,14 +83,14 @@
     ],
     "created_at": "2025-10-09T19:45:18Z",
     "pushed_at": "2026-11-03T23:24:58Z",
-    "growth": 462
+    "growth": 649
   },
   {
     "full_name": "affaan-m/ECC",
     "html_url": "https://github.com/affaan-m/ECC",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 304037,
-    "forks": 44801,
+    "stars": 304902,
+    "forks": 44896,
     "language": "JavaScript",
     "topics": [
       "ai-agents",
@@ -103,15 +103,15 @@
       "productivity"
     ],
     "created_at": "2026-01-18T00:51:51Z",
-    "pushed_at": "2026-11-16T04:55:46Z",
-    "growth": 645
+    "pushed_at": "2026-11-17T06:41:46Z",
+    "growth": 865
   },
   {
     "full_name": "deepseek-ai/deepseek-harness",
     "html_url": "https://github.com/deepseek-ai/deepseek-harness",
     "description": "DeepSeek Harness: Everything is a Plugin.",
-    "stars": 281997,
-    "forks": 34898,
+    "stars": 282686,
+    "forks": 35026,
     "language": "TypeScript",
     "topics": [
       "ai-agents",
@@ -121,14 +121,14 @@
     ],
     "created_at": "2026-08-13T11:56:32Z",
     "pushed_at": "2026-11-13T07:56:25Z",
-    "growth": 710
+    "growth": 689
   },
   {
     "full_name": "NousResearch/hermes-agent",
     "html_url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 263740,
-    "forks": 59462,
+    "stars": 264042,
+    "forks": 59556,
     "language": "Python",
     "topics": [
       "ai",
@@ -146,65 +146,65 @@
       "openai"
     ],
     "created_at": "2025-07-22T22:22:28Z",
-    "pushed_at": "2026-11-16T08:46:05Z",
-    "growth": 256
+    "pushed_at": "2026-11-17T09:44:01Z",
+    "growth": 302
   },
   {
     "full_name": "multica-ai/andrej-karpathy-skills",
     "html_url": "https://github.com/multica-ai/andrej-karpathy-skills",
     "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-    "stars": 233554,
-    "forks": 23227,
+    "stars": 233854,
+    "forks": 23256,
     "language": "-",
     "topics": [],
     "created_at": "2026-01-27T03:53:13Z",
     "pushed_at": "2026-04-20T10:05:04Z",
-    "growth": 318
+    "growth": 300
   },
   {
     "full_name": "anomalyco/opencode",
     "html_url": "https://github.com/anomalyco/opencode",
     "description": "The open source coding agent.",
-    "stars": 227139,
-    "forks": 30768,
+    "stars": 227445,
+    "forks": 30826,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2025-04-30T20:08:00Z",
-    "pushed_at": "2026-11-16T08:51:01Z",
-    "growth": 204
+    "pushed_at": "2026-11-17T08:33:42Z",
+    "growth": 306
   },
   {
     "full_name": "anthropics/skills",
     "html_url": "https://github.com/anthropics/skills",
     "description": "Public repository for Agent Skills",
-    "stars": 195568,
-    "forks": 22983,
+    "stars": 196339,
+    "forks": 23041,
     "language": "Python",
     "topics": [
       "agent-skills"
     ],
     "created_at": "2025-09-22T15:53:31Z",
-    "pushed_at": "2026-11-14T21:52:49Z",
-    "growth": 742
+    "pushed_at": "2026-11-16T14:22:50Z",
+    "growth": 771
   },
   {
     "full_name": "ultraworkers/claw-code",
     "html_url": "https://github.com/ultraworkers/claw-code",
     "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
-    "stars": 194764,
-    "forks": 107277,
+    "stars": 194759,
+    "forks": 107255,
     "language": "Rust",
     "topics": [],
     "created_at": "2026-03-31T08:58:08Z",
     "pushed_at": "2026-11-10T05:59:18Z",
-    "growth": -12
+    "growth": -5
   },
   {
     "full_name": "DietrichGebert/ponytail",
     "html_url": "https://github.com/DietrichGebert/ponytail",
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "stars": 191683,
-    "forks": 10738,
+    "stars": 192477,
+    "forks": 10798,
     "language": "JavaScript",
     "topics": [
       "agent-skills",
@@ -220,38 +220,38 @@
     ],
     "created_at": "2026-06-12T00:52:37Z",
     "pushed_at": "2026-10-29T11:59:31Z",
-    "growth": 611
+    "growth": 793
   },
   {
     "full_name": "msitarzewski/agency-agents",
     "html_url": "https://github.com/msitarzewski/agency-agents",
     "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-    "stars": 168653,
-    "forks": 27378,
+    "stars": 168913,
+    "forks": 27435,
     "language": "Shell",
     "topics": [],
     "created_at": "2025-10-13T12:12:29Z",
     "pushed_at": "2026-11-09T00:27:04Z",
-    "growth": 235
+    "growth": 260
   },
   {
     "full_name": "anthropics/claude-code",
     "html_url": "https://github.com/anthropics/claude-code",
     "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-    "stars": 155833,
-    "forks": 25017,
+    "stars": 155971,
+    "forks": 25019,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2025-02-22T17:41:21Z",
-    "pushed_at": "2026-11-15T23:10:55Z",
-    "growth": 113
+    "pushed_at": "2026-11-17T07:15:52Z",
+    "growth": 138
   },
   {
     "full_name": "farion1231/cc-switch",
     "html_url": "https://github.com/farion1231/cc-switch",
     "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
-    "stars": 154806,
-    "forks": 10141,
+    "stars": 155099,
+    "forks": 10152,
     "language": "Rust",
     "topics": [
       "ai-tools",
@@ -275,15 +275,15 @@
       "wsl-support"
     ],
     "created_at": "2025-08-04T14:16:16Z",
-    "pushed_at": "2026-11-16T08:38:10Z",
-    "growth": 294
+    "pushed_at": "2026-11-17T06:45:18Z",
+    "growth": 293
   },
   {
     "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
     "html_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
     "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
-    "stars": 150132,
-    "forks": 15874,
+    "stars": 150630,
+    "forks": 15920,
     "language": "Python",
     "topics": [
       "ai-skills",
@@ -308,14 +308,14 @@
     ],
     "created_at": "2025-11-30T11:36:31Z",
     "pushed_at": "2026-11-16T04:10:04Z",
-    "growth": 477
+    "growth": 497
   },
   {
     "full_name": "github/spec-kit",
     "html_url": "https://github.com/github/spec-kit",
     "description": "💫 Toolkit to help you get started with SDD or any other process!",
-    "stars": 150001,
-    "forks": 13479,
+    "stars": 150189,
+    "forks": 13489,
     "language": "Python",
     "topics": [
       "ai",
@@ -327,15 +327,15 @@
       "spec-driven"
     ],
     "created_at": "2025-08-21T22:54:31Z",
-    "pushed_at": "2026-11-12T21:54:10Z",
-    "growth": 169
+    "pushed_at": "2026-11-16T23:48:40Z",
+    "growth": 188
   },
   {
     "full_name": "Graphify-Labs/graphify",
     "html_url": "https://github.com/Graphify-Labs/graphify",
     "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-    "stars": 148623,
-    "forks": 14260,
+    "stars": 149256,
+    "forks": 14345,
     "language": "Python",
     "topics": [
       "ai-agents",
@@ -360,15 +360,15 @@
       "tree-sitter"
     ],
     "created_at": "2026-04-03T15:49:07Z",
-    "pushed_at": "2026-11-15T20:17:32Z",
-    "growth": 652
+    "pushed_at": "2026-11-16T17:34:46Z",
+    "growth": 633
   },
   {
     "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "html_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-    "stars": 144700,
-    "forks": 34689,
+    "stars": 144721,
+    "forks": 34681,
     "language": "-",
     "topics": [
       "ai",
@@ -394,38 +394,38 @@
     ],
     "created_at": "2025-03-05T16:38:29Z",
     "pushed_at": "2026-10-12T15:19:01Z",
-    "growth": 27
+    "growth": 21
   },
   {
     "full_name": "garrytan/gstack",
     "html_url": "https://github.com/garrytan/gstack",
     "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-    "stars": 141746,
-    "forks": 20934,
+    "stars": 141862,
+    "forks": 20950,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2026-03-11T21:22:45Z",
-    "pushed_at": "2026-11-16T08:43:15Z",
-    "growth": 141
+    "pushed_at": "2026-11-17T09:57:11Z",
+    "growth": 116
   },
   {
     "full_name": "openai/codex",
     "html_url": "https://github.com/openai/codex",
     "description": "Lightweight coding agent that runs in your terminal",
-    "stars": 135471,
-    "forks": 21484,
+    "stars": 135607,
+    "forks": 21500,
     "language": "Rust",
     "topics": [],
     "created_at": "2025-04-13T05:37:54Z",
-    "pushed_at": "2026-11-16T08:48:23Z",
-    "growth": 131
+    "pushed_at": "2026-11-17T08:09:26Z",
+    "growth": 136
   },
   {
     "full_name": "VoltAgent/awesome-design-md",
     "html_url": "https://github.com/VoltAgent/awesome-design-md",
     "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
-    "stars": 127729,
-    "forks": 14138,
+    "stars": 127886,
+    "forks": 14148,
     "language": "-",
     "topics": [
       "awesome-list",
@@ -440,14 +440,14 @@
     ],
     "created_at": "2026-03-31T16:37:01Z",
     "pushed_at": "2026-10-28T15:45:40Z",
-    "growth": 138
+    "growth": 157
   },
   {
     "full_name": "stablyai/orca",
     "html_url": "https://github.com/stablyai/orca",
     "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
-    "stars": 126137,
-    "forks": 7998,
+    "stars": 127204,
+    "forks": 8070,
     "language": "TypeScript",
     "topics": [
       "agent-ide",
@@ -472,27 +472,27 @@
       "yc-backed"
     ],
     "created_at": "2026-03-17T03:28:57Z",
-    "pushed_at": "2026-11-16T08:49:48Z",
-    "growth": 873
+    "pushed_at": "2026-11-17T09:56:23Z",
+    "growth": 1067
   },
   {
     "full_name": "earendil-works/pi",
     "html_url": "https://github.com/earendil-works/pi",
     "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-    "stars": 122256,
-    "forks": 15765,
+    "stars": 122450,
+    "forks": 15796,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2025-08-09T14:03:50Z",
-    "pushed_at": "2026-11-15T23:11:35Z",
-    "growth": 181
+    "pushed_at": "2026-11-17T08:38:25Z",
+    "growth": 194
   },
   {
     "full_name": "JuliusBrussee/caveman",
     "html_url": "https://github.com/JuliusBrussee/caveman",
     "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-    "stars": 120568,
-    "forks": 7042,
+    "stars": 120874,
+    "forks": 7061,
     "language": "Go",
     "topics": [
       "ai",
@@ -507,15 +507,15 @@
       "tokens"
     ],
     "created_at": "2026-04-04T10:03:00Z",
-    "pushed_at": "2026-11-16T07:30:16Z",
-    "growth": 342
+    "pushed_at": "2026-11-17T07:41:34Z",
+    "growth": 305
   },
   {
     "full_name": "addyosmani/agent-skills",
     "html_url": "https://github.com/addyosmani/agent-skills",
     "description": "Production-grade engineering skills for AI coding agents.",
-    "stars": 118085,
-    "forks": 12349,
+    "stars": 118480,
+    "forks": 12363,
     "language": "JavaScript",
     "topics": [
       "agent-skills",
@@ -527,14 +527,14 @@
     ],
     "created_at": "2026-02-15T20:20:26Z",
     "pushed_at": "2026-11-14T04:33:56Z",
-    "growth": 398
+    "growth": 395
   },
   {
     "full_name": "thedotmack/claude-mem",
     "html_url": "https://github.com/thedotmack/claude-mem",
     "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-    "stars": 117490,
-    "forks": 10208,
+    "stars": 117813,
+    "forks": 10237,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -559,15 +559,15 @@
       "supermemory"
     ],
     "created_at": "2025-08-31T20:50:03Z",
-    "pushed_at": "2026-11-16T08:47:55Z",
-    "growth": 297
+    "pushed_at": "2026-11-17T08:31:57Z",
+    "growth": 323
   },
   {
     "full_name": "Leonxlnx/taste-skill",
     "html_url": "https://github.com/Leonxlnx/taste-skill",
     "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-    "stars": 116453,
-    "forks": 7806,
+    "stars": 117236,
+    "forks": 7842,
     "language": "JavaScript",
     "topics": [
       "agent-skills",
@@ -584,14 +584,14 @@
     ],
     "created_at": "2026-02-19T21:44:05Z",
     "pushed_at": "2026-11-08T21:51:50Z",
-    "growth": 660
+    "growth": 783
   },
   {
     "full_name": "paperclipai/paperclip",
     "html_url": "https://github.com/paperclipai/paperclip",
     "description": "The open-source app everyone uses to manage agents at work",
-    "stars": 114214,
-    "forks": 18940,
+    "stars": 114436,
+    "forks": 18982,
     "language": "TypeScript",
     "topics": [
       "acpx",
@@ -616,15 +616,15 @@
       "workflow-automation"
     ],
     "created_at": "2026-03-02T15:01:51Z",
-    "pushed_at": "2026-11-16T08:50:36Z",
-    "growth": 223
+    "pushed_at": "2026-11-17T09:57:19Z",
+    "growth": 222
   },
   {
     "full_name": "Panniantong/Agent-Reach",
     "html_url": "https://github.com/Panniantong/Agent-Reach",
     "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-    "stars": 112165,
-    "forks": 10053,
+    "stars": 112525,
+    "forks": 10084,
     "language": "Python",
     "topics": [
       "agent-infrastructure",
@@ -647,6 +647,6 @@
     ],
     "created_at": "2026-02-24T02:10:24Z",
     "pushed_at": "2026-11-08T02:17:48Z",
-    "growth": 277
+    "growth": 360
   }
 ]

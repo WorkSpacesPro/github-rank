@@ -3,7 +3,7 @@
     "full_name": "Molunerfinn/PicGo",
     "html_url": "https://github.com/Molunerfinn/PicGo",
     "description": ":rocket: The Ultimate Image Uploader for Efficient Creators. Supports Obsidian, Typora, VS Code etc. and 60+ image hosting services  (S3, GitHub, Cloudflare R2, Imgur, Aliyun OSS...). Paste, upload, done.",
-    "stars": 27497,
+    "stars": 27504,
     "forks": 2338,
     "language": "TypeScript",
     "topics": [
@@ -27,15 +27,15 @@
       "weibo"
     ],
     "created_at": "2017-12-12T08:39:44Z",
-    "pushed_at": "2026-11-13T07:26:22Z",
-    "growth": 5
+    "pushed_at": "2026-11-17T07:16:39Z",
+    "growth": 7
   },
   {
     "full_name": "MarSeventh/CloudFlare-ImgBed",
     "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
     "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
-    "stars": 6913,
-    "forks": 8826,
+    "stars": 6917,
+    "forks": 8836,
     "language": "JavaScript",
     "topics": [
       "asset-management",
@@ -55,14 +55,14 @@
     ],
     "created_at": "2024-07-19T15:24:19Z",
     "pushed_at": "2026-11-03T02:45:16Z",
-    "growth": 5
+    "growth": 4
   },
   {
     "full_name": "cf-pages/Telegraph-Image",
     "html_url": "https://github.com/cf-pages/Telegraph-Image",
     "description": "Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.",
-    "stars": 4705,
-    "forks": 8846,
+    "stars": 4707,
+    "forks": 8845,
     "language": "HTML",
     "topics": [
       "cloudflare",
@@ -79,14 +79,14 @@
     ],
     "created_at": "2022-10-31T18:33:24Z",
     "pushed_at": "2026-07-27T03:57:46Z",
-    "growth": 0
+    "growth": 2
   },
   {
     "full_name": "elliothux/open-compute",
     "html_url": "https://github.com/elliothux/open-compute",
     "description": "Self-hosted Cloudflare Workers-compatible platform with Workers、KV、D1、R2、DO、Queues、Workflows、Cron、Cache、Images、Vectorize、AI Search、Artifacts、Static Assets、Service Bindings、Dynamic Workers、LogTail、Gateway in one Rust binary.",
-    "stars": 3690,
-    "forks": 106,
+    "stars": 3768,
+    "forks": 195,
     "language": "Rust",
     "topics": [
       "cloud",
@@ -112,13 +112,13 @@
     ],
     "created_at": "2026-08-23T04:34:25Z",
     "pushed_at": "2026-11-08T09:45:32Z",
-    "growth": 19
+    "growth": 78
   },
   {
     "full_name": "oznu/docker-cloudflare-ddns",
     "html_url": "https://github.com/oznu/docker-cloudflare-ddns",
     "description": "A small amd64/ARM/ARM64 Docker image that allows you to use CloudFlare as a DDNS / DynDNS Provider.",
-    "stars": 1146,
+    "stars": 1147,
     "forks": 215,
     "language": "Shell",
     "topics": [
@@ -136,13 +136,13 @@
     ],
     "created_at": "2017-08-21T09:07:28Z",
     "pushed_at": "2022-08-10T14:57:48Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "0-RTT/telegraph",
     "html_url": "https://github.com/0-RTT/telegraph",
     "description": "基于 Cloudflare Worker 和 Pages 的图床/视频床/文件床，轻松实现无服务器部署！",
-    "stars": 1083,
+    "stars": 1084,
     "forks": 369,
     "language": "JavaScript",
     "topics": [
@@ -155,13 +155,13 @@
     ],
     "created_at": "2024-03-24T02:21:07Z",
     "pushed_at": "2026-09-12T23:28:25Z",
-    "growth": 2
+    "growth": 1
   },
   {
     "full_name": "vikiboss/r2-web",
     "html_url": "https://github.com/vikiboss/r2-web",
     "description": "📁 轻盈优雅的 Web 原生 Cloudflare R2 桶文件管理器，一切皆在浏览器中完成。 \\| 📁 A lightweight, elegant, pure-browser Cloudflare R2 file manager. Everything happens right in your browser.",
-    "stars": 501,
+    "stars": 502,
     "forks": 104,
     "language": "JavaScript",
     "topics": [
@@ -181,25 +181,25 @@
     ],
     "created_at": "2026-02-11T10:19:07Z",
     "pushed_at": "2026-11-11T05:11:28Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "RoseKhlifa/Image-Studio",
     "html_url": "https://github.com/RoseKhlifa/Image-Studio",
     "description": "开源image2调用图像生成/编辑桌面客户端 · SSE 流式保活,兼容 Cloudflare 524/504 超时截断 · Wails (Go + React/TS) ·   数据 100% 本地",
-    "stars": 495,
-    "forks": 52,
+    "stars": 497,
+    "forks": 53,
     "language": "Go",
     "topics": [],
     "created_at": "2026-05-19T05:06:52Z",
     "pushed_at": "2026-11-14T04:37:59Z",
-    "growth": 0
+    "growth": 2
   },
   {
     "full_name": "WisdomSky/Cloudflared-web",
     "html_url": "https://github.com/WisdomSky/Cloudflared-web",
     "description": "Cloudflared-web is a docker image that packages both cloudflared cli and a simple Web UI to easily start or stop remotely-managed Cloudflare tunnel.",
-    "stars": 482,
+    "stars": 483,
     "forks": 53,
     "language": "Vue",
     "topics": [
@@ -225,19 +225,19 @@
     "full_name": "yusukebe/r2-image-worker",
     "html_url": "https://github.com/yusukebe/r2-image-worker",
     "description": "Store and Deliver images with R2 backend Cloudflare Workers.",
-    "stars": 395,
+    "stars": 396,
     "forks": 37,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2022-05-12T02:30:17Z",
     "pushed_at": "2025-10-23T05:46:08Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "miantiao-me/cloudflare-worker-image",
     "html_url": "https://github.com/miantiao-me/cloudflare-worker-image",
     "description": "使用 Cloudflare Worker + Container 处理图片, 依赖 Photon，支持缩放、剪裁、水印、滤镜等功能。",
-    "stars": 380,
+    "stars": 381,
     "forks": 72,
     "language": "Rust",
     "topics": [
@@ -251,7 +251,7 @@
     ],
     "created_at": "2023-11-22T08:05:08Z",
     "pushed_at": "2025-06-29T04:55:08Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "zszszszsz/.config",
@@ -263,25 +263,25 @@
     "topics": [],
     "created_at": "2020-06-23T17:51:35Z",
     "pushed_at": "2023-10-05T22:52:42Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "kvnang/workers-og",
     "html_url": "https://github.com/kvnang/workers-og",
     "description": "An `og:image` (social card) generator that is fast, browser-less (no Puppeteer), and capable of running on the edge.   This package is designed to be used with Cloudflare Workers (but may be used elsewhere), with the simple API inspired by `@vercel/og`.",
-    "stars": 356,
+    "stars": 357,
     "forks": 29,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2022-10-12T12:39:21Z",
     "pushed_at": "2025-06-12T00:34:59Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "CaddyBuilds/caddy-cloudflare",
     "html_url": "https://github.com/CaddyBuilds/caddy-cloudflare",
     "description": "Caddy Docker image with Cloudflare DNS module",
-    "stars": 336,
+    "stars": 337,
     "forks": 80,
     "language": "Dockerfile",
     "topics": [
@@ -300,13 +300,13 @@
     ],
     "created_at": "2024-05-26T10:57:25Z",
     "pushed_at": "2026-11-07T03:48:53Z",
-    "growth": 2
+    "growth": 1
   },
   {
     "full_name": "crazy-max/docker-cloudflared",
     "html_url": "https://github.com/crazy-max/docker-cloudflared",
     "description": "Cloudflared proxy-dns Docker image",
-    "stars": 327,
+    "stars": 328,
     "forks": 36,
     "language": "Dockerfile",
     "topics": [
@@ -320,13 +320,13 @@
     ],
     "created_at": "2019-09-24T12:46:06Z",
     "pushed_at": "2025-12-21T22:38:44Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "saurav-z/free-image-generation-api",
     "html_url": "https://github.com/saurav-z/free-image-generation-api",
     "description": "Free AI Image Generation API using Cloudflare Workers",
-    "stars": 323,
+    "stars": 325,
     "forks": 126,
     "language": "HTML",
     "topics": [
@@ -338,13 +338,13 @@
     ],
     "created_at": "2025-07-02T08:08:01Z",
     "pushed_at": "2026-03-13T11:37:19Z",
-    "growth": 1
+    "growth": 2
   },
   {
     "full_name": "roimdev/roim-picx",
     "html_url": "https://github.com/roimdev/roim-picx",
     "description": "A free image hosting application based on Cloudflare's Worker, R2, Pages, and D1 architectures.一款基于 Cloudflare 的 Worker、R2、Pages、D1 实现的免费图床应用",
-    "stars": 300,
+    "stars": 302,
     "forks": 318,
     "language": "Vue",
     "topics": [
@@ -356,7 +356,7 @@
     ],
     "created_at": "2023-02-03T07:30:43Z",
     "pushed_at": "2026-03-16T01:25:16Z",
-    "growth": 0
+    "growth": 2
   },
   {
     "full_name": "kritihq/kriti-images",
@@ -379,7 +379,7 @@
     "html_url": "https://github.com/WuMingDao/zenith-image-generator",
     "description": "Modern AI image generator with multi-provider support (Gitee AI, HuggingFace, ModelScope), OpenAI-compatible API, token rotation, and one-click deployment to Cloudflare Pages.",
     "stars": 226,
-    "forks": 122,
+    "forks": 123,
     "language": "TypeScript",
     "topics": [
       "biome",
@@ -494,7 +494,7 @@
     "full_name": "homeall/caddy-reverse-proxy-cloudflare",
     "html_url": "https://github.com/homeall/caddy-reverse-proxy-cloudflare",
     "description": "Caddy server Docker image with Cloudflare plugin enabled for easy reverse proxying.",
-    "stars": 172,
+    "stars": 173,
     "forks": 16,
     "language": "Dockerfile",
     "topics": [
@@ -508,7 +508,7 @@
     ],
     "created_at": "2021-01-02T15:05:44Z",
     "pushed_at": "2026-11-10T16:55:05Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "Cherry/placeholders.dev",
