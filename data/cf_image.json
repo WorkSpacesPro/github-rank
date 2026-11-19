@@ -3,8 +3,8 @@
     "full_name": "Molunerfinn/PicGo",
     "html_url": "https://github.com/Molunerfinn/PicGo",
     "description": ":rocket: The Ultimate Image Uploader for Efficient Creators. Supports Obsidian, Typora, VS Code etc. and 60+ image hosting services  (S3, GitHub, Cloudflare R2, Imgur, Aliyun OSS...). Paste, upload, done.",
-    "stars": 27505,
-    "forks": 2339,
+    "stars": 27507,
+    "forks": 2340,
     "language": "TypeScript",
     "topics": [
       "aliyun-oss",
@@ -28,14 +28,14 @@
     ],
     "created_at": "2017-12-12T08:39:44Z",
     "pushed_at": "2026-11-17T11:18:26Z",
-    "growth": 1
+    "growth": 2
   },
   {
     "full_name": "MarSeventh/CloudFlare-ImgBed",
     "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
     "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
-    "stars": 6922,
-    "forks": 8842,
+    "stars": 6927,
+    "forks": 8848,
     "language": "JavaScript",
     "topics": [
       "asset-management",
@@ -61,7 +61,7 @@
     "full_name": "cf-pages/Telegraph-Image",
     "html_url": "https://github.com/cf-pages/Telegraph-Image",
     "description": "Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.",
-    "stars": 4708,
+    "stars": 4707,
     "forks": 8841,
     "language": "HTML",
     "topics": [
@@ -79,14 +79,14 @@
     ],
     "created_at": "2022-10-31T18:33:24Z",
     "pushed_at": "2026-07-27T03:57:46Z",
-    "growth": 1
+    "growth": -1
   },
   {
     "full_name": "elliothux/open-compute",
     "html_url": "https://github.com/elliothux/open-compute",
     "description": "Self-hosted Cloudflare Workers-compatible platform with Workers、KV、D1、R2、DO、Queues、Workflows、Cron、Cache、Images、Vectorize、AI Search、Artifacts、Static Assets、Service Bindings、Dynamic Workers、LogTail、Gateway in one Rust binary.",
-    "stars": 3926,
-    "forks": 204,
+    "stars": 3988,
+    "forks": 319,
     "language": "Rust",
     "topics": [
       "cloud",
@@ -112,7 +112,7 @@
     ],
     "created_at": "2026-08-23T04:34:25Z",
     "pushed_at": "2026-11-08T09:45:32Z",
-    "growth": 158
+    "growth": 62
   },
   {
     "full_name": "oznu/docker-cloudflare-ddns",
@@ -142,7 +142,7 @@
     "full_name": "0-RTT/telegraph",
     "html_url": "https://github.com/0-RTT/telegraph",
     "description": "基于 Cloudflare Worker 和 Pages 的图床/视频床/文件床，轻松实现无服务器部署！",
-    "stars": 1084,
+    "stars": 1083,
     "forks": 369,
     "language": "JavaScript",
     "topics": [
@@ -155,14 +155,14 @@
     ],
     "created_at": "2024-03-24T02:21:07Z",
     "pushed_at": "2026-09-12T23:28:25Z",
-    "growth": 0
+    "growth": -1
   },
   {
     "full_name": "vikiboss/r2-web",
     "html_url": "https://github.com/vikiboss/r2-web",
     "description": "📁 轻盈优雅的 Web 原生 Cloudflare R2 桶文件管理器，一切皆在浏览器中完成。 \\| 📁 A lightweight, elegant, pure-browser Cloudflare R2 file manager. Everything happens right in your browser.",
-    "stars": 502,
-    "forks": 105,
+    "stars": 503,
+    "forks": 106,
     "language": "JavaScript",
     "topics": [
       "cloudflare",
@@ -181,25 +181,25 @@
     ],
     "created_at": "2026-02-11T10:19:07Z",
     "pushed_at": "2026-11-11T05:11:28Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "RoseKhlifa/Image-Studio",
     "html_url": "https://github.com/RoseKhlifa/Image-Studio",
     "description": "开源image2调用图像生成/编辑桌面客户端 · SSE 流式保活,兼容 Cloudflare 524/504 超时截断 · Wails (Go + React/TS) ·   数据 100% 本地",
-    "stars": 497,
+    "stars": 498,
     "forks": 54,
     "language": "Go",
     "topics": [],
     "created_at": "2026-05-19T05:06:52Z",
     "pushed_at": "2026-11-14T04:37:59Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "WisdomSky/Cloudflared-web",
     "html_url": "https://github.com/WisdomSky/Cloudflared-web",
     "description": "Cloudflared-web is a docker image that packages both cloudflared cli and a simple Web UI to easily start or stop remotely-managed Cloudflare tunnel.",
-    "stars": 482,
+    "stars": 481,
     "forks": 53,
     "language": "Vue",
     "topics": [
@@ -218,7 +218,7 @@
       "zero-trust-network-access"
     ],
     "created_at": "2023-05-27T20:35:45Z",
-    "pushed_at": "2026-11-18T06:11:31Z",
+    "pushed_at": "2026-11-18T10:59:58Z",
     "growth": -1
   },
   {
@@ -231,7 +231,7 @@
     "topics": [],
     "created_at": "2022-05-12T02:30:17Z",
     "pushed_at": "2025-10-23T05:46:08Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "miantiao-me/cloudflare-worker-image",
@@ -281,7 +281,7 @@
     "full_name": "CaddyBuilds/caddy-cloudflare",
     "html_url": "https://github.com/CaddyBuilds/caddy-cloudflare",
     "description": "Caddy Docker image with Cloudflare DNS module",
-    "stars": 338,
+    "stars": 339,
     "forks": 80,
     "language": "Dockerfile",
     "topics": [
@@ -326,7 +326,7 @@
     "full_name": "saurav-z/free-image-generation-api",
     "html_url": "https://github.com/saurav-z/free-image-generation-api",
     "description": "Free AI Image Generation API using Cloudflare Workers",
-    "stars": 325,
+    "stars": 324,
     "forks": 126,
     "language": "HTML",
     "topics": [
@@ -338,7 +338,7 @@
     ],
     "created_at": "2025-07-02T08:08:01Z",
     "pushed_at": "2026-03-13T11:37:19Z",
-    "growth": 0
+    "growth": -1
   },
   {
     "full_name": "roimdev/roim-picx",
@@ -356,7 +356,7 @@
     ],
     "created_at": "2023-02-03T07:30:43Z",
     "pushed_at": "2026-03-16T01:25:16Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "kritihq/kriti-images",
@@ -423,7 +423,7 @@
       "tool"
     ],
     "created_at": "2026-06-28T15:00:39Z",
-    "pushed_at": "2026-11-01T13:53:52Z",
+    "pushed_at": "2026-11-18T10:55:04Z",
     "growth": 0
   },
   {
@@ -436,7 +436,7 @@
     "topics": [],
     "created_at": "2026-04-06T20:01:29Z",
     "pushed_at": "2026-11-11T15:06:15Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "Flosciante/nuxt-image-gallery",
@@ -543,7 +543,7 @@
     ],
     "created_at": "2022-11-08T08:57:04Z",
     "pushed_at": "2023-02-05T12:11:03Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "mixmoe/HikariSearch",

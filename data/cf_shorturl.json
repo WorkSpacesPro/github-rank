@@ -4,7 +4,7 @@
     "html_url": "https://github.com/xyTom/Url-Shorten-Worker",
     "description": "A URL Shortener created using Cloudflare worker",
     "stars": 1786,
-    "forks": 1299,
+    "forks": 1298,
     "language": "JavaScript",
     "topics": [
       "api",
@@ -19,7 +19,7 @@
       "url-shortener"
     ],
     "created_at": "2020-12-05T12:36:06Z",
-    "pushed_at": "2026-11-18T01:46:26Z",
+    "pushed_at": "2026-11-18T19:47:20Z",
     "growth": 0
   },
   {
@@ -42,13 +42,13 @@
     "full_name": "yusukebe/url-shortener",
     "html_url": "https://github.com/yusukebe/url-shortener",
     "description": "Creating URL Shortener with Cloudflare Pages",
-    "stars": 161,
+    "stars": 162,
     "forks": 24,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2024-03-11T07:28:57Z",
     "pushed_at": "2024-07-12T13:09:21Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "Likenttt/eastlake-cloudflare-worker-short-url",
