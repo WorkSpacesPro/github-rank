@@ -3,8 +3,8 @@
     "full_name": "honojs/hono",
     "html_url": "https://github.com/honojs/hono",
     "description": "Web framework built on Web Standards",
-    "stars": 32979,
-    "forks": 1486,
+    "stars": 32998,
+    "forks": 1490,
     "language": "TypeScript",
     "topics": [
       "aws-lambda",
@@ -18,14 +18,14 @@
       "web-framework"
     ],
     "created_at": "2021-12-14T20:05:30Z",
-    "pushed_at": "2026-11-19T01:40:43Z",
-    "growth": 7
+    "pushed_at": "2026-11-20T08:36:57Z",
+    "growth": 19
   },
   {
     "full_name": "supermemoryai/supermemory",
     "html_url": "https://github.com/supermemoryai/supermemory",
     "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
-    "stars": 31670,
+    "stars": 31678,
     "forks": 2780,
     "language": "TypeScript",
     "topics": [
@@ -43,15 +43,15 @@
       "vite"
     ],
     "created_at": "2024-02-27T20:10:04Z",
-    "pushed_at": "2026-11-19T09:21:25Z",
-    "growth": 9
+    "pushed_at": "2026-11-20T02:00:04Z",
+    "growth": 8
   },
   {
     "full_name": "kriasoft/react-starter-kit",
     "html_url": "https://github.com/kriasoft/react-starter-kit",
     "description": "Modern React starter kit with Bun, TypeScript, Tailwind CSS, tRPC, Stripe, and Cloudflare Workers. Production-ready monorepo for building fast web apps.",
     "stars": 23724,
-    "forks": 4196,
+    "forks": 4193,
     "language": "TypeScript",
     "topics": [
       "better-auth",
@@ -77,14 +77,14 @@
     ],
     "created_at": "2014-04-16T13:08:18Z",
     "pushed_at": "2026-11-09T04:14:46Z",
-    "growth": 2
+    "growth": 0
   },
   {
     "full_name": "yonggekkk/Cloudflare-vless-trojan",
     "html_url": "https://github.com/yonggekkk/Cloudflare-vless-trojan",
     "description": "CF-workers/pages代理脚本：支持Vless-ws(tls)、Trojan-ws(tls)；Socks5/http本地代理脚本：可选ECH-TLS、普通TLS、无TLS三种代理模式",
     "stars": 16814,
-    "forks": 9886,
+    "forks": 9885,
     "language": "JavaScript",
     "topics": [
       "argo",
@@ -106,14 +106,14 @@
     ],
     "created_at": "2023-07-22T05:43:42Z",
     "pushed_at": "2026-09-20T01:59:29Z",
-    "growth": 4
+    "growth": 0
   },
   {
     "full_name": "maillab/cloud-mail",
     "html_url": "https://github.com/maillab/cloud-mail",
     "description": "An all-in-one email service platform powered by Cloudflare  \\| 基于 Cloudflare 的一站式邮箱服务平台  \\| Cloudflare Email 邮箱 Mail",
-    "stars": 16439,
-    "forks": 23971,
+    "stars": 16465,
+    "forks": 24010,
     "language": "JavaScript",
     "topics": [
       "cloudflare",
@@ -124,14 +124,14 @@
     ],
     "created_at": "2025-04-24T11:36:56Z",
     "pushed_at": "2026-11-19T09:31:12Z",
-    "growth": 41
+    "growth": 26
   },
   {
     "full_name": "dreamhunter2333/cloudflare_temp_email",
     "html_url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
     "description": "CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot",
-    "stars": 12145,
-    "forks": 8080,
+    "stars": 12142,
+    "forks": 8079,
     "language": "TypeScript",
     "topics": [
       "cloudflare-email",
@@ -141,15 +141,15 @@
       "free"
     ],
     "created_at": "2023-08-15T16:35:52Z",
-    "pushed_at": "2026-11-18T13:16:08Z",
-    "growth": 4
+    "pushed_at": "2026-11-20T08:40:51Z",
+    "growth": -3
   },
   {
     "full_name": "cloudflare/moltworker",
     "html_url": "https://github.com/cloudflare/moltworker",
     "description": "Run OpenClaw, (formerly Moltbot, formerly Clawdbot) on Cloudflare Workers",
     "stars": 9946,
-    "forks": 1697,
+    "forks": 1695,
     "language": "TypeScript",
     "topics": [
       "ai-agents",
@@ -164,7 +164,7 @@
     "html_url": "https://github.com/zizifn/edgetunnel",
     "description": "Running V2ray inside edge/serverless runtime",
     "stars": 9345,
-    "forks": 52691,
+    "forks": 52721,
     "language": "JavaScript",
     "topics": [
       "cloudflare-workers",
@@ -179,14 +179,14 @@
     ],
     "created_at": "2020-12-12T14:32:48Z",
     "pushed_at": "2024-11-27T09:26:03Z",
-    "growth": 3
+    "growth": 0
   },
   {
     "full_name": "webstudio-is/webstudio",
     "html_url": "https://github.com/webstudio-is/webstudio",
     "description": "Open source website builder and Webflow alternative. Webstudio is an advanced visual builder that connects to any headless CMS, supports all CSS properties, and can be hosted anywhere, including with us.",
-    "stars": 9178,
-    "forks": 1638,
+    "stars": 9177,
+    "forks": 1637,
     "language": "TypeScript",
     "topics": [
       "accessibility",
@@ -208,15 +208,15 @@
       "webstudio"
     ],
     "created_at": "2022-03-13T04:19:01Z",
-    "pushed_at": "2026-11-19T09:29:32Z",
-    "growth": 2
+    "pushed_at": "2026-11-19T23:04:27Z",
+    "growth": -1
   },
   {
     "full_name": "cmliu/CF-Workers-docker.io",
     "html_url": "https://github.com/cmliu/CF-Workers-docker.io",
     "description": "这个项目是一个基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。",
-    "stars": 9172,
-    "forks": 10458,
+    "stars": 9171,
+    "forks": 10456,
     "language": "JavaScript",
     "topics": [
       "cloudflare-pages",
@@ -232,7 +232,7 @@
     "full_name": "panva/jose",
     "html_url": "https://github.com/panva/jose",
     "description": "JWA, JWS, JWE, JWT, JWK, JWKS for Node.js, Browser, Cloudflare Workers, Deno, Bun, and other Web-interoperable runtimes",
-    "stars": 7888,
+    "stars": 7889,
     "forks": 385,
     "language": "TypeScript",
     "topics": [
@@ -252,14 +252,14 @@
     ],
     "created_at": "2018-11-06T08:46:01Z",
     "pushed_at": "2026-11-18T21:42:00Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "hieunc229/mailflare",
     "html_url": "https://github.com/hieunc229/mailflare",
     "description": "Email for professionals and teams",
-    "stars": 7165,
-    "forks": 1239,
+    "stars": 7332,
+    "forks": 1272,
     "language": "TypeScript",
     "topics": [
       "cloudflare",
@@ -267,15 +267,15 @@
       "email"
     ],
     "created_at": "2026-05-26T01:06:12Z",
-    "pushed_at": "2026-11-19T04:14:36Z",
-    "growth": 200
+    "pushed_at": "2026-11-19T10:06:50Z",
+    "growth": 167
   },
   {
     "full_name": "MarSeventh/CloudFlare-ImgBed",
     "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
     "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
-    "stars": 6927,
-    "forks": 8848,
+    "stars": 6926,
+    "forks": 8851,
     "language": "JavaScript",
     "topics": [
       "asset-management",
@@ -295,14 +295,14 @@
     ],
     "created_at": "2024-07-19T15:24:19Z",
     "pushed_at": "2026-11-03T02:45:16Z",
-    "growth": 5
+    "growth": -1
   },
   {
     "full_name": "oomol-lab/open-connector",
     "html_url": "https://github.com/oomol-lab/open-connector",
     "description": "Open-source auth gateway connecting 1700+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
-    "stars": 6273,
-    "forks": 613,
+    "stars": 6275,
+    "forks": 615,
     "language": "TypeScript",
     "topics": [
       "agent-tools",
@@ -325,14 +325,14 @@
       "typescript"
     ],
     "created_at": "2026-06-29T10:49:36Z",
-    "pushed_at": "2026-11-19T09:39:47Z",
-    "growth": 8
+    "pushed_at": "2026-11-20T06:53:32Z",
+    "growth": 2
   },
   {
     "full_name": "vikiboss/60s",
     "html_url": "https://github.com/vikiboss/60s",
     "description": "⏰ 60s API 免费接口。每天 60 秒看世界、奥运奖牌榜、小红书/B站/微博/抖音/知乎热搜、金价、油价、天气、翻译、壁纸、Epic 游戏、二维码、猫眼票房｜一系列 高质量、开源、可靠、全球 CDN 加速 的开放 API 集合，支持 Docker / Deno / Bun / Cloudflare Workers / Node.js 部署",
-    "stars": 5941,
+    "stars": 5943,
     "forks": 1139,
     "language": "TypeScript",
     "topics": [
@@ -354,14 +354,14 @@
     ],
     "created_at": "2022-11-30T01:19:43Z",
     "pushed_at": "2026-10-28T03:01:45Z",
-    "growth": 4
+    "growth": 2
   },
   {
     "full_name": "7Sageer/sublink-worker",
     "html_url": "https://github.com/7Sageer/sublink-worker",
     "description": "One Worker, All Subscriptions",
-    "stars": 5601,
-    "forks": 9734,
+    "stars": 5603,
+    "forks": 9738,
     "language": "JavaScript",
     "topics": [
       "clash",
@@ -375,14 +375,14 @@
     ],
     "created_at": "2024-07-27T08:09:07Z",
     "pushed_at": "2026-11-18T15:32:06Z",
-    "growth": 5
+    "growth": 2
   },
   {
     "full_name": "cloudflare/vibesdk",
     "html_url": "https://github.com/cloudflare/vibesdk",
     "description": "An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack",
-    "stars": 5478,
-    "forks": 1283,
+    "stars": 5480,
+    "forks": 1285,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -400,8 +400,8 @@
     "full_name": "cloudflare/workers-sdk",
     "html_url": "https://github.com/cloudflare/workers-sdk",
     "description": "⛅️ Home to Wrangler, the CLI for Cloudflare Workers®",
-    "stars": 4735,
-    "forks": 1662,
+    "stars": 4734,
+    "forks": 1663,
     "language": "TypeScript",
     "topics": [
       "cli",
@@ -412,8 +412,8 @@
       "wasm"
     ],
     "created_at": "2021-11-10T14:45:40Z",
-    "pushed_at": "2026-11-19T07:47:38Z",
-    "growth": 0
+    "pushed_at": "2026-11-20T08:47:30Z",
+    "growth": -1
   },
   {
     "full_name": "denuitt1/mhr-cfw",
@@ -435,14 +435,14 @@
     ],
     "created_at": "2026-04-27T22:26:16Z",
     "pushed_at": "2026-05-10T20:40:46Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "shuaiplus/nodewarden",
     "html_url": "https://github.com/shuaiplus/nodewarden",
     "description": "Bitwarden-compatible server running on Cloudflare Workers",
-    "stars": 4177,
-    "forks": 4775,
+    "stars": 4183,
+    "forks": 4789,
     "language": "TypeScript",
     "topics": [
       "bitwarden",
@@ -465,13 +465,13 @@
     ],
     "created_at": "2026-02-01T12:22:11Z",
     "pushed_at": "2026-11-15T21:04:51Z",
-    "growth": 2
+    "growth": 6
   },
   {
     "full_name": "microfeed/microfeed",
     "html_url": "https://github.com/microfeed/microfeed",
     "description": "an agentic cms self-hosted on cloudflare, for podcasts, blogs, photos, videos, documents, and curated urls.",
-    "stars": 4141,
+    "stars": 4140,
     "forks": 1431,
     "language": "TypeScript",
     "topics": [
@@ -490,14 +490,29 @@
     ],
     "created_at": "2020-05-25T03:50:26Z",
     "pushed_at": "2026-10-07T17:49:21Z",
-    "growth": 0
+    "growth": -1
+  },
+  {
+    "full_name": "cloudflare/miniflare",
+    "html_url": "https://github.com/cloudflare/miniflare",
+    "description": "🔥 Fully-local simulator for Cloudflare Workers. For the latest version, see https://github.com/cloudflare/workers-sdk/tree/main/packages/miniflare.",
+    "stars": 3920,
+    "forks": 209,
+    "language": "TypeScript",
+    "topics": [
+      "cloudflare",
+      "cloudflare-workers"
+    ],
+    "created_at": "2021-05-20T09:20:13Z",
+    "pushed_at": "2025-03-13T11:28:31Z",
+    "growth": -2
   },
   {
     "full_name": "elliothux/open-compute",
     "html_url": "https://github.com/elliothux/open-compute",
     "description": "Self-hosted Cloudflare Workers-compatible platform with Workers、KV、D1、R2、DO、Queues、Workflows、Cron、Cache、Images、Vectorize、AI Search、Artifacts、Static Assets、Service Bindings、Dynamic Workers、LogTail、Gateway in one Rust binary.",
-    "stars": 3988,
-    "forks": 319,
+    "stars": 3911,
+    "forks": 308,
     "language": "Rust",
     "topics": [
       "cloud",
@@ -523,28 +538,13 @@
     ],
     "created_at": "2026-08-23T04:34:25Z",
     "pushed_at": "2026-11-08T09:45:32Z",
-    "growth": 62
-  },
-  {
-    "full_name": "cloudflare/miniflare",
-    "html_url": "https://github.com/cloudflare/miniflare",
-    "description": "🔥 Fully-local simulator for Cloudflare Workers. For the latest version, see https://github.com/cloudflare/workers-sdk/tree/main/packages/miniflare.",
-    "stars": 3922,
-    "forks": 209,
-    "language": "TypeScript",
-    "topics": [
-      "cloudflare",
-      "cloudflare-workers"
-    ],
-    "created_at": "2021-05-20T09:20:13Z",
-    "pushed_at": "2025-03-13T11:28:31Z",
-    "growth": 0
+    "growth": -77
   },
   {
     "full_name": "AmintaCCCP/GithubStarsManager",
     "html_url": "https://github.com/AmintaCCCP/GithubStarsManager",
     "description": "AI-powered GitHub stars manager with semantic search, auto-categorization, and release tracking",
-    "stars": 3890,
+    "stars": 3894,
     "forks": 200,
     "language": "TypeScript",
     "topics": [
@@ -568,15 +568,15 @@
       "trending-repositories"
     ],
     "created_at": "2025-06-29T10:39:59Z",
-    "pushed_at": "2026-11-19T09:20:38Z",
-    "growth": 1
+    "pushed_at": "2026-11-20T06:43:36Z",
+    "growth": 4
   },
   {
     "full_name": "serverless-dns/serverless-dns",
     "html_url": "https://github.com/serverless-dns/serverless-dns",
     "description": "The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io",
-    "stars": 3853,
-    "forks": 2278,
+    "stars": 3852,
+    "forks": 2276,
     "language": "JavaScript",
     "topics": [
       "adblock",
@@ -596,13 +596,13 @@
     ],
     "created_at": "2021-03-10T14:35:30Z",
     "pushed_at": "2026-05-06T00:05:26Z",
-    "growth": 0
+    "growth": -1
   },
   {
     "full_name": "tbxark/ChatGPT-Telegram-Workers",
     "html_url": "https://github.com/tbxark/ChatGPT-Telegram-Workers",
     "description": "Easily deploy your Telegram ChatGPT bot on Cloudflare Workers (or Vercel, Docker...).",
-    "stars": 3816,
+    "stars": 3815,
     "forks": 889,
     "language": "TypeScript",
     "topics": [
@@ -618,14 +618,14 @@
     ],
     "created_at": "2023-03-03T07:00:54Z",
     "pushed_at": "2026-11-17T09:12:55Z",
-    "growth": 0
+    "growth": -1
   },
   {
     "full_name": "tianma-if/edgeever",
     "html_url": "https://github.com/tianma-if/edgeever",
     "description": "AI-native note-taking app & Evernote/Obsidian alternative. Instant all-platform sync, rich notes (tables, mind maps, diagrams, posters), web clipper & MCP. 100% free on Cloudflare or Docker.",
-    "stars": 3423,
-    "forks": 1778,
+    "stars": 3454,
+    "forks": 1792,
     "language": "TypeScript",
     "topics": [
       "ai-agent",
@@ -650,15 +650,15 @@
       "web-clipper"
     ],
     "created_at": "2026-06-26T06:59:58Z",
-    "pushed_at": "2026-11-19T08:33:52Z",
-    "growth": 67
+    "pushed_at": "2026-11-20T07:26:25Z",
+    "growth": 31
   },
   {
     "full_name": "Inkloom-art/inkloom",
     "html_url": "https://github.com/Inkloom-art/inkloom",
     "description": "Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open.",
-    "stars": 3225,
-    "forks": 2747,
+    "stars": 3221,
+    "forks": 2746,
     "language": "TypeScript",
     "topics": [
       "brand-identity",
@@ -670,13 +670,13 @@
     ],
     "created_at": "2026-09-20T07:54:30Z",
     "pushed_at": "2026-11-09T21:16:42Z",
-    "growth": -1
+    "growth": -4
   },
   {
     "full_name": "kane50613/takumi",
     "html_url": "https://github.com/kane50613/takumi",
     "description": "One layout engine for JSX, HTML, and CSS. Render images, SVG, PDFs, or a paint tree. No headless browser.",
-    "stars": 3217,
+    "stars": 3218,
     "forks": 93,
     "language": "Rust",
     "topics": [
@@ -701,14 +701,14 @@
       "wasm"
     ],
     "created_at": "2025-06-01T08:19:38Z",
-    "pushed_at": "2026-11-19T07:42:23Z",
-    "growth": 0
+    "pushed_at": "2026-11-20T09:29:15Z",
+    "growth": 1
   },
   {
     "full_name": "cloudflare/wrangler-legacy",
     "html_url": "https://github.com/cloudflare/wrangler-legacy",
     "description": "🤠  Home to Wrangler v1 (deprecated)",
-    "stars": 3186,
+    "stars": 3184,
     "forks": 333,
     "language": "Rust",
     "topics": [
@@ -719,6 +719,6 @@
     ],
     "created_at": "2019-03-11T16:45:52Z",
     "pushed_at": "2023-08-03T18:15:03Z",
-    "growth": 0
+    "growth": -2
   }
 ]

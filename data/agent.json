@@ -3,8 +3,8 @@
     "full_name": "NousResearch/hermes-agent",
     "html_url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 264605,
-    "forks": 59742,
+    "stars": 264854,
+    "forks": 59824,
     "language": "Python",
     "topics": [
       "ai",
@@ -22,15 +22,15 @@
       "openai"
     ],
     "created_at": "2025-07-22T22:22:28Z",
-    "pushed_at": "2026-11-19T09:40:55Z",
-    "growth": 270
+    "pushed_at": "2026-11-20T09:01:32Z",
+    "growth": 249
   },
   {
     "full_name": "Panniantong/Agent-Reach",
     "html_url": "https://github.com/Panniantong/Agent-Reach",
     "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-    "stars": 113161,
-    "forks": 10155,
+    "stars": 113435,
+    "forks": 10198,
     "language": "Python",
     "topics": [
       "agent-infrastructure",
@@ -53,14 +53,14 @@
     ],
     "created_at": "2026-02-24T02:10:24Z",
     "pushed_at": "2026-11-08T02:17:48Z",
-    "growth": 254
+    "growth": 274
   },
   {
     "full_name": "career-ops-hq/career-ops",
     "html_url": "https://github.com/career-ops-hq/career-ops",
     "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
-    "stars": 83649,
-    "forks": 15333,
+    "stars": 83858,
+    "forks": 15376,
     "language": "JavaScript",
     "topics": [
       "agent-skills",
@@ -85,15 +85,15 @@
       "resume"
     ],
     "created_at": "2026-04-04T18:21:18Z",
-    "pushed_at": "2026-11-19T09:35:19Z",
-    "growth": 220
+    "pushed_at": "2026-11-20T09:13:03Z",
+    "growth": 208
   },
   {
     "full_name": "shareAI-lab/learn-claude-code",
     "html_url": "https://github.com/shareAI-lab/learn-claude-code",
     "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
-    "stars": 80631,
-    "forks": 12890,
+    "stars": 80670,
+    "forks": 12892,
     "language": "Python",
     "topics": [
       "agent",
@@ -109,14 +109,14 @@
     ],
     "created_at": "2025-06-29T15:34:15Z",
     "pushed_at": "2026-11-15T13:41:46Z",
-    "growth": 51
+    "growth": 39
   },
   {
     "full_name": "hugohe3/ppt-master",
     "html_url": "https://github.com/hugohe3/ppt-master",
     "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
-    "stars": 78462,
-    "forks": 6118,
+    "stars": 78762,
+    "forks": 6148,
     "language": "Python",
     "topics": [
       "ai-agent",
@@ -131,15 +131,15 @@
       "slides"
     ],
     "created_at": "2025-12-10T06:54:33Z",
-    "pushed_at": "2026-11-19T03:26:22Z",
-    "growth": 334
+    "pushed_at": "2026-11-20T08:41:50Z",
+    "growth": 300
   },
   {
     "full_name": "thedaviddias/Front-End-Checklist",
     "html_url": "https://github.com/thedaviddias/Front-End-Checklist",
     "description": "🗂 The essential checklist for modern web development, for humans and AI agents",
-    "stars": 74778,
-    "forks": 6785,
+    "stars": 74783,
+    "forks": 6786,
     "language": "MDX",
     "topics": [
       "ai-agent",
@@ -160,14 +160,14 @@
     ],
     "created_at": "2017-10-16T10:12:36Z",
     "pushed_at": "2026-10-31T05:44:22Z",
-    "growth": 10
+    "growth": 5
   },
   {
     "full_name": "ZhuLinsen/daily_stock_analysis",
     "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
     "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-    "stars": 73438,
-    "forks": 57929,
+    "stars": 73522,
+    "forks": 57977,
     "language": "Python",
     "topics": [
       "a-stock",
@@ -179,15 +179,15 @@
       "quantitative-trading"
     ],
     "created_at": "2026-01-10T06:43:20Z",
-    "pushed_at": "2026-11-18T15:38:50Z",
-    "growth": 211
+    "pushed_at": "2026-11-19T15:58:13Z",
+    "growth": 84
   },
   {
     "full_name": "bojieli/ai-agent-book",
     "html_url": "https://github.com/bojieli/ai-agent-book",
     "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-    "stars": 58787,
-    "forks": 6888,
+    "stars": 58894,
+    "forks": 6913,
     "language": "Python",
     "topics": [
       "agent",
@@ -206,14 +206,14 @@
     ],
     "created_at": "2025-09-09T02:41:44Z",
     "pushed_at": "2026-10-08T15:06:27Z",
-    "growth": 152
+    "growth": 107
   },
   {
     "full_name": "HKUDS/nanobot",
     "html_url": "https://github.com/HKUDS/nanobot",
     "description": "Your lightweight open-source personal agent.",
-    "stars": 50197,
-    "forks": 8764,
+    "stars": 50224,
+    "forks": 8758,
     "language": "Python",
     "topics": [
       "agent-framework",
@@ -238,15 +238,15 @@
       "workflow-automation"
     ],
     "created_at": "2026-02-01T07:16:15Z",
-    "pushed_at": "2026-11-19T08:52:24Z",
-    "growth": 28
+    "pushed_at": "2026-11-20T08:47:07Z",
+    "growth": 27
   },
   {
     "full_name": "zhayujie/CowAgent",
     "html_url": "https://github.com/zhayujie/CowAgent",
     "description": "Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install.",
-    "stars": 48003,
-    "forks": 10434,
+    "stars": 48021,
+    "forks": 10437,
     "language": "Python",
     "topics": [
       "ai",
@@ -268,15 +268,15 @@
       "skills"
     ],
     "created_at": "2022-08-07T08:33:41Z",
-    "pushed_at": "2026-11-19T09:32:58Z",
-    "growth": 15
+    "pushed_at": "2026-11-20T09:14:40Z",
+    "growth": 18
   },
   {
     "full_name": "siyuan-note/siyuan",
     "html_url": "https://github.com/siyuan-note/siyuan",
     "description": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
-    "stars": 47285,
-    "forks": 3126,
+    "stars": 47300,
+    "forks": 3127,
     "language": "TypeScript",
     "topics": [
       "agentic-ai",
@@ -292,15 +292,15 @@
       "workspace"
     ],
     "created_at": "2020-08-30T09:21:35Z",
-    "pushed_at": "2026-11-19T09:38:43Z",
-    "growth": 11
+    "pushed_at": "2026-11-20T09:27:54Z",
+    "growth": 15
   },
   {
     "full_name": "codewhale-hq/Codewhale",
     "html_url": "https://github.com/codewhale-hq/Codewhale",
     "description": "An open-source coding agent for your terminal, written in Rust. It works with any model, can split one task across several agents, and every line of it is yours to read.",
-    "stars": 41182,
-    "forks": 3571,
+    "stars": 41188,
+    "forks": 3572,
     "language": "Rust",
     "topics": [
       "agent-client-protocol",
@@ -323,15 +323,15 @@
       "tui"
     ],
     "created_at": "2026-01-19T18:21:01Z",
-    "pushed_at": "2026-11-19T09:37:20Z",
-    "growth": 0
+    "pushed_at": "2026-11-20T09:09:55Z",
+    "growth": 6
   },
   {
     "full_name": "can1357/oh-my-pi",
     "html_url": "https://github.com/can1357/oh-my-pi",
     "description": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs.",
-    "stars": 39454,
-    "forks": 4528,
+    "stars": 39516,
+    "forks": 4545,
     "language": "TypeScript",
     "topics": [
       "ai-agent",
@@ -351,15 +351,15 @@
       "typescript"
     ],
     "created_at": "2025-12-31T14:01:28Z",
-    "pushed_at": "2026-11-19T09:25:36Z",
-    "growth": 95
+    "pushed_at": "2026-11-20T05:52:13Z",
+    "growth": 62
   },
   {
     "full_name": "CopilotKit/CopilotKit",
     "html_url": "https://github.com/CopilotKit/CopilotKit",
     "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
-    "stars": 38816,
-    "forks": 4836,
+    "stars": 38843,
+    "forks": 4838,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -384,15 +384,15 @@
       "typescript"
     ],
     "created_at": "2023-06-19T04:08:31Z",
-    "pushed_at": "2026-11-19T09:41:41Z",
-    "growth": 29
+    "pushed_at": "2026-11-20T04:45:28Z",
+    "growth": 27
   },
   {
     "full_name": "HKUDS/Vibe-Trading",
     "html_url": "https://github.com/HKUDS/Vibe-Trading",
     "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-    "stars": 38515,
-    "forks": 6270,
+    "stars": 38580,
+    "forks": 6290,
     "language": "Python",
     "topics": [
       "ai-agent",
@@ -407,15 +407,15 @@
       "trading"
     ],
     "created_at": "2026-04-01T09:52:20Z",
-    "pushed_at": "2026-11-19T04:43:49Z",
-    "growth": 40
+    "pushed_at": "2026-11-20T07:39:30Z",
+    "growth": 65
   },
   {
     "full_name": "agentscope-ai/QwenPaw",
     "html_url": "https://github.com/agentscope-ai/QwenPaw",
     "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
-    "stars": 37964,
-    "forks": 3293,
+    "stars": 38013,
+    "forks": 3299,
     "language": "Python",
     "topics": [
       "agent",
@@ -436,15 +436,15 @@
       "webui"
     ],
     "created_at": "2026-02-24T03:42:56Z",
-    "pushed_at": "2026-11-19T09:04:26Z",
-    "growth": 54
+    "pushed_at": "2026-11-20T09:15:03Z",
+    "growth": 49
   },
   {
     "full_name": "esengine/DeepSeek-Reasonix",
     "html_url": "https://github.com/esengine/DeepSeek-Reasonix",
     "description": "A reliable coding agent for complex software engineering tasks.",
-    "stars": 36104,
-    "forks": 2596,
+    "stars": 36095,
+    "forks": 2599,
     "language": "Go",
     "topics": [
       "agent",
@@ -468,13 +468,13 @@
     ],
     "created_at": "2026-04-21T08:27:02Z",
     "pushed_at": "2026-11-12T08:30:31Z",
-    "growth": 1
+    "growth": -9
   },
   {
     "full_name": "Twigpine/openclaude",
     "html_url": "https://github.com/Twigpine/openclaude",
     "description": "runs anywhere. uses anything",
-    "stars": 34428,
+    "stars": 34438,
     "forks": 9118,
     "language": "TypeScript",
     "topics": [
@@ -485,15 +485,15 @@
       "coding"
     ],
     "created_at": "2026-04-01T03:15:49Z",
-    "pushed_at": "2026-11-18T23:28:45Z",
-    "growth": 14
+    "pushed_at": "2026-11-20T09:09:28Z",
+    "growth": 10
   },
   {
     "full_name": "iOfficeAI/AionUi",
     "html_url": "https://github.com/iOfficeAI/AionUi",
     "description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent \\| Customize your assistants \\| Team them up｜Star if you like it!",
-    "stars": 34375,
-    "forks": 3598,
+    "stars": 34400,
+    "forks": 3599,
     "language": "TypeScript",
     "topics": [
       "acp",
@@ -519,14 +519,14 @@
     ],
     "created_at": "2025-08-07T10:29:51Z",
     "pushed_at": "2026-11-05T05:31:20Z",
-    "growth": 14
+    "growth": 25
   },
   {
     "full_name": "trycua/cua",
     "html_url": "https://github.com/trycua/cua",
     "description": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.",
-    "stars": 32645,
-    "forks": 2462,
+    "stars": 32698,
+    "forks": 2468,
     "language": "Rust",
     "topics": [
       "agent",
@@ -549,15 +549,15 @@
       "windows-sandbox"
     ],
     "created_at": "2025-01-31T15:02:49Z",
-    "pushed_at": "2026-11-19T09:41:57Z",
-    "growth": 79
+    "pushed_at": "2026-11-20T09:29:11Z",
+    "growth": 53
   },
   {
     "full_name": "feder-cr/Jobs_Applier_AI_Agent",
     "html_url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent",
     "description": "AIHawk: AI job application bot, automated job search, job hunting, auto-apply to resume-matching jobs while you sleep.",
-    "stars": 32603,
-    "forks": 4772,
+    "stars": 32576,
+    "forks": 4775,
     "language": "Python",
     "topics": [
       "agentic-ai",
@@ -583,14 +583,14 @@
     ],
     "created_at": "2024-08-04T12:15:06Z",
     "pushed_at": "2026-11-17T19:57:57Z",
-    "growth": 17
+    "growth": -27
   },
   {
     "full_name": "googleworkspace/cli",
     "html_url": "https://github.com/googleworkspace/cli",
     "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
-    "stars": 32394,
-    "forks": 1998,
+    "stars": 32408,
+    "forks": 1999,
     "language": "Rust",
     "topics": [
       "agent-skills",
@@ -612,14 +612,14 @@
     ],
     "created_at": "2026-03-02T19:46:06Z",
     "pushed_at": "2026-11-03T01:37:22Z",
-    "growth": 16
+    "growth": 14
   },
   {
     "full_name": "jackwener/OpenCLI",
     "html_url": "https://github.com/jackwener/OpenCLI",
     "description": "Make Any Website into CLI & Use your logged-in browser by AI agent.",
-    "stars": 31184,
-    "forks": 3048,
+    "stars": 31192,
+    "forks": 3050,
     "language": "JavaScript",
     "topics": [
       "ai-agent",
@@ -632,14 +632,14 @@
     ],
     "created_at": "2026-03-14T22:10:23Z",
     "pushed_at": "2026-11-07T17:39:55Z",
-    "growth": 29
+    "growth": 8
   },
   {
     "full_name": "TencentCloud/TencentDB-Agent-Memory",
     "html_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
     "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-    "stars": 31023,
-    "forks": 3034,
+    "stars": 31064,
+    "forks": 3041,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -653,15 +653,15 @@
       "vector-search"
     ],
     "created_at": "2026-04-07T06:34:26Z",
-    "pushed_at": "2026-11-10T13:27:08Z",
-    "growth": 25
+    "pushed_at": "2026-11-19T12:43:39Z",
+    "growth": 41
   },
   {
     "full_name": "QwenLM/qwen-code",
     "html_url": "https://github.com/QwenLM/qwen-code",
     "description": "An open-source AI coding agent that lives in your terminal.",
-    "stars": 30775,
-    "forks": 3559,
+    "stars": 30804,
+    "forks": 3564,
     "language": "TypeScript",
     "topics": [
       "agentic",
@@ -678,15 +678,15 @@
       "typescript"
     ],
     "created_at": "2025-06-26T01:37:46Z",
-    "pushed_at": "2026-11-19T09:41:47Z",
-    "growth": 30
+    "pushed_at": "2026-11-20T09:20:08Z",
+    "growth": 29
   },
   {
     "full_name": "op7418/guizang-ppt-skill",
     "html_url": "https://github.com/op7418/guizang-ppt-skill",
     "description": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
-    "stars": 30105,
-    "forks": 2069,
+    "stars": 30167,
+    "forks": 2073,
     "language": "HTML",
     "topics": [
       "ai-agent",
@@ -703,14 +703,14 @@
     ],
     "created_at": "2026-04-23T13:23:07Z",
     "pushed_at": "2026-10-30T12:45:28Z",
-    "growth": 79
+    "growth": 62
   },
   {
     "full_name": "ccch1mneyyy/dsh-Go",
     "html_url": "https://github.com/ccch1mneyyy/dsh-Go",
     "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-    "stars": 27680,
-    "forks": 1329,
+    "stars": 28609,
+    "forks": 1367,
     "language": "Dart",
     "topics": [
       "ai-agent",
@@ -726,15 +726,15 @@
       "llm"
     ],
     "created_at": "2026-10-25T08:09:52Z",
-    "pushed_at": "2026-11-19T09:00:36Z",
-    "growth": 1090
+    "pushed_at": "2026-11-20T09:21:32Z",
+    "growth": 929
   },
   {
     "full_name": "titanwings/distilly",
     "html_url": "https://github.com/titanwings/distilly",
     "description": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
-    "stars": 26672,
-    "forks": 2272,
+    "stars": 26691,
+    "forks": 2274,
     "language": "Python",
     "topics": [
       "agent-skills",
@@ -759,14 +759,14 @@
     ],
     "created_at": "2026-03-30T05:22:23Z",
     "pushed_at": "2026-10-13T05:57:17Z",
-    "growth": 21
+    "growth": 19
   },
   {
     "full_name": "activepieces/activepieces",
     "html_url": "https://github.com/activepieces/activepieces",
     "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
-    "stars": 25617,
-    "forks": 4480,
+    "stars": 25628,
+    "forks": 4486,
     "language": "TypeScript",
     "topics": [
       "ai-agent",
@@ -784,15 +784,15 @@
       "workflows"
     ],
     "created_at": "2022-12-03T02:52:46Z",
-    "pushed_at": "2026-11-19T09:32:54Z",
-    "growth": 17
+    "pushed_at": "2026-11-20T08:49:35Z",
+    "growth": 11
   },
   {
     "full_name": "walkinglabs/learn-harness-engineering",
     "html_url": "https://github.com/walkinglabs/learn-harness-engineering",
     "description": "Harness engineering beginner tutorial, from 0 to 1",
-    "stars": 25516,
-    "forks": 2931,
+    "stars": 25623,
+    "forks": 2944,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -810,6 +810,6 @@
     ],
     "created_at": "2026-03-29T12:28:19Z",
     "pushed_at": "2026-11-15T03:03:40Z",
-    "growth": 155
+    "growth": 107
   }
 ]

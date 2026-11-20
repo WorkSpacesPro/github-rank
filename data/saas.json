@@ -3,8 +3,8 @@
     "full_name": "wasp-lang/open-saas",
     "html_url": "https://github.com/wasp-lang/open-saas",
     "description": "A 100% free modern JS SaaS boilerplate (React, NodeJS, Prisma). Full-featured: Auth (email, google, github, slack, MS), Email sending, Background jobs, Landing page, Payments (Stripe, Polar.sh), Shadcn UI, S3 file upload. AI-ready with tailored AGENTS.md, skills, and Claude Code plugin. One cmd deploy. Powered by Wasp full-stack framework.",
-    "stars": 16374,
-    "forks": 1986,
+    "stars": 16381,
+    "forks": 1985,
     "language": "MDX",
     "topics": [
       "ai",
@@ -30,14 +30,14 @@
     ],
     "created_at": "2023-12-01T13:54:36Z",
     "pushed_at": "2026-11-11T17:08:31Z",
-    "growth": 16
+    "growth": 7
   },
   {
     "full_name": "ixartz/SaaS-Boilerplate",
     "html_url": "https://github.com/ixartz/SaaS-Boilerplate",
     "description": "🚀🎉📚 SaaS Boilerplate built with Next.js + Tailwind CSS + Shadcn UI + TypeScript. ⚡️ Full-stack React application with Auth, Multi-tenancy, Roles & Permissions, i18n, Landing Page, DB, Logging, Testing",
-    "stars": 7495,
-    "forks": 1335,
+    "stars": 7496,
+    "forks": 1336,
     "language": "TypeScript",
     "topics": [
       "authentication",
@@ -63,14 +63,14 @@
     ],
     "created_at": "2024-03-29T19:25:52Z",
     "pushed_at": "2026-11-01T06:15:43Z",
-    "growth": 4
+    "growth": 1
   },
   {
     "full_name": "thedevdojo/wave",
     "html_url": "https://github.com/thedevdojo/wave",
     "description": "Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰",
-    "stars": 6550,
-    "forks": 908,
+    "stars": 6549,
+    "forks": 909,
     "language": "PHP",
     "topics": [
       "devdojo",
@@ -86,7 +86,7 @@
     ],
     "created_at": "2021-03-25T03:34:48Z",
     "pushed_at": "2026-11-17T11:40:41Z",
-    "growth": 1
+    "growth": -1
   },
   {
     "full_name": "boxyhq/saas-starter-kit",
@@ -116,7 +116,7 @@
     ],
     "created_at": "2022-07-13T12:41:52Z",
     "pushed_at": "2026-07-20T08:15:05Z",
-    "growth": -1
+    "growth": 0
   },
   {
     "full_name": "async-labs/saas",
@@ -154,7 +154,7 @@
     "html_url": "https://github.com/nextify-limited/saasfly",
     "description": "Your Next SaaS Template or Boilerplate ! A magic trip start with `bun create saasfly` . The more stars, the more surprises",
     "stars": 2960,
-    "forks": 426,
+    "forks": 427,
     "language": "TypeScript",
     "topics": [
       "bun",
@@ -185,7 +185,7 @@
     "full_name": "scosman/CMSaasStarter",
     "html_url": "https://github.com/scosman/CMSaasStarter",
     "description": "A modern SaaS template/boilerplate built with SvelteKit, Tailwind, and Supabase. Includes marketing page, blog, subscriptions, auth, user dashboard, user settings, pricing page, and more.",
-    "stars": 2376,
+    "stars": 2375,
     "forks": 468,
     "language": "Svelte",
     "topics": [
@@ -211,6 +211,6 @@
     ],
     "created_at": "2023-08-22T02:10:38Z",
     "pushed_at": "2026-03-21T20:53:07Z",
-    "growth": -2
+    "growth": -1
   }
 ]
