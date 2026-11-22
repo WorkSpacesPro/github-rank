@@ -3,8 +3,8 @@
     "full_name": "HKUDS/DeepTutor",
     "html_url": "https://github.com/HKUDS/DeepTutor",
     "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-    "stars": 61192,
-    "forks": 7393,
+    "stars": 61442,
+    "forks": 7420,
     "language": "Python",
     "topics": [
       "ai-agents",
@@ -19,13 +19,13 @@
     ],
     "created_at": "2025-12-28T15:35:54Z",
     "pushed_at": "2026-11-20T09:35:27Z",
-    "growth": 253
+    "growth": 250
   },
   {
     "full_name": "darknessomi/musicbox",
     "html_url": "https://github.com/darknessomi/musicbox",
     "description": "网易云音乐命令行版本",
-    "stars": 9871,
+    "stars": 9872,
     "forks": 1564,
     "language": "Python",
     "topics": [
@@ -43,8 +43,8 @@
     "full_name": "voidcosmos/npkill",
     "html_url": "https://github.com/voidcosmos/npkill",
     "description": "Easily find and remove old and heavy node_modules 📦, artifacts, caches and dev leftovers 🧹",
-    "stars": 9617,
-    "forks": 267,
+    "stars": 9620,
+    "forks": 268,
     "language": "TypeScript",
     "topics": [
       "build-artifacts",
@@ -64,14 +64,14 @@
     ],
     "created_at": "2019-06-30T12:26:26Z",
     "pushed_at": "2026-11-16T10:01:52Z",
-    "growth": 10
+    "growth": 3
   },
   {
     "full_name": "FlorianBruniaux/claude-code-ultimate-guide",
     "html_url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
     "description": "The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.",
-    "stars": 6495,
-    "forks": 840,
+    "stars": 6577,
+    "forks": 846,
     "language": "Python",
     "topics": [
       "agentic-coding",
@@ -96,8 +96,8 @@
       "vibe-coding"
     ],
     "created_at": "2026-01-09T13:42:10Z",
-    "pushed_at": "2026-11-19T08:50:07Z",
-    "growth": 9
+    "pushed_at": "2026-11-22T07:23:54Z",
+    "growth": 82
   },
   {
     "full_name": "mixn/carbon-now-cli",
@@ -127,7 +127,7 @@
     "html_url": "https://github.com/unhappychoice/gitlogue",
     "description": "A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story.",
     "stars": 5280,
-    "forks": 124,
+    "forks": 125,
     "language": "Rust",
     "topics": [
       "cli",
@@ -153,6 +153,6 @@
     ],
     "created_at": "2025-11-08T21:22:33Z",
     "pushed_at": "2026-11-20T12:57:10Z",
-    "growth": 2
+    "growth": 0
   }
 ]

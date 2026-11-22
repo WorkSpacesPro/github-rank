@@ -3,8 +3,8 @@
     "full_name": "public-apis/public-apis",
     "html_url": "https://github.com/public-apis/public-apis",
     "description": "A collective list of free APIs",
-    "stars": 500547,
-    "forks": 56190,
+    "stars": 500707,
+    "forks": 56223,
     "language": "Python",
     "topics": [
       "api",
@@ -23,14 +23,14 @@
     ],
     "created_at": "2016-03-20T23:49:42Z",
     "pushed_at": "2026-11-20T19:42:29Z",
-    "growth": 147
+    "growth": 160
   },
   {
     "full_name": "EbookFoundation/free-programming-books",
     "html_url": "https://github.com/EbookFoundation/free-programming-books",
     "description": ":books: Freely available programming books",
-    "stars": 401985,
-    "forks": 67229,
+    "stars": 402053,
+    "forks": 67231,
     "language": "Python",
     "topics": [
       "books",
@@ -40,15 +40,15 @@
       "resource"
     ],
     "created_at": "2013-10-11T06:50:37Z",
-    "pushed_at": "2026-11-12T18:46:04Z",
-    "growth": 57
+    "pushed_at": "2026-11-21T23:51:56Z",
+    "growth": 68
   },
   {
     "full_name": "donnemartin/system-design-primer",
     "html_url": "https://github.com/donnemartin/system-design-primer",
     "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
-    "stars": 378678,
-    "forks": 59332,
+    "stars": 378769,
+    "forks": 59333,
     "language": "Python",
     "topics": [
       "design",
@@ -67,14 +67,14 @@
     ],
     "created_at": "2017-02-26T16:15:28Z",
     "pushed_at": "2026-09-15T01:10:09Z",
-    "growth": 93
+    "growth": 91
   },
   {
     "full_name": "vinta/awesome-python",
     "html_url": "https://github.com/vinta/awesome-python",
     "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
-    "stars": 336127,
-    "forks": 29133,
+    "stars": 336345,
+    "forks": 29140,
     "language": "Python",
     "topics": [
       "awesome",
@@ -86,14 +86,14 @@
     ],
     "created_at": "2014-06-27T21:00:06Z",
     "pushed_at": "2026-11-17T10:02:01Z",
-    "growth": 177
+    "growth": 218
   },
   {
     "full_name": "practical-tutorials/project-based-learning",
     "html_url": "https://github.com/practical-tutorials/project-based-learning",
     "description": "Curated list of project-based tutorials",
-    "stars": 290136,
-    "forks": 36848,
+    "stars": 290234,
+    "forks": 36851,
     "language": "Python",
     "topics": [
       "beginner-project",
@@ -107,14 +107,14 @@
     ],
     "created_at": "2017-04-12T05:07:46Z",
     "pushed_at": "2026-11-16T06:44:31Z",
-    "growth": 62
+    "growth": 98
   },
   {
     "full_name": "NousResearch/hermes-agent",
     "html_url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 265064,
-    "forks": 59894,
+    "stars": 265274,
+    "forks": 59964,
     "language": "Python",
     "topics": [
       "ai",
@@ -132,15 +132,15 @@
       "openai"
     ],
     "created_at": "2025-07-22T22:22:28Z",
-    "pushed_at": "2026-11-21T08:46:19Z",
+    "pushed_at": "2026-11-22T09:08:16Z",
     "growth": 210
   },
   {
     "full_name": "TheAlgorithms/Python",
     "html_url": "https://github.com/TheAlgorithms/Python",
     "description": "All Algorithms implemented in Python",
-    "stars": 226356,
-    "forks": 51339,
+    "stars": 226381,
+    "forks": 51343,
     "language": "Python",
     "topics": [
       "algorithm",
@@ -160,14 +160,14 @@
     ],
     "created_at": "2016-07-16T09:44:01Z",
     "pushed_at": "2026-11-13T04:28:36Z",
-    "growth": 31
+    "growth": 25
   },
   {
     "full_name": "yt-dlp/yt-dlp",
     "html_url": "https://github.com/yt-dlp/yt-dlp",
     "description": "A feature-rich command-line audio/video downloader",
-    "stars": 209497,
-    "forks": 18502,
+    "stars": 209773,
+    "forks": 18538,
     "language": "Python",
     "topics": [
       "cli",
@@ -179,29 +179,29 @@
       "yt-dlp"
     ],
     "created_at": "2020-10-26T04:22:55Z",
-    "pushed_at": "2026-11-21T00:05:22Z",
-    "growth": 213
+    "pushed_at": "2026-11-21T22:39:56Z",
+    "growth": 276
   },
   {
     "full_name": "anthropics/skills",
     "html_url": "https://github.com/anthropics/skills",
     "description": "Public repository for Agent Skills",
-    "stars": 198200,
-    "forks": 23197,
+    "stars": 198682,
+    "forks": 23251,
     "language": "Python",
     "topics": [
       "agent-skills"
     ],
     "created_at": "2025-09-22T15:53:31Z",
     "pushed_at": "2026-11-16T14:22:50Z",
-    "growth": 356
+    "growth": 482
   },
   {
     "full_name": "microsoft/markitdown",
     "html_url": "https://github.com/microsoft/markitdown",
     "description": "Python tool for converting files and office documents to Markdown.",
-    "stars": 197306,
-    "forks": 14927,
+    "stars": 197704,
+    "forks": 14965,
     "language": "Python",
     "topics": [
       "autogen",
@@ -214,14 +214,14 @@
     ],
     "created_at": "2024-11-13T19:56:40Z",
     "pushed_at": "2026-11-07T00:14:01Z",
-    "growth": 176
+    "growth": 398
   },
   {
     "full_name": "521xueweihan/HelloGitHub",
     "html_url": "https://github.com/521xueweihan/HelloGitHub",
     "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
-    "stars": 190285,
-    "forks": 13341,
+    "stars": 190461,
+    "forks": 13347,
     "language": "Python",
     "topics": [
       "awesome",
@@ -231,14 +231,14 @@
     ],
     "created_at": "2016-05-04T06:24:11Z",
     "pushed_at": "2026-10-31T18:08:05Z",
-    "growth": 175
+    "growth": 176
   },
   {
     "full_name": "Significant-Gravitas/AutoGPT",
     "html_url": "https://github.com/Significant-Gravitas/AutoGPT",
     "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-    "stars": 188122,
-    "forks": 45833,
+    "stars": 188128,
+    "forks": 45827,
     "language": "Python",
     "topics": [
       "agentic-ai",
@@ -254,15 +254,15 @@
       "python"
     ],
     "created_at": "2023-03-16T09:21:07Z",
-    "pushed_at": "2026-11-21T04:39:48Z",
-    "growth": 3
+    "pushed_at": "2026-11-22T09:08:50Z",
+    "growth": 6
   },
   {
     "full_name": "huggingface/transformers",
     "html_url": "https://github.com/huggingface/transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-    "stars": 169336,
-    "forks": 35251,
+    "stars": 169350,
+    "forks": 35263,
     "language": "Python",
     "topics": [
       "audio",
@@ -286,14 +286,14 @@
       "vlm"
     ],
     "created_at": "2018-10-29T13:56:00Z",
-    "pushed_at": "2026-11-21T08:36:46Z",
-    "growth": 29
+    "pushed_at": "2026-11-22T01:37:19Z",
+    "growth": 14
   },
   {
     "full_name": "AUTOMATIC1111/stable-diffusion-webui",
     "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
     "description": "Stable Diffusion web UI",
-    "stars": 165367,
+    "stars": 165372,
     "forks": 31078,
     "language": "Python",
     "topics": [
@@ -316,14 +316,14 @@
     ],
     "created_at": "2022-08-22T14:05:26Z",
     "pushed_at": "2026-03-02T07:00:53Z",
-    "growth": 3
+    "growth": 5
   },
   {
     "full_name": "langgenius/dify",
     "html_url": "https://github.com/langgenius/dify",
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-    "stars": 161604,
-    "forks": 25539,
+    "stars": 161650,
+    "forks": 25534,
     "language": "Python",
     "topics": [
       "agent",
@@ -347,14 +347,14 @@
       "workflow"
     ],
     "created_at": "2023-04-12T07:40:24Z",
-    "pushed_at": "2026-11-21T07:44:38Z",
-    "growth": 52
+    "pushed_at": "2026-11-22T08:16:43Z",
+    "growth": 46
   },
   {
     "full_name": "langflow-ai/langflow",
     "html_url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 156816,
+    "stars": 156834,
     "forks": 10430,
     "language": "Python",
     "topics": [
@@ -366,15 +366,15 @@
       "react-flow"
     ],
     "created_at": "2023-02-08T22:28:03Z",
-    "pushed_at": "2026-11-21T04:39:50Z",
-    "growth": 25
+    "pushed_at": "2026-11-22T00:26:30Z",
+    "growth": 18
   },
   {
     "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
     "html_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
     "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
-    "stars": 152279,
-    "forks": 16059,
+    "stars": 152618,
+    "forks": 16093,
     "language": "Python",
     "topics": [
       "ai-skills",
@@ -398,15 +398,15 @@
       "windsurf-ai"
     ],
     "created_at": "2025-11-30T11:36:31Z",
-    "pushed_at": "2026-11-19T01:04:54Z",
-    "growth": 329
+    "pushed_at": "2026-11-22T04:08:27Z",
+    "growth": 339
   },
   {
     "full_name": "Graphify-Labs/graphify",
     "html_url": "https://github.com/Graphify-Labs/graphify",
     "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-    "stars": 151342,
-    "forks": 14539,
+    "stars": 151721,
+    "forks": 14581,
     "language": "Python",
     "topics": [
       "ai-agents",
@@ -431,15 +431,15 @@
       "tree-sitter"
     ],
     "created_at": "2026-04-03T15:49:07Z",
-    "pushed_at": "2026-11-20T22:49:07Z",
-    "growth": 507
+    "pushed_at": "2026-11-21T21:27:31Z",
+    "growth": 379
   },
   {
     "full_name": "github/spec-kit",
     "html_url": "https://github.com/github/spec-kit",
     "description": "💫 Toolkit to help you get started with SDD or any other process!",
-    "stars": 150867,
-    "forks": 13549,
+    "stars": 150971,
+    "forks": 13561,
     "language": "Python",
     "topics": [
       "ai",
@@ -452,14 +452,14 @@
     ],
     "created_at": "2025-08-21T22:54:31Z",
     "pushed_at": "2026-11-20T15:50:42Z",
-    "growth": 111
+    "growth": 104
   },
   {
     "full_name": "langchain-ai/langchain",
     "html_url": "https://github.com/langchain-ai/langchain",
     "description": "The agent engineering platform.",
-    "stars": 149986,
-    "forks": 25145,
+    "stars": 149968,
+    "forks": 25154,
     "language": "Python",
     "topics": [
       "agents",
@@ -484,15 +484,15 @@
       "typescript"
     ],
     "created_at": "2022-10-17T02:58:36Z",
-    "pushed_at": "2026-11-21T08:58:09Z",
-    "growth": 29
+    "pushed_at": "2026-11-22T08:30:04Z",
+    "growth": -18
   },
   {
     "full_name": "Comfy-Org/ComfyUI",
     "html_url": "https://github.com/Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-    "stars": 147881,
-    "forks": 17613,
+    "stars": 148032,
+    "forks": 17630,
     "language": "Python",
     "topics": [
       "ai",
@@ -503,15 +503,15 @@
       "stable-diffusion"
     ],
     "created_at": "2023-01-17T03:15:56Z",
-    "pushed_at": "2026-11-21T08:55:28Z",
-    "growth": 135
+    "pushed_at": "2026-11-22T09:08:21Z",
+    "growth": 151
   },
   {
     "full_name": "Shubhamsaboo/awesome-llm-apps",
     "html_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
     "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-    "stars": 145252,
-    "forks": 21387,
+    "stars": 145350,
+    "forks": 21398,
     "language": "Python",
     "topics": [
       "agents",
@@ -521,14 +521,14 @@
     ],
     "created_at": "2024-04-29T05:30:25Z",
     "pushed_at": "2026-11-18T05:25:32Z",
-    "growth": 135
+    "growth": 98
   },
   {
     "full_name": "harry0703/MoneyPrinterTurbo",
     "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
     "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-    "stars": 144883,
-    "forks": 23295,
+    "stars": 145023,
+    "forks": 23327,
     "language": "Python",
     "topics": [
       "ai-video-generator",
@@ -547,27 +547,27 @@
       "youtube-shorts"
     ],
     "created_at": "2024-03-11T02:57:34Z",
-    "pushed_at": "2026-11-21T04:42:41Z",
-    "growth": 109
+    "pushed_at": "2026-11-22T01:46:31Z",
+    "growth": 140
   },
   {
     "full_name": "ytdl-org/youtube-dl",
     "html_url": "https://github.com/ytdl-org/youtube-dl",
     "description": "Command-line program to download videos from YouTube.com and other video sites",
-    "stars": 141623,
+    "stars": 141631,
     "forks": 10672,
     "language": "Python",
     "topics": [],
     "created_at": "2010-10-31T14:35:07Z",
     "pushed_at": "2026-11-06T02:12:14Z",
-    "growth": 5
+    "growth": 8
   },
   {
     "full_name": "krahets/hello-algo",
     "html_url": "https://github.com/krahets/hello-algo",
     "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
-    "stars": 132520,
-    "forks": 15621,
+    "stars": 132557,
+    "forks": 15626,
     "language": "Python",
     "topics": [
       "algo",
@@ -584,14 +584,14 @@
     ],
     "created_at": "2022-11-04T11:08:34Z",
     "pushed_at": "2026-11-18T08:35:47Z",
-    "growth": 24
+    "growth": 37
   },
   {
     "full_name": "TauricResearch/TradingAgents",
     "html_url": "https://github.com/TauricResearch/TradingAgents",
     "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-    "stars": 123332,
-    "forks": 23631,
+    "stars": 123422,
+    "forks": 23643,
     "language": "Python",
     "topics": [
       "agent",
@@ -602,14 +602,14 @@
     ],
     "created_at": "2024-12-28T03:31:08Z",
     "pushed_at": "2026-11-17T03:59:28Z",
-    "growth": 112
+    "growth": 90
   },
   {
     "full_name": "browser-use/browser-use",
     "html_url": "https://github.com/browser-use/browser-use",
     "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
-    "stars": 121649,
-    "forks": 13591,
+    "stars": 121716,
+    "forks": 13599,
     "language": "Python",
     "topics": [
       "ai-agents",
@@ -631,15 +631,15 @@
       "web-scraping"
     ],
     "created_at": "2024-10-31T16:00:56Z",
-    "pushed_at": "2026-11-21T03:05:00Z",
-    "growth": 85
+    "pushed_at": "2026-11-22T03:44:56Z",
+    "growth": 67
   },
   {
     "full_name": "debpalash/VoiceStudio",
     "html_url": "https://github.com/debpalash/VoiceStudio",
     "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-    "stars": 115630,
-    "forks": 12844,
+    "stars": 116148,
+    "forks": 12921,
     "language": "Python",
     "topics": [
       "ai",
@@ -663,15 +663,15 @@
       "workflow"
     ],
     "created_at": "2026-04-09T21:40:26Z",
-    "pushed_at": "2026-11-21T08:57:43Z",
-    "growth": 770
+    "pushed_at": "2026-11-22T03:48:28Z",
+    "growth": 518
   },
   {
     "full_name": "sherlock-project/sherlock",
     "html_url": "https://github.com/sherlock-project/sherlock",
     "description": "Hunt down social media accounts by username across social networks",
-    "stars": 115211,
-    "forks": 13194,
+    "stars": 115619,
+    "forks": 13229,
     "language": "Python",
     "topics": [
       "cli",
@@ -692,15 +692,15 @@
       "tools"
     ],
     "created_at": "2018-12-24T14:30:48Z",
-    "pushed_at": "2026-11-21T05:13:20Z",
-    "growth": 402
+    "pushed_at": "2026-11-22T05:13:24Z",
+    "growth": 408
   },
   {
     "full_name": "Panniantong/Agent-Reach",
     "html_url": "https://github.com/Panniantong/Agent-Reach",
     "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-    "stars": 113638,
-    "forks": 10194,
+    "stars": 113850,
+    "forks": 10221,
     "language": "Python",
     "topics": [
       "agent-infrastructure",
@@ -723,6 +723,6 @@
     ],
     "created_at": "2026-02-24T02:10:24Z",
     "pushed_at": "2026-11-08T02:17:48Z",
-    "growth": 203
+    "growth": 212
   }
 ]

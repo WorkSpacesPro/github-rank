@@ -3,7 +3,7 @@
     "full_name": "Molunerfinn/PicGo",
     "html_url": "https://github.com/Molunerfinn/PicGo",
     "description": ":rocket: The Ultimate Image Uploader for Efficient Creators. Supports Obsidian, Typora, VS Code etc. and 60+ image hosting services  (S3, GitHub, Cloudflare R2, Imgur, Aliyun OSS...). Paste, upload, done.",
-    "stars": 27510,
+    "stars": 27511,
     "forks": 2340,
     "language": "TypeScript",
     "topics": [
@@ -28,14 +28,14 @@
     ],
     "created_at": "2017-12-12T08:39:44Z",
     "pushed_at": "2026-11-17T11:18:26Z",
-    "growth": 4
+    "growth": 1
   },
   {
     "full_name": "MarSeventh/CloudFlare-ImgBed",
     "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
     "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
-    "stars": 6933,
-    "forks": 8859,
+    "stars": 6937,
+    "forks": 8870,
     "language": "JavaScript",
     "topics": [
       "asset-management",
@@ -54,15 +54,15 @@
       "uploader"
     ],
     "created_at": "2024-07-19T15:24:19Z",
-    "pushed_at": "2026-11-03T02:45:16Z",
-    "growth": 7
+    "pushed_at": "2026-11-21T14:58:08Z",
+    "growth": 4
   },
   {
     "full_name": "cf-pages/Telegraph-Image",
     "html_url": "https://github.com/cf-pages/Telegraph-Image",
     "description": "Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.",
-    "stars": 4706,
-    "forks": 8835,
+    "stars": 4705,
+    "forks": 8834,
     "language": "HTML",
     "topics": [
       "cloudflare",
@@ -79,14 +79,14 @@
     ],
     "created_at": "2022-10-31T18:33:24Z",
     "pushed_at": "2026-07-27T03:57:46Z",
-    "growth": 1
+    "growth": -1
   },
   {
     "full_name": "elliothux/open-compute",
     "html_url": "https://github.com/elliothux/open-compute",
     "description": "Self-hosted Cloudflare Workers-compatible platform with Workers、KV、D1、R2、DO、Queues、Workflows、Cron、Cache、Images、Vectorize、AI Search、Artifacts、Static Assets、Service Bindings、Dynamic Workers、LogTail、Gateway in one Rust binary.",
-    "stars": 3961,
-    "forks": 307,
+    "stars": 4041,
+    "forks": 304,
     "language": "Rust",
     "topics": [
       "cloud",
@@ -112,7 +112,7 @@
     ],
     "created_at": "2026-08-23T04:34:25Z",
     "pushed_at": "2026-11-08T09:45:32Z",
-    "growth": 50
+    "growth": 80
   },
   {
     "full_name": "oznu/docker-cloudflare-ddns",
@@ -155,7 +155,7 @@
     ],
     "created_at": "2024-03-24T02:21:07Z",
     "pushed_at": "2026-09-12T23:28:25Z",
-    "growth": -1
+    "growth": 0
   },
   {
     "full_name": "vikiboss/r2-web",
@@ -338,7 +338,7 @@
     ],
     "created_at": "2025-07-02T08:08:01Z",
     "pushed_at": "2026-03-13T11:37:19Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "roimdev/roim-picx",
@@ -403,8 +403,8 @@
       "z-image-turbo"
     ],
     "created_at": "2025-12-05T06:19:18Z",
-    "pushed_at": "2026-11-13T02:11:54Z",
-    "growth": -1
+    "pushed_at": "2026-11-22T05:24:12Z",
+    "growth": 0
   },
   {
     "full_name": "Defiabell/shotsync",
@@ -530,7 +530,7 @@
     "html_url": "https://github.com/iiop123/workers-image-hosting",
     "description": "cloudflare worker简易图床",
     "stars": 159,
-    "forks": 62,
+    "forks": 63,
     "language": "Vue",
     "topics": [
       "cloudflare",
