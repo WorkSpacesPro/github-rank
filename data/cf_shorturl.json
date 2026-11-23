@@ -4,7 +4,7 @@
     "html_url": "https://github.com/xyTom/Url-Shorten-Worker",
     "description": "A URL Shortener created using Cloudflare worker",
     "stars": 1787,
-    "forks": 1299,
+    "forks": 1297,
     "language": "JavaScript",
     "topics": [
       "api",
@@ -20,7 +20,7 @@
     ],
     "created_at": "2020-12-05T12:36:06Z",
     "pushed_at": "2026-11-19T22:20:29Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "x-dr/short",

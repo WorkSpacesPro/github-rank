@@ -3,8 +3,8 @@
     "full_name": "Molunerfinn/PicGo",
     "html_url": "https://github.com/Molunerfinn/PicGo",
     "description": ":rocket: The Ultimate Image Uploader for Efficient Creators. Supports Obsidian, Typora, VS Code etc. and 60+ image hosting services  (S3, GitHub, Cloudflare R2, Imgur, Aliyun OSS...). Paste, upload, done.",
-    "stars": 27511,
-    "forks": 2340,
+    "stars": 27514,
+    "forks": 2339,
     "language": "TypeScript",
     "topics": [
       "aliyun-oss",
@@ -28,14 +28,14 @@
     ],
     "created_at": "2017-12-12T08:39:44Z",
     "pushed_at": "2026-11-17T11:18:26Z",
-    "growth": 1
+    "growth": 3
   },
   {
     "full_name": "MarSeventh/CloudFlare-ImgBed",
     "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
     "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
-    "stars": 6937,
-    "forks": 8870,
+    "stars": 6939,
+    "forks": 8875,
     "language": "JavaScript",
     "topics": [
       "asset-management",
@@ -55,13 +55,13 @@
     ],
     "created_at": "2024-07-19T15:24:19Z",
     "pushed_at": "2026-11-21T14:58:08Z",
-    "growth": 4
+    "growth": 2
   },
   {
     "full_name": "cf-pages/Telegraph-Image",
     "html_url": "https://github.com/cf-pages/Telegraph-Image",
     "description": "Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.",
-    "stars": 4705,
+    "stars": 4706,
     "forks": 8834,
     "language": "HTML",
     "topics": [
@@ -79,14 +79,14 @@
     ],
     "created_at": "2022-10-31T18:33:24Z",
     "pushed_at": "2026-07-27T03:57:46Z",
-    "growth": -1
+    "growth": 1
   },
   {
     "full_name": "elliothux/open-compute",
     "html_url": "https://github.com/elliothux/open-compute",
     "description": "Self-hosted Cloudflare Workers-compatible platform with Workers、KV、D1、R2、DO、Queues、Workflows、Cron、Cache、Images、Vectorize、AI Search、Artifacts、Static Assets、Service Bindings、Dynamic Workers、LogTail、Gateway in one Rust binary.",
-    "stars": 4041,
-    "forks": 304,
+    "stars": 4091,
+    "forks": 303,
     "language": "Rust",
     "topics": [
       "cloud",
@@ -111,14 +111,14 @@
       "wrangler"
     ],
     "created_at": "2026-08-23T04:34:25Z",
-    "pushed_at": "2026-11-08T09:45:32Z",
-    "growth": 80
+    "pushed_at": "2026-11-22T12:43:03Z",
+    "growth": 50
   },
   {
     "full_name": "oznu/docker-cloudflare-ddns",
     "html_url": "https://github.com/oznu/docker-cloudflare-ddns",
     "description": "A small amd64/ARM/ARM64 Docker image that allows you to use CloudFlare as a DDNS / DynDNS Provider.",
-    "stars": 1146,
+    "stars": 1147,
     "forks": 215,
     "language": "Shell",
     "topics": [
@@ -136,7 +136,7 @@
     ],
     "created_at": "2017-08-21T09:07:28Z",
     "pushed_at": "2022-08-10T14:57:48Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "0-RTT/telegraph",
@@ -161,7 +161,7 @@
     "full_name": "vikiboss/r2-web",
     "html_url": "https://github.com/vikiboss/r2-web",
     "description": "📁 轻盈优雅的 Web 原生 Cloudflare R2 桶文件管理器，一切皆在浏览器中完成。 \\| 📁 A lightweight, elegant, pure-browser Cloudflare R2 file manager. Everything happens right in your browser.",
-    "stars": 503,
+    "stars": 502,
     "forks": 106,
     "language": "JavaScript",
     "topics": [
@@ -181,7 +181,7 @@
     ],
     "created_at": "2026-02-11T10:19:07Z",
     "pushed_at": "2026-11-11T05:11:28Z",
-    "growth": 0
+    "growth": -1
   },
   {
     "full_name": "RoseKhlifa/Image-Studio",
@@ -345,7 +345,7 @@
     "html_url": "https://github.com/roimdev/roim-picx",
     "description": "A free image hosting application based on Cloudflare's Worker, R2, Pages, and D1 architectures.一款基于 Cloudflare 的 Worker、R2、Pages、D1 实现的免费图床应用",
     "stars": 301,
-    "forks": 317,
+    "forks": 316,
     "language": "Vue",
     "topics": [
       "cloudflare",
@@ -362,7 +362,7 @@
     "full_name": "kritihq/kriti-images",
     "html_url": "https://github.com/kritihq/kriti-images",
     "description": "Transform & Optimise images (Cloudflare Images alternative)",
-    "stars": 269,
+    "stars": 270,
     "forks": 14,
     "language": "Go",
     "topics": [
@@ -372,7 +372,7 @@
     ],
     "created_at": "2025-09-28T15:37:10Z",
     "pushed_at": "2026-03-14T15:48:30Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "WuMingDao/zenith-image-generator",
@@ -403,7 +403,7 @@
       "z-image-turbo"
     ],
     "created_at": "2025-12-05T06:19:18Z",
-    "pushed_at": "2026-11-22T05:24:12Z",
+    "pushed_at": "2026-11-23T06:00:23Z",
     "growth": 0
   },
   {
@@ -457,6 +457,18 @@
     "growth": 0
   },
   {
+    "full_name": "KJGX66F/unikraft-xray-node",
+    "html_url": "https://github.com/KJGX66F/unikraft-xray-node",
+    "description": "Unikraft Cloud xray VLESS node: WS primary + XHTTP backup, direct + Cloudflare dual links. GitHub Actions builds the image to GHCR; fork and build your own.",
+    "stars": 180,
+    "forks": 329,
+    "language": "Shell",
+    "topics": [],
+    "created_at": "2026-11-19T05:03:25Z",
+    "pushed_at": "2026-11-19T09:17:57Z",
+    "growth": null
+  },
+  {
     "full_name": "ace-of-aces/laravel-image-transform-url",
     "html_url": "https://github.com/ace-of-aces/laravel-image-transform-url",
     "description": "Easy, URL-based image transformations inspired by Cloudflare Images.",
@@ -470,7 +482,7 @@
       "laravel"
     ],
     "created_at": "2025-04-13T11:12:32Z",
-    "pushed_at": "2026-11-09T11:23:17Z",
+    "pushed_at": "2026-11-22T09:52:22Z",
     "growth": 0
   },
   {
@@ -586,23 +598,6 @@
     ],
     "created_at": "2025-01-25T06:43:49Z",
     "pushed_at": "2025-11-02T13:35:13Z",
-    "growth": 0
-  },
-  {
-    "full_name": "BlueSkyXN/WorkerJS_CloudFlare_ImageBed",
-    "html_url": "https://github.com/BlueSkyXN/WorkerJS_CloudFlare_ImageBed",
-    "description": "基于CloudFlare Worker/Pages的HTML/JS，兼容多个图床",
-    "stars": 130,
-    "forks": 23,
-    "language": "JavaScript",
-    "topics": [
-      "img",
-      "imgapi",
-      "imgupload",
-      "imguploader"
-    ],
-    "created_at": "2023-11-16T06:22:27Z",
-    "pushed_at": "2026-03-31T23:51:47Z",
     "growth": 0
   }
 ]
