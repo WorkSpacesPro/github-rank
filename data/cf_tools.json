@@ -3,8 +3,8 @@
     "full_name": "miantiao-me/Sink",
     "html_url": "https://github.com/miantiao-me/Sink",
     "description": "⚡ A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.",
-    "stars": 7297,
-    "forks": 5417,
+    "stars": 7296,
+    "forks": 5421,
     "language": "TypeScript",
     "topics": [
       "analytics",
@@ -19,13 +19,13 @@
     ],
     "created_at": "2024-05-05T13:53:54Z",
     "pushed_at": "2026-10-27T06:01:00Z",
-    "growth": 3
+    "growth": -1
   },
   {
     "full_name": "benvinegar/counterscale",
     "html_url": "https://github.com/benvinegar/counterscale",
     "description": "Scalable web analytics you run yourself on Cloudflare",
-    "stars": 2211,
+    "stars": 2212,
     "forks": 145,
     "language": "TypeScript",
     "topics": [
@@ -37,13 +37,13 @@
     ],
     "created_at": "2023-12-22T01:25:05Z",
     "pushed_at": "2026-10-04T20:18:02Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "RavelloH/InsightFlare",
     "html_url": "https://github.com/RavelloH/InsightFlare",
     "description": "A powerful, privacy-friendly open source web analytics tool that runs entirely on Cloudflare.",
-    "stars": 754,
+    "stars": 755,
     "forks": 19,
     "language": "TypeScript",
     "topics": [
@@ -62,7 +62,7 @@
       "web-analytics"
     ],
     "created_at": "2026-02-28T17:21:17Z",
-    "pushed_at": "2026-11-24T08:59:01Z",
+    "pushed_at": "2026-11-25T09:49:22Z",
     "growth": 1
   },
   {
@@ -185,6 +185,18 @@
     "growth": 0
   },
   {
+    "full_name": "qiayue/pvuv.ai",
+    "html_url": "https://github.com/qiayue/pvuv.ai",
+    "description": "PVUV.ai : Privacy-friendly, self-hosted web analytics with built-in invalid-traffic detection and AdSense protection. Runs on Cloudflare Workers + D1.",
+    "stars": 107,
+    "forks": 52,
+    "language": "TypeScript",
+    "topics": [],
+    "created_at": "2026-07-07T09:45:28Z",
+    "pushed_at": "2026-11-03T06:05:16Z",
+    "growth": 2
+  },
+  {
     "full_name": "Shudesu/x-harness-oss",
     "html_url": "https://github.com/Shudesu/x-harness-oss",
     "description": "X Harness — self-hosted X (Twitter) scheduling, DM and analytics on Cloudflare Workers, with MCP and TypeScript SDK. By Shudesu (野田修一).",
@@ -204,18 +216,6 @@
     "created_at": "2026-04-02T11:13:47Z",
     "pushed_at": "2026-11-20T12:55:29Z",
     "growth": 0
-  },
-  {
-    "full_name": "qiayue/pvuv.ai",
-    "html_url": "https://github.com/qiayue/pvuv.ai",
-    "description": "PVUV.ai : Privacy-friendly, self-hosted web analytics with built-in invalid-traffic detection and AdSense protection. Runs on Cloudflare Workers + D1.",
-    "stars": 105,
-    "forks": 47,
-    "language": "TypeScript",
-    "topics": [],
-    "created_at": "2026-07-07T09:45:28Z",
-    "pushed_at": "2026-11-03T06:05:16Z",
-    "growth": 1
   },
   {
     "full_name": "YuriCrystal/relay",

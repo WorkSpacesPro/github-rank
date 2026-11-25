@@ -3,8 +3,8 @@
     "full_name": "codecrafters-io/build-your-own-x",
     "html_url": "https://github.com/codecrafters-io/build-your-own-x",
     "description": "Master programming by recreating your favorite technologies from scratch.",
-    "stars": 565156,
-    "forks": 52804,
+    "stars": 565413,
+    "forks": 52829,
     "language": "Markdown",
     "topics": [
       "awesome-list",
@@ -16,14 +16,14 @@
     ],
     "created_at": "2018-05-09T12:03:18Z",
     "pushed_at": "2026-11-19T05:32:02Z",
-    "growth": 303
+    "growth": 257
   },
   {
     "full_name": "sindresorhus/awesome",
     "html_url": "https://github.com/sindresorhus/awesome",
     "description": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
-    "stars": 541982,
-    "forks": 38647,
+    "stars": 542543,
+    "forks": 38672,
     "language": "-",
     "topics": [
       "awesome",
@@ -34,14 +34,14 @@
     ],
     "created_at": "2014-07-11T13:42:37Z",
     "pushed_at": "2026-09-02T02:10:47Z",
-    "growth": 648
+    "growth": 561
   },
   {
     "full_name": "public-apis/public-apis",
     "html_url": "https://github.com/public-apis/public-apis",
     "description": "A collective list of free APIs",
-    "stars": 501138,
-    "forks": 56313,
+    "stars": 501314,
+    "forks": 56359,
     "language": "Python",
     "topics": [
       "api",
@@ -60,14 +60,14 @@
     ],
     "created_at": "2016-03-20T23:49:42Z",
     "pushed_at": "2026-11-22T19:57:21Z",
-    "growth": 196
+    "growth": 176
   },
   {
     "full_name": "morluto/rea",
     "html_url": "https://github.com/morluto/rea",
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-    "stars": 476361,
-    "forks": 116026,
+    "stars": 477770,
+    "forks": 116251,
     "language": "TypeScript",
     "topics": [
       "agent-skills",
@@ -92,15 +92,15 @@
       "typescript"
     ],
     "created_at": "2026-04-14T00:51:32Z",
-    "pushed_at": "2026-11-24T11:48:15Z",
-    "growth": 1591
+    "pushed_at": "2026-11-25T10:42:54Z",
+    "growth": 1409
   },
   {
     "full_name": "freeCodeCamp/freeCodeCamp",
     "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
     "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-    "stars": 459557,
-    "forks": 47401,
+    "stars": 459604,
+    "forks": 47384,
     "language": "TypeScript",
     "topics": [
       "careers",
@@ -120,15 +120,15 @@
       "teachers"
     ],
     "created_at": "2014-12-24T17:49:19Z",
-    "pushed_at": "2026-11-24T03:25:20Z",
-    "growth": 37
+    "pushed_at": "2026-11-25T09:43:28Z",
+    "growth": 47
   },
   {
     "full_name": "EbookFoundation/free-programming-books",
     "html_url": "https://github.com/EbookFoundation/free-programming-books",
     "description": ":books: Freely available programming books",
-    "stars": 402177,
-    "forks": 67229,
+    "stars": 402250,
+    "forks": 67232,
     "language": "Python",
     "topics": [
       "books",
@@ -139,14 +139,14 @@
     ],
     "created_at": "2013-10-11T06:50:37Z",
     "pushed_at": "2026-11-24T02:15:19Z",
-    "growth": 75
+    "growth": 73
   },
   {
     "full_name": "openclaw/openclaw",
     "html_url": "https://github.com/openclaw/openclaw",
     "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
-    "stars": 395139,
-    "forks": 82965,
+    "stars": 395175,
+    "forks": 82970,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -158,15 +158,15 @@
       "personal"
     ],
     "created_at": "2025-11-24T10:16:47Z",
-    "pushed_at": "2026-11-24T11:52:31Z",
-    "growth": 64
+    "pushed_at": "2026-11-25T10:43:45Z",
+    "growth": 36
   },
   {
     "full_name": "donnemartin/system-design-primer",
     "html_url": "https://github.com/donnemartin/system-design-primer",
     "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
-    "stars": 378999,
-    "forks": 59348,
+    "stars": 379159,
+    "forks": 59359,
     "language": "Python",
     "topics": [
       "design",
@@ -185,14 +185,14 @@
     ],
     "created_at": "2017-02-26T16:15:28Z",
     "pushed_at": "2026-09-15T01:10:09Z",
-    "growth": 116
+    "growth": 160
   },
   {
     "full_name": "nilbuild/developer-roadmap",
     "html_url": "https://github.com/nilbuild/developer-roadmap",
     "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-    "stars": 372670,
-    "forks": 45385,
+    "stars": 372736,
+    "forks": 45391,
     "language": "TypeScript",
     "topics": [
       "angular-roadmap",
@@ -215,15 +215,15 @@
       "vue-roadmap"
     ],
     "created_at": "2017-03-15T13:45:52Z",
-    "pushed_at": "2026-11-24T10:57:20Z",
-    "growth": 58
+    "pushed_at": "2026-11-24T17:30:19Z",
+    "growth": 66
   },
   {
     "full_name": "jwasham/coding-interview-university",
     "html_url": "https://github.com/jwasham/coding-interview-university",
     "description": "A complete computer science study plan to become a software engineer.",
-    "stars": 364940,
-    "forks": 85208,
+    "stars": 365030,
+    "forks": 85229,
     "language": "-",
     "topics": [
       "algorithm",
@@ -241,14 +241,14 @@
     ],
     "created_at": "2016-06-06T02:34:12Z",
     "pushed_at": "2026-11-07T16:03:02Z",
-    "growth": 110
+    "growth": 90
   },
   {
     "full_name": "awesome-selfhosted/awesome-selfhosted",
     "html_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
     "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-    "stars": 340034,
-    "forks": 15924,
+    "stars": 340316,
+    "forks": 15935,
     "language": "-",
     "topics": [
       "awesome",
@@ -262,14 +262,14 @@
     ],
     "created_at": "2015-06-01T02:33:17Z",
     "pushed_at": "2026-11-22T15:24:53Z",
-    "growth": 348
+    "growth": 282
   },
   {
     "full_name": "vinta/awesome-python",
     "html_url": "https://github.com/vinta/awesome-python",
     "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
-    "stars": 336817,
-    "forks": 29138,
+    "stars": 337017,
+    "forks": 29142,
     "language": "Python",
     "topics": [
       "awesome",
@@ -281,26 +281,26 @@
     ],
     "created_at": "2014-06-27T21:00:06Z",
     "pushed_at": "2026-11-17T10:02:01Z",
-    "growth": 249
+    "growth": 200
   },
   {
     "full_name": "mattpocock/skills",
     "html_url": "https://github.com/mattpocock/skills",
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "stars": 331805,
-    "forks": 27879,
+    "stars": 332543,
+    "forks": 27957,
     "language": "Shell",
     "topics": [],
     "created_at": "2026-02-03T11:15:53Z",
-    "pushed_at": "2026-11-19T13:35:13Z",
-    "growth": 897
+    "pushed_at": "2026-11-25T09:25:41Z",
+    "growth": 738
   },
   {
     "full_name": "obra/superpowers",
     "html_url": "https://github.com/obra/superpowers",
     "description": "An agentic skills framework & software development methodology that works.",
-    "stars": 325537,
-    "forks": 28871,
+    "stars": 326185,
+    "forks": 28949,
     "language": "Shell",
     "topics": [
       "ai",
@@ -313,15 +313,15 @@
       "superpowers"
     ],
     "created_at": "2025-10-09T19:45:18Z",
-    "pushed_at": "2026-11-03T23:24:58Z",
-    "growth": 1015
+    "pushed_at": "2026-11-24T23:59:04Z",
+    "growth": 648
   },
   {
     "full_name": "affaan-m/ECC",
     "html_url": "https://github.com/affaan-m/ECC",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 309862,
-    "forks": 45566,
+    "stars": 310431,
+    "forks": 45622,
     "language": "JavaScript",
     "topics": [
       "ai-agents",
@@ -335,14 +335,14 @@
     ],
     "created_at": "2026-01-18T00:51:51Z",
     "pushed_at": "2026-11-23T04:55:48Z",
-    "growth": 636
+    "growth": 567
   },
   {
     "full_name": "practical-tutorials/project-based-learning",
     "html_url": "https://github.com/practical-tutorials/project-based-learning",
     "description": "Curated list of project-based tutorials",
-    "stars": 290381,
-    "forks": 36855,
+    "stars": 290444,
+    "forks": 36865,
     "language": "Python",
     "topics": [
       "beginner-project",
@@ -356,14 +356,14 @@
     ],
     "created_at": "2017-04-12T05:07:46Z",
     "pushed_at": "2026-11-23T06:41:02Z",
-    "growth": 72
+    "growth": 63
   },
   {
     "full_name": "deepseek-ai/deepseek-harness",
     "html_url": "https://github.com/deepseek-ai/deepseek-harness",
     "description": "DeepSeek Harness: Everything is a Plugin.",
-    "stars": 286388,
-    "forks": 35675,
+    "stars": 286813,
+    "forks": 35760,
     "language": "TypeScript",
     "topics": [
       "ai-agents",
@@ -373,26 +373,26 @@
     ],
     "created_at": "2026-08-13T11:56:32Z",
     "pushed_at": "2026-11-22T11:00:05Z",
-    "growth": 556
+    "growth": 425
   },
   {
     "full_name": "996icu/996.ICU",
     "html_url": "https://github.com/996icu/996.ICU",
     "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
-    "stars": 277261,
-    "forks": 20620,
+    "stars": 277256,
+    "forks": 20618,
     "language": "-",
     "topics": [],
     "created_at": "2019-03-26T07:31:14Z",
     "pushed_at": "2025-08-22T06:01:29Z",
-    "growth": 6
+    "growth": -5
   },
   {
     "full_name": "NousResearch/hermes-agent",
     "html_url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 265765,
-    "forks": 60178,
+    "stars": 265997,
+    "forks": 60296,
     "language": "Python",
     "topics": [
       "ai",
@@ -410,15 +410,15 @@
       "openai"
     ],
     "created_at": "2025-07-22T22:22:28Z",
-    "pushed_at": "2026-11-24T11:52:16Z",
-    "growth": 223
+    "pushed_at": "2026-11-25T10:39:31Z",
+    "growth": 232
   },
   {
     "full_name": "trimstray/the-book-of-secret-knowledge",
     "html_url": "https://github.com/trimstray/the-book-of-secret-knowledge",
     "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
-    "stars": 260954,
-    "forks": 14955,
+    "stars": 261201,
+    "forks": 14967,
     "language": "-",
     "topics": [
       "awesome",
@@ -443,26 +443,26 @@
     ],
     "created_at": "2018-06-23T10:43:14Z",
     "pushed_at": "2024-11-19T14:00:38Z",
-    "growth": 289
+    "growth": 247
   },
   {
     "full_name": "torvalds/linux",
     "html_url": "https://github.com/torvalds/linux",
     "description": "Linux kernel source tree",
-    "stars": 256497,
-    "forks": 66699,
+    "stars": 256663,
+    "forks": 66690,
     "language": "C",
     "topics": [],
     "created_at": "2011-09-04T22:48:12Z",
-    "pushed_at": "2026-11-24T01:53:57Z",
-    "growth": -29
+    "pushed_at": "2026-11-25T03:05:42Z",
+    "growth": 166
   },
   {
     "full_name": "react/react",
     "html_url": "https://github.com/react/react",
     "description": "The library for web and native user interfaces.",
-    "stars": 252826,
-    "forks": 51804,
+    "stars": 252911,
+    "forks": 51802,
     "language": "JavaScript",
     "topics": [
       "declarative",
@@ -473,39 +473,39 @@
       "ui"
     ],
     "created_at": "2013-05-24T16:15:54Z",
-    "pushed_at": "2026-11-23T23:55:11Z",
-    "growth": -114
+    "pushed_at": "2026-11-25T00:22:06Z",
+    "growth": 85
   },
   {
     "full_name": "multica-ai/andrej-karpathy-skills",
     "html_url": "https://github.com/multica-ai/andrej-karpathy-skills",
     "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-    "stars": 235400,
-    "forks": 23351,
+    "stars": 235607,
+    "forks": 23368,
     "language": "-",
     "topics": [],
     "created_at": "2026-01-27T03:53:13Z",
     "pushed_at": "2026-04-20T10:05:04Z",
-    "growth": 204
+    "growth": 207
   },
   {
     "full_name": "anomalyco/opencode",
     "html_url": "https://github.com/anomalyco/opencode",
     "description": "The open source coding agent.",
-    "stars": 228884,
-    "forks": 31127,
+    "stars": 229074,
+    "forks": 31183,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2025-04-30T20:08:00Z",
-    "pushed_at": "2026-11-24T11:36:45Z",
-    "growth": 184
+    "pushed_at": "2026-11-25T10:44:21Z",
+    "growth": 190
   },
   {
     "full_name": "TheAlgorithms/Python",
     "html_url": "https://github.com/TheAlgorithms/Python",
     "description": "All Algorithms implemented in Python",
-    "stars": 226422,
-    "forks": 51345,
+    "stars": 226450,
+    "forks": 51343,
     "language": "Python",
     "topics": [
       "algorithm",
@@ -525,14 +525,14 @@
     ],
     "created_at": "2016-07-16T09:44:01Z",
     "pushed_at": "2026-11-13T04:28:36Z",
-    "growth": 15
+    "growth": 28
   },
   {
     "full_name": "vuejs/vue",
     "html_url": "https://github.com/vuejs/vue",
     "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
-    "stars": 212507,
-    "forks": 33646,
+    "stars": 212541,
+    "forks": 33643,
     "language": "TypeScript",
     "topics": [
       "framework",
@@ -542,14 +542,14 @@
     ],
     "created_at": "2013-07-29T03:24:51Z",
     "pushed_at": "2024-10-10T07:24:15Z",
-    "growth": 2
+    "growth": 34
   },
   {
     "full_name": "n8n-io/n8n",
     "html_url": "https://github.com/n8n-io/n8n",
     "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-    "stars": 211939,
-    "forks": 61640,
+    "stars": 212083,
+    "forks": 61656,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -574,15 +574,15 @@
       "workflow-automation"
     ],
     "created_at": "2019-06-22T09:24:21Z",
-    "pushed_at": "2026-11-24T11:48:25Z",
-    "growth": 47
+    "pushed_at": "2026-11-25T10:44:15Z",
+    "growth": 144
   },
   {
     "full_name": "ossu/computer-science",
     "html_url": "https://github.com/ossu/computer-science",
     "description": "🎓 Path to a free self-taught education in Computer Science!",
-    "stars": 211486,
-    "forks": 26155,
+    "stars": 211529,
+    "forks": 26159,
     "language": "HTML",
     "topics": [
       "awesome-list",
@@ -592,14 +592,14 @@
     ],
     "created_at": "2014-05-04T00:18:39Z",
     "pushed_at": "2026-11-09T06:27:27Z",
-    "growth": 32
+    "growth": 43
   },
   {
     "full_name": "yt-dlp/yt-dlp",
     "html_url": "https://github.com/yt-dlp/yt-dlp",
     "description": "A feature-rich command-line audio/video downloader",
-    "stars": 210344,
-    "forks": 18615,
+    "stars": 210570,
+    "forks": 18645,
     "language": "Python",
     "topics": [
       "cli",
@@ -611,15 +611,15 @@
       "yt-dlp"
     ],
     "created_at": "2020-10-26T04:22:55Z",
-    "pushed_at": "2026-11-23T23:49:41Z",
-    "growth": 244
+    "pushed_at": "2026-11-24T18:07:09Z",
+    "growth": 226
   },
   {
     "full_name": "firecrawl/firecrawl",
     "html_url": "https://github.com/firecrawl/firecrawl",
     "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
-    "stars": 208394,
-    "forks": 10891,
+    "stars": 209432,
+    "forks": 10949,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -643,7 +643,7 @@
       "webscraping"
     ],
     "created_at": "2024-04-15T21:02:29Z",
-    "pushed_at": "2026-11-24T10:46:53Z",
-    "growth": 1009
+    "pushed_at": "2026-11-25T08:41:36Z",
+    "growth": 1038
   }
 ]
