@@ -3,8 +3,8 @@
     "full_name": "AUTOMATIC1111/stable-diffusion-webui",
     "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
     "description": "Stable Diffusion web UI",
-    "stars": 165375,
-    "forks": 31037,
+    "stars": 165387,
+    "forks": 31027,
     "language": "Python",
     "topics": [
       "ai",
@@ -26,14 +26,14 @@
     ],
     "created_at": "2022-08-22T14:05:26Z",
     "pushed_at": "2026-03-02T07:00:53Z",
-    "growth": 3
+    "growth": 12
   },
   {
     "full_name": "Comfy-Org/ComfyUI",
     "html_url": "https://github.com/Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-    "stars": 148542,
-    "forks": 17700,
+    "stars": 148687,
+    "forks": 17722,
     "language": "Python",
     "topics": [
       "ai",
@@ -44,15 +44,15 @@
       "stable-diffusion"
     ],
     "created_at": "2023-01-17T03:15:56Z",
-    "pushed_at": "2026-11-25T10:12:30Z",
-    "growth": 155
+    "pushed_at": "2026-11-26T09:11:37Z",
+    "growth": 145
   },
   {
     "full_name": "OpenMontageInc/OpenMontage",
     "html_url": "https://github.com/OpenMontageInc/OpenMontage",
     "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-    "stars": 83198,
-    "forks": 11337,
+    "stars": 83480,
+    "forks": 11386,
     "language": "Python",
     "topics": [
       "agent",
@@ -77,14 +77,14 @@
     ],
     "created_at": "2026-03-29T15:23:22Z",
     "pushed_at": "2026-11-16T06:55:27Z",
-    "growth": 258
+    "growth": 282
   },
   {
     "full_name": "unslothai/unsloth",
     "html_url": "https://github.com/unslothai/unsloth",
     "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
-    "stars": 80210,
-    "forks": 7468,
+    "stars": 80280,
+    "forks": 7480,
     "language": "Python",
     "topics": [
       "agent",
@@ -109,15 +109,15 @@
       "unsloth"
     ],
     "created_at": "2023-11-29T16:50:09Z",
-    "pushed_at": "2026-11-25T10:38:38Z",
-    "growth": 80
+    "pushed_at": "2026-11-26T10:10:34Z",
+    "growth": 70
   },
   {
     "full_name": "mudler/LocalAI",
     "html_url": "https://github.com/mudler/LocalAI",
     "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
-    "stars": 50529,
-    "forks": 4651,
+    "stars": 50557,
+    "forks": 4654,
     "language": "Go",
     "topics": [
       "agents",
@@ -130,7 +130,6 @@
       "libp2p",
       "llama",
       "llm",
-      "mamba",
       "mcp",
       "musicgen",
       "object-detection",
@@ -140,15 +139,15 @@
       "tts"
     ],
     "created_at": "2023-03-18T22:58:02Z",
-    "pushed_at": "2026-11-25T10:19:36Z",
-    "growth": 8
+    "pushed_at": "2026-11-26T10:12:32Z",
+    "growth": 28
   },
   {
     "full_name": "huggingface/diffusers",
     "html_url": "https://github.com/huggingface/diffusers",
     "description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
-    "stars": 34972,
-    "forks": 7515,
+    "stars": 34979,
+    "forks": 7517,
     "language": "Python",
     "topics": [
       "deep-learning",
@@ -168,15 +167,15 @@
       "video2video"
     ],
     "created_at": "2022-05-30T16:04:02Z",
-    "pushed_at": "2026-11-25T03:27:27Z",
-    "growth": 3
+    "pushed_at": "2026-11-26T05:01:03Z",
+    "growth": 7
   },
   {
     "full_name": "invoke-ai/InvokeAI",
     "html_url": "https://github.com/invoke-ai/InvokeAI",
     "description": "Invoke is a leading creative engine that uses image and video generation models to empower professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry-leading application interface, and serves as the foundation for multiple commercial products.",
-    "stars": 29158,
-    "forks": 3130,
+    "stars": 29162,
+    "forks": 3131,
     "language": "TypeScript",
     "topics": [
       "ai-art",
@@ -194,14 +193,14 @@
       "windows"
     ],
     "created_at": "2022-08-17T01:04:27Z",
-    "pushed_at": "2026-11-25T08:19:43Z",
-    "growth": 6
+    "pushed_at": "2026-11-26T08:03:57Z",
+    "growth": 4
   },
   {
     "full_name": "Sanster/IOPaint",
     "html_url": "https://github.com/Sanster/IOPaint",
     "description": "Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.",
-    "stars": 23281,
+    "stars": 23282,
     "forks": 2582,
     "language": "Python",
     "topics": [
@@ -215,13 +214,13 @@
     ],
     "created_at": "2021-11-15T14:16:40Z",
     "pushed_at": "2025-04-29T02:13:17Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "camenduru/stable-diffusion-webui-colab",
     "html_url": "https://github.com/camenduru/stable-diffusion-webui-colab",
     "description": "stable diffusion webui colab",
-    "stars": 15881,
+    "stars": 15880,
     "forks": 2600,
     "language": "Jupyter Notebook",
     "topics": [
@@ -263,14 +262,14 @@
     ],
     "created_at": "2022-09-06T02:11:00Z",
     "pushed_at": "2024-10-30T16:56:14Z",
-    "growth": -1
+    "growth": 0
   },
   {
     "full_name": "openvinotoolkit/openvino",
     "html_url": "https://github.com/openvinotoolkit/openvino",
     "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-    "stars": 12556,
-    "forks": 3699,
+    "stars": 12725,
+    "forks": 3718,
     "language": "C++",
     "topics": [
       "ai",
@@ -294,14 +293,14 @@
       "yolo"
     ],
     "created_at": "2018-10-15T10:54:40Z",
-    "pushed_at": "2026-11-25T10:21:42Z",
-    "growth": 184
+    "pushed_at": "2026-11-26T10:09:22Z",
+    "growth": 169
   },
   {
     "full_name": "hua1995116/awesome-ai-painting",
     "html_url": "https://github.com/hua1995116/awesome-ai-painting",
     "description": "AI绘画资料合集（包含国内外可使用平台、使用教程、参数教程、部署教程、业界新闻等等） Stable diffusion、AnimateDiff、Stable Cascade 、Stable SDXL Turbo",
-    "stars": 11769,
+    "stars": 11768,
     "forks": 953,
     "language": "-",
     "topics": [
@@ -317,14 +316,14 @@
     ],
     "created_at": "2022-10-08T07:03:22Z",
     "pushed_at": "2024-08-14T05:47:25Z",
-    "growth": 0
+    "growth": -1
   },
   {
     "full_name": "Acly/krita-ai-diffusion",
     "html_url": "https://github.com/Acly/krita-ai-diffusion",
     "description": "Streamlined interface for generating images with AI in Krita. Inpaint and outpaint with optional text prompt, no tweaking required.",
-    "stars": 10949,
-    "forks": 668,
+    "stars": 10956,
+    "forks": 667,
     "language": "Python",
     "topics": [
       "generative-ai",
@@ -333,13 +332,13 @@
     ],
     "created_at": "2023-09-01T22:52:13Z",
     "pushed_at": "2026-11-21T12:44:21Z",
-    "growth": 9
+    "growth": 7
   },
   {
     "full_name": "Baiyuetribe/paper2gui",
     "html_url": "https://github.com/Baiyuetribe/paper2gui",
     "description": "Convert AI papers to GUI，Make it easy and convenient for everyone to use artificial intelligence technology。让每个人都简单方便的使用前沿人工智能技术",
-    "stars": 10691,
+    "stars": 10690,
     "forks": 865,
     "language": "Jupyter Notebook",
     "topics": [
@@ -368,8 +367,8 @@
     "full_name": "LykosAI/StabilityMatrix",
     "html_url": "https://github.com/LykosAI/StabilityMatrix",
     "description": "Multi-Platform Package Manager for Stable Diffusion",
-    "stars": 9078,
-    "forks": 627,
+    "stars": 9082,
+    "forks": 629,
     "language": "C#",
     "topics": [
       "ai",
@@ -384,14 +383,14 @@
     ],
     "created_at": "2023-06-13T05:20:38Z",
     "pushed_at": "2026-11-24T02:27:37Z",
-    "growth": 5
+    "growth": 4
   },
   {
     "full_name": "Stability-AI/StableStudio",
     "html_url": "https://github.com/Stability-AI/StableStudio",
     "description": "Community interface for generative AI",
-    "stars": 9029,
-    "forks": 913,
+    "stars": 9028,
+    "forks": 914,
     "language": "TypeScript",
     "topics": [
       "frontend",
@@ -401,13 +400,13 @@
     ],
     "created_at": "2023-04-21T22:09:15Z",
     "pushed_at": "2024-04-30T20:05:06Z",
-    "growth": 0
+    "growth": -1
   },
   {
     "full_name": "ashawkey/stable-dreamfusion",
     "html_url": "https://github.com/ashawkey/stable-dreamfusion",
     "description": "Text-to-3D & Image-to-3D & Mesh Exportation with NeRF + Diffusion.",
-    "stars": 8882,
+    "stars": 8884,
     "forks": 766,
     "language": "Python",
     "topics": [
@@ -420,13 +419,13 @@
     ],
     "created_at": "2022-10-06T06:18:39Z",
     "pushed_at": "2023-12-10T23:17:27Z",
-    "growth": 0
+    "growth": 2
   },
   {
     "full_name": "carson-katri/dream-textures",
     "html_url": "https://github.com/carson-katri/dream-textures",
     "description": "Stable Diffusion built-in to Blender",
-    "stars": 8260,
+    "stars": 8269,
     "forks": 438,
     "language": "Python",
     "topics": [
@@ -438,14 +437,14 @@
     ],
     "created_at": "2022-09-08T17:53:16Z",
     "pushed_at": "2026-09-17T11:34:23Z",
-    "growth": 2
+    "growth": 9
   },
   {
     "full_name": "leejet/stable-diffusion.cpp",
     "html_url": "https://github.com/leejet/stable-diffusion.cpp",
     "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,Minimax H3,...) inference in pure C/C++",
-    "stars": 8131,
-    "forks": 994,
+    "stars": 8141,
+    "forks": 998,
     "language": "C++",
     "topics": [
       "ai",
@@ -469,15 +468,15 @@
       "z-image-turbo"
     ],
     "created_at": "2023-08-13T07:36:51Z",
-    "pushed_at": "2026-11-24T15:27:34Z",
-    "growth": 8
+    "pushed_at": "2026-11-25T19:07:44Z",
+    "growth": 10
   },
   {
     "full_name": "ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO",
     "html_url": "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO",
     "description": "我的 ComfyUI 工作流合集 \\| My ComfyUI workflows collection",
     "stars": 7994,
-    "forks": 736,
+    "forks": 737,
     "language": "-",
     "topics": [
       "comfyui",
@@ -507,14 +506,14 @@
     ],
     "created_at": "2022-12-15T16:30:56Z",
     "pushed_at": "2026-11-22T00:13:25Z",
-    "growth": 2
+    "growth": 0
   },
   {
     "full_name": "TheLastBen/fast-stable-diffusion",
     "html_url": "https://github.com/TheLastBen/fast-stable-diffusion",
     "description": "fast-stable-diffusion + DreamBooth",
-    "stars": 7911,
-    "forks": 1362,
+    "stars": 7912,
+    "forks": 1361,
     "language": "Python",
     "topics": [
       "a1111",
@@ -531,7 +530,7 @@
     ],
     "created_at": "2022-09-21T08:43:40Z",
     "pushed_at": "2025-11-29T05:43:05Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "XavierXiao/Dreambooth-Stable-Diffusion",
@@ -572,7 +571,7 @@
     "full_name": "vladmandic/sdnext",
     "html_url": "https://github.com/vladmandic/sdnext",
     "description": "SD.Next: All-in-one WebUI for AI generative image and video creation, captioning and processing",
-    "stars": 7381,
+    "stars": 7383,
     "forks": 582,
     "language": "Python",
     "topics": [
@@ -588,15 +587,15 @@
       "webui"
     ],
     "created_at": "2022-12-24T20:59:11Z",
-    "pushed_at": "2026-11-23T09:08:48Z",
+    "pushed_at": "2026-11-26T08:03:33Z",
     "growth": 2
   },
   {
     "full_name": "civitai/civitai",
     "html_url": "https://github.com/civitai/civitai",
     "description": "A repository of models, textual inversions, and more",
-    "stars": 7329,
-    "forks": 742,
+    "stars": 7333,
+    "forks": 743,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -604,14 +603,14 @@
       "stable-diffusion"
     ],
     "created_at": "2022-10-11T20:03:20Z",
-    "pushed_at": "2026-11-25T10:27:39Z",
-    "growth": -1
+    "pushed_at": "2026-11-26T10:14:41Z",
+    "growth": 4
   },
   {
     "full_name": "AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin",
     "html_url": "https://github.com/AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin",
     "description": "A user-friendly plug-in that makes it easy to generate stable diffusion images inside Photoshop using either Automatic or ComfyUI as a backend.",
-    "stars": 7313,
+    "stars": 7312,
     "forks": 528,
     "language": "TypeScript",
     "topics": [
@@ -634,7 +633,7 @@
     "full_name": "AbdBarho/stable-diffusion-webui-docker",
     "html_url": "https://github.com/AbdBarho/stable-diffusion-webui-docker",
     "description": "Easy Docker setup for Stable Diffusion with user-friendly UI",
-    "stars": 7296,
+    "stars": 7295,
     "forks": 1236,
     "language": "Shell",
     "topics": [
@@ -646,14 +645,14 @@
     ],
     "created_at": "2022-08-27T11:05:15Z",
     "pushed_at": "2024-08-18T11:05:13Z",
-    "growth": 0
+    "growth": -1
   },
   {
     "full_name": "mylxsw/aidea",
     "html_url": "https://github.com/mylxsw/aidea",
     "description": "An APP that integrates mainstream large language models and image generation models, built with Flutter, with fully open-source code.",
     "stars": 6933,
-    "forks": 1038,
+    "forks": 1037,
     "language": "Dart",
     "topics": [
       "ai",
@@ -673,7 +672,7 @@
     "full_name": "11cafe/jaaz",
     "html_url": "https://github.com/11cafe/jaaz",
     "description": "The world's first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.",
-    "stars": 6764,
+    "stars": 6766,
     "forks": 671,
     "language": "TypeScript",
     "topics": [
@@ -691,6 +690,6 @@
     ],
     "created_at": "2025-06-01T14:53:08Z",
     "pushed_at": "2026-03-02T03:46:42Z",
-    "growth": -1
+    "growth": 2
   }
 ]

@@ -3,8 +3,8 @@
     "full_name": "avelino/awesome-go",
     "html_url": "https://github.com/avelino/awesome-go",
     "description": "A curated list of awesome Go frameworks, libraries and software",
-    "stars": 195877,
-    "forks": 13764,
+    "stars": 196045,
+    "forks": 13773,
     "language": "Go",
     "topics": [
       "awesome",
@@ -15,15 +15,15 @@
       "hacktoberfest"
     ],
     "created_at": "2014-07-06T13:42:15Z",
-    "pushed_at": "2026-11-25T08:22:07Z",
-    "growth": 186
+    "pushed_at": "2026-11-25T23:48:54Z",
+    "growth": 168
   },
   {
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-    "stars": 188072,
-    "forks": 19189,
+    "stars": 188178,
+    "forks": 19213,
     "language": "Go",
     "topics": [
       "deepseek",
@@ -42,15 +42,15 @@
       "qwen"
     ],
     "created_at": "2023-06-26T19:39:32Z",
-    "pushed_at": "2026-11-24T19:30:53Z",
-    "growth": 92
+    "pushed_at": "2026-11-26T06:27:01Z",
+    "growth": 106
   },
   {
     "full_name": "golang/go",
     "html_url": "https://github.com/golang/go",
     "description": "The Go programming language",
-    "stars": 140099,
-    "forks": 20150,
+    "stars": 140143,
+    "forks": 20156,
     "language": "Go",
     "topics": [
       "go",
@@ -59,15 +59,15 @@
       "programming-language"
     ],
     "created_at": "2014-08-19T04:33:40Z",
-    "pushed_at": "2026-11-25T04:57:11Z",
-    "growth": 55
+    "pushed_at": "2026-11-25T23:35:59Z",
+    "growth": 44
   },
   {
     "full_name": "kubernetes/kubernetes",
     "html_url": "https://github.com/kubernetes/kubernetes",
     "description": "Production-Grade Container Scheduling and Management",
-    "stars": 129314,
-    "forks": 45063,
+    "stars": 129364,
+    "forks": 45064,
     "language": "Go",
     "topics": [
       "cncf",
@@ -76,15 +76,15 @@
       "kubernetes"
     ],
     "created_at": "2014-06-06T22:56:04Z",
-    "pushed_at": "2026-11-25T09:20:43Z",
-    "growth": 46
+    "pushed_at": "2026-11-25T17:01:35Z",
+    "growth": 50
   },
   {
     "full_name": "JuliusBrussee/caveman",
     "html_url": "https://github.com/JuliusBrussee/caveman",
     "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
-    "stars": 122727,
-    "forks": 7166,
+    "stars": 122964,
+    "forks": 7190,
     "language": "Go",
     "topics": [
       "ai",
@@ -99,15 +99,15 @@
       "tokens"
     ],
     "created_at": "2026-04-04T10:03:00Z",
-    "pushed_at": "2026-11-24T21:36:13Z",
-    "growth": 180
+    "pushed_at": "2026-11-26T08:48:02Z",
+    "growth": 237
   },
   {
     "full_name": "microsoft/TypeScript",
     "html_url": "https://github.com/microsoft/TypeScript",
     "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
-    "stars": 111896,
-    "forks": 14570,
+    "stars": 111909,
+    "forks": 14571,
     "language": "Go",
     "topics": [
       "javascript",
@@ -116,15 +116,15 @@
       "typescript"
     ],
     "created_at": "2014-06-17T15:28:39Z",
-    "pushed_at": "2026-11-25T01:22:01Z",
-    "growth": 17
+    "pushed_at": "2026-11-25T20:53:15Z",
+    "growth": 13
   },
   {
     "full_name": "fatedier/frp",
     "html_url": "https://github.com/fatedier/frp",
     "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-    "stars": 110783,
-    "forks": 15323,
+    "stars": 110811,
+    "forks": 15329,
     "language": "Go",
     "topics": [
       "expose",
@@ -140,14 +140,14 @@
     ],
     "created_at": "2015-12-21T15:24:59Z",
     "pushed_at": "2026-11-10T09:44:59Z",
-    "growth": 20
+    "growth": 28
   },
   {
     "full_name": "infiniflow/ragflow",
     "html_url": "https://github.com/infiniflow/ragflow",
     "description": "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.",
-    "stars": 94687,
-    "forks": 11398,
+    "stars": 94753,
+    "forks": 11411,
     "language": "Go",
     "topics": [
       "agent-harness",
@@ -168,15 +168,15 @@
       "search-harness"
     ],
     "created_at": "2023-12-12T06:13:13Z",
-    "pushed_at": "2026-11-25T10:08:19Z",
-    "growth": 51
+    "pushed_at": "2026-11-26T10:16:41Z",
+    "growth": 66
   },
   {
     "full_name": "syncthing/syncthing",
     "html_url": "https://github.com/syncthing/syncthing",
     "description": "Open Source Continuous File Synchronization",
-    "stars": 90810,
-    "forks": 5605,
+    "stars": 90856,
+    "forks": 5611,
     "language": "Go",
     "topics": [
       "go",
@@ -185,15 +185,15 @@
       "synchronization"
     ],
     "created_at": "2013-11-26T09:48:21Z",
-    "pushed_at": "2026-11-25T10:02:19Z",
-    "growth": 26
+    "pushed_at": "2026-11-26T01:03:54Z",
+    "growth": 46
   },
   {
     "full_name": "gohugoio/hugo",
     "html_url": "https://github.com/gohugoio/hugo",
     "description": "The world’s fastest framework for building websites.",
-    "stars": 90558,
-    "forks": 8527,
+    "stars": 90569,
+    "forks": 8536,
     "language": "Go",
     "topics": [
       "blog-engine",
@@ -205,15 +205,15 @@
       "static-site-generator"
     ],
     "created_at": "2013-07-04T15:26:26Z",
-    "pushed_at": "2026-11-25T08:23:30Z",
-    "growth": 5
+    "pushed_at": "2026-11-26T08:24:00Z",
+    "growth": 11
   },
   {
     "full_name": "gin-gonic/gin",
     "html_url": "https://github.com/gin-gonic/gin",
     "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
-    "stars": 89578,
-    "forks": 8827,
+    "stars": 89589,
+    "forks": 8830,
     "language": "Go",
     "topics": [
       "framework",
@@ -226,14 +226,14 @@
     ],
     "created_at": "2014-06-16T23:57:25Z",
     "pushed_at": "2026-10-10T04:20:35Z",
-    "growth": 5
+    "growth": 11
   },
   {
     "full_name": "junegunn/fzf",
     "html_url": "https://github.com/junegunn/fzf",
     "description": ":cherry_blossom: A command-line fuzzy finder",
-    "stars": 84462,
-    "forks": 3453,
+    "stars": 84501,
+    "forks": 3456,
     "language": "Go",
     "topics": [
       "bash",
@@ -249,14 +249,14 @@
     ],
     "created_at": "2013-10-23T16:04:23Z",
     "pushed_at": "2026-11-24T12:49:22Z",
-    "growth": 83
+    "growth": 39
   },
   {
     "full_name": "jesseduffield/lazygit",
     "html_url": "https://github.com/jesseduffield/lazygit",
     "description": "simple terminal UI for git commands",
-    "stars": 84078,
-    "forks": 3214,
+    "stars": 84100,
+    "forks": 3220,
     "language": "Go",
     "topics": [
       "cli",
@@ -265,14 +265,14 @@
     ],
     "created_at": "2018-05-19T00:53:06Z",
     "pushed_at": "2026-11-23T09:12:27Z",
-    "growth": 27
+    "growth": 22
   },
   {
     "full_name": "netdata/netdata",
     "html_url": "https://github.com/netdata/netdata",
     "description": "Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 2000+ integrations",
-    "stars": 81629,
-    "forks": 6740,
+    "stars": 81653,
+    "forks": 6744,
     "language": "Go",
     "topics": [
       "ai",
@@ -297,15 +297,15 @@
       "sysadmin"
     ],
     "created_at": "2013-06-17T18:39:10Z",
-    "pushed_at": "2026-11-25T10:03:14Z",
-    "growth": 23
+    "pushed_at": "2026-11-26T09:59:22Z",
+    "growth": 24
   },
   {
     "full_name": "caddyserver/caddy",
     "html_url": "https://github.com/caddyserver/caddy",
     "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
-    "stars": 79520,
-    "forks": 5330,
+    "stars": 79569,
+    "forks": 5342,
     "language": "Go",
     "topics": [
       "acme",
@@ -326,42 +326,14 @@
     ],
     "created_at": "2015-01-13T19:45:03Z",
     "pushed_at": "2026-11-24T07:49:20Z",
-    "growth": 39
-  },
-  {
-    "full_name": "grafana/grafana",
-    "html_url": "https://github.com/grafana/grafana",
-    "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.",
-    "stars": 78158,
-    "forks": 15019,
-    "language": "Go",
-    "topics": [
-      "alerting",
-      "analytics",
-      "business-intelligence",
-      "dashboard",
-      "data-visualization",
-      "elasticsearch",
-      "go",
-      "grafana",
-      "hacktoberfest",
-      "influxdb",
-      "metrics",
-      "monitoring",
-      "mysql",
-      "postgres",
-      "prometheus"
-    ],
-    "created_at": "2013-12-11T15:59:56Z",
-    "pushed_at": "2026-11-25T10:42:45Z",
-    "growth": 327
+    "growth": 49
   },
   {
     "full_name": "nektos/act",
     "html_url": "https://github.com/nektos/act",
     "description": "Run your GitHub Actions locally 🚀",
-    "stars": 72789,
-    "forks": 2119,
+    "stars": 72798,
+    "forks": 2122,
     "language": "Go",
     "topics": [
       "ci",
@@ -371,14 +343,14 @@
     ],
     "created_at": "2019-01-02T19:53:43Z",
     "pushed_at": "2026-11-19T16:47:03Z",
-    "growth": 15
+    "growth": 9
   },
   {
     "full_name": "moby/moby",
     "html_url": "https://github.com/moby/moby",
     "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
-    "stars": 72316,
-    "forks": 19341,
+    "stars": 72321,
+    "forks": 19342,
     "language": "Go",
     "topics": [
       "containers",
@@ -387,15 +359,15 @@
       "golang"
     ],
     "created_at": "2013-01-18T18:10:57Z",
-    "pushed_at": "2026-11-24T21:45:34Z",
+    "pushed_at": "2026-11-25T21:26:44Z",
     "growth": 5
   },
   {
     "full_name": "prometheus/prometheus",
     "html_url": "https://github.com/prometheus/prometheus",
     "description": "The Prometheus monitoring system and time series database.",
-    "stars": 67856,
-    "forks": 11036,
+    "stars": 67905,
+    "forks": 11043,
     "language": "Go",
     "topics": [
       "alerting",
@@ -407,15 +379,15 @@
       "time-series"
     ],
     "created_at": "2012-11-24T11:14:12Z",
-    "pushed_at": "2026-11-25T10:24:57Z",
-    "growth": 67
+    "pushed_at": "2026-11-26T08:14:10Z",
+    "growth": 49
   },
   {
     "full_name": "traefik/traefik",
     "html_url": "https://github.com/traefik/traefik",
     "description": "The Cloud Native Application Proxy",
-    "stars": 65694,
-    "forks": 6321,
+    "stars": 65715,
+    "forks": 6323,
     "language": "Go",
     "topics": [
       "consul",
@@ -434,15 +406,15 @@
       "traefik"
     ],
     "created_at": "2015-09-13T19:04:02Z",
-    "pushed_at": "2026-11-25T10:14:32Z",
-    "growth": 17
+    "pushed_at": "2026-11-26T08:58:07Z",
+    "growth": 21
   },
   {
     "full_name": "usememos/memos",
     "html_url": "https://github.com/usememos/memos",
     "description": "Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline. Your data stays yours, and you choose what to keep private or share.",
-    "stars": 64686,
-    "forks": 4982,
+    "stars": 64699,
+    "forks": 4995,
     "language": "Go",
     "topics": [
       "docker",
@@ -461,15 +433,15 @@
       "timeline"
     ],
     "created_at": "2021-12-08T15:30:18Z",
-    "pushed_at": "2026-11-24T14:42:58Z",
-    "growth": 20
+    "pushed_at": "2026-11-26T00:23:47Z",
+    "growth": 13
   },
   {
     "full_name": "pocketbase/pocketbase",
     "html_url": "https://github.com/pocketbase/pocketbase",
     "description": "Open Source realtime backend in 1 file",
-    "stars": 61571,
-    "forks": 3755,
+    "stars": 61576,
+    "forks": 3758,
     "language": "Go",
     "topics": [
       "authentication",
@@ -479,14 +451,14 @@
     ],
     "created_at": "2022-07-05T06:06:21Z",
     "pushed_at": "2026-10-26T18:07:11Z",
-    "growth": 4
+    "growth": 5
   },
   {
     "full_name": "rclone/rclone",
     "html_url": "https://github.com/rclone/rclone",
     "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
-    "stars": 61251,
-    "forks": 5737,
+    "stars": 61288,
+    "forks": 5747,
     "language": "Go",
     "topics": [
       "azure-blob",
@@ -511,15 +483,15 @@
       "webdav"
     ],
     "created_at": "2014-03-16T16:19:57Z",
-    "pushed_at": "2026-11-23T17:43:43Z",
-    "growth": 27
+    "pushed_at": "2026-11-25T12:32:58Z",
+    "growth": 37
   },
   {
     "full_name": "minio/minio",
     "html_url": "https://github.com/minio/minio",
     "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
-    "stars": 61244,
-    "forks": 8362,
+    "stars": 61245,
+    "forks": 8368,
     "language": "Go",
     "topics": [
       "amazon-s3",
@@ -537,13 +509,13 @@
     ],
     "created_at": "2015-01-14T19:23:58Z",
     "pushed_at": "2026-04-24T17:54:39Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "FiloSottile/mkcert",
     "html_url": "https://github.com/FiloSottile/mkcert",
     "description": "A simple zero-config tool to make locally trusted development certificates with any names you'd like.",
-    "stars": 59920,
+    "stars": 59929,
     "forks": 3187,
     "language": "Go",
     "topics": [
@@ -562,14 +534,14 @@
     ],
     "created_at": "2018-06-25T05:33:03Z",
     "pushed_at": "2024-08-13T13:37:46Z",
-    "growth": 12
+    "growth": 9
   },
   {
     "full_name": "router-for-me/CLIProxyAPI",
     "html_url": "https://github.com/router-for-me/CLIProxyAPI",
     "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API",
-    "stars": 59437,
-    "forks": 9128,
+    "stars": 59516,
+    "forks": 9141,
     "language": "Go",
     "topics": [
       "antigravity",
@@ -582,15 +554,15 @@
       "openai"
     ],
     "created_at": "2025-07-01T19:43:27Z",
-    "pushed_at": "2026-11-25T10:13:07Z",
-    "growth": 54
+    "pushed_at": "2026-11-26T09:56:40Z",
+    "growth": 79
   },
   {
     "full_name": "go-gitea/gitea",
     "html_url": "https://github.com/go-gitea/gitea",
     "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
-    "stars": 59248,
-    "forks": 7425,
+    "stars": 59269,
+    "forks": 7432,
     "language": "Go",
     "topics": [
       "bitbucket",
@@ -615,27 +587,27 @@
       "vue"
     ],
     "created_at": "2016-11-01T02:13:26Z",
-    "pushed_at": "2026-11-25T10:40:00Z",
-    "growth": 12
+    "pushed_at": "2026-11-26T02:12:18Z",
+    "growth": 21
   },
   {
     "full_name": "multica-ai/multica",
     "html_url": "https://github.com/multica-ai/multica",
-    "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
-    "stars": 57862,
-    "forks": 7606,
+    "description": "Shared task board where people and AI coding agents work as teammates. Source-available, self-hostable.",
+    "stars": 58030,
+    "forks": 7631,
     "language": "Go",
     "topics": [],
     "created_at": "2026-01-13T17:59:46Z",
-    "pushed_at": "2026-11-25T10:30:24Z",
-    "growth": 188
+    "pushed_at": "2026-11-26T10:08:49Z",
+    "growth": 168
   },
   {
     "full_name": "alibaba/open-code-review",
     "html_url": "https://github.com/alibaba/open-code-review",
     "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-    "stars": 56209,
-    "forks": 4639,
+    "stars": 56477,
+    "forks": 4668,
     "language": "Go",
     "topics": [
       "agent",
@@ -646,15 +618,15 @@
       "repository-level-context"
     ],
     "created_at": "2026-05-18T02:16:36Z",
-    "pushed_at": "2026-11-24T16:19:18Z",
-    "growth": 283
+    "pushed_at": "2026-11-26T02:19:51Z",
+    "growth": 268
   },
   {
     "full_name": "wagoodman/dive",
     "html_url": "https://github.com/wagoodman/dive",
     "description": "A tool for exploring each layer in a docker image",
-    "stars": 54761,
-    "forks": 2009,
+    "stars": 54765,
+    "forks": 2011,
     "language": "Go",
     "topics": [
       "cli",
@@ -666,6 +638,18 @@
     ],
     "created_at": "2018-05-13T15:44:01Z",
     "pushed_at": "2026-11-19T22:48:03Z",
-    "growth": 6
+    "growth": 4
+  },
+  {
+    "full_name": "jesseduffield/lazydocker",
+    "html_url": "https://github.com/jesseduffield/lazydocker",
+    "description": "The lazier way to manage everything docker",
+    "stars": 53450,
+    "forks": 1769,
+    "language": "Go",
+    "topics": [],
+    "created_at": "2019-05-18T08:53:50Z",
+    "pushed_at": "2026-11-15T00:20:12Z",
+    "growth": 33
   }
 ]
