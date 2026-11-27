@@ -3,8 +3,8 @@
     "full_name": "NationalSecurityAgency/ghidra",
     "html_url": "https://github.com/NationalSecurityAgency/ghidra",
     "description": "Ghidra is a software reverse engineering (SRE) framework",
-    "stars": 101393,
-    "forks": 11531,
+    "stars": 101479,
+    "forks": 11557,
     "language": "Java",
     "topics": [
       "disassembler",
@@ -12,14 +12,14 @@
       "software-analysis"
     ],
     "created_at": "2019-03-01T03:27:48Z",
-    "pushed_at": "2026-11-25T09:30:00Z",
-    "growth": 116
+    "pushed_at": "2026-11-27T10:17:50Z",
+    "growth": 86
   },
   {
     "full_name": "iluwatar/java-design-patterns",
     "html_url": "https://github.com/iluwatar/java-design-patterns",
     "description": "Design patterns implemented in Java",
-    "stars": 94914,
+    "stars": 94913,
     "forks": 27309,
     "language": "Java",
     "topics": [
@@ -34,14 +34,14 @@
     ],
     "created_at": "2014-08-09T16:45:18Z",
     "pushed_at": "2026-10-08T12:44:21Z",
-    "growth": 6
+    "growth": -1
   },
   {
     "full_name": "macrozheng/mall",
     "html_url": "https://github.com/macrozheng/mall",
     "description": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。",
-    "stars": 85081,
-    "forks": 29802,
+    "stars": 85085,
+    "forks": 29801,
     "language": "Java",
     "topics": [
       "docker",
@@ -69,8 +69,8 @@
     "full_name": "spring-projects/spring-boot",
     "html_url": "https://github.com/spring-projects/spring-boot",
     "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
-    "stars": 82001,
-    "forks": 42662,
+    "stars": 82028,
+    "forks": 42658,
     "language": "Java",
     "topics": [
       "framework",
@@ -79,15 +79,15 @@
       "spring-boot"
     ],
     "created_at": "2012-10-19T15:02:57Z",
-    "pushed_at": "2026-11-24T19:53:20Z",
-    "growth": 30
+    "pushed_at": "2026-11-27T10:11:38Z",
+    "growth": 27
   },
   {
     "full_name": "doocs/advanced-java",
     "html_url": "https://github.com/doocs/advanced-java",
     "description": "😮 Core Interview Questions & Answers For Experienced Java(Backend) Developers \\| 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识",
-    "stars": 79206,
-    "forks": 19078,
+    "stars": 79208,
+    "forks": 19079,
     "language": "Java",
     "topics": [
       "advanced-java",
@@ -119,8 +119,8 @@
     "full_name": "elastic/elasticsearch",
     "html_url": "https://github.com/elastic/elasticsearch",
     "description": "Free and Open Source, Distributed, RESTful Search Engine",
-    "stars": 78833,
-    "forks": 26150,
+    "stars": 78854,
+    "forks": 26152,
     "language": "Java",
     "topics": [
       "elasticsearch",
@@ -128,8 +128,8 @@
       "search-engine"
     ],
     "created_at": "2010-02-08T13:20:56Z",
-    "pushed_at": "2026-11-26T10:05:49Z",
-    "growth": 41
+    "pushed_at": "2026-11-27T10:18:07Z",
+    "growth": 21
   },
   {
     "full_name": "MisterBooo/LeetCodeAnimation",
@@ -147,14 +147,14 @@
     ],
     "created_at": "2018-12-06T08:01:22Z",
     "pushed_at": "2026-06-12T13:49:06Z",
-    "growth": 2
+    "growth": 0
   },
   {
     "full_name": "TheAlgorithms/Java",
     "html_url": "https://github.com/TheAlgorithms/Java",
     "description": "All Algorithms implemented in Java",
-    "stars": 67344,
-    "forks": 21531,
+    "stars": 67352,
+    "forks": 21534,
     "language": "Java",
     "topics": [
       "algorithm",
@@ -170,14 +170,14 @@
     ],
     "created_at": "2016-07-16T10:21:02Z",
     "pushed_at": "2026-11-24T18:54:49Z",
-    "growth": 9
+    "growth": 8
   },
   {
     "full_name": "termux/termux-app",
     "html_url": "https://github.com/termux/termux-app",
     "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
-    "stars": 65738,
-    "forks": 8455,
+    "stars": 65807,
+    "forks": 8474,
     "language": "Java",
     "topics": [
       "android",
@@ -188,14 +188,14 @@
     ],
     "created_at": "2015-10-23T09:42:46Z",
     "pushed_at": "2026-11-05T09:38:22Z",
-    "growth": 84
+    "growth": 69
   },
   {
     "full_name": "kdn251/interviews",
     "html_url": "https://github.com/kdn251/interviews",
     "description": "Everything you need to know to get the job.",
-    "stars": 65580,
-    "forks": 12905,
+    "stars": 65582,
+    "forks": 12906,
     "language": "Java",
     "topics": [
       "algorithm",
@@ -221,14 +221,14 @@
     ],
     "created_at": "2017-02-14T18:19:25Z",
     "pushed_at": "2025-05-12T12:56:04Z",
-    "growth": 0
+    "growth": 2
   },
   {
     "full_name": "spring-projects/spring-framework",
     "html_url": "https://github.com/spring-projects/spring-framework",
     "description": "Spring Framework",
-    "stars": 60333,
-    "forks": 38904,
+    "stars": 60335,
+    "forks": 38912,
     "language": "Java",
     "topics": [
       "spring",
@@ -236,14 +236,14 @@
       "spring-mvc"
     ],
     "created_at": "2010-12-08T04:04:45Z",
-    "pushed_at": "2026-11-25T15:48:50Z",
-    "growth": 4
+    "pushed_at": "2026-11-26T18:20:19Z",
+    "growth": 2
   },
   {
     "full_name": "dbeaver/dbeaver",
     "html_url": "https://github.com/dbeaver/dbeaver",
     "description": "Free universal database tool and SQL client",
-    "stars": 52541,
+    "stars": 52551,
     "forks": 4474,
     "language": "Java",
     "topics": [
@@ -267,15 +267,15 @@
       "sqlserver"
     ],
     "created_at": "2015-10-21T08:26:28Z",
-    "pushed_at": "2026-11-26T10:08:26Z",
-    "growth": 5
+    "pushed_at": "2026-11-27T09:48:23Z",
+    "growth": 10
   },
   {
     "full_name": "skylot/jadx",
     "html_url": "https://github.com/skylot/jadx",
     "description": "Dex to Java decompiler",
-    "stars": 52022,
-    "forks": 5974,
+    "stars": 52050,
+    "forks": 5980,
     "language": "Java",
     "topics": [
       "android",
@@ -291,8 +291,8 @@
     "full_name": "google/guava",
     "html_url": "https://github.com/google/guava",
     "description": "Google core libraries for Java",
-    "stars": 51929,
-    "forks": 11257,
+    "stars": 51931,
+    "forks": 11258,
     "language": "Java",
     "topics": [
       "guava",
@@ -300,13 +300,13 @@
     ],
     "created_at": "2014-05-29T16:23:17Z",
     "pushed_at": "2026-11-26T01:34:06Z",
-    "growth": -1
+    "growth": 2
   },
   {
     "full_name": "jeecgboot/JeecgBoot",
     "html_url": "https://github.com/jeecgboot/JeecgBoot",
     "description": "一款免费开源的 AI 低代码平台，也是 AI 时代构建复杂业务系统的开源基座！权限、多租户、工作流、报表、大屏、AI 知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置 AI 应用平台（聊天、知识库、流程编排、MCP），兼容主流大模型",
-    "stars": 48637,
+    "stars": 48645,
     "forks": 16215,
     "language": "Java",
     "topics": [
@@ -333,7 +333,7 @@
     ],
     "created_at": "2018-11-26T10:40:00Z",
     "pushed_at": "2026-11-11T14:09:01Z",
-    "growth": 14
+    "growth": 8
   },
   {
     "full_name": "ReactiveX/RxJava",
@@ -350,29 +350,29 @@
     ],
     "created_at": "2013-01-08T20:11:48Z",
     "pushed_at": "2026-11-25T15:53:24Z",
-    "growth": -2
+    "growth": 0
   },
   {
     "full_name": "lysine-dev/retrofit",
     "html_url": "https://github.com/lysine-dev/retrofit",
     "description": "A type-safe HTTP client for Android and the JVM",
-    "stars": 43945,
-    "forks": 7316,
+    "stars": 43947,
+    "forks": 7315,
     "language": "Java",
     "topics": [
       "android",
       "java"
     ],
     "created_at": "2010-09-06T21:39:43Z",
-    "pushed_at": "2026-11-25T12:22:30Z",
-    "growth": -3
+    "pushed_at": "2026-11-27T04:48:23Z",
+    "growth": 2
   },
   {
     "full_name": "ashishps1/awesome-system-design-resources",
     "html_url": "https://github.com/ashishps1/awesome-system-design-resources",
     "description": "Learn System Design concepts and prepare for interviews using free resources.",
-    "stars": 43598,
-    "forks": 8990,
+    "stars": 43622,
+    "forks": 8991,
     "language": "Java",
     "topics": [
       "awesome",
@@ -388,14 +388,14 @@
     ],
     "created_at": "2023-10-25T01:50:42Z",
     "pushed_at": "2026-11-01T09:36:12Z",
-    "growth": 15
+    "growth": 24
   },
   {
     "full_name": "apache/dubbo",
     "html_url": "https://github.com/apache/dubbo",
     "description": "The java implementation of Apache Dubbo. An RPC and microservice framework.",
     "stars": 41573,
-    "forks": 26297,
+    "forks": 26296,
     "language": "Java",
     "topics": [
       "distributed-systems",
@@ -411,15 +411,15 @@
       "web"
     ],
     "created_at": "2012-06-19T07:56:02Z",
-    "pushed_at": "2026-11-25T07:14:40Z",
-    "growth": -1
+    "pushed_at": "2026-11-27T06:53:06Z",
+    "growth": 0
   },
   {
     "full_name": "TeamNewPipe/NewPipe",
     "html_url": "https://github.com/TeamNewPipe/NewPipe",
     "description": "A libre lightweight streaming front-end for Android.",
-    "stars": 40957,
-    "forks": 4035,
+    "stars": 40979,
+    "forks": 4036,
     "language": "Java",
     "topics": [
       "4k",
@@ -435,15 +435,15 @@
       "youtube-video"
     ],
     "created_at": "2015-09-03T23:39:26Z",
-    "pushed_at": "2026-11-25T14:43:00Z",
-    "growth": 26
+    "pushed_at": "2026-11-27T06:19:28Z",
+    "growth": 22
   },
   {
     "full_name": "YunaiV/ruoyi-vue-pro",
     "html_url": "https://github.com/YunaiV/ruoyi-vue-pro",
     "description": "🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP、MES、IM、AI 大模型、IoT 物联网等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！",
-    "stars": 40649,
-    "forks": 8715,
+    "stars": 40679,
+    "forks": 8720,
     "language": "Java",
     "topics": [
       "flowable",
@@ -457,14 +457,14 @@
     ],
     "created_at": "2021-01-24T03:18:25Z",
     "pushed_at": "2026-11-23T14:13:57Z",
-    "growth": 25
+    "growth": 30
   },
   {
     "full_name": "halo-dev/halo",
     "html_url": "https://github.com/halo-dev/halo",
     "description": "Halo 是一款强大易用的开源建站工具，从个人博客、知识库，到企业官网、在线商城，Halo 都能助您轻松实现，一站式满足您的多样化建站需求。",
-    "stars": 40412,
-    "forks": 10318,
+    "stars": 40415,
+    "forks": 10315,
     "language": "Java",
     "topics": [
       "blog",
@@ -476,15 +476,15 @@
       "website-builder"
     ],
     "created_at": "2018-03-21T12:56:52Z",
-    "pushed_at": "2026-11-26T09:49:03Z",
-    "growth": 13
+    "pushed_at": "2026-11-27T10:12:33Z",
+    "growth": 3
   },
   {
     "full_name": "keycloak/keycloak",
     "html_url": "https://github.com/keycloak/keycloak",
     "description": "Open Source Identity and Access Management For Modern Applications and Services",
-    "stars": 38063,
-    "forks": 9250,
+    "stars": 38081,
+    "forks": 9253,
     "language": "Java",
     "topics": [
       "keycloak",
@@ -492,15 +492,15 @@
       "saml"
     ],
     "created_at": "2013-07-02T13:38:51Z",
-    "pushed_at": "2026-11-26T08:07:55Z",
-    "growth": 17
+    "pushed_at": "2026-11-27T08:28:12Z",
+    "growth": 18
   },
   {
     "full_name": "alibaba/arthas",
     "html_url": "https://github.com/alibaba/arthas",
     "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
-    "stars": 37636,
-    "forks": 7643,
+    "stars": 37639,
+    "forks": 7642,
     "language": "Java",
     "topics": [
       "agent",
@@ -515,26 +515,26 @@
     ],
     "created_at": "2018-08-29T17:15:57Z",
     "pushed_at": "2026-11-24T07:04:04Z",
-    "growth": 0
+    "growth": 3
   },
   {
     "full_name": "eugenp/tutorials",
     "html_url": "https://github.com/eugenp/tutorials",
     "description": "Getting Started with Spring Boot 3:",
     "stars": 37305,
-    "forks": 53013,
+    "forks": 53011,
     "language": "Java",
     "topics": [],
     "created_at": "2013-04-29T18:26:36Z",
-    "pushed_at": "2026-11-25T16:11:13Z",
+    "pushed_at": "2026-11-27T06:06:06Z",
     "growth": 0
   },
   {
     "full_name": "doocs/leetcode",
     "html_url": "https://github.com/doocs/leetcode",
     "description": "🔥LeetCode solutions in any programming language \\| 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解",
-    "stars": 36780,
-    "forks": 9484,
+    "stars": 36782,
+    "forks": 9482,
     "language": "Java",
     "topics": [
       "algorithms",
@@ -547,15 +547,15 @@
       "python3"
     ],
     "created_at": "2018-09-16T14:03:03Z",
-    "pushed_at": "2026-11-24T12:28:25Z",
-    "growth": 5
+    "pushed_at": "2026-11-26T12:12:03Z",
+    "growth": 2
   },
   {
     "full_name": "yuliskov/SmartTube",
     "html_url": "https://github.com/yuliskov/SmartTube",
     "description": "Browse media content with your own rules on Android TV",
-    "stars": 36662,
-    "forks": 2356,
+    "stars": 36694,
+    "forks": 2360,
     "language": "Java",
     "topics": [
       "android",
@@ -567,8 +567,8 @@
       "rxjava-android"
     ],
     "created_at": "2020-07-28T12:53:52Z",
-    "pushed_at": "2026-11-24T08:17:34Z",
-    "growth": 26
+    "pushed_at": "2026-11-27T01:11:24Z",
+    "growth": 32
   },
   {
     "full_name": "geekxh/hello-algorithm",
@@ -586,7 +586,7 @@
     ],
     "created_at": "2020-05-29T05:47:09Z",
     "pushed_at": "2023-06-13T04:13:17Z",
-    "growth": 2
+    "growth": 0
   },
   {
     "full_name": "airbnb/lottie-android",
@@ -611,11 +611,11 @@
     "html_url": "https://github.com/netty/netty",
     "description": "Netty project - an event-driven asynchronous network application framework",
     "stars": 35070,
-    "forks": 16366,
+    "forks": 16372,
     "language": "Java",
     "topics": [],
     "created_at": "2010-11-09T09:22:21Z",
-    "pushed_at": "2026-11-26T08:42:19Z",
+    "pushed_at": "2026-11-27T09:50:49Z",
     "growth": 0
   }
 ]

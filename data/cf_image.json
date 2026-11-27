@@ -28,14 +28,14 @@
     ],
     "created_at": "2017-12-12T08:39:44Z",
     "pushed_at": "2026-11-17T11:18:26Z",
-    "growth": 4
+    "growth": 0
   },
   {
     "full_name": "MarSeventh/CloudFlare-ImgBed",
     "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
     "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
-    "stars": 6977,
-    "forks": 8902,
+    "stars": 6982,
+    "forks": 8908,
     "language": "JavaScript",
     "topics": [
       "asset-management",
@@ -55,14 +55,14 @@
     ],
     "created_at": "2024-07-19T15:24:19Z",
     "pushed_at": "2026-11-21T14:58:08Z",
-    "growth": 14
+    "growth": 5
   },
   {
     "full_name": "cf-pages/Telegraph-Image",
     "html_url": "https://github.com/cf-pages/Telegraph-Image",
     "description": "Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.",
     "stars": 4706,
-    "forks": 8833,
+    "forks": 8831,
     "language": "HTML",
     "topics": [
       "cloudflare",
@@ -85,8 +85,8 @@
     "full_name": "elliothux/open-compute",
     "html_url": "https://github.com/elliothux/open-compute",
     "description": "Self-hosted Cloudflare Workers-compatible platform with Workers、KV、D1、R2、DO、Queues、Workflows、Cron、Cache、Images、Vectorize、AI Search、Artifacts、Static Assets、Service Bindings、Dynamic Workers、LogTail、Gateway in one Rust binary.",
-    "stars": 4320,
-    "forks": 344,
+    "stars": 4387,
+    "forks": 342,
     "language": "Rust",
     "topics": [
       "cloud",
@@ -112,7 +112,7 @@
     ],
     "created_at": "2026-08-23T04:34:25Z",
     "pushed_at": "2026-11-22T12:43:03Z",
-    "growth": 58
+    "growth": 67
   },
   {
     "full_name": "oznu/docker-cloudflare-ddns",
@@ -181,7 +181,7 @@
     ],
     "created_at": "2026-02-11T10:19:07Z",
     "pushed_at": "2026-11-11T05:11:28Z",
-    "growth": 2
+    "growth": 0
   },
   {
     "full_name": "RoseKhlifa/Image-Studio",
@@ -193,7 +193,7 @@
     "topics": [],
     "created_at": "2026-05-19T05:06:52Z",
     "pushed_at": "2026-11-14T04:37:59Z",
-    "growth": -1
+    "growth": 0
   },
   {
     "full_name": "WisdomSky/Cloudflared-web",
@@ -219,7 +219,7 @@
     ],
     "created_at": "2023-05-27T20:35:45Z",
     "pushed_at": "2026-11-24T15:14:08Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "yusukebe/r2-image-worker",
@@ -300,6 +300,24 @@
     ],
     "created_at": "2024-05-26T10:57:25Z",
     "pushed_at": "2026-11-07T03:48:53Z",
+    "growth": 0
+  },
+  {
+    "full_name": "saurav-z/free-image-generation-api",
+    "html_url": "https://github.com/saurav-z/free-image-generation-api",
+    "description": "Free AI Image Generation API using Cloudflare Workers",
+    "stars": 328,
+    "forks": 131,
+    "language": "HTML",
+    "topics": [
+      "ai",
+      "api",
+      "cloudflare",
+      "cloudflare-workers",
+      "image-generation"
+    ],
+    "created_at": "2025-07-02T08:08:01Z",
+    "pushed_at": "2026-03-13T11:37:19Z",
     "growth": 1
   },
   {
@@ -323,24 +341,6 @@
     "growth": 0
   },
   {
-    "full_name": "saurav-z/free-image-generation-api",
-    "html_url": "https://github.com/saurav-z/free-image-generation-api",
-    "description": "Free AI Image Generation API using Cloudflare Workers",
-    "stars": 327,
-    "forks": 131,
-    "language": "HTML",
-    "topics": [
-      "ai",
-      "api",
-      "cloudflare",
-      "cloudflare-workers",
-      "image-generation"
-    ],
-    "created_at": "2025-07-02T08:08:01Z",
-    "pushed_at": "2026-03-13T11:37:19Z",
-    "growth": 0
-  },
-  {
     "full_name": "roimdev/roim-picx",
     "html_url": "https://github.com/roimdev/roim-picx",
     "description": "A free image hosting application based on Cloudflare's Worker, R2, Pages, and D1 architectures.一款基于 Cloudflare 的 Worker、R2、Pages、D1 实现的免费图床应用",
@@ -356,7 +356,7 @@
     ],
     "created_at": "2023-02-03T07:30:43Z",
     "pushed_at": "2026-03-16T01:25:16Z",
-    "growth": -1
+    "growth": 0
   },
   {
     "full_name": "kritihq/kriti-images",
@@ -407,10 +407,22 @@
     "growth": 0
   },
   {
+    "full_name": "KJGX66F/unikraft-xray-node",
+    "html_url": "https://github.com/KJGX66F/unikraft-xray-node",
+    "description": "Unikraft Cloud xray VLESS node: WS primary + XHTTP backup, direct + Cloudflare dual links. GitHub Actions builds the image to GHCR; fork and build your own.",
+    "stars": 216,
+    "forks": 401,
+    "language": "Shell",
+    "topics": [],
+    "created_at": "2026-11-19T05:03:25Z",
+    "pushed_at": "2026-11-19T09:17:57Z",
+    "growth": 7
+  },
+  {
     "full_name": "Defiabell/shotsync",
     "html_url": "https://github.com/Defiabell/shotsync",
     "description": "Self-hosted cross-device image & text pool on Cloudflare's free tier (Worker + R2). PWA client, no app install, signed share links.",
-    "stars": 211,
+    "stars": 212,
     "forks": 14,
     "language": "TypeScript",
     "topics": [
@@ -424,19 +436,7 @@
     ],
     "created_at": "2026-06-28T15:00:39Z",
     "pushed_at": "2026-11-18T10:55:04Z",
-    "growth": 0
-  },
-  {
-    "full_name": "KJGX66F/unikraft-xray-node",
-    "html_url": "https://github.com/KJGX66F/unikraft-xray-node",
-    "description": "Unikraft Cloud xray VLESS node: WS primary + XHTTP backup, direct + Cloudflare dual links. GitHub Actions builds the image to GHCR; fork and build your own.",
-    "stars": 209,
-    "forks": 388,
-    "language": "Shell",
-    "topics": [],
-    "created_at": "2026-11-19T05:03:25Z",
-    "pushed_at": "2026-11-19T09:17:57Z",
-    "growth": 7
+    "growth": 1
   },
   {
     "full_name": "standardagents/sip",
