@@ -3,8 +3,8 @@
     "full_name": "HKUDS/DeepTutor",
     "html_url": "https://github.com/HKUDS/DeepTutor",
     "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-    "stars": 63617,
-    "forks": 7671,
+    "stars": 63920,
+    "forks": 7703,
     "language": "Python",
     "topics": [
       "ai-agents",
@@ -18,8 +18,8 @@
       "rag"
     ],
     "created_at": "2025-12-28T15:35:54Z",
-    "pushed_at": "2026-11-27T10:08:57Z",
-    "growth": 603
+    "pushed_at": "2026-11-28T05:51:06Z",
+    "growth": 303
   },
   {
     "full_name": "darknessomi/musicbox",
@@ -37,13 +37,13 @@
     ],
     "created_at": "2014-08-05T03:28:24Z",
     "pushed_at": "2026-11-02T00:37:09Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "voidcosmos/npkill",
     "html_url": "https://github.com/voidcosmos/npkill",
     "description": "Easily find and remove old and heavy node_modules 📦, artifacts, caches and dev leftovers 🧹",
-    "stars": 9718,
+    "stars": 9725,
     "forks": 269,
     "language": "TypeScript",
     "topics": [
@@ -64,13 +64,13 @@
     ],
     "created_at": "2019-06-30T12:26:26Z",
     "pushed_at": "2026-11-16T10:01:52Z",
-    "growth": 41
+    "growth": 7
   },
   {
     "full_name": "FlorianBruniaux/claude-code-ultimate-guide",
     "html_url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
     "description": "The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.",
-    "stars": 7479,
+    "stars": 7498,
     "forks": 926,
     "language": "Python",
     "topics": [
@@ -96,8 +96,8 @@
       "vibe-coding"
     ],
     "created_at": "2026-01-09T13:42:10Z",
-    "pushed_at": "2026-11-26T19:14:36Z",
-    "growth": 32
+    "pushed_at": "2026-11-27T13:42:11Z",
+    "growth": 19
   },
   {
     "full_name": "mixn/carbon-now-cli",
@@ -126,8 +126,8 @@
     "full_name": "unhappychoice/gitlogue",
     "html_url": "https://github.com/unhappychoice/gitlogue",
     "description": "A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story.",
-    "stars": 5290,
-    "forks": 125,
+    "stars": 5293,
+    "forks": 126,
     "language": "Rust",
     "topics": [
       "cli",
@@ -152,7 +152,7 @@
       "visualization"
     ],
     "created_at": "2025-11-08T21:22:33Z",
-    "pushed_at": "2026-11-27T02:23:26Z",
-    "growth": 0
+    "pushed_at": "2026-11-28T05:26:24Z",
+    "growth": 3
   }
 ]

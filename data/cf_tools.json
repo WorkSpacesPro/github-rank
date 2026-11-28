@@ -3,8 +3,8 @@
     "full_name": "miantiao-me/Sink",
     "html_url": "https://github.com/miantiao-me/Sink",
     "description": "⚡ A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.",
-    "stars": 7299,
-    "forks": 5432,
+    "stars": 7301,
+    "forks": 5433,
     "language": "TypeScript",
     "topics": [
       "analytics",
@@ -37,7 +37,7 @@
     ],
     "created_at": "2023-12-22T01:25:05Z",
     "pushed_at": "2026-10-04T20:18:02Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "RavelloH/InsightFlare",
@@ -62,7 +62,7 @@
       "web-analytics"
     ],
     "created_at": "2026-02-28T17:21:17Z",
-    "pushed_at": "2026-11-27T10:22:09Z",
+    "pushed_at": "2026-11-28T09:39:33Z",
     "growth": 0
   },
   {
@@ -97,7 +97,7 @@
     ],
     "created_at": "2026-02-18T16:04:30Z",
     "pushed_at": "2026-11-18T04:37:37Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "uxiaohan/HanAnalytics",
@@ -215,19 +215,19 @@
     ],
     "created_at": "2026-04-02T11:13:47Z",
     "pushed_at": "2026-11-27T03:20:30Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "hayaran/Edgemetry",
     "html_url": "https://github.com/hayaran/Edgemetry",
     "description": "Lightweight, privacy-friendly web analytics built for the Cloudflare edge.",
-    "stars": 72,
+    "stars": 73,
     "forks": 9,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2026-07-28T08:54:30Z",
     "pushed_at": "2026-08-18T13:03:22Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "YuriCrystal/relay",

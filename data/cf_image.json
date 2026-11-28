@@ -3,8 +3,8 @@
     "full_name": "Molunerfinn/PicGo",
     "html_url": "https://github.com/Molunerfinn/PicGo",
     "description": ":rocket: The Ultimate Image Uploader for Efficient Creators. Supports Obsidian, Typora, VS Code etc. and 60+ image hosting services  (S3, GitHub, Cloudflare R2, Imgur, Aliyun OSS...). Paste, upload, done.",
-    "stars": 27525,
-    "forks": 2341,
+    "stars": 27529,
+    "forks": 2340,
     "language": "TypeScript",
     "topics": [
       "aliyun-oss",
@@ -28,14 +28,14 @@
     ],
     "created_at": "2017-12-12T08:39:44Z",
     "pushed_at": "2026-11-17T11:18:26Z",
-    "growth": 0
+    "growth": 4
   },
   {
     "full_name": "MarSeventh/CloudFlare-ImgBed",
     "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
     "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
-    "stars": 6982,
-    "forks": 8908,
+    "stars": 6986,
+    "forks": 8903,
     "language": "JavaScript",
     "topics": [
       "asset-management",
@@ -54,15 +54,15 @@
       "uploader"
     ],
     "created_at": "2024-07-19T15:24:19Z",
-    "pushed_at": "2026-11-21T14:58:08Z",
-    "growth": 5
+    "pushed_at": "2026-11-28T08:32:43Z",
+    "growth": 4
   },
   {
     "full_name": "cf-pages/Telegraph-Image",
     "html_url": "https://github.com/cf-pages/Telegraph-Image",
     "description": "Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.",
     "stars": 4706,
-    "forks": 8831,
+    "forks": 8830,
     "language": "HTML",
     "topics": [
       "cloudflare",
@@ -85,8 +85,8 @@
     "full_name": "elliothux/open-compute",
     "html_url": "https://github.com/elliothux/open-compute",
     "description": "Self-hosted Cloudflare Workers-compatible platform with Workers、KV、D1、R2、DO、Queues、Workflows、Cron、Cache、Images、Vectorize、AI Search、Artifacts、Static Assets、Service Bindings、Dynamic Workers、LogTail、Gateway in one Rust binary.",
-    "stars": 4387,
-    "forks": 342,
+    "stars": 4446,
+    "forks": 341,
     "language": "Rust",
     "topics": [
       "cloud",
@@ -112,7 +112,7 @@
     ],
     "created_at": "2026-08-23T04:34:25Z",
     "pushed_at": "2026-11-22T12:43:03Z",
-    "growth": 67
+    "growth": 59
   },
   {
     "full_name": "oznu/docker-cloudflare-ddns",
@@ -162,7 +162,7 @@
     "html_url": "https://github.com/vikiboss/r2-web",
     "description": "📁 轻盈优雅的 Web 原生 Cloudflare R2 桶文件管理器，一切皆在浏览器中完成。 \\| 📁 A lightweight, elegant, pure-browser Cloudflare R2 file manager. Everything happens right in your browser.",
     "stars": 507,
-    "forks": 106,
+    "forks": 107,
     "language": "JavaScript",
     "topics": [
       "cloudflare",
@@ -306,8 +306,8 @@
     "full_name": "saurav-z/free-image-generation-api",
     "html_url": "https://github.com/saurav-z/free-image-generation-api",
     "description": "Free AI Image Generation API using Cloudflare Workers",
-    "stars": 328,
-    "forks": 131,
+    "stars": 330,
+    "forks": 132,
     "language": "HTML",
     "topics": [
       "ai",
@@ -318,7 +318,7 @@
     ],
     "created_at": "2025-07-02T08:08:01Z",
     "pushed_at": "2026-03-13T11:37:19Z",
-    "growth": 1
+    "growth": 2
   },
   {
     "full_name": "crazy-max/docker-cloudflared",
@@ -378,7 +378,7 @@
     "full_name": "WuMingDao/zenith-image-generator",
     "html_url": "https://github.com/WuMingDao/zenith-image-generator",
     "description": "Modern AI image generator with multi-provider support (Gitee AI, HuggingFace, ModelScope), OpenAI-compatible API, token rotation, and one-click deployment to Cloudflare Pages.",
-    "stars": 226,
+    "stars": 227,
     "forks": 123,
     "language": "TypeScript",
     "topics": [
@@ -404,25 +404,25 @@
     ],
     "created_at": "2025-12-05T06:19:18Z",
     "pushed_at": "2026-11-24T14:11:16Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "KJGX66F/unikraft-xray-node",
     "html_url": "https://github.com/KJGX66F/unikraft-xray-node",
     "description": "Unikraft Cloud xray VLESS node: WS primary + XHTTP backup, direct + Cloudflare dual links. GitHub Actions builds the image to GHCR; fork and build your own.",
-    "stars": 216,
-    "forks": 401,
+    "stars": 221,
+    "forks": 411,
     "language": "Shell",
     "topics": [],
     "created_at": "2026-11-19T05:03:25Z",
     "pushed_at": "2026-11-19T09:17:57Z",
-    "growth": 7
+    "growth": 5
   },
   {
     "full_name": "Defiabell/shotsync",
     "html_url": "https://github.com/Defiabell/shotsync",
     "description": "Self-hosted cross-device image & text pool on Cloudflare's free tier (Worker + R2). PWA client, no app install, signed share links.",
-    "stars": 212,
+    "stars": 213,
     "forks": 14,
     "language": "TypeScript",
     "topics": [
@@ -558,10 +558,28 @@
     "growth": 0
   },
   {
+    "full_name": "weijunext/image-url-converter",
+    "html_url": "https://github.com/weijunext/image-url-converter",
+    "description": "A simple tool that converts any image URL into a permanent link hosted on Cloudflare R2. Perfect for individuals or small projects needing image hosting services.",
+    "stars": 153,
+    "forks": 23,
+    "language": "TypeScript",
+    "topics": [
+      "cloudflare",
+      "image-processing",
+      "logo",
+      "nextjs",
+      "r2"
+    ],
+    "created_at": "2025-01-25T06:43:49Z",
+    "pushed_at": "2025-11-02T13:35:13Z",
+    "growth": 0
+  },
+  {
     "full_name": "mixmoe/HikariSearch",
     "html_url": "https://github.com/mixmoe/HikariSearch",
     "description": "一款动漫图片搜索引擎聚合网站, 基于 Cloudflare 提供的 Pages Function. / A collection of anime image search engines, based on Cloudflare Pages Function.",
-    "stars": 154,
+    "stars": 153,
     "forks": 29,
     "language": "Vue",
     "topics": [
@@ -580,24 +598,6 @@
     ],
     "created_at": "2022-02-20T15:30:37Z",
     "pushed_at": "2023-10-08T10:22:14Z",
-    "growth": 0
-  },
-  {
-    "full_name": "weijunext/image-url-converter",
-    "html_url": "https://github.com/weijunext/image-url-converter",
-    "description": "A simple tool that converts any image URL into a permanent link hosted on Cloudflare R2. Perfect for individuals or small projects needing image hosting services.",
-    "stars": 153,
-    "forks": 23,
-    "language": "TypeScript",
-    "topics": [
-      "cloudflare",
-      "image-processing",
-      "logo",
-      "nextjs",
-      "r2"
-    ],
-    "created_at": "2025-01-25T06:43:49Z",
-    "pushed_at": "2025-11-02T13:35:13Z",
-    "growth": 0
+    "growth": -1
   }
 ]

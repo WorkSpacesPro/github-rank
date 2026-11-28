@@ -3,20 +3,20 @@
     "full_name": "zhuima/awesome-cloudflare",
     "html_url": "https://github.com/zhuima/awesome-cloudflare",
     "description": "⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。/ ⛅️ A curated list of Cloudflare tools, open source projects, guides, blogs and other resources.",
-    "stars": 15645,
-    "forks": 1539,
+    "stars": 15647,
+    "forks": 1543,
     "language": "-",
     "topics": [],
     "created_at": "2024-04-07T02:19:38Z",
     "pushed_at": "2026-11-18T06:09:54Z",
-    "growth": 0
+    "growth": 2
   },
   {
     "full_name": "microfeed/microfeed",
     "html_url": "https://github.com/microfeed/microfeed",
     "description": "an agentic cms self-hosted on cloudflare, for podcasts, blogs, photos, videos, documents, and curated urls.",
-    "stars": 4143,
-    "forks": 1431,
+    "stars": 4144,
+    "forks": 1432,
     "language": "TypeScript",
     "topics": [
       "agentic-cms",
@@ -37,7 +37,7 @@
     ],
     "created_at": "2020-05-25T03:50:26Z",
     "pushed_at": "2026-11-24T03:01:54Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "cirosantilli/china-dictatorship",
@@ -70,13 +70,13 @@
     ],
     "created_at": "2015-04-02T20:51:50Z",
     "pushed_at": "2026-02-05T07:59:11Z",
-    "growth": 6
+    "growth": 0
   },
   {
     "full_name": "openRin/Rin",
     "html_url": "https://github.com/openRin/Rin",
     "description": "🌸Publish faster with an edge-native blog powered by Cloudflare Workers, D1, and R2",
-    "stars": 3153,
+    "stars": 3154,
     "forks": 2575,
     "language": "TypeScript",
     "topics": [
@@ -97,7 +97,7 @@
     "full_name": "scosman/CMSaasStarter",
     "html_url": "https://github.com/scosman/CMSaasStarter",
     "description": "A modern SaaS template/boilerplate built with SvelteKit, Tailwind, and Supabase. Includes marketing page, blog, subscriptions, auth, user dashboard, user settings, pricing page, and more.",
-    "stars": 2372,
+    "stars": 2373,
     "forks": 467,
     "language": "Svelte",
     "topics": [
@@ -123,7 +123,7 @@
     ],
     "created_at": "2023-08-22T02:10:38Z",
     "pushed_at": "2026-03-21T20:53:07Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "gege-circle/.github",
@@ -144,7 +144,7 @@
     ],
     "created_at": "2020-09-20T04:47:25Z",
     "pushed_at": "2025-10-04T07:56:18Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "irazasyed/awesome-cloudflare",
@@ -164,7 +164,7 @@
     ],
     "created_at": "2019-06-24T11:21:03Z",
     "pushed_at": "2026-01-29T17:40:03Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "cloudflare/cloudflare-blog",
@@ -210,7 +210,7 @@
     ],
     "created_at": "2023-01-09T03:10:18Z",
     "pushed_at": "2026-11-24T13:23:19Z",
-    "growth": -1
+    "growth": 0
   },
   {
     "full_name": "du2333/flare-stack-blog",
@@ -222,19 +222,19 @@
     "topics": [],
     "created_at": "2025-10-24T06:21:39Z",
     "pushed_at": "2026-11-24T03:31:01Z",
-    "growth": -1
+    "growth": 0
   },
   {
     "full_name": "kasuganosoras/cloudflare-worker-blog",
     "html_url": "https://github.com/kasuganosoras/cloudflare-worker-blog",
     "description": "☁️ Cloudflare workers + Github 实现的动态博客系统，使用边缘计算，无需服务器",
-    "stars": 467,
+    "stars": 466,
     "forks": 145,
     "language": "JavaScript",
     "topics": [],
     "created_at": "2019-06-07T03:08:59Z",
     "pushed_at": "2020-12-13T10:21:35Z",
-    "growth": 0
+    "growth": -1
   },
   {
     "full_name": "cirosantilli/china-dictatroship-7",
@@ -246,7 +246,7 @@
     "topics": [],
     "created_at": "2021-08-18T08:11:03Z",
     "pushed_at": "2026-02-05T07:59:02Z",
-    "growth": 2
+    "growth": 0
   },
   {
     "full_name": "karngyan/karngyan.com",
@@ -278,7 +278,7 @@
     "full_name": "one-ea/Monolith",
     "html_url": "https://github.com/one-ea/Monolith",
     "description": "⚡ A premium serverless edge-native blog — Cloudflare Workers + Hono + React + pluggable storage adapters",
-    "stars": 352,
+    "stars": 353,
     "forks": 74,
     "language": "TypeScript",
     "topics": [
@@ -299,19 +299,19 @@
     ],
     "created_at": "2026-04-07T14:40:05Z",
     "pushed_at": "2026-11-18T17:15:30Z",
-    "growth": 0
+    "growth": 1
   },
   {
     "full_name": "joeseesun/qiaomu-blog-opensource",
     "html_url": "https://github.com/joeseesun/qiaomu-blog-opensource",
     "description": "Open-source Cloudflare blog template based on OpenNext, Next.js 16, D1, and R2",
-    "stars": 305,
-    "forks": 113,
+    "stars": 303,
+    "forks": 112,
     "language": "TypeScript",
     "topics": [],
     "created_at": "2026-04-22T06:08:39Z",
     "pushed_at": "2026-11-16T09:20:04Z",
-    "growth": 0
+    "growth": -2
   },
   {
     "full_name": "cristicretu/cretu.dev",
@@ -344,7 +344,7 @@
     "topics": [],
     "created_at": "2022-02-07T13:01:46Z",
     "pushed_at": "2026-02-05T07:59:02Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "panbinibn/OpenPacketFix_",
@@ -356,7 +356,7 @@
     "topics": [],
     "created_at": "2022-08-31T14:15:38Z",
     "pushed_at": "2022-08-12T01:54:00Z",
-    "growth": 1
+    "growth": 0
   },
   {
     "full_name": "benbalter/benbalter.github.com",
@@ -372,7 +372,7 @@
       "tailwindcss"
     ],
     "created_at": "2012-08-15T18:25:45Z",
-    "pushed_at": "2026-11-27T04:41:02Z",
+    "pushed_at": "2026-11-28T06:30:55Z",
     "growth": 0
   },
   {
@@ -435,7 +435,7 @@
       "website"
     ],
     "created_at": "2020-10-05T15:52:29Z",
-    "pushed_at": "2026-11-26T08:40:12Z",
+    "pushed_at": "2026-11-28T03:21:55Z",
     "growth": 0
   },
   {
